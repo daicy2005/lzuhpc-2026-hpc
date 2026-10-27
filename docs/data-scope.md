@@ -6,4 +6,4 @@
 
 `MATERIALS-MANIFEST.json` 列出了原项目文件的路径、大小和 SHA256。运行 `python3 tools/verify_materials.py` 可检查文件是否完整，并核对上述计时记录；这个脚本不会重新跑性能实验。
 
-PDF 中的链接指向与报告对应的代码和数据版本。连续对话与 Session 导出文件暂未上传。
+PDF 中的链接指向与报告对应的代码和数据版本。

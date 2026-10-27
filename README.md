@@ -7,11 +7,8 @@
 - [补充实验与资料](docs/appendices.md)
 - [复现说明](docs/reproduction.md)
 - [实验记录说明](docs/data-scope.md)
-- [对话记录说明](docs/dialogue-status.md)
 - [图表原始输入](report/figure-data.json)
 - [报告使用的数据索引](report/evidence-index.json)
-
-AI 对话和 Session 文件暂未上传，选做题要求的 Prompt File 目前也尚未提供。
 
 报告链接到一个[固定材料版本](https://github.com/daicy2005/lzuhpc-2026-hpc/tree/b38d0c1c54dff898cb3db740ac1e720bf67c1285)，方便找到与文中内容对应的代码、附录和数据。
 

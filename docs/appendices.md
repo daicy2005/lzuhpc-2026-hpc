@@ -84,8 +84,6 @@ ctest --test-dir build --output-on-failure
 
 报告使用了 663 次 WorkSteal 性能计时和 12 次分阶段测试，其中随机 victim 的性能计时为 84 次。对应运行均可通过索引查找。
 
-代码与复现环境通过配套仓库提供。官方要求的连续对话记录（Prompt File）另行保留，本次暂未上传。
-
 ## C.2 方法与资料来源
 
 [1] LZUOSS/LZUHPC，2026 秋季纳新说明、HPC 题面及项目要求。使用版本 33dad592cd74。
