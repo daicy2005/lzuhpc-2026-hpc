@@ -30256,6 +30256,11 @@
       "bytes": 4429,
       "source": "LZUHPC/assignments/2026/autumn/HPC.RayTracing/tools/check_psnr.py"
     },
+    "upstream/LICENSE": {
+      "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+      "bytes": 11558,
+      "source": "LZUHPC/LICENSE"
+    },
     "hpc-raytracing/output/pdf/student-report-manifest.json": {
       "sha256": "3def92ca9768f8fe5849ee4493b1c4ff58c58251557c54c89e7d93755f48dab2",
       "bytes": 3169,
@@ -30512,6 +30517,6 @@
       "source": "hpc-worksteal/README.md"
     }
   },
-  "copied_files": 6102,
+  "copied_files": 6103,
   "dialogue_included": false
 }
