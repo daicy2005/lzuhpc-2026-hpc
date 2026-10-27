@@ -1,9 +1,9 @@
 {
   "report_date": "2026-10-27",
   "pdf": "report/HPC方向技术报告.pdf",
-  "pdf_sha256": "0a35a2661429ab654e49c54fc11b395859751a7ae9a5ab7a1cf3dfcff8ec3f5d",
+  "pdf_sha256": "74ae2acaf7fb319dba0ff15f62989c7dbfd242b449e382f3af2cc825dca8fc3f",
   "pages": 6,
-  "materials_commit": "338e37ed4f74fc1d4f189af98379e725fcc16645",
+  "materials_commit": "af6a1615f9975d3e191324c3a8cb6e9bc89a399a",
   "repository_url": "https://github.com/daicy2005/lzuhpc-2026-hpc",
   "dialogue_uploaded": false,
   "visual_review": "pass",

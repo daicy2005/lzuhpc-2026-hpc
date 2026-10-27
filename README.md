@@ -13,7 +13,7 @@
 
 AI 对话和 Session 文件暂未上传；官方要求的 Prompt File 另行保留，目前还没有通过仓库提供。
 
-报告链接到一个[固定材料版本](https://github.com/daicy2005/lzuhpc-2026-hpc/tree/338e37ed4f74fc1d4f189af98379e725fcc16645)，方便找到与文中内容对应的代码、附录和数据。
+报告链接到一个[固定材料版本](https://github.com/daicy2005/lzuhpc-2026-hpc/tree/af6a1615f9975d3e191324c3a8cb6e9bc89a399a)，方便找到与文中内容对应的代码、附录和数据。
 
 在仓库根目录执行 `python3 tools/verify_materials.py`，可以核对文件散列和报告使用的正式记录。这个脚本不会重新跑性能实验。
 
