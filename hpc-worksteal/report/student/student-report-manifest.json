@@ -1,0 +1,183 @@
+{
+  "report_date": "2026-10-25",
+  "revision_date": "2026-10-26",
+  "pdf": "Mini-WorkSteal-学生实验报告-20261025.pdf",
+  "pdf_sha256": "06c23dbab04fff79a0dbdf83cea9cae40f7cdf6069bfb857ea193b8c7c252183",
+  "markdown_sha256": "59a3ca510c5a8a2e9383847c090fad5d0a10198253077c5ab0974e0829bb7828",
+  "pages": 16,
+  "page_text_checks": [
+    {
+      "page": 1,
+      "characters": 883
+    },
+    {
+      "page": 2,
+      "characters": 1053
+    },
+    {
+      "page": 3,
+      "characters": 1272
+    },
+    {
+      "page": 4,
+      "characters": 680
+    },
+    {
+      "page": 5,
+      "characters": 1316
+    },
+    {
+      "page": 6,
+      "characters": 1076
+    },
+    {
+      "page": 7,
+      "characters": 831
+    },
+    {
+      "page": 8,
+      "characters": 957
+    },
+    {
+      "page": 9,
+      "characters": 816
+    },
+    {
+      "page": 10,
+      "characters": 1051
+    },
+    {
+      "page": 11,
+      "characters": 909
+    },
+    {
+      "page": 12,
+      "characters": 1476
+    },
+    {
+      "page": 13,
+      "characters": 1370
+    },
+    {
+      "page": 14,
+      "characters": 1380
+    },
+    {
+      "page": 15,
+      "characters": 1448
+    },
+    {
+      "page": 16,
+      "characters": 1650
+    }
+  ],
+  "verified_raw_run_count": 579,
+  "verified_source_count": 59,
+  "verified_historical_profiling_count": 12,
+  "supplementary_source_sha256": {
+    "include/worksteal/policy.hpp": "6e70679b18d18df8553618b11e04d3f68d8412400d9bf3663c8e3c675c4bb255",
+    "src/runtime/worker_pool.cpp": "0a4045cdb0d3faae055d68e56bc5d7a1da0aa335a624fe13e05a186a5b25415e",
+    "src/workloads/workload.cpp": "9c649ec7274af4ba055b6cac40c7d79e3666d493f8f364f8d6298c465ead75c5",
+    "src/app/main.cpp": "f335b98e91a68d8eb970ff8a68d9f2ac96f8b7e65183b381dc8a5cc0efff7dff",
+    "tests/register_reverse.cpp": "949b239100bd545bf9b5a21f5cb391a58fc3d78607440de2ce51e79c8343399b",
+    "configs/runtime/diagnostic.json": "a1354fed863d1c7a541b0dba1b8f92a718f813bc2a459976d890d8d93f659cd4",
+    "docs/44-第十五轮空闲退避结果.md": "20b04fad614242879c5f3c909555c39acefb4e6ee75afc6e36d1330abf615c65",
+    "docs/46-第十六轮Victim选择结果.md": "0cd641ad1870c58381720627edbf15e61f17734f92162f648553fb6dc706f33c",
+    "docs/47-随机Victim序列相关性源码观察.md": "d7f411a6d2ec0bfdf407f9d6d5c74b8315c42910bb195ffbf207fcaaa9f3054f",
+    "reference/upstream-20261025-api/verification.json": "883b96f32f91f22c8fb428cae1239ada9ac9af1e16a795d2cfb78a0d7e70af4a",
+    "submission/prompts/session-20261025-v16-resource-close/manifest.json": "864a907795cee4a372f800e3014fd849ab58ad98fc5ddd145c3e7bc1c457a82a",
+    "submission/prompts/attachment-availability-20261025.json": "f4b9aeffcf4727818219a4af7363266f5d4181c10f45e7af2ae9e9380b5b7e2d",
+    "refinement/profiling/results/phase-summary.json": "966be15e8a54ad5cf12deadc88ba7d1f9729d49c89c3a26c04355c2251c03db4",
+    "report/student/工作说明与探究过程.md": "4f7fd04251a17163f6eae0fd6613196171702543d92a9189311e82ca1c069277",
+    "report/student/项目复盘.md": "05890831a7b193d94ebeb37dc6d5b57b53c66f4b3fb26a0cd0afad62c887dd60",
+    "report/student/图解.md": "7e72f697ef99c9dd697a07ff186843b5ef2c81200bced06a06f5bb0b01111fac",
+    "tools/student_diagrams.py": "53813c7cc918b3feab50c1c0d82fb2036d45f1a5b2388a3fdd35891678954912",
+    "tools/student_figures.py": "e9a6de71cafed15717e1f102ac79f924ec4970ad7e86cb0a4e1bd7be489dd10f",
+    "report/student/figures/design-provenance.json": "7c153da31e2f4f9721d0d43c457b884abaf21e4bdade1639e2451595a8caaa37",
+    "report/student/figures/chart-data.json": "6c87bc9319830206834185a66203112e0c21261c7f71d557922435ea7763dbc4",
+    "report/student/figures/prompts/runtime-flow-20261026.txt": "58bd93293028d923724d0b95cf8ce58dc4e5b6d7a0104dde5aaf60dca4e94b04",
+    "report/student/figures/prompts/exploration-roadmap-20261026.txt": "72ca57c9237e0f91e8108c35e1d4303120f2003a96352526b35f32d3faca9687"
+  },
+  "verified_session_file_sha256": {
+    "prompt-response.json": "6b60268ccc9a75135c055565a039077ba77648851bcfd18114abefba61908611",
+    "prompt-response.md": "34588ca5f174448a7987d722048c301b497dd6c7332d27d2aa49aa768564a649"
+  },
+  "source_locations_current_or_frozen": {
+    "docs/01-立项与验收.md": "docs/01-立项与验收.md",
+    "docs/02-架构与文件职责.md": "snapshots/source/7b3ea6c98330e0fcfb2ac4cc368222bdab2b6924113cb5e7f440758bd52aa20a/docs/02-架构与文件职责.md",
+    "docs/03-策略与接口契约.md": "docs/03-策略与接口契约.md",
+    "docs/04-并发与正确性规范.md": "docs/04-并发与正确性规范.md",
+    "docs/05-实验设计.md": "docs/05-实验设计.md",
+    "docs/06-实验记录与归档.md": "docs/06-实验记录与归档.md",
+    "docs/07-阶段计划与CS149映射.md": "snapshots/source/7b3ea6c98330e0fcfb2ac4cc368222bdab2b6924113cb5e7f440758bd52aa20a/docs/07-阶段计划与CS149映射.md",
+    "docs/08-决策记录.md": "docs/08-决策记录.md",
+    "docs/09-工作负载与机制对照.md": "docs/09-工作负载与机制对照.md",
+    "docs/10-首批实验协议.md": "docs/10-首批实验协议.md",
+    "docs/11-社区与本机评审.md": "docs/11-社区与本机评审.md",
+    "docs/12-实施与实验变更.md": "docs/12-实施与实验变更.md",
+    "docs/13-最终评审与选择.md": "docs/13-最终评审与选择.md",
+    "docs/14-第二轮优化协议.md": "docs/14-第二轮优化协议.md",
+    "docs/15-第二轮结果与复现.md": "docs/15-第二轮结果与复现.md",
+    "docs/16-第三轮补充实验协议.md": "docs/16-第三轮补充实验协议.md",
+    "docs/17-第三轮结果与复现.md": "docs/17-第三轮结果与复现.md",
+    "docs/18-第四轮并行核验协议.md": "docs/18-第四轮并行核验协议.md",
+    "docs/19-第四轮结果与核验契约.md": "docs/19-第四轮结果与核验契约.md",
+    "docs/20-第五轮空闲窗口确认协议.md": "docs/20-第五轮空闲窗口确认协议.md",
+    "docs/21-第五轮进展与恢复.md": "docs/21-第五轮进展与恢复.md",
+    "docs/22-第五轮结果与后续方向.md": "docs/22-第五轮结果与后续方向.md",
+    "docs/23-第六轮初始化优化协议.md": "docs/23-第六轮初始化优化协议.md",
+    "docs/24-第六轮初始化契约与结果.md": "docs/24-第六轮初始化契约与结果.md",
+    "docs/25-第七轮覆盖式分配协议.md": "docs/25-第七轮覆盖式分配协议.md",
+    "docs/26-第七轮存储契约与结果.md": "docs/26-第七轮存储契约与结果.md",
+    "docs/27-第八轮内存执行交错协议.md": "docs/27-第八轮内存执行交错协议.md",
+    "docs/28-第八轮内存执行契约与结果.md": "docs/28-第八轮内存执行契约与结果.md",
+    "docs/29-第九轮内存参数优化协议.md": "docs/29-第九轮内存参数优化协议.md",
+    "docs/30-第九轮参数筛选结果.md": "docs/30-第九轮参数筛选结果.md",
+    "docs/31-第十轮分块身份散列协议.md": "docs/31-第十轮分块身份散列协议.md",
+    "docs/32-第十轮分块散列契约与结果.md": "docs/32-第十轮分块散列契约与结果.md",
+    "docs/33-第十一轮数据生成交错协议.md": "docs/33-第十一轮数据生成交错协议.md",
+    "docs/34-第十一轮数据生成契约与结果.md": "docs/34-第十一轮数据生成契约与结果.md",
+    "docs/35-第十二轮初始化成本诊断协议.md": "docs/35-第十二轮初始化成本诊断协议.md",
+    "docs/36-第十二轮成本诊断结果.md": "docs/36-第十二轮成本诊断结果.md",
+    "docs/37-第十三轮窃取粒度与布局协议.md": "docs/37-第十三轮窃取粒度与布局协议.md",
+    "docs/38-第十三轮窃取边界结果.md": "docs/38-第十三轮窃取边界结果.md",
+    "docs/39-第十四轮有界批量窃取协议.md": "docs/39-第十四轮有界批量窃取协议.md",
+    "docs/40-第十四轮批量窃取结果.md": "docs/40-第十四轮批量窃取结果.md",
+    "docs/41-第十五轮空闲退避协议.md": "docs/41-第十五轮空闲退避协议.md",
+    "docs/42-最终交付验收台账.md": "snapshots/source/7b3ea6c98330e0fcfb2ac4cc368222bdab2b6924113cb5e7f440758bd52aa20a/docs/42-最终交付验收台账.md",
+    "docs/43-第十五轮采集修正与恢复协议.md": "docs/43-第十五轮采集修正与恢复协议.md",
+    "docs/44-第十五轮空闲退避结果.md": "docs/44-第十五轮空闲退避结果.md",
+    "results/study-summary.json": "results/study-summary.json",
+    "stealing-boundary/results/audit-6508b2892aa3457087dda02bd6d45825.json": "stealing-boundary/results/audit-6508b2892aa3457087dda02bd6d45825.json",
+    "results/memory-kernel-delivery-20261021.json": "results/memory-kernel-delivery-20261021.json",
+    "memory-kernel/results/audit-17ca23a49da34a6198c79dbbc8438cbd.json": "memory-kernel/results/audit-17ca23a49da34a6198c79dbbc8438cbd.json",
+    "results/batch-migration-delivery-20261025.json": "results/batch-migration-delivery-20261025.json",
+    "idle-backoff/results/audit-4d557c92373243ae950026e6bb6c2e5a.json": "idle-backoff/results/audit-4d557c92373243ae950026e6bb6c2e5a.json",
+    "optimization/results/optimization-summary.json": "optimization/results/optimization-summary.json",
+    "configs/verified/light.json": "configs/verified/light.json",
+    "configs/verified/uniform.json": "configs/verified/uniform.json",
+    "configs/verified/skewed.json": "configs/verified/skewed.json",
+    "configs/memory-interleaved/memory.json": "configs/memory-interleaved/memory.json",
+    "configs/verified/builds.json": "configs/verified/builds.json",
+    "configs/memory-interleaved/builds.json": "configs/memory-interleaved/builds.json",
+    "submission/prompts/session-20261025-v15-preparation/manifest.json": "submission/prompts/session-20261025-v15-preparation/manifest.json",
+    "submission/reproduction/20261025/receipt.json": "submission/reproduction/20261025/receipt.json"
+  },
+  "source_report_sha256": "3cb7b9c549626673eb9c5d84181d41bd0b5eac036f715954680b9d9935f4a710",
+  "source_manifest_sha256": "c7c8292c5ab1a8628e935c1a8bf1f034ea49c34b8ee6b6233ba150fb75d2f5bf",
+  "generator_sha256": "994e6e4183c7daea1683645d0e18298662840aad057a0b4754043ad26b2850dd",
+  "revision": "polished-v9-professional-student",
+  "evidence_index_sha256": "0909c99a4041643b58715f6a9ff3ee8edf6f8a7d2458673de6b85eeb1439eac1",
+  "figure_sha256": {
+    "report/student/figures/runtime-flow-designed.svg": "c48d206c30cbd88168bb8312a64cddb6a7dc00e99cc74891f03e52573c524472",
+    "report/student/figures/exploration-roadmap-designed.svg": "e2985292ec19eed1c2276412034a5fffd61e98acd77e0e7f2d7156c9d5b7569d",
+    "report/student/figures/w01-overhead-styled.svg": "433fee3795e5eb9581ca85e3693d5f96acbec36e46013f88420916ef3d329690",
+    "report/student/figures/v13-boundary-styled.svg": "846c8c841441e00b6c265ef332bad04cc6fd53deb963ad3c37a238f6fa679f89"
+  },
+  "vector_only_figures": true,
+  "new_performance_samples": 0,
+  "raw_evidence_modified": false,
+  "visual_review": "pass; see student-report-visual-review.json bound to this PDF SHA256",
+  "existing_packages_updated": false,
+  "external_submission_sent": false
+}

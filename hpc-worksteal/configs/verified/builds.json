@@ -1,0 +1,74 @@
+{
+  "light": {
+    "build": "full_lanes8",
+    "config": "configs/verified/light.json",
+    "config_sha256": "279143290e1f663e2f617fe830847856768d3f60462938b65bbf7e225b79680f",
+    "binary_sha256": "c52674ba1244813d7d71808298b552042487a8bbeb41b8349a3eb4915027da8c",
+    "source_id": "e85c97b09468b4a3c6a6286bdceac7ffa408d2983cc2a957765e6b3bd9580c86",
+    "snapshot": "verification/evidence/full_lanes8/snapshots/builds/c52674ba1244813d7d71808298b552042487a8bbeb41b8349a3eb4915027da8c",
+    "cmake_options": [
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DWS_COMPLETION_BATCH=32",
+      "-DWS_STEAL_SCRATCH=ON",
+      "-DWS_ENABLE_IPO=ON",
+      "-DWS_COMPUTE_LANES=8"
+    ],
+    "reference_workers": 1,
+    "accepted_parallel_reference": false,
+    "evidence_scope": "shared WSL1 host; independent reference verification only"
+  },
+  "uniform": {
+    "build": "lanes8",
+    "config": "configs/verified/uniform.json",
+    "config_sha256": "7da7662d7cc724cf5fb3b5815fa4898ff987b74a16cf8a25e1e8f46187462ad6",
+    "binary_sha256": "a33d749dd756ba85b810f130dc7c751b1a3ad5ae875a32ec4da535bfe8654796",
+    "source_id": "e85c97b09468b4a3c6a6286bdceac7ffa408d2983cc2a957765e6b3bd9580c86",
+    "snapshot": "verification/evidence/lanes8/snapshots/builds/a33d749dd756ba85b810f130dc7c751b1a3ad5ae875a32ec4da535bfe8654796",
+    "cmake_options": [
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DWS_COMPLETION_BATCH=1",
+      "-DWS_STEAL_SCRATCH=OFF",
+      "-DWS_ENABLE_IPO=ON",
+      "-DWS_COMPUTE_LANES=8"
+    ],
+    "reference_workers": 32,
+    "accepted_parallel_reference": true,
+    "evidence_scope": "shared WSL1 host; independent reference verification only"
+  },
+  "skewed": {
+    "build": "full_lanes8",
+    "config": "configs/verified/skewed.json",
+    "config_sha256": "004b6f5b75c5c25fdd898aae0269276b41d87e0c310f8f5e0a01f95f9910dae9",
+    "binary_sha256": "c52674ba1244813d7d71808298b552042487a8bbeb41b8349a3eb4915027da8c",
+    "source_id": "e85c97b09468b4a3c6a6286bdceac7ffa408d2983cc2a957765e6b3bd9580c86",
+    "snapshot": "verification/evidence/full_lanes8/snapshots/builds/c52674ba1244813d7d71808298b552042487a8bbeb41b8349a3eb4915027da8c",
+    "cmake_options": [
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DWS_COMPLETION_BATCH=32",
+      "-DWS_STEAL_SCRATCH=ON",
+      "-DWS_ENABLE_IPO=ON",
+      "-DWS_COMPUTE_LANES=8"
+    ],
+    "reference_workers": 32,
+    "accepted_parallel_reference": true,
+    "evidence_scope": "shared WSL1 host; independent reference verification only"
+  },
+  "memory": {
+    "build": "full_lanes8",
+    "config": "configs/verified/memory.json",
+    "config_sha256": "28bbb142a251a0e88e93387ec23826b73d28aa97364acb769c4557666fafe36b",
+    "binary_sha256": "c52674ba1244813d7d71808298b552042487a8bbeb41b8349a3eb4915027da8c",
+    "source_id": "e85c97b09468b4a3c6a6286bdceac7ffa408d2983cc2a957765e6b3bd9580c86",
+    "snapshot": "verification/evidence/full_lanes8/snapshots/builds/c52674ba1244813d7d71808298b552042487a8bbeb41b8349a3eb4915027da8c",
+    "cmake_options": [
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DWS_COMPLETION_BATCH=32",
+      "-DWS_STEAL_SCRATCH=ON",
+      "-DWS_ENABLE_IPO=ON",
+      "-DWS_COMPUTE_LANES=8"
+    ],
+    "reference_workers": 4,
+    "accepted_parallel_reference": true,
+    "evidence_scope": "shared WSL1 host; independent reference verification only"
+  }
+}

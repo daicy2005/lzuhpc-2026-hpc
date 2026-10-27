@@ -1,0 +1,11 @@
+{
+  "cwd": "/root/lzuhpc-experiments/ws-20261016-phase-runtime",
+  "argv": [
+    "/root/lzuhpc-experiments/ws-20261016-phase-full_lanes8/build-none/worksteal",
+    "--config",
+    "/root/lzuhpc-experiments/ws-20261016-phase-runtime/runs/20261016T042648Z-R3C-phase-observation-65b081/0017-profiling-memory-phase-full_lanes8-p16-g4-r3-e8833c/config.json",
+    "--output",
+    "/root/lzuhpc-experiments/ws-20261016-phase-runtime/runs/20261016T042648Z-R3C-phase-observation-65b081/0017-profiling-memory-phase-full_lanes8-p16-g4-r3-e8833c/result.json"
+  ],
+  "explicit_environment": {}
+}

@@ -1,0 +1,13 @@
+{
+  "label": "default-configure",
+  "argv": [
+    "cmake",
+    "-S",
+    "/root/lzuhpc-experiments/ws-20261025-submission-native",
+    "-B",
+    "/root/lzuhpc-experiments/ws-20261025-submission-native/build-default",
+    "-DCMAKE_BUILD_TYPE=Release"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 0.8592995000000001
+}

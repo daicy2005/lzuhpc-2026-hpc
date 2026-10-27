@@ -1,0 +1,714 @@
+{
+  "samples": [
+    {
+      "time": "2026-10-21T13:12:03.055976+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n   89    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:03.080407+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  107    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:03.090588+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  108    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:03.116256+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  126    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:03.125735+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  127    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:03.149629+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  145    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:03.159406+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  146    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:03.192652+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  196    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:03.203230+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  197    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:03.236404+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  247    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:03.247879+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  248    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:03.282208+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  298    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:03.292702+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  299    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:03.333448+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  349    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:03.342788+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  350    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:03.387416+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  400    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:03.397930+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  401    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:03.441779+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  451    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:03.452730+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  452    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:03.559568+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  453    11 worksteal       /root/lzuhpc-experiments/ws-20261021-allocation-release/build-none/worksteal --config /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/runs/20261021T131202Z-V8-memory-interleaved-dddd91/0009-control-control-memory-old-r0-0ad841/config.json --output /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/runs/20261021T131202Z-V8-memory-interleaved-dddd91/0009-control-control-memory-old-r0-0ad841/result.json\n  474    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:03.577046+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  475    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:03.587965+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  476    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:03.726080+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  498    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:03.735126+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  499    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:03.837604+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  521    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:03.847037+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  522    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:03.996442+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  544    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:04.005701+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  545    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:04.074187+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  546    11 worksteal       /root/lzuhpc-experiments/ws-20261021-memory-kernel-release/build-none/worksteal --config /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/runs/20261021T131202Z-V8-memory-interleaved-dddd91/0013-warmup-memory-s41011-candidate-r0-c397af/config.json --output /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/runs/20261021T131202Z-V8-memory-interleaved-dddd91/0013-warmup-memory-s41011-candidate-r0-c397af/result.json\n  547    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:04.146402+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  568    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:04.155667+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  569    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:04.358780+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  591    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:04.368887+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  592    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:04.564458+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  614    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:04.575337+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  615    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:04.592404+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  616    11 worksteal       /root/lzuhpc-experiments/ws-20261021-memory-kernel-release/build-none/worksteal --config /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/runs/20261021T131202Z-V8-memory-interleaved-dddd91/0016-timing-memory-s41011-base-r1-96d04d/config.json --output /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/runs/20261021T131202Z-V8-memory-interleaved-dddd91/0016-timing-memory-s41011-base-r1-96d04d/result.json\n  617    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:04.718836+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  638    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:04.728880+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  639    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:04.865724+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  661    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:04.874976+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  662    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:05.074426+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  684    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:05.084152+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  685    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:05.110929+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  686    11 worksteal       /root/lzuhpc-experiments/ws-20261021-memory-kernel-release/build-none/worksteal --config /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/runs/20261021T131202Z-V8-memory-interleaved-dddd91/0019-timing-memory-s47017-candidate-r1-b291f8/config.json --output /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/runs/20261021T131202Z-V8-memory-interleaved-dddd91/0019-timing-memory-s47017-candidate-r1-b291f8/result.json\n  687    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:05.285805+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  708    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:05.295097+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  709    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:05.433669+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  731    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:05.443563+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  732    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:05.586630+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  754    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:05.597681+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  755    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:05.626293+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  756    11 worksteal       /root/lzuhpc-experiments/ws-20261021-memory-kernel-release/build-none/worksteal --config /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/runs/20261021T131202Z-V8-memory-interleaved-dddd91/0022-timing-memory-s47017-candidate-r2-d0152b/config.json --output /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/runs/20261021T131202Z-V8-memory-interleaved-dddd91/0022-timing-memory-s47017-candidate-r2-d0152b/result.json\n  757    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:05.802102+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  778    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:05.811908+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  779    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:06.025656+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  801    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:06.036625+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  802    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:06.140770+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  803    11 worksteal       /root/lzuhpc-experiments/ws-20261021-memory-kernel-release/build-none/worksteal --config /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/runs/20261021T131202Z-V8-memory-interleaved-dddd91/0024-timing-memory-s41011-base-r3-466523/config.json --output /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/runs/20261021T131202Z-V8-memory-interleaved-dddd91/0024-timing-memory-s41011-base-r3-466523/result.json\n  804    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:06.187565+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  825    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:06.196526+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  826    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:06.329769+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  848    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:06.339338+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  849    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:06.547198+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  871    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:06.557455+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  872    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:06.656714+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  873    11 worksteal       /root/lzuhpc-experiments/ws-20261021-memory-kernel-release/build-none/worksteal --config /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/runs/20261021T131202Z-V8-memory-interleaved-dddd91/0027-timing-memory-s47017-candidate-r3-270a85/config.json --output /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/runs/20261021T131202Z-V8-memory-interleaved-dddd91/0027-timing-memory-s47017-candidate-r3-270a85/result.json\n  874    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:06.758138+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  895    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:06.768376+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  896    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:06.910068+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  918    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:06.918796+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  919    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:07.065764+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  941    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:07.075153+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  942    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:07.170152+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  943    11 worksteal       /root/lzuhpc-experiments/ws-20261021-memory-kernel-release/build-none/worksteal --config /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/runs/20261021T131202Z-V8-memory-interleaved-dddd91/0030-timing-memory-s47017-candidate-r4-f3cc14/config.json --output /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/runs/20261021T131202Z-V8-memory-interleaved-dddd91/0030-timing-memory-s47017-candidate-r4-f3cc14/result.json\n  944    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:07.270517+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  965    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:07.281729+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  966    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:07.500694+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  988    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:07.510322+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n  989    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:07.647518+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n 1011    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:07.659401+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n 1012    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:07.682397+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n 1013    11 worksteal       /root/lzuhpc-experiments/ws-20261021-memory-kernel-release/build-none/worksteal --config /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/runs/20261021T131202Z-V8-memory-interleaved-dddd91/0033-timing-memory-s41011-candidate-r5-e5ada0/config.json --output /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/runs/20261021T131202Z-V8-memory-interleaved-dddd91/0033-timing-memory-s41011-candidate-r5-e5ada0/result.json\n 1014    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:07.805830+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n 1035    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:07.817295+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n 1036    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:08.035991+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n 1058    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:08.046356+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n 1059    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:08.196864+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n 1060    11 worksteal       /root/lzuhpc-experiments/ws-20261021-memory-kernel-release/build-none/worksteal --config /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/runs/20261021T131202Z-V8-memory-interleaved-dddd91/0035-timing-memory-s47017-candidate-r5-3baafc/config.json --output /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/runs/20261021T131202Z-V8-memory-interleaved-dddd91/0035-timing-memory-s47017-candidate-r5-3baafc/result.json\n 1061    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:08.260032+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n 1082    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:08.271492+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n 1083    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:08.446524+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n 1105    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:08.457188+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n 1106    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:08.612205+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n 1128    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:08.621670+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n 1129    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:08.711389+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n 1130    11 worksteal       /root/lzuhpc-experiments/ws-20261021-memory-kernel-release/build-none/worksteal --config /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/runs/20261021T131202Z-V8-memory-interleaved-dddd91/0038-timing-memory-s47017-candidate-r6-90b104/config.json --output /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/runs/20261021T131202Z-V8-memory-interleaved-dddd91/0038-timing-memory-s47017-candidate-r6-90b104/result.json\n 1131    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:08.846770+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n 1152    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:08.856209+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n 1153    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:09.061795+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n 1175    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:09.072262+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n 1176    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:09.220654+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n 1198    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:09.231124+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n 1199    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:09.241558+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n 1200    11 ps              ps -eo pid,ppid,comm,args\n 1201    11 worksteal       /root/lzuhpc-experiments/ws-20261021-memory-kernel-release/build-none/worksteal --config /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/runs/20261021T131202Z-V8-memory-interleaved-dddd91/0041-timing-memory-s41011-candidate-r7-71c63b/config.json --output /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/runs/20261021T131202Z-V8-memory-interleaved-dddd91/0041-timing-memory-s41011-candidate-r7-71c63b/result.json\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:09.372432+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n 1222    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:09.383648+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n 1223    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:09.594582+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n 1245    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:09.605982+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n 1246    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:09.766092+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n 1247    11 worksteal       /root/lzuhpc-experiments/ws-20261021-memory-kernel-release/build-none/worksteal --config /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/runs/20261021T131202Z-V8-memory-interleaved-dddd91/0043-timing-memory-s47017-candidate-r7-f6f764/config.json --output /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/runs/20261021T131202Z-V8-memory-interleaved-dddd91/0043-timing-memory-s47017-candidate-r7-f6f764/result.json\n 1264    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-21T13:12:09.812440+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   10     1 SessionLeader   /init\n   11    10 python3         python3 /root/lzuhpc-experiments/ws-20261021-memory-kernel-study/tools/memory_kernel_study.py run --root /root/lzuhpc-experiments/ws-20261021-memory-kernel-study --wait-seconds 600\n 1269    11 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    }
+  ],
+  "clean": true,
+  "interval_seconds": 0.5,
+  "scope": "observed window; no physical exclusivity proof"
+}

@@ -1,0 +1,28 @@
+{
+  "run_id": "0010-profiling-skewed-phase-full_lanes8-p32-g256-r1-bbaacf",
+  "batch_id": "20261016T042648Z-R3C-phase-observation-65b081",
+  "condition": "skewed-phase-full_lanes8-p32-g256",
+  "purpose": "profiling",
+  "repeat": 1,
+  "started": "2026-10-16T04:26:55.215273+00:00",
+  "ended": "2026-10-16T04:26:57.014348+00:00",
+  "elapsed_process_seconds": 1.7990720999999894,
+  "exit_code": 0,
+  "expected_exit": 0,
+  "status": "completed",
+  "failure_reason": null,
+  "source_id": "c2eff24c88c908cf14033dd06f250a739e34bc82765fda65e15eeaa1720175da",
+  "binary_sha256": "009e2c44a4c8a007b32d0118066fcc76888136788aa2b65f00456d4d7b41b8b6",
+  "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+  "environment_ref": "../environment.json",
+  "correctness": {
+    "pass": true
+  },
+  "timing": {
+    "dispatch_seconds": 3.3e-06,
+    "end_to_end_seconds": 1.7888393,
+    "epoch_seconds": 0.0345737,
+    "setup_seconds": 0.0145522
+  },
+  "included": false
+}

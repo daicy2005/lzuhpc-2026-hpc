@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-10-15T22:29:21.025317+08:00",
+  "batch_id": "round16-compare-20261015T204659437381+0800",
+  "n_each": 3,
+  "speedup": 23.15950638778439,
+  "time_reduction_percent": 95.68211868052828,
+  "paired_wins": 3,
+  "pairs": [
+    {
+      "repeat": 1,
+      "upstream_run_id": "20261015T204659522915+0800_E00_upstream_formal_t01_r01_44e149",
+      "final_run_id": "20261015T211842519606+0800_E20_sah-tile_formal_t32_r01_bee280",
+      "upstream_seconds": 1897.516,
+      "final_seconds": 84.857,
+      "speedup": 22.361337308648668,
+      "final_wins": true
+    },
+    {
+      "repeat": 2,
+      "upstream_run_id": "20261015T212139186201+0800_E00_upstream_formal_t01_r02_05dac0",
+      "final_run_id": "20261015T212009776781+0800_E20_sah-tile_formal_t32_r02_355c46",
+      "upstream_seconds": 1968.697,
+      "final_seconds": 85.006,
+      "speedup": 23.15950638778439,
+      "final_wins": true
+    },
+    {
+      "repeat": 3,
+      "upstream_run_id": "20261015T215434894126+0800_E00_upstream_formal_t01_r03_ca59d0",
+      "final_run_id": "20261015T222753040316+0800_E20_sah-tile_formal_t32_r03_660856",
+      "upstream_seconds": 1993.332,
+      "final_seconds": 85.197,
+      "speedup": 23.396739321807107,
+      "final_wins": true
+    }
+  ],
+  "upstream_group_id": "fc21a9c7cda04e6d",
+  "final_group_id": "4ba388c192d698db",
+  "output_sha256": "e13662e02f2b123912cbfd83116efd0de91e3fcc8580ef0342c82dee3cb90c95",
+  "comparison_scope": "O2 serial original versus O3+SAH+OpenMP32 selected implementation; not pure parallel scaling",
+  "execution_run_ids": [
+    "20261015T204659522915+0800_E00_upstream_formal_t01_r01_44e149",
+    "20261015T211842519606+0800_E20_sah-tile_formal_t32_r01_bee280",
+    "20261015T212009776781+0800_E20_sah-tile_formal_t32_r02_355c46",
+    "20261015T212139186201+0800_E00_upstream_formal_t01_r02_05dac0",
+    "20261015T215434894126+0800_E00_upstream_formal_t01_r03_ca59d0",
+    "20261015T222753040316+0800_E20_sah-tile_formal_t32_r03_660856"
+  ]
+}

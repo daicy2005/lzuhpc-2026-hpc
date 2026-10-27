@@ -1,0 +1,4 @@
+Scene initialization time: 0.000180 s
+Camera initialization time: 0.000029 s
+Rendering 1200px wide, 200 spp, max depth 50 -> /root/lzuhpc-experiments/hpc-raytracing/runs/20261015T215434894126+0800_E00_upstream_formal_t01_r03_ca59d0/output.ppm
+Render time: 1993.332 s

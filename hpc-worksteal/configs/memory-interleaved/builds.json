@@ -1,0 +1,69 @@
+{
+  "study": "V8 memory interleaving",
+  "accepted": true,
+  "measured_source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+  "source_snapshot": "memory-kernel/snapshots/source/4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+  "release_binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+  "build_snapshot": "memory-kernel/snapshots/builds/3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+  "linux_executable": "/root/lzuhpc-experiments/ws-20261021-memory-kernel-release/build-none/worksteal",
+  "cmake_options": [
+    "-DCMAKE_BUILD_TYPE=Release",
+    "-DWS_COMPLETION_BATCH=32",
+    "-DWS_STEAL_SCRATCH=ON",
+    "-DWS_ENABLE_IPO=ON",
+    "-DWS_COMPUTE_LANES=8"
+  ],
+  "compiler_flags_scope": "Release -O3 -DNDEBUG and IPO; no fast-math or march=native",
+  "measurement": {
+    "memory_lanes": 4,
+    "reference_workers": 4,
+    "initialization_workers": 1,
+    "data_allocation": "zeroed"
+  },
+  "batch": "20261021T131202Z-V8-memory-interleaved-dddd91",
+  "configs": [
+    {
+      "file": "configs/memory-interleaved/memory.json",
+      "sha256": "8fa7274cf76314bb59777ab57df6ba1dfdc279d81d8b8a448776fab7b567fec0",
+      "seed": 41011,
+      "elements": 88,
+      "measured_candidate": "memory-kernel/runs/20261021T131202Z-V8-memory-interleaved-dddd91/0017-timing-memory-s41011-candidate-r1-e510c1/config.json"
+    },
+    {
+      "file": "configs/memory-interleaved/memory-large.json",
+      "sha256": "6ef34b2f445bc2a443e08c61e04d9d8164514a28c7ef3a1862f685c3f879d901",
+      "seed": 47017,
+      "elements": 136,
+      "measured_candidate": "memory-kernel/runs/20261021T131202Z-V8-memory-interleaved-dddd91/0019-timing-memory-s47017-candidate-r1-b291f8/config.json"
+    }
+  ],
+  "validation": {
+    "each_runtime_checks": 2308,
+    "each_cli_invocations": 367,
+    "builds": {
+      "release": {
+        "exe": "/root/lzuhpc-experiments/ws-20261021-memory-kernel-release/build-none/worksteal",
+        "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+        "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+        "validation": "memory-kernel/snapshots/builds/3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275/validation.json"
+      },
+      "asan": {
+        "exe": "/root/lzuhpc-experiments/ws-20261021-memory-kernel-asan/build-asan/worksteal",
+        "binary_sha256": "944006b808294c206cf809035ba0a2ebf1afe7838b7e8be1b3c2b9f4fed3b362",
+        "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+        "validation": "memory-kernel/snapshots/builds/944006b808294c206cf809035ba0a2ebf1afe7838b7e8be1b3c2b9f4fed3b362/validation.json"
+      },
+      "tsan": {
+        "exe": "/root/lzuhpc-experiments/ws-20261021-memory-kernel-tsan/build-tsan/worksteal",
+        "binary_sha256": "302c140efa0c4f28bf7b61208293b8e3e9137c30d0fba8bd9d5526bdeb8d6eca",
+        "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+        "validation": "memory-kernel/snapshots/builds/302c140efa0c4f28bf7b61208293b8e3e9137c30d0fba8bd9d5526bdeb8d6eca/validation.json"
+      }
+    }
+  },
+  "protocol": "docs/27-第八轮内存执行交错协议.md",
+  "linux_audit": "memory-kernel/results/audit-e070b3e7482e4f8e82fa63d1de1341db.json",
+  "windows_audit": "memory-kernel/results/audit-17ca23a49da34a6198c79dbbc8438cbd.json",
+  "report": "report/memory-kernel/第八轮内存执行交错报告-424ce55a.md",
+  "scope": "Same new binary lanes1/4 heldout epoch comparison, with app median regression guard. Configs are byte-identical to measured candidate inputs; no additional benchmark. Does not establish performance against historical recommended binary or other inputs."
+}

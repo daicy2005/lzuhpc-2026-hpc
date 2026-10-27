@@ -1,0 +1,1412 @@
+{
+  "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+  "created": "2026-10-21T13:12:02.966570+00:00",
+  "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+  "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+  "budget_seconds": 600,
+  "stage": "V8-memory-interleaved",
+  "conditions": [
+    {
+      "id": "control-light-old",
+      "kind": "light",
+      "build": "old",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 4096,
+          "iterations": 16,
+          "seed": 39019
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 512
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 1,
+          "initialization_workers": 1,
+          "data_allocation": "zeroed"
+        },
+        "layout": "policy",
+        "layout_seed": 39019
+      }
+    },
+    {
+      "id": "control-light-scalar",
+      "kind": "light",
+      "build": "release",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 4096,
+          "iterations": 16,
+          "seed": 39019
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 512
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 1,
+          "initialization_workers": 1,
+          "data_allocation": "zeroed",
+          "memory_lanes": 1
+        },
+        "layout": "policy",
+        "layout_seed": 39019
+      }
+    },
+    {
+      "id": "control-light-interleaved",
+      "kind": "light",
+      "build": "release",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 4096,
+          "iterations": 16,
+          "seed": 39019
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 512
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 1,
+          "initialization_workers": 1,
+          "data_allocation": "zeroed",
+          "memory_lanes": 4
+        },
+        "layout": "policy",
+        "layout_seed": 39019
+      }
+    },
+    {
+      "id": "control-uniform-old",
+      "kind": "uniform",
+      "build": "old",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 32,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 4096,
+          "iterations": 1024,
+          "seed": 39019
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1024
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 32,
+          "initialization_workers": 1,
+          "data_allocation": "zeroed"
+        },
+        "layout": "policy",
+        "layout_seed": 39019
+      }
+    },
+    {
+      "id": "control-uniform-scalar",
+      "kind": "uniform",
+      "build": "release",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 32,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 4096,
+          "iterations": 1024,
+          "seed": 39019
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1024
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 32,
+          "initialization_workers": 1,
+          "data_allocation": "zeroed",
+          "memory_lanes": 1
+        },
+        "layout": "policy",
+        "layout_seed": 39019
+      }
+    },
+    {
+      "id": "control-uniform-interleaved",
+      "kind": "uniform",
+      "build": "release",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 32,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 4096,
+          "iterations": 1024,
+          "seed": 39019
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1024
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 32,
+          "initialization_workers": 1,
+          "data_allocation": "zeroed",
+          "memory_lanes": 4
+        },
+        "layout": "policy",
+        "layout_seed": 39019
+      }
+    },
+    {
+      "id": "control-skewed-old",
+      "kind": "skewed",
+      "build": "old",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 32,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 4096,
+          "iterations": 1024,
+          "seed": 39019
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 256
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 32,
+          "initialization_workers": 1,
+          "data_allocation": "zeroed"
+        },
+        "layout": "concentrated",
+        "layout_seed": 39019
+      }
+    },
+    {
+      "id": "control-skewed-scalar",
+      "kind": "skewed",
+      "build": "release",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 32,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 4096,
+          "iterations": 1024,
+          "seed": 39019
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 256
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 32,
+          "initialization_workers": 1,
+          "data_allocation": "zeroed",
+          "memory_lanes": 1
+        },
+        "layout": "concentrated",
+        "layout_seed": 39019
+      }
+    },
+    {
+      "id": "control-skewed-interleaved",
+      "kind": "skewed",
+      "build": "release",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 32,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 4096,
+          "iterations": 1024,
+          "seed": 39019
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 256
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 32,
+          "initialization_workers": 1,
+          "data_allocation": "zeroed",
+          "memory_lanes": 4
+        },
+        "layout": "concentrated",
+        "layout_seed": 39019
+      }
+    },
+    {
+      "id": "control-memory-old",
+      "kind": "memory",
+      "build": "old",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 64,
+          "iterations": 1,
+          "seed": 39019,
+          "bytes_per_element": 524288,
+          "passes": 16
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 4
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 4,
+          "initialization_workers": 1,
+          "data_allocation": "zeroed"
+        },
+        "layout": "policy",
+        "layout_seed": 39019
+      }
+    },
+    {
+      "id": "control-memory-scalar",
+      "kind": "memory",
+      "build": "release",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 64,
+          "iterations": 1,
+          "seed": 39019,
+          "bytes_per_element": 524288,
+          "passes": 16
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 4
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 4,
+          "initialization_workers": 1,
+          "data_allocation": "zeroed",
+          "memory_lanes": 1
+        },
+        "layout": "policy",
+        "layout_seed": 39019
+      }
+    },
+    {
+      "id": "control-memory-interleaved",
+      "kind": "memory",
+      "build": "release",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 64,
+          "iterations": 1,
+          "seed": 39019,
+          "bytes_per_element": 524288,
+          "passes": 16
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 4
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 4,
+          "initialization_workers": 1,
+          "data_allocation": "zeroed",
+          "memory_lanes": 4
+        },
+        "layout": "policy",
+        "layout_seed": 39019
+      }
+    },
+    {
+      "id": "memory-s41011-base",
+      "kind": "memory",
+      "build": "release",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 88,
+          "iterations": 1,
+          "seed": 41011,
+          "bytes_per_element": 524288,
+          "passes": 16
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 4
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 4,
+          "initialization_workers": 1,
+          "data_allocation": "zeroed",
+          "memory_lanes": 1
+        },
+        "layout": "policy",
+        "layout_seed": 41011
+      }
+    },
+    {
+      "id": "memory-s41011-candidate",
+      "kind": "memory",
+      "build": "release",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 88,
+          "iterations": 1,
+          "seed": 41011,
+          "bytes_per_element": 524288,
+          "passes": 16
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 4
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 4,
+          "initialization_workers": 1,
+          "data_allocation": "zeroed",
+          "memory_lanes": 4
+        },
+        "layout": "policy",
+        "layout_seed": 41011
+      }
+    },
+    {
+      "id": "memory-s47017-base",
+      "kind": "memory",
+      "build": "release",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 136,
+          "iterations": 1,
+          "seed": 47017,
+          "bytes_per_element": 524288,
+          "passes": 16
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 4
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 4,
+          "initialization_workers": 1,
+          "data_allocation": "zeroed",
+          "memory_lanes": 1
+        },
+        "layout": "policy",
+        "layout_seed": 47017
+      }
+    },
+    {
+      "id": "memory-s47017-candidate",
+      "kind": "memory",
+      "build": "release",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 136,
+          "iterations": 1,
+          "seed": 47017,
+          "bytes_per_element": 524288,
+          "passes": 16
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 4
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 4,
+          "initialization_workers": 1,
+          "data_allocation": "zeroed",
+          "memory_lanes": 4
+        },
+        "layout": "policy",
+        "layout_seed": 47017
+      }
+    }
+  ],
+  "pairs": [
+    [
+      "memory-s41011-base",
+      "memory-s41011-candidate"
+    ],
+    [
+      "memory-s47017-base",
+      "memory-s47017-candidate"
+    ]
+  ],
+  "order": [
+    [
+      "control",
+      0,
+      "control-light-old"
+    ],
+    [
+      "control",
+      0,
+      "control-light-scalar"
+    ],
+    [
+      "control",
+      0,
+      "control-light-interleaved"
+    ],
+    [
+      "control",
+      0,
+      "control-uniform-old"
+    ],
+    [
+      "control",
+      0,
+      "control-uniform-scalar"
+    ],
+    [
+      "control",
+      0,
+      "control-uniform-interleaved"
+    ],
+    [
+      "control",
+      0,
+      "control-skewed-old"
+    ],
+    [
+      "control",
+      0,
+      "control-skewed-scalar"
+    ],
+    [
+      "control",
+      0,
+      "control-skewed-interleaved"
+    ],
+    [
+      "control",
+      0,
+      "control-memory-old"
+    ],
+    [
+      "control",
+      0,
+      "control-memory-scalar"
+    ],
+    [
+      "control",
+      0,
+      "control-memory-interleaved"
+    ],
+    [
+      "warmup",
+      0,
+      "memory-s41011-base"
+    ],
+    [
+      "warmup",
+      0,
+      "memory-s41011-candidate"
+    ],
+    [
+      "warmup",
+      0,
+      "memory-s47017-base"
+    ],
+    [
+      "warmup",
+      0,
+      "memory-s47017-candidate"
+    ],
+    [
+      "timing",
+      1,
+      "memory-s41011-base"
+    ],
+    [
+      "timing",
+      1,
+      "memory-s41011-candidate"
+    ],
+    [
+      "timing",
+      1,
+      "memory-s47017-base"
+    ],
+    [
+      "timing",
+      1,
+      "memory-s47017-candidate"
+    ],
+    [
+      "timing",
+      2,
+      "memory-s41011-candidate"
+    ],
+    [
+      "timing",
+      2,
+      "memory-s41011-base"
+    ],
+    [
+      "timing",
+      2,
+      "memory-s47017-candidate"
+    ],
+    [
+      "timing",
+      2,
+      "memory-s47017-base"
+    ],
+    [
+      "timing",
+      3,
+      "memory-s41011-base"
+    ],
+    [
+      "timing",
+      3,
+      "memory-s41011-candidate"
+    ],
+    [
+      "timing",
+      3,
+      "memory-s47017-base"
+    ],
+    [
+      "timing",
+      3,
+      "memory-s47017-candidate"
+    ],
+    [
+      "timing",
+      4,
+      "memory-s41011-candidate"
+    ],
+    [
+      "timing",
+      4,
+      "memory-s41011-base"
+    ],
+    [
+      "timing",
+      4,
+      "memory-s47017-candidate"
+    ],
+    [
+      "timing",
+      4,
+      "memory-s47017-base"
+    ],
+    [
+      "timing",
+      5,
+      "memory-s41011-base"
+    ],
+    [
+      "timing",
+      5,
+      "memory-s41011-candidate"
+    ],
+    [
+      "timing",
+      5,
+      "memory-s47017-base"
+    ],
+    [
+      "timing",
+      5,
+      "memory-s47017-candidate"
+    ],
+    [
+      "timing",
+      6,
+      "memory-s41011-candidate"
+    ],
+    [
+      "timing",
+      6,
+      "memory-s41011-base"
+    ],
+    [
+      "timing",
+      6,
+      "memory-s47017-candidate"
+    ],
+    [
+      "timing",
+      6,
+      "memory-s47017-base"
+    ],
+    [
+      "timing",
+      7,
+      "memory-s41011-base"
+    ],
+    [
+      "timing",
+      7,
+      "memory-s41011-candidate"
+    ],
+    [
+      "timing",
+      7,
+      "memory-s47017-base"
+    ],
+    [
+      "timing",
+      7,
+      "memory-s47017-candidate"
+    ]
+  ],
+  "builds": {
+    "old": {
+      "exe": "/root/lzuhpc-experiments/ws-20261021-allocation-release/build-none/worksteal",
+      "binary_sha256": "acc7f9ac6d7872eeee25340d81fb0d0f2f78d75ba79d466488b16172e651b767",
+      "source_id": "926ccdac2d34cddff1cdb9dcfd0cad7cbbc838fcfc595c1189bf73f0c014c4cc"
+    },
+    "release": {
+      "exe": "/root/lzuhpc-experiments/ws-20261021-memory-kernel-release/build-none/worksteal",
+      "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+      "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb"
+    },
+    "asan": {
+      "exe": "/root/lzuhpc-experiments/ws-20261021-memory-kernel-asan/build-asan/worksteal",
+      "binary_sha256": "944006b808294c206cf809035ba0a2ebf1afe7838b7e8be1b3c2b9f4fed3b362",
+      "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb"
+    },
+    "tsan": {
+      "exe": "/root/lzuhpc-experiments/ws-20261021-memory-kernel-tsan/build-tsan/worksteal",
+      "binary_sha256": "302c140efa0c4f28bf7b61208293b8e3e9137c30d0fba8bd9d5526bdeb8d6eca",
+      "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb"
+    }
+  },
+  "availability_receipt": "results/availability-2cba247700264b179c56796a099d137c.json",
+  "frozen_plan_sha256": "450f5aa50f3e2dc3b4c6228423907b5b5184d69f045ef4e1c2520896970aab37"
+}

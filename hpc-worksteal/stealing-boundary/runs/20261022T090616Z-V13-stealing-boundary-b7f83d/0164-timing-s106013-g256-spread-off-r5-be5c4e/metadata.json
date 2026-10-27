@@ -1,0 +1,28 @@
+{
+  "run_id": "0164-timing-s106013-g256-spread-off-r5-be5c4e",
+  "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+  "condition": "s106013-g256-spread-off",
+  "purpose": "timing",
+  "repeat": 5,
+  "started": "2026-10-22T09:06:30.074743+00:00",
+  "ended": "2026-10-22T09:06:30.119372+00:00",
+  "elapsed_process_seconds": 0.044628200000005336,
+  "exit_code": 0,
+  "expected_exit": 0,
+  "status": "completed",
+  "failure_reason": null,
+  "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+  "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+  "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+  "environment_ref": "../environment.json",
+  "correctness": {
+    "pass": true
+  },
+  "timing": {
+    "dispatch_seconds": 2.3e-06,
+    "end_to_end_seconds": 0.0348754,
+    "epoch_seconds": 0.0051397,
+    "setup_seconds": 0.0072016
+  },
+  "included": true
+}

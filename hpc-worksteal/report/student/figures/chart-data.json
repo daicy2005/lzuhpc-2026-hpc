@@ -1,0 +1,698 @@
+{
+  "scope": "Existing frozen timing samples; stylistic redraw only.",
+  "source_sha256": {
+    "results/study-summary.json": "5a05252f4c1c1b7283a2de5edaf8fe26d298ff5b4000be31ced61b848a47c8ea",
+    "stealing-boundary/results/audit-6508b2892aa3457087dda02bd6d45825.json": "b32eab96b80f8bee0292b24abe393e99e7c8593ba425abf8d2dd478406ae1cc5"
+  },
+  "new_performance_samples": 0,
+  "charts": {
+    "w01-overhead-styled": [
+      {
+        "mode": "static",
+        "grain": 1,
+        "run_paths": [
+          "runs/20261016T023905Z-W00-W01-99f9cd/0051-timing-static-p4-g1-r1-5e6553",
+          "runs/20261016T023905Z-W00-W01-99f9cd/0093-timing-static-p4-g1-r2-a2ba77",
+          "runs/20261016T023905Z-W00-W01-99f9cd/0110-timing-static-p4-g1-r3-12b083"
+        ],
+        "epoch_seconds": [
+          0.2038597,
+          0.2141156,
+          0.2093854
+        ],
+        "median_ms": 209.3854
+      },
+      {
+        "mode": "static",
+        "grain": 64,
+        "run_paths": [
+          "runs/20261016T023905Z-W00-W01-99f9cd/0054-timing-static-p4-g64-r1-6b76dd",
+          "runs/20261016T023905Z-W00-W01-99f9cd/0096-timing-static-p4-g64-r2-e4d542",
+          "runs/20261016T023905Z-W00-W01-99f9cd/0113-timing-static-p4-g64-r3-d159c0"
+        ],
+        "epoch_seconds": [
+          0.2145291,
+          0.2105283,
+          0.2072546
+        ],
+        "median_ms": 210.5283
+      },
+      {
+        "mode": "static",
+        "grain": 4096,
+        "run_paths": [
+          "runs/20261016T023905Z-W00-W01-99f9cd/0072-timing-static-p4-g4096-r1-8b8b8a",
+          "runs/20261016T023905Z-W00-W01-99f9cd/0089-timing-static-p4-g4096-r2-e2e8f3",
+          "runs/20261016T023905Z-W00-W01-99f9cd/0106-timing-static-p4-g4096-r3-d5a5fb"
+        ],
+        "epoch_seconds": [
+          0.2085336,
+          0.2080254,
+          0.2082584
+        ],
+        "median_ms": 208.25840000000002
+      },
+      {
+        "mode": "central",
+        "grain": 1,
+        "run_paths": [
+          "runs/20261016T023905Z-W00-W01-99f9cd/0059-timing-central-p4-g1-r1-3c6fb5",
+          "runs/20261016T023905Z-W00-W01-99f9cd/0076-timing-central-p4-g1-r2-c286ca",
+          "runs/20261016T023905Z-W00-W01-99f9cd/0118-timing-central-p4-g1-r3-b983b3"
+        ],
+        "epoch_seconds": [
+          0.205476,
+          0.2121706,
+          0.2130901
+        ],
+        "median_ms": 212.17059999999998
+      },
+      {
+        "mode": "central",
+        "grain": 64,
+        "run_paths": [
+          "runs/20261016T023905Z-W00-W01-99f9cd/0058-timing-central-p4-g64-r1-50d7b4",
+          "runs/20261016T023905Z-W00-W01-99f9cd/0075-timing-central-p4-g64-r2-c4aaed",
+          "runs/20261016T023905Z-W00-W01-99f9cd/0117-timing-central-p4-g64-r3-881526"
+        ],
+        "epoch_seconds": [
+          0.2053664,
+          0.206688,
+          0.2059096
+        ],
+        "median_ms": 205.9096
+      },
+      {
+        "mode": "central",
+        "grain": 4096,
+        "run_paths": [
+          "runs/20261016T023905Z-W00-W01-99f9cd/0050-timing-central-p4-g4096-r1-14f76c",
+          "runs/20261016T023905Z-W00-W01-99f9cd/0092-timing-central-p4-g4096-r2-4bb2f9",
+          "runs/20261016T023905Z-W00-W01-99f9cd/0109-timing-central-p4-g4096-r3-d6ff70"
+        ],
+        "epoch_seconds": [
+          0.200162,
+          0.2059752,
+          0.2057252
+        ],
+        "median_ms": 205.7252
+      },
+      {
+        "mode": "off",
+        "grain": 1,
+        "run_paths": [
+          "runs/20261016T023905Z-W00-W01-99f9cd/0064-timing-off-p4-g1-r1-ef99cb",
+          "runs/20261016T023905Z-W00-W01-99f9cd/0081-timing-off-p4-g1-r2-03f4ae",
+          "runs/20261016T023905Z-W00-W01-99f9cd/0098-timing-off-p4-g1-r3-416998"
+        ],
+        "epoch_seconds": [
+          0.2111761,
+          0.2093448,
+          0.2095904
+        ],
+        "median_ms": 209.59040000000002
+      },
+      {
+        "mode": "off",
+        "grain": 64,
+        "run_paths": [
+          "runs/20261016T023905Z-W00-W01-99f9cd/0061-timing-off-p4-g64-r1-03a9df",
+          "runs/20261016T023905Z-W00-W01-99f9cd/0078-timing-off-p4-g64-r2-f45868",
+          "runs/20261016T023905Z-W00-W01-99f9cd/0120-timing-off-p4-g64-r3-b46dc3"
+        ],
+        "epoch_seconds": [
+          0.2098569,
+          0.206618,
+          0.2122177
+        ],
+        "median_ms": 209.85690000000002
+      },
+      {
+        "mode": "off",
+        "grain": 4096,
+        "run_paths": [
+          "runs/20261016T023905Z-W00-W01-99f9cd/0053-timing-off-p4-g4096-r1-697d95",
+          "runs/20261016T023905Z-W00-W01-99f9cd/0095-timing-off-p4-g4096-r2-e42a91",
+          "runs/20261016T023905Z-W00-W01-99f9cd/0112-timing-off-p4-g4096-r3-821363"
+        ],
+        "epoch_seconds": [
+          0.2002815,
+          0.2078972,
+          0.2066701
+        ],
+        "median_ms": 206.6701
+      },
+      {
+        "mode": "on",
+        "grain": 1,
+        "run_paths": [
+          "runs/20261016T023905Z-W00-W01-99f9cd/0062-timing-on-p4-g1-r1-4d9897",
+          "runs/20261016T023905Z-W00-W01-99f9cd/0079-timing-on-p4-g1-r2-0c409f",
+          "runs/20261016T023905Z-W00-W01-99f9cd/0121-timing-on-p4-g1-r3-2e1e1f"
+        ],
+        "epoch_seconds": [
+          0.2105363,
+          0.2087997,
+          0.2118114
+        ],
+        "median_ms": 210.5363
+      },
+      {
+        "mode": "on",
+        "grain": 64,
+        "run_paths": [
+          "runs/20261016T023905Z-W00-W01-99f9cd/0065-timing-on-p4-g64-r1-6e8ea6",
+          "runs/20261016T023905Z-W00-W01-99f9cd/0082-timing-on-p4-g64-r2-c9ffdc",
+          "runs/20261016T023905Z-W00-W01-99f9cd/0099-timing-on-p4-g64-r3-48f6e4"
+        ],
+        "epoch_seconds": [
+          0.2066709,
+          0.2061019,
+          0.2080075
+        ],
+        "median_ms": 206.6709
+      },
+      {
+        "mode": "on",
+        "grain": 4096,
+        "run_paths": [
+          "runs/20261016T023905Z-W00-W01-99f9cd/0071-timing-on-p4-g4096-r1-d048b4",
+          "runs/20261016T023905Z-W00-W01-99f9cd/0088-timing-on-p4-g4096-r2-335917",
+          "runs/20261016T023905Z-W00-W01-99f9cd/0105-timing-on-p4-g4096-r3-24cf81"
+        ],
+        "epoch_seconds": [
+          0.2060634,
+          0.2055481,
+          0.2067744
+        ],
+        "median_ms": 206.0634
+      }
+    ],
+    "v13-boundary-styled": [
+      {
+        "seed": 100003,
+        "layout": "concentrated",
+        "grain": 8,
+        "modes": {
+          "off": {
+            "run_paths": [
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0064-timing-s100003-g8-concentrated-off-r1-e5e678",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0085-timing-s100003-g8-concentrated-off-r2-acf69c",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0128-timing-s100003-g8-concentrated-off-r3-724e30",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0147-timing-s100003-g8-concentrated-off-r4-c565a6",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0166-timing-s100003-g8-concentrated-off-r5-cc1e7c"
+            ],
+            "epoch_seconds": [
+              0.0083613,
+              0.0087993,
+              0.0083417,
+              0.0087818,
+              0.008941
+            ],
+            "median_seconds": 0.0087818
+          },
+          "on": {
+            "run_paths": [
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0065-timing-s100003-g8-concentrated-on-r1-7da2f7",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0084-timing-s100003-g8-concentrated-on-r2-f75a0f",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0129-timing-s100003-g8-concentrated-on-r3-f31651",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0146-timing-s100003-g8-concentrated-on-r4-38013d",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0167-timing-s100003-g8-concentrated-on-r5-07acac"
+            ],
+            "epoch_seconds": [
+              0.0028711,
+              0.0029807,
+              0.0025235,
+              0.0031687,
+              0.0027968
+            ],
+            "median_seconds": 0.0028711
+          }
+        },
+        "off_over_on": 3.058688307617289
+      },
+      {
+        "seed": 100003,
+        "layout": "concentrated",
+        "grain": 256,
+        "modes": {
+          "off": {
+            "run_paths": [
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0074-timing-s100003-g256-concentrated-off-r1-d86fdf",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0095-timing-s100003-g256-concentrated-off-r2-70f045",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0114-timing-s100003-g256-concentrated-off-r3-db1e79",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0133-timing-s100003-g256-concentrated-off-r4-ca226d",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0176-timing-s100003-g256-concentrated-off-r5-b7152a"
+            ],
+            "epoch_seconds": [
+              0.008479,
+              0.0072013,
+              0.0072841,
+              0.0083299,
+              0.0077286
+            ],
+            "median_seconds": 0.0077286
+          },
+          "on": {
+            "run_paths": [
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0075-timing-s100003-g256-concentrated-on-r1-f45ca5",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0094-timing-s100003-g256-concentrated-on-r2-cfdedc",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0115-timing-s100003-g256-concentrated-on-r3-b9b660",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0132-timing-s100003-g256-concentrated-on-r4-67654b",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0177-timing-s100003-g256-concentrated-on-r5-aff051"
+            ],
+            "epoch_seconds": [
+              0.0029605,
+              0.0027546,
+              0.0025299,
+              0.0026851,
+              0.0037404
+            ],
+            "median_seconds": 0.0027546
+          }
+        },
+        "off_over_on": 2.805706817686779
+      },
+      {
+        "seed": 100003,
+        "layout": "concentrated",
+        "grain": 16384,
+        "modes": {
+          "off": {
+            "run_paths": [
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0080-timing-s100003-g16384-concentrated-off-r1-22bfc1",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0101-timing-s100003-g16384-concentrated-off-r2-504323",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0120-timing-s100003-g16384-concentrated-off-r3-d715b6",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0139-timing-s100003-g16384-concentrated-off-r4-0ba3d8",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0158-timing-s100003-g16384-concentrated-off-r5-07ba11"
+            ],
+            "epoch_seconds": [
+              0.0158278,
+              0.0160138,
+              0.0157192,
+              0.0159072,
+              0.0158331
+            ],
+            "median_seconds": 0.0158331
+          },
+          "on": {
+            "run_paths": [
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0081-timing-s100003-g16384-concentrated-on-r1-c01081",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0100-timing-s100003-g16384-concentrated-on-r2-aab9a8",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0121-timing-s100003-g16384-concentrated-on-r3-4ffa51",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0138-timing-s100003-g16384-concentrated-on-r4-223c08",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0159-timing-s100003-g16384-concentrated-on-r5-eaf6d7"
+            ],
+            "epoch_seconds": [
+              0.0241845,
+              0.0164654,
+              0.0138628,
+              0.0185602,
+              0.0214225
+            ],
+            "median_seconds": 0.0185602
+          }
+        },
+        "off_over_on": 0.853067316084956
+      },
+      {
+        "seed": 100003,
+        "layout": "spread",
+        "grain": 8,
+        "modes": {
+          "off": {
+            "run_paths": [
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0082-timing-s100003-g8-spread-off-r1-8ae97b",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0103-timing-s100003-g8-spread-off-r2-b0a13e",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0122-timing-s100003-g8-spread-off-r3-6b5fdd",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0141-timing-s100003-g8-spread-off-r4-e36268",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0160-timing-s100003-g8-spread-off-r5-f71e49"
+            ],
+            "epoch_seconds": [
+              0.0098106,
+              0.0038752,
+              0.0034927,
+              0.0036855,
+              0.0039707
+            ],
+            "median_seconds": 0.0038752
+          },
+          "on": {
+            "run_paths": [
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0083-timing-s100003-g8-spread-on-r1-f103f3",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0102-timing-s100003-g8-spread-on-r2-89fea4",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0123-timing-s100003-g8-spread-on-r3-f42ea5",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0140-timing-s100003-g8-spread-on-r4-6345e6",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0161-timing-s100003-g8-spread-on-r5-9c486d"
+            ],
+            "epoch_seconds": [
+              0.0026942,
+              0.0025615,
+              0.0023194,
+              0.0026421,
+              0.0027345
+            ],
+            "median_seconds": 0.0026421
+          }
+        },
+        "off_over_on": 1.4667120850838349
+      },
+      {
+        "seed": 100003,
+        "layout": "spread",
+        "grain": 256,
+        "modes": {
+          "off": {
+            "run_paths": [
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0078-timing-s100003-g256-spread-off-r1-645ad9",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0099-timing-s100003-g256-spread-off-r2-4334bc",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0118-timing-s100003-g256-spread-off-r3-2569e4",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0137-timing-s100003-g256-spread-off-r4-18d593",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0156-timing-s100003-g256-spread-off-r5-018920"
+            ],
+            "epoch_seconds": [
+              0.0035828,
+              0.0031517,
+              0.0037872,
+              0.0033749,
+              0.0034563
+            ],
+            "median_seconds": 0.0034563
+          },
+          "on": {
+            "run_paths": [
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0079-timing-s100003-g256-spread-on-r1-8f4a56",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0098-timing-s100003-g256-spread-on-r2-c45b5d",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0119-timing-s100003-g256-spread-on-r3-8a32df",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0136-timing-s100003-g256-spread-on-r4-e04c1c",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0157-timing-s100003-g256-spread-on-r5-d40488"
+            ],
+            "epoch_seconds": [
+              0.0030946,
+              0.0029262,
+              0.0026525,
+              0.0027942,
+              0.0023891
+            ],
+            "median_seconds": 0.0027942
+          }
+        },
+        "off_over_on": 1.2369551213227399
+      },
+      {
+        "seed": 100003,
+        "layout": "spread",
+        "grain": 16384,
+        "modes": {
+          "off": {
+            "run_paths": [
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0060-timing-s100003-g16384-spread-off-r1-c5539e",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0105-timing-s100003-g16384-spread-off-r2-aee57c",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0124-timing-s100003-g16384-spread-off-r3-7a7724",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0143-timing-s100003-g16384-spread-off-r4-fce480",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0162-timing-s100003-g16384-spread-off-r5-93cb86"
+            ],
+            "epoch_seconds": [
+              0.0161682,
+              0.0138926,
+              0.0155785,
+              0.0181462,
+              0.0158732
+            ],
+            "median_seconds": 0.0158732
+          },
+          "on": {
+            "run_paths": [
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0061-timing-s100003-g16384-spread-on-r1-5d3dcc",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0104-timing-s100003-g16384-spread-on-r2-25bfde",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0125-timing-s100003-g16384-spread-on-r3-16e33b",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0142-timing-s100003-g16384-spread-on-r4-2962fd",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0163-timing-s100003-g16384-spread-on-r5-224d33"
+            ],
+            "epoch_seconds": [
+              0.0198646,
+              0.0136074,
+              0.0156984,
+              0.0279445,
+              0.015285
+            ],
+            "median_seconds": 0.0156984
+          }
+        },
+        "off_over_on": 1.0111348927279213
+      },
+      {
+        "seed": 106013,
+        "layout": "concentrated",
+        "grain": 8,
+        "modes": {
+          "off": {
+            "run_paths": [
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0072-timing-s106013-g8-concentrated-off-r1-c28d72",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0093-timing-s106013-g8-concentrated-off-r2-600179",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0112-timing-s106013-g8-concentrated-off-r3-53e46b",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0155-timing-s106013-g8-concentrated-off-r4-8940cf",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0174-timing-s106013-g8-concentrated-off-r5-5baa28"
+            ],
+            "epoch_seconds": [
+              0.0121847,
+              0.01102,
+              0.010006,
+              0.0127087,
+              0.0108417
+            ],
+            "median_seconds": 0.01102
+          },
+          "on": {
+            "run_paths": [
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0073-timing-s106013-g8-concentrated-on-r1-9937b1",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0092-timing-s106013-g8-concentrated-on-r2-375e99",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0113-timing-s106013-g8-concentrated-on-r3-018a97",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0154-timing-s106013-g8-concentrated-on-r4-86210e",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0175-timing-s106013-g8-concentrated-on-r5-78149c"
+            ],
+            "epoch_seconds": [
+              0.004352,
+              0.0051524,
+              0.0040881,
+              0.0042052,
+              0.003686
+            ],
+            "median_seconds": 0.0042052
+          }
+        },
+        "off_over_on": 2.620565014743651
+      },
+      {
+        "seed": 106013,
+        "layout": "concentrated",
+        "grain": 256,
+        "modes": {
+          "off": {
+            "run_paths": [
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0068-timing-s106013-g256-concentrated-off-r1-c06173",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0089-timing-s106013-g256-concentrated-off-r2-377390",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0108-timing-s106013-g256-concentrated-off-r3-a5edc7",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0151-timing-s106013-g256-concentrated-off-r4-6af9e3",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0170-timing-s106013-g256-concentrated-off-r5-4f0250"
+            ],
+            "epoch_seconds": [
+              0.0133816,
+              0.0121845,
+              0.0117034,
+              0.0119452,
+              0.0117217
+            ],
+            "median_seconds": 0.0119452
+          },
+          "on": {
+            "run_paths": [
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0069-timing-s106013-g256-concentrated-on-r1-f84ed0",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0088-timing-s106013-g256-concentrated-on-r2-9c9184",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0109-timing-s106013-g256-concentrated-on-r3-f404ea",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0150-timing-s106013-g256-concentrated-on-r4-47c7c5",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0171-timing-s106013-g256-concentrated-on-r5-976875"
+            ],
+            "epoch_seconds": [
+              0.0044264,
+              0.0040792,
+              0.0043842,
+              0.0037137,
+              0.0035893
+            ],
+            "median_seconds": 0.0040792
+          }
+        },
+        "off_over_on": 2.9283192782898606
+      },
+      {
+        "seed": 106013,
+        "layout": "concentrated",
+        "grain": 16384,
+        "modes": {
+          "off": {
+            "run_paths": [
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0070-timing-s106013-g16384-concentrated-off-r1-7f14dd",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0091-timing-s106013-g16384-concentrated-off-r2-b4921d",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0110-timing-s106013-g16384-concentrated-off-r3-6b5340",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0153-timing-s106013-g16384-concentrated-off-r4-a322cc",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0172-timing-s106013-g16384-concentrated-off-r5-3f82c8"
+            ],
+            "epoch_seconds": [
+              0.0230572,
+              0.025044,
+              0.0236739,
+              0.022545,
+              0.0236789
+            ],
+            "median_seconds": 0.0236739
+          },
+          "on": {
+            "run_paths": [
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0071-timing-s106013-g16384-concentrated-on-r1-4fbd1d",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0090-timing-s106013-g16384-concentrated-on-r2-57e39d",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0111-timing-s106013-g16384-concentrated-on-r3-f15702",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0152-timing-s106013-g16384-concentrated-on-r4-d85931",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0173-timing-s106013-g16384-concentrated-on-r5-54ecc4"
+            ],
+            "epoch_seconds": [
+              0.0435193,
+              0.0202302,
+              0.02093,
+              0.024006,
+              0.0297319
+            ],
+            "median_seconds": 0.024006
+          }
+        },
+        "off_over_on": 0.9861659585103725
+      },
+      {
+        "seed": 106013,
+        "layout": "spread",
+        "grain": 8,
+        "modes": {
+          "off": {
+            "run_paths": [
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0066-timing-s106013-g8-spread-off-r1-8d9e63",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0087-timing-s106013-g8-spread-off-r2-133df3",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0130-timing-s106013-g8-spread-off-r3-dbc339",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0149-timing-s106013-g8-spread-off-r4-9b299d",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0168-timing-s106013-g8-spread-off-r5-2322be"
+            ],
+            "epoch_seconds": [
+              0.0051305,
+              0.0049555,
+              0.0045515,
+              0.0051265,
+              0.0054029
+            ],
+            "median_seconds": 0.0051265
+          },
+          "on": {
+            "run_paths": [
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0067-timing-s106013-g8-spread-on-r1-91ebde",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0086-timing-s106013-g8-spread-on-r2-328822",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0131-timing-s106013-g8-spread-on-r3-a99cda",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0148-timing-s106013-g8-spread-on-r4-3ef739",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0169-timing-s106013-g8-spread-on-r5-2016ec"
+            ],
+            "epoch_seconds": [
+              0.004234,
+              0.0045655,
+              0.0038289,
+              0.0039808,
+              0.0041523
+            ],
+            "median_seconds": 0.0041523
+          }
+        },
+        "off_over_on": 1.234616959275582
+      },
+      {
+        "seed": 106013,
+        "layout": "spread",
+        "grain": 256,
+        "modes": {
+          "off": {
+            "run_paths": [
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0062-timing-s106013-g256-spread-off-r1-07dfad",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0107-timing-s106013-g256-spread-off-r2-407176",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0126-timing-s106013-g256-spread-off-r3-160536",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0145-timing-s106013-g256-spread-off-r4-31b13c",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0164-timing-s106013-g256-spread-off-r5-be5c4e"
+            ],
+            "epoch_seconds": [
+              0.0052429,
+              0.004345,
+              0.0049206,
+              0.0050101,
+              0.0051397
+            ],
+            "median_seconds": 0.0050101
+          },
+          "on": {
+            "run_paths": [
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0063-timing-s106013-g256-spread-on-r1-ee11fd",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0106-timing-s106013-g256-spread-on-r2-d2efcf",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0127-timing-s106013-g256-spread-on-r3-0d6d67",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0144-timing-s106013-g256-spread-on-r4-a4f778",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0165-timing-s106013-g256-spread-on-r5-4c6430"
+            ],
+            "epoch_seconds": [
+              0.0036297,
+              0.0043688,
+              0.0040065,
+              0.0047008,
+              0.0039237
+            ],
+            "median_seconds": 0.0040065
+          }
+        },
+        "off_over_on": 1.2504929489579435
+      },
+      {
+        "seed": 106013,
+        "layout": "spread",
+        "grain": 16384,
+        "modes": {
+          "off": {
+            "run_paths": [
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0076-timing-s106013-g16384-spread-off-r1-9ce052",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0097-timing-s106013-g16384-spread-off-r2-67199b",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0116-timing-s106013-g16384-spread-off-r3-7c42eb",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0135-timing-s106013-g16384-spread-off-r4-3ba780",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0178-timing-s106013-g16384-spread-off-r5-62515d"
+            ],
+            "epoch_seconds": [
+              0.02035,
+              0.0243193,
+              0.0220034,
+              0.0221807,
+              0.0224662
+            ],
+            "median_seconds": 0.0221807
+          },
+          "on": {
+            "run_paths": [
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0077-timing-s106013-g16384-spread-on-r1-e3d206",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0096-timing-s106013-g16384-spread-on-r2-f6a211",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0117-timing-s106013-g16384-spread-on-r3-c3642b",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0134-timing-s106013-g16384-spread-on-r4-8b48c7",
+              "stealing-boundary/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0179-timing-s106013-g16384-spread-on-r5-91085c"
+            ],
+            "epoch_seconds": [
+              0.0262032,
+              0.0326014,
+              0.0224434,
+              0.0219207,
+              0.0258176
+            ],
+            "median_seconds": 0.0258176
+          }
+        },
+        "off_over_on": 0.8591309804164602
+      }
+    ]
+  }
+}

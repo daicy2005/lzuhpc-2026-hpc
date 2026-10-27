@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "checked_date": "2026-10-15",
+  "repository": "https://github.com/LZUOSS/LZUHPC",
+  "commit": "33dad592cd74d8cf36ae7921a29c0e8393034a70",
+  "hash_scope": "Windows checkout bytes; not normalized LF archive",
+  "documents": [
+    {
+      "path": "assignments/2026/autumn/HPC.Proj/README.md",
+      "sha256": "1a2e38102a908d7a65ba9c5b75d278d721cca879644417445f21600755d02662"
+    },
+    {
+      "path": "assignments/2026/autumn/README.md",
+      "sha256": "a114002a25b18f345730ccdb1758699ce065ecc0f1ea0fd426038b42e65c0c1a"
+    }
+  ]
+}

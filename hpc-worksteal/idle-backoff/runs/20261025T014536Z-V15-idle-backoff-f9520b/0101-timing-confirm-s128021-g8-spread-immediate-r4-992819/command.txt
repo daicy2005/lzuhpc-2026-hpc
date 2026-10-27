@@ -1,0 +1,11 @@
+{
+  "cwd": "/root/lzuhpc-experiments/ws-20261025-idle-backoff-v2",
+  "argv": [
+    "/root/lzuhpc-experiments/ws-20261022-fill-interleaved-release/build-none/worksteal",
+    "--config",
+    "/root/lzuhpc-experiments/ws-20261025-idle-backoff-v2/runs/20261025T014536Z-V15-idle-backoff-f9520b/0101-timing-confirm-s128021-g8-spread-immediate-r4-992819/config.json",
+    "--output",
+    "/root/lzuhpc-experiments/ws-20261025-idle-backoff-v2/runs/20261025T014536Z-V15-idle-backoff-f9520b/0101-timing-confirm-s128021-g8-spread-immediate-r4-992819/result.json"
+  ],
+  "explicit_environment": {}
+}

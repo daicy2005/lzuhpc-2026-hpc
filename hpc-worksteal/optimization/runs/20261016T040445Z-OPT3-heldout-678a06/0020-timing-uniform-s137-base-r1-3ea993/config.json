@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "executor": "worksteal",
+  "workers": 4,
+  "workload": {
+    "name": "compute_uniform",
+    "elements": 196608,
+    "iterations": 1024,
+    "seed": 137
+  },
+  "policies": {
+    "partition": {
+      "name": "fixed_grain",
+      "grain": 64
+    },
+    "victim": {
+      "name": "round_robin"
+    },
+    "steal_timing": {
+      "name": "immediate"
+    },
+    "migration": {
+      "name": "single"
+    },
+    "affinity": {
+      "name": "explicit",
+      "cpus": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "placement": {
+      "name": "round_robin"
+    }
+  },
+  "measurement": {
+    "mode": "timing",
+    "epochs": 1
+  },
+  "layout": "policy",
+  "layout_seed": 137
+}

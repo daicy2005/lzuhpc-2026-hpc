@@ -1,0 +1,17 @@
+{
+  "created": "2026-10-27T05:31:45.715819+00:00",
+  "previous_root": "/root/lzuhpc-experiments/ws-20261025-victim-selection",
+  "files": {
+    "frozen-plan.json": "02b02a866bfd2308a6300c80bee6c67104b73c5f5f70d04f6799529937c9d5b5",
+    "preparation.json": "03c065b1592bcc65a8e04ec1d7a8332f9928916314fc498126a1519c8c8a54fd",
+    "availability-9ef8d2031dd04e0e923e4746ca5894b2.json": "986199f507b434ed651ad2b6e582079e92fba61f0c859508e312664e987b17d3",
+    "availability-cd778c02b42f497d9fe09606c4c04568.json": "a63095b4da817c4b7269a7c2f8457b4ddad9f57e588b90323956bf6b9e4d9402"
+  },
+  "availability_files": [
+    "availability-9ef8d2031dd04e0e923e4746ca5894b2.json",
+    "availability-cd778c02b42f497d9fe09606c4c04568.json"
+  ],
+  "prior_research_processes": 0,
+  "max_resource_windows": 1,
+  "original_collector_sha256": "60bd0729768e7ddc8a027d875748d43644bc05733d2958af5721c84c271d3157"
+}

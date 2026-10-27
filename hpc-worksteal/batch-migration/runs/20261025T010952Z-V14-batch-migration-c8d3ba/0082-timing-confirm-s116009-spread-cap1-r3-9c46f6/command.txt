@@ -1,0 +1,11 @@
+{
+  "cwd": "/root/lzuhpc-experiments/ws-20261025-batch-migration-study",
+  "argv": [
+    "/root/lzuhpc-experiments/ws-20261022-fill-interleaved-release/build-none/worksteal",
+    "--config",
+    "/root/lzuhpc-experiments/ws-20261025-batch-migration-study/runs/20261025T010952Z-V14-batch-migration-c8d3ba/0082-timing-confirm-s116009-spread-cap1-r3-9c46f6/config.json",
+    "--output",
+    "/root/lzuhpc-experiments/ws-20261025-batch-migration-study/runs/20261025T010952Z-V14-batch-migration-c8d3ba/0082-timing-confirm-s116009-spread-cap1-r3-9c46f6/result.json"
+  ],
+  "explicit_environment": {}
+}

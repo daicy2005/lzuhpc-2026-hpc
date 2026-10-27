@@ -1,0 +1,2328 @@
+{
+  "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+  "created": "2026-10-25T01:45:36.835611+00:00",
+  "source_id": "58b4b8de8b7398e9a5a5d4439c73ed2f7461d46d9550b83615ca768247e9b7d5",
+  "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+  "budget_seconds": 600,
+  "stage": "V15-idle-backoff",
+  "conditions": [
+    {
+      "id": "control-s126007-g8-concentrated-immediate",
+      "stage": "control",
+      "grain": 8,
+      "policy": "immediate",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 1031,
+          "iterations": 7,
+          "seed": 126007
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "diagnostic",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 126007
+      }
+    },
+    {
+      "id": "control-s126007-g8-concentrated-bounded_backoff",
+      "stage": "control",
+      "grain": 8,
+      "policy": "bounded_backoff",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 1031,
+          "iterations": 7,
+          "seed": 126007
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "bounded_backoff"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "diagnostic",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 126007
+      }
+    },
+    {
+      "id": "control-s126007-g8-spread-immediate",
+      "stage": "control",
+      "grain": 8,
+      "policy": "immediate",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 1031,
+          "iterations": 7,
+          "seed": 126007
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "diagnostic",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 126007
+      }
+    },
+    {
+      "id": "control-s126007-g8-spread-bounded_backoff",
+      "stage": "control",
+      "grain": 8,
+      "policy": "bounded_backoff",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 1031,
+          "iterations": 7,
+          "seed": 126007
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "bounded_backoff"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "diagnostic",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 126007
+      }
+    },
+    {
+      "id": "control-s126007-g256-concentrated-immediate",
+      "stage": "control",
+      "grain": 256,
+      "policy": "immediate",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 1031,
+          "iterations": 7,
+          "seed": 126007
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 256
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "diagnostic",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 126007
+      }
+    },
+    {
+      "id": "control-s126007-g256-concentrated-bounded_backoff",
+      "stage": "control",
+      "grain": 256,
+      "policy": "bounded_backoff",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 1031,
+          "iterations": 7,
+          "seed": 126007
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 256
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "bounded_backoff"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "diagnostic",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 126007
+      }
+    },
+    {
+      "id": "control-s126007-g256-spread-immediate",
+      "stage": "control",
+      "grain": 256,
+      "policy": "immediate",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 1031,
+          "iterations": 7,
+          "seed": 126007
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 256
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "diagnostic",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 126007
+      }
+    },
+    {
+      "id": "control-s126007-g256-spread-bounded_backoff",
+      "stage": "control",
+      "grain": 256,
+      "policy": "bounded_backoff",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 1031,
+          "iterations": 7,
+          "seed": 126007
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 256
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "bounded_backoff"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "diagnostic",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 126007
+      }
+    },
+    {
+      "id": "confirm-s128021-g8-concentrated-immediate",
+      "stage": "confirm",
+      "grain": 8,
+      "policy": "immediate",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 73728,
+          "iterations": 256,
+          "seed": 128021
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 128021
+      }
+    },
+    {
+      "id": "confirm-s128021-g8-concentrated-bounded_backoff",
+      "stage": "confirm",
+      "grain": 8,
+      "policy": "bounded_backoff",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 73728,
+          "iterations": 256,
+          "seed": 128021
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "bounded_backoff"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 128021
+      }
+    },
+    {
+      "id": "confirm-s128021-g8-spread-immediate",
+      "stage": "confirm",
+      "grain": 8,
+      "policy": "immediate",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 73728,
+          "iterations": 256,
+          "seed": 128021
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 128021
+      }
+    },
+    {
+      "id": "confirm-s128021-g8-spread-bounded_backoff",
+      "stage": "confirm",
+      "grain": 8,
+      "policy": "bounded_backoff",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 73728,
+          "iterations": 256,
+          "seed": 128021
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "bounded_backoff"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 128021
+      }
+    },
+    {
+      "id": "confirm-s128021-g256-concentrated-immediate",
+      "stage": "confirm",
+      "grain": 256,
+      "policy": "immediate",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 73728,
+          "iterations": 256,
+          "seed": 128021
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 256
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 128021
+      }
+    },
+    {
+      "id": "confirm-s128021-g256-concentrated-bounded_backoff",
+      "stage": "confirm",
+      "grain": 256,
+      "policy": "bounded_backoff",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 73728,
+          "iterations": 256,
+          "seed": 128021
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 256
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "bounded_backoff"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 128021
+      }
+    },
+    {
+      "id": "confirm-s128021-g256-spread-immediate",
+      "stage": "confirm",
+      "grain": 256,
+      "policy": "immediate",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 73728,
+          "iterations": 256,
+          "seed": 128021
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 256
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 128021
+      }
+    },
+    {
+      "id": "confirm-s128021-g256-spread-bounded_backoff",
+      "stage": "confirm",
+      "grain": 256,
+      "policy": "bounded_backoff",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 73728,
+          "iterations": 256,
+          "seed": 128021
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 256
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "bounded_backoff"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 128021
+      }
+    },
+    {
+      "id": "confirm-s134033-g8-concentrated-immediate",
+      "stage": "confirm",
+      "grain": 8,
+      "policy": "immediate",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 106496,
+          "iterations": 256,
+          "seed": 134033
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 134033
+      }
+    },
+    {
+      "id": "confirm-s134033-g8-concentrated-bounded_backoff",
+      "stage": "confirm",
+      "grain": 8,
+      "policy": "bounded_backoff",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 106496,
+          "iterations": 256,
+          "seed": 134033
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "bounded_backoff"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 134033
+      }
+    },
+    {
+      "id": "confirm-s134033-g8-spread-immediate",
+      "stage": "confirm",
+      "grain": 8,
+      "policy": "immediate",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 106496,
+          "iterations": 256,
+          "seed": 134033
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 134033
+      }
+    },
+    {
+      "id": "confirm-s134033-g8-spread-bounded_backoff",
+      "stage": "confirm",
+      "grain": 8,
+      "policy": "bounded_backoff",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 106496,
+          "iterations": 256,
+          "seed": 134033
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "bounded_backoff"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 134033
+      }
+    },
+    {
+      "id": "confirm-s134033-g256-concentrated-immediate",
+      "stage": "confirm",
+      "grain": 256,
+      "policy": "immediate",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 106496,
+          "iterations": 256,
+          "seed": 134033
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 256
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 134033
+      }
+    },
+    {
+      "id": "confirm-s134033-g256-concentrated-bounded_backoff",
+      "stage": "confirm",
+      "grain": 256,
+      "policy": "bounded_backoff",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 106496,
+          "iterations": 256,
+          "seed": 134033
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 256
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "bounded_backoff"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 134033
+      }
+    },
+    {
+      "id": "confirm-s134033-g256-spread-immediate",
+      "stage": "confirm",
+      "grain": 256,
+      "policy": "immediate",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 106496,
+          "iterations": 256,
+          "seed": 134033
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 256
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 134033
+      }
+    },
+    {
+      "id": "confirm-s134033-g256-spread-bounded_backoff",
+      "stage": "confirm",
+      "grain": 256,
+      "policy": "bounded_backoff",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 106496,
+          "iterations": 256,
+          "seed": 134033
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 256
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "bounded_backoff"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 134033
+      }
+    }
+  ],
+  "pairs": [
+    [
+      "confirm-s134033-g256-concentrated-immediate",
+      "confirm-s134033-g256-concentrated-bounded_backoff"
+    ],
+    [
+      "confirm-s128021-g8-spread-immediate",
+      "confirm-s128021-g8-spread-bounded_backoff"
+    ],
+    [
+      "confirm-s134033-g8-concentrated-immediate",
+      "confirm-s134033-g8-concentrated-bounded_backoff"
+    ],
+    [
+      "confirm-s128021-g256-concentrated-immediate",
+      "confirm-s128021-g256-concentrated-bounded_backoff"
+    ],
+    [
+      "confirm-s128021-g8-concentrated-immediate",
+      "confirm-s128021-g8-concentrated-bounded_backoff"
+    ],
+    [
+      "confirm-s134033-g8-spread-immediate",
+      "confirm-s134033-g8-spread-bounded_backoff"
+    ],
+    [
+      "confirm-s128021-g256-spread-immediate",
+      "confirm-s128021-g256-spread-bounded_backoff"
+    ],
+    [
+      "confirm-s134033-g256-spread-immediate",
+      "confirm-s134033-g256-spread-bounded_backoff"
+    ]
+  ],
+  "order": [
+    [
+      "control",
+      0,
+      "control-s126007-g8-concentrated-immediate"
+    ],
+    [
+      "control",
+      0,
+      "control-s126007-g8-concentrated-bounded_backoff"
+    ],
+    [
+      "control",
+      0,
+      "control-s126007-g8-spread-immediate"
+    ],
+    [
+      "control",
+      0,
+      "control-s126007-g8-spread-bounded_backoff"
+    ],
+    [
+      "control",
+      0,
+      "control-s126007-g256-concentrated-immediate"
+    ],
+    [
+      "control",
+      0,
+      "control-s126007-g256-concentrated-bounded_backoff"
+    ],
+    [
+      "control",
+      0,
+      "control-s126007-g256-spread-immediate"
+    ],
+    [
+      "control",
+      0,
+      "control-s126007-g256-spread-bounded_backoff"
+    ],
+    [
+      "diagnostic",
+      0,
+      "confirm-s134033-g256-concentrated-immediate"
+    ],
+    [
+      "diagnostic",
+      0,
+      "confirm-s134033-g256-concentrated-bounded_backoff"
+    ],
+    [
+      "diagnostic",
+      0,
+      "confirm-s128021-g8-spread-immediate"
+    ],
+    [
+      "diagnostic",
+      0,
+      "confirm-s128021-g8-spread-bounded_backoff"
+    ],
+    [
+      "diagnostic",
+      0,
+      "confirm-s134033-g8-concentrated-immediate"
+    ],
+    [
+      "diagnostic",
+      0,
+      "confirm-s134033-g8-concentrated-bounded_backoff"
+    ],
+    [
+      "diagnostic",
+      0,
+      "confirm-s128021-g256-concentrated-immediate"
+    ],
+    [
+      "diagnostic",
+      0,
+      "confirm-s128021-g256-concentrated-bounded_backoff"
+    ],
+    [
+      "diagnostic",
+      0,
+      "confirm-s128021-g8-concentrated-immediate"
+    ],
+    [
+      "diagnostic",
+      0,
+      "confirm-s128021-g8-concentrated-bounded_backoff"
+    ],
+    [
+      "diagnostic",
+      0,
+      "confirm-s134033-g8-spread-immediate"
+    ],
+    [
+      "diagnostic",
+      0,
+      "confirm-s134033-g8-spread-bounded_backoff"
+    ],
+    [
+      "diagnostic",
+      0,
+      "confirm-s128021-g256-spread-immediate"
+    ],
+    [
+      "diagnostic",
+      0,
+      "confirm-s128021-g256-spread-bounded_backoff"
+    ],
+    [
+      "diagnostic",
+      0,
+      "confirm-s134033-g256-spread-immediate"
+    ],
+    [
+      "diagnostic",
+      0,
+      "confirm-s134033-g256-spread-bounded_backoff"
+    ],
+    [
+      "warmup",
+      0,
+      "confirm-s134033-g256-concentrated-immediate"
+    ],
+    [
+      "warmup",
+      0,
+      "confirm-s134033-g256-concentrated-bounded_backoff"
+    ],
+    [
+      "warmup",
+      0,
+      "confirm-s128021-g8-spread-immediate"
+    ],
+    [
+      "warmup",
+      0,
+      "confirm-s128021-g8-spread-bounded_backoff"
+    ],
+    [
+      "warmup",
+      0,
+      "confirm-s134033-g8-concentrated-immediate"
+    ],
+    [
+      "warmup",
+      0,
+      "confirm-s134033-g8-concentrated-bounded_backoff"
+    ],
+    [
+      "warmup",
+      0,
+      "confirm-s128021-g256-concentrated-immediate"
+    ],
+    [
+      "warmup",
+      0,
+      "confirm-s128021-g256-concentrated-bounded_backoff"
+    ],
+    [
+      "warmup",
+      0,
+      "confirm-s128021-g8-concentrated-immediate"
+    ],
+    [
+      "warmup",
+      0,
+      "confirm-s128021-g8-concentrated-bounded_backoff"
+    ],
+    [
+      "warmup",
+      0,
+      "confirm-s134033-g8-spread-immediate"
+    ],
+    [
+      "warmup",
+      0,
+      "confirm-s134033-g8-spread-bounded_backoff"
+    ],
+    [
+      "warmup",
+      0,
+      "confirm-s128021-g256-spread-immediate"
+    ],
+    [
+      "warmup",
+      0,
+      "confirm-s128021-g256-spread-bounded_backoff"
+    ],
+    [
+      "warmup",
+      0,
+      "confirm-s134033-g256-spread-immediate"
+    ],
+    [
+      "warmup",
+      0,
+      "confirm-s134033-g256-spread-bounded_backoff"
+    ],
+    [
+      "timing",
+      1,
+      "confirm-s134033-g256-concentrated-immediate"
+    ],
+    [
+      "timing",
+      1,
+      "confirm-s134033-g256-concentrated-bounded_backoff"
+    ],
+    [
+      "timing",
+      1,
+      "confirm-s128021-g8-spread-immediate"
+    ],
+    [
+      "timing",
+      1,
+      "confirm-s128021-g8-spread-bounded_backoff"
+    ],
+    [
+      "timing",
+      1,
+      "confirm-s134033-g8-concentrated-immediate"
+    ],
+    [
+      "timing",
+      1,
+      "confirm-s134033-g8-concentrated-bounded_backoff"
+    ],
+    [
+      "timing",
+      1,
+      "confirm-s128021-g256-concentrated-immediate"
+    ],
+    [
+      "timing",
+      1,
+      "confirm-s128021-g256-concentrated-bounded_backoff"
+    ],
+    [
+      "timing",
+      1,
+      "confirm-s128021-g8-concentrated-immediate"
+    ],
+    [
+      "timing",
+      1,
+      "confirm-s128021-g8-concentrated-bounded_backoff"
+    ],
+    [
+      "timing",
+      1,
+      "confirm-s134033-g8-spread-immediate"
+    ],
+    [
+      "timing",
+      1,
+      "confirm-s134033-g8-spread-bounded_backoff"
+    ],
+    [
+      "timing",
+      1,
+      "confirm-s128021-g256-spread-immediate"
+    ],
+    [
+      "timing",
+      1,
+      "confirm-s128021-g256-spread-bounded_backoff"
+    ],
+    [
+      "timing",
+      1,
+      "confirm-s134033-g256-spread-immediate"
+    ],
+    [
+      "timing",
+      1,
+      "confirm-s134033-g256-spread-bounded_backoff"
+    ],
+    [
+      "timing",
+      2,
+      "confirm-s128021-g8-spread-bounded_backoff"
+    ],
+    [
+      "timing",
+      2,
+      "confirm-s128021-g8-spread-immediate"
+    ],
+    [
+      "timing",
+      2,
+      "confirm-s134033-g8-concentrated-bounded_backoff"
+    ],
+    [
+      "timing",
+      2,
+      "confirm-s134033-g8-concentrated-immediate"
+    ],
+    [
+      "timing",
+      2,
+      "confirm-s128021-g256-concentrated-bounded_backoff"
+    ],
+    [
+      "timing",
+      2,
+      "confirm-s128021-g256-concentrated-immediate"
+    ],
+    [
+      "timing",
+      2,
+      "confirm-s128021-g8-concentrated-bounded_backoff"
+    ],
+    [
+      "timing",
+      2,
+      "confirm-s128021-g8-concentrated-immediate"
+    ],
+    [
+      "timing",
+      2,
+      "confirm-s134033-g8-spread-bounded_backoff"
+    ],
+    [
+      "timing",
+      2,
+      "confirm-s134033-g8-spread-immediate"
+    ],
+    [
+      "timing",
+      2,
+      "confirm-s128021-g256-spread-bounded_backoff"
+    ],
+    [
+      "timing",
+      2,
+      "confirm-s128021-g256-spread-immediate"
+    ],
+    [
+      "timing",
+      2,
+      "confirm-s134033-g256-spread-bounded_backoff"
+    ],
+    [
+      "timing",
+      2,
+      "confirm-s134033-g256-spread-immediate"
+    ],
+    [
+      "timing",
+      2,
+      "confirm-s134033-g256-concentrated-bounded_backoff"
+    ],
+    [
+      "timing",
+      2,
+      "confirm-s134033-g256-concentrated-immediate"
+    ],
+    [
+      "timing",
+      3,
+      "confirm-s134033-g8-concentrated-immediate"
+    ],
+    [
+      "timing",
+      3,
+      "confirm-s134033-g8-concentrated-bounded_backoff"
+    ],
+    [
+      "timing",
+      3,
+      "confirm-s128021-g256-concentrated-immediate"
+    ],
+    [
+      "timing",
+      3,
+      "confirm-s128021-g256-concentrated-bounded_backoff"
+    ],
+    [
+      "timing",
+      3,
+      "confirm-s128021-g8-concentrated-immediate"
+    ],
+    [
+      "timing",
+      3,
+      "confirm-s128021-g8-concentrated-bounded_backoff"
+    ],
+    [
+      "timing",
+      3,
+      "confirm-s134033-g8-spread-immediate"
+    ],
+    [
+      "timing",
+      3,
+      "confirm-s134033-g8-spread-bounded_backoff"
+    ],
+    [
+      "timing",
+      3,
+      "confirm-s128021-g256-spread-immediate"
+    ],
+    [
+      "timing",
+      3,
+      "confirm-s128021-g256-spread-bounded_backoff"
+    ],
+    [
+      "timing",
+      3,
+      "confirm-s134033-g256-spread-immediate"
+    ],
+    [
+      "timing",
+      3,
+      "confirm-s134033-g256-spread-bounded_backoff"
+    ],
+    [
+      "timing",
+      3,
+      "confirm-s134033-g256-concentrated-immediate"
+    ],
+    [
+      "timing",
+      3,
+      "confirm-s134033-g256-concentrated-bounded_backoff"
+    ],
+    [
+      "timing",
+      3,
+      "confirm-s128021-g8-spread-immediate"
+    ],
+    [
+      "timing",
+      3,
+      "confirm-s128021-g8-spread-bounded_backoff"
+    ],
+    [
+      "timing",
+      4,
+      "confirm-s128021-g256-concentrated-bounded_backoff"
+    ],
+    [
+      "timing",
+      4,
+      "confirm-s128021-g256-concentrated-immediate"
+    ],
+    [
+      "timing",
+      4,
+      "confirm-s128021-g8-concentrated-bounded_backoff"
+    ],
+    [
+      "timing",
+      4,
+      "confirm-s128021-g8-concentrated-immediate"
+    ],
+    [
+      "timing",
+      4,
+      "confirm-s134033-g8-spread-bounded_backoff"
+    ],
+    [
+      "timing",
+      4,
+      "confirm-s134033-g8-spread-immediate"
+    ],
+    [
+      "timing",
+      4,
+      "confirm-s128021-g256-spread-bounded_backoff"
+    ],
+    [
+      "timing",
+      4,
+      "confirm-s128021-g256-spread-immediate"
+    ],
+    [
+      "timing",
+      4,
+      "confirm-s134033-g256-spread-bounded_backoff"
+    ],
+    [
+      "timing",
+      4,
+      "confirm-s134033-g256-spread-immediate"
+    ],
+    [
+      "timing",
+      4,
+      "confirm-s134033-g256-concentrated-bounded_backoff"
+    ],
+    [
+      "timing",
+      4,
+      "confirm-s134033-g256-concentrated-immediate"
+    ],
+    [
+      "timing",
+      4,
+      "confirm-s128021-g8-spread-bounded_backoff"
+    ],
+    [
+      "timing",
+      4,
+      "confirm-s128021-g8-spread-immediate"
+    ],
+    [
+      "timing",
+      4,
+      "confirm-s134033-g8-concentrated-bounded_backoff"
+    ],
+    [
+      "timing",
+      4,
+      "confirm-s134033-g8-concentrated-immediate"
+    ],
+    [
+      "timing",
+      5,
+      "confirm-s128021-g8-concentrated-immediate"
+    ],
+    [
+      "timing",
+      5,
+      "confirm-s128021-g8-concentrated-bounded_backoff"
+    ],
+    [
+      "timing",
+      5,
+      "confirm-s134033-g8-spread-immediate"
+    ],
+    [
+      "timing",
+      5,
+      "confirm-s134033-g8-spread-bounded_backoff"
+    ],
+    [
+      "timing",
+      5,
+      "confirm-s128021-g256-spread-immediate"
+    ],
+    [
+      "timing",
+      5,
+      "confirm-s128021-g256-spread-bounded_backoff"
+    ],
+    [
+      "timing",
+      5,
+      "confirm-s134033-g256-spread-immediate"
+    ],
+    [
+      "timing",
+      5,
+      "confirm-s134033-g256-spread-bounded_backoff"
+    ],
+    [
+      "timing",
+      5,
+      "confirm-s134033-g256-concentrated-immediate"
+    ],
+    [
+      "timing",
+      5,
+      "confirm-s134033-g256-concentrated-bounded_backoff"
+    ],
+    [
+      "timing",
+      5,
+      "confirm-s128021-g8-spread-immediate"
+    ],
+    [
+      "timing",
+      5,
+      "confirm-s128021-g8-spread-bounded_backoff"
+    ],
+    [
+      "timing",
+      5,
+      "confirm-s134033-g8-concentrated-immediate"
+    ],
+    [
+      "timing",
+      5,
+      "confirm-s134033-g8-concentrated-bounded_backoff"
+    ],
+    [
+      "timing",
+      5,
+      "confirm-s128021-g256-concentrated-immediate"
+    ],
+    [
+      "timing",
+      5,
+      "confirm-s128021-g256-concentrated-bounded_backoff"
+    ],
+    [
+      "timing",
+      6,
+      "confirm-s134033-g8-spread-bounded_backoff"
+    ],
+    [
+      "timing",
+      6,
+      "confirm-s134033-g8-spread-immediate"
+    ],
+    [
+      "timing",
+      6,
+      "confirm-s128021-g256-spread-bounded_backoff"
+    ],
+    [
+      "timing",
+      6,
+      "confirm-s128021-g256-spread-immediate"
+    ],
+    [
+      "timing",
+      6,
+      "confirm-s134033-g256-spread-bounded_backoff"
+    ],
+    [
+      "timing",
+      6,
+      "confirm-s134033-g256-spread-immediate"
+    ],
+    [
+      "timing",
+      6,
+      "confirm-s134033-g256-concentrated-bounded_backoff"
+    ],
+    [
+      "timing",
+      6,
+      "confirm-s134033-g256-concentrated-immediate"
+    ],
+    [
+      "timing",
+      6,
+      "confirm-s128021-g8-spread-bounded_backoff"
+    ],
+    [
+      "timing",
+      6,
+      "confirm-s128021-g8-spread-immediate"
+    ],
+    [
+      "timing",
+      6,
+      "confirm-s134033-g8-concentrated-bounded_backoff"
+    ],
+    [
+      "timing",
+      6,
+      "confirm-s134033-g8-concentrated-immediate"
+    ],
+    [
+      "timing",
+      6,
+      "confirm-s128021-g256-concentrated-bounded_backoff"
+    ],
+    [
+      "timing",
+      6,
+      "confirm-s128021-g256-concentrated-immediate"
+    ],
+    [
+      "timing",
+      6,
+      "confirm-s128021-g8-concentrated-bounded_backoff"
+    ],
+    [
+      "timing",
+      6,
+      "confirm-s128021-g8-concentrated-immediate"
+    ],
+    [
+      "timing",
+      7,
+      "confirm-s128021-g256-spread-immediate"
+    ],
+    [
+      "timing",
+      7,
+      "confirm-s128021-g256-spread-bounded_backoff"
+    ],
+    [
+      "timing",
+      7,
+      "confirm-s134033-g256-spread-immediate"
+    ],
+    [
+      "timing",
+      7,
+      "confirm-s134033-g256-spread-bounded_backoff"
+    ],
+    [
+      "timing",
+      7,
+      "confirm-s134033-g256-concentrated-immediate"
+    ],
+    [
+      "timing",
+      7,
+      "confirm-s134033-g256-concentrated-bounded_backoff"
+    ],
+    [
+      "timing",
+      7,
+      "confirm-s128021-g8-spread-immediate"
+    ],
+    [
+      "timing",
+      7,
+      "confirm-s128021-g8-spread-bounded_backoff"
+    ],
+    [
+      "timing",
+      7,
+      "confirm-s134033-g8-concentrated-immediate"
+    ],
+    [
+      "timing",
+      7,
+      "confirm-s134033-g8-concentrated-bounded_backoff"
+    ],
+    [
+      "timing",
+      7,
+      "confirm-s128021-g256-concentrated-immediate"
+    ],
+    [
+      "timing",
+      7,
+      "confirm-s128021-g256-concentrated-bounded_backoff"
+    ],
+    [
+      "timing",
+      7,
+      "confirm-s128021-g8-concentrated-immediate"
+    ],
+    [
+      "timing",
+      7,
+      "confirm-s128021-g8-concentrated-bounded_backoff"
+    ],
+    [
+      "timing",
+      7,
+      "confirm-s134033-g8-spread-immediate"
+    ],
+    [
+      "timing",
+      7,
+      "confirm-s134033-g8-spread-bounded_backoff"
+    ]
+  ],
+  "processes": 152,
+  "timing_samples": 112,
+  "no_adaptation": true,
+  "build": {
+    "exe": "/root/lzuhpc-experiments/ws-20261022-fill-interleaved-release/build-none/worksteal",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768"
+  },
+  "availability_receipt": "results/availability-8dc7a5db22254215a8196cb2ecc1abcc.json",
+  "frozen_plan_sha256": "b686f61805faca7db0aad6e4df5e74104a44b520097fda5e271a885b3746c9b8"
+}

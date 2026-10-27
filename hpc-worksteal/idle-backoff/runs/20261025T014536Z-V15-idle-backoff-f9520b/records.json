@@ -1,0 +1,4258 @@
+[
+  {
+    "run_id": "0000-control-control-s126007-g8-concentrated-immediate-r0-7fa50c",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "control-s126007-g8-concentrated-immediate",
+    "purpose": "control",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:36.918134+00:00",
+    "ended": "2026-10-25T01:45:36.928435+00:00",
+    "elapsed_process_seconds": 0.010301100000020824,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8.2e-06,
+      "end_to_end_seconds": 0.0029873,
+      "epoch_seconds": 0.000335,
+      "setup_seconds": 0.0013371
+    },
+    "included": false
+  },
+  {
+    "run_id": "0001-control-control-s126007-g8-concentrated-bounded_backoff-r0-a3daff",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "control-s126007-g8-concentrated-bounded_backoff",
+    "purpose": "control",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:36.958697+00:00",
+    "ended": "2026-10-25T01:45:36.967981+00:00",
+    "elapsed_process_seconds": 0.009282299999995303,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 6.5e-06,
+      "end_to_end_seconds": 0.0023671,
+      "epoch_seconds": 0.0001071,
+      "setup_seconds": 0.0010918
+    },
+    "included": false
+  },
+  {
+    "run_id": "0002-control-control-s126007-g8-spread-immediate-r0-60ff30",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "control-s126007-g8-spread-immediate",
+    "purpose": "control",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:36.988025+00:00",
+    "ended": "2026-10-25T01:45:36.998377+00:00",
+    "elapsed_process_seconds": 0.010353499999979476,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.16e-05,
+      "end_to_end_seconds": 0.0025172,
+      "epoch_seconds": 8.95e-05,
+      "setup_seconds": 0.0012666
+    },
+    "included": false
+  },
+  {
+    "run_id": "0003-control-control-s126007-g8-spread-bounded_backoff-r0-6c2eea",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "control-s126007-g8-spread-bounded_backoff",
+    "purpose": "control",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:37.020963+00:00",
+    "ended": "2026-10-25T01:45:37.031555+00:00",
+    "elapsed_process_seconds": 0.010594499999996287,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 6.4e-06,
+      "end_to_end_seconds": 0.0023708,
+      "epoch_seconds": 0.0001335,
+      "setup_seconds": 0.0012962
+    },
+    "included": false
+  },
+  {
+    "run_id": "0004-control-control-s126007-g256-concentrated-immediate-r0-814bad",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "control-s126007-g256-concentrated-immediate",
+    "purpose": "control",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:37.053318+00:00",
+    "ended": "2026-10-25T01:45:37.063045+00:00",
+    "elapsed_process_seconds": 0.009727400000002717,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7.1e-06,
+      "end_to_end_seconds": 0.0025958,
+      "epoch_seconds": 0.0001329,
+      "setup_seconds": 0.0013921
+    },
+    "included": false
+  },
+  {
+    "run_id": "0005-control-control-s126007-g256-concentrated-bounded_backoff-r0-aff641",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "control-s126007-g256-concentrated-bounded_backoff",
+    "purpose": "control",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:37.088428+00:00",
+    "ended": "2026-10-25T01:45:37.098761+00:00",
+    "elapsed_process_seconds": 0.010330299999992576,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.38e-05,
+      "end_to_end_seconds": 0.0031632,
+      "epoch_seconds": 6.57e-05,
+      "setup_seconds": 0.0013831
+    },
+    "included": false
+  },
+  {
+    "run_id": "0006-control-control-s126007-g256-spread-immediate-r0-645a6d",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "control-s126007-g256-spread-immediate",
+    "purpose": "control",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:37.122170+00:00",
+    "ended": "2026-10-25T01:45:37.134949+00:00",
+    "elapsed_process_seconds": 0.012781399999994392,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7.8e-06,
+      "end_to_end_seconds": 0.0029904,
+      "epoch_seconds": 6.51e-05,
+      "setup_seconds": 0.0015843
+    },
+    "included": false
+  },
+  {
+    "run_id": "0007-control-control-s126007-g256-spread-bounded_backoff-r0-06ee6f",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "control-s126007-g256-spread-bounded_backoff",
+    "purpose": "control",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:37.162602+00:00",
+    "ended": "2026-10-25T01:45:37.174830+00:00",
+    "elapsed_process_seconds": 0.012225499999999556,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 6.7e-06,
+      "end_to_end_seconds": 0.0026442,
+      "epoch_seconds": 7.79e-05,
+      "setup_seconds": 0.0013484
+    },
+    "included": false
+  },
+  {
+    "run_id": "0008-diagnostic-confirm-s134033-g256-concentrated-immediate-r0-488665",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g256-concentrated-immediate",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:37.203126+00:00",
+    "ended": "2026-10-25T01:45:37.244164+00:00",
+    "elapsed_process_seconds": 0.041039500000010776,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.7e-06,
+      "end_to_end_seconds": 0.0325085,
+      "epoch_seconds": 0.0039234,
+      "setup_seconds": 0.006408
+    },
+    "included": false
+  },
+  {
+    "run_id": "0009-diagnostic-confirm-s134033-g256-concentrated-bounded_backoff-r0-c2f6fd",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g256-concentrated-bounded_backoff",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:37.485840+00:00",
+    "ended": "2026-10-25T01:45:37.525502+00:00",
+    "elapsed_process_seconds": 0.03966719999999668,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.7e-06,
+      "end_to_end_seconds": 0.0312704,
+      "epoch_seconds": 0.0048379,
+      "setup_seconds": 0.006331
+    },
+    "included": false
+  },
+  {
+    "run_id": "0010-diagnostic-confirm-s128021-g8-spread-immediate-r0-19ea39",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g8-spread-immediate",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:37.551470+00:00",
+    "ended": "2026-10-25T01:45:37.586169+00:00",
+    "elapsed_process_seconds": 0.034697599999987006,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.42e-05,
+      "end_to_end_seconds": 0.0250883,
+      "epoch_seconds": 0.00362,
+      "setup_seconds": 0.0063079
+    },
+    "included": false
+  },
+  {
+    "run_id": "0011-diagnostic-confirm-s128021-g8-spread-bounded_backoff-r0-18e434",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g8-spread-bounded_backoff",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:37.768753+00:00",
+    "ended": "2026-10-25T01:45:37.802254+00:00",
+    "elapsed_process_seconds": 0.033501599999993914,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7.7e-06,
+      "end_to_end_seconds": 0.0261706,
+      "epoch_seconds": 0.0053699,
+      "setup_seconds": 0.0061276
+    },
+    "included": false
+  },
+  {
+    "run_id": "0012-diagnostic-confirm-s134033-g8-concentrated-immediate-r0-9079bf",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g8-concentrated-immediate",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:37.829651+00:00",
+    "ended": "2026-10-25T01:45:37.873406+00:00",
+    "elapsed_process_seconds": 0.04375909999998839,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.26e-05,
+      "end_to_end_seconds": 0.0337686,
+      "epoch_seconds": 0.005695,
+      "setup_seconds": 0.0080215
+    },
+    "included": false
+  },
+  {
+    "run_id": "0013-diagnostic-confirm-s134033-g8-concentrated-bounded_backoff-r0-7302e9",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g8-concentrated-bounded_backoff",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:38.140738+00:00",
+    "ended": "2026-10-25T01:45:38.182384+00:00",
+    "elapsed_process_seconds": 0.041647799999992685,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.24e-05,
+      "end_to_end_seconds": 0.0333402,
+      "epoch_seconds": 0.0058782,
+      "setup_seconds": 0.0079131
+    },
+    "included": false
+  },
+  {
+    "run_id": "0014-diagnostic-confirm-s128021-g256-concentrated-immediate-r0-40d62e",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g256-concentrated-immediate",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:38.214874+00:00",
+    "ended": "2026-10-25T01:45:38.245360+00:00",
+    "elapsed_process_seconds": 0.030484400000005962,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7.4e-06,
+      "end_to_end_seconds": 0.0225937,
+      "epoch_seconds": 0.0031425,
+      "setup_seconds": 0.0047799
+    },
+    "included": false
+  },
+  {
+    "run_id": "0015-diagnostic-confirm-s128021-g256-concentrated-bounded_backoff-r0-cd9081",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g256-concentrated-bounded_backoff",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:38.393328+00:00",
+    "ended": "2026-10-25T01:45:38.425749+00:00",
+    "elapsed_process_seconds": 0.03241760000000227,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.12e-05,
+      "end_to_end_seconds": 0.0234288,
+      "epoch_seconds": 0.0032206,
+      "setup_seconds": 0.0046085
+    },
+    "included": false
+  },
+  {
+    "run_id": "0016-diagnostic-confirm-s128021-g8-concentrated-immediate-r0-2d5c64",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g8-concentrated-immediate",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:38.451588+00:00",
+    "ended": "2026-10-25T01:45:38.486064+00:00",
+    "elapsed_process_seconds": 0.03447589999998968,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.03e-05,
+      "end_to_end_seconds": 0.0245962,
+      "epoch_seconds": 0.0040097,
+      "setup_seconds": 0.0065478
+    },
+    "included": false
+  },
+  {
+    "run_id": "0017-diagnostic-confirm-s128021-g8-concentrated-bounded_backoff-r0-1c3882",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g8-concentrated-bounded_backoff",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:38.563358+00:00",
+    "ended": "2026-10-25T01:45:38.599470+00:00",
+    "elapsed_process_seconds": 0.0361100999999735,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.05e-05,
+      "end_to_end_seconds": 0.0265534,
+      "epoch_seconds": 0.0051862,
+      "setup_seconds": 0.0068982
+    },
+    "included": false
+  },
+  {
+    "run_id": "0018-diagnostic-confirm-s134033-g8-spread-immediate-r0-3aff77",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g8-spread-immediate",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:38.639793+00:00",
+    "ended": "2026-10-25T01:45:38.686497+00:00",
+    "elapsed_process_seconds": 0.04671430000001919,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.43e-05,
+      "end_to_end_seconds": 0.0351797,
+      "epoch_seconds": 0.0054482,
+      "setup_seconds": 0.0093029
+    },
+    "included": false
+  },
+  {
+    "run_id": "0019-diagnostic-confirm-s134033-g8-spread-bounded_backoff-r0-e6b482",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g8-spread-bounded_backoff",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:38.787684+00:00",
+    "ended": "2026-10-25T01:45:38.832991+00:00",
+    "elapsed_process_seconds": 0.04530809999999974,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.62e-05,
+      "end_to_end_seconds": 0.0351198,
+      "epoch_seconds": 0.0060254,
+      "setup_seconds": 0.008319
+    },
+    "included": false
+  },
+  {
+    "run_id": "0020-diagnostic-confirm-s128021-g256-spread-immediate-r0-992cec",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g256-spread-immediate",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:38.877116+00:00",
+    "ended": "2026-10-25T01:45:38.910235+00:00",
+    "elapsed_process_seconds": 0.03311419999999998,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.43e-05,
+      "end_to_end_seconds": 0.0236579,
+      "epoch_seconds": 0.0031631,
+      "setup_seconds": 0.0052883
+    },
+    "included": false
+  },
+  {
+    "run_id": "0021-diagnostic-confirm-s128021-g256-spread-bounded_backoff-r0-30f63d",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g256-spread-bounded_backoff",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:38.935556+00:00",
+    "ended": "2026-10-25T01:45:38.967247+00:00",
+    "elapsed_process_seconds": 0.03169009999999162,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7.1e-06,
+      "end_to_end_seconds": 0.0223752,
+      "epoch_seconds": 0.0031893,
+      "setup_seconds": 0.0050322
+    },
+    "included": false
+  },
+  {
+    "run_id": "0022-diagnostic-confirm-s134033-g256-spread-immediate-r0-847b9b",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g256-spread-immediate",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:38.994793+00:00",
+    "ended": "2026-10-25T01:45:39.035657+00:00",
+    "elapsed_process_seconds": 0.04086080000001857,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.9e-06,
+      "end_to_end_seconds": 0.0316892,
+      "epoch_seconds": 0.0037567,
+      "setup_seconds": 0.0065591
+    },
+    "included": false
+  },
+  {
+    "run_id": "0023-diagnostic-confirm-s134033-g256-spread-bounded_backoff-r0-3e2a5b",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g256-spread-bounded_backoff",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:39.065259+00:00",
+    "ended": "2026-10-25T01:45:39.103786+00:00",
+    "elapsed_process_seconds": 0.03852879999999459,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2e-06,
+      "end_to_end_seconds": 0.0306887,
+      "epoch_seconds": 0.0041107,
+      "setup_seconds": 0.0065757
+    },
+    "included": false
+  },
+  {
+    "run_id": "0024-warmup-confirm-s134033-g256-concentrated-immediate-r0-172a30",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g256-concentrated-immediate",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:39.129375+00:00",
+    "ended": "2026-10-25T01:45:39.170827+00:00",
+    "elapsed_process_seconds": 0.04145180000000437,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.7e-06,
+      "end_to_end_seconds": 0.0327304,
+      "epoch_seconds": 0.004141,
+      "setup_seconds": 0.0066492
+    },
+    "included": false
+  },
+  {
+    "run_id": "0025-warmup-confirm-s134033-g256-concentrated-bounded_backoff-r0-4aaec8",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g256-concentrated-bounded_backoff",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:39.198826+00:00",
+    "ended": "2026-10-25T01:45:39.240698+00:00",
+    "elapsed_process_seconds": 0.041868399999998474,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.9e-06,
+      "end_to_end_seconds": 0.0324942,
+      "epoch_seconds": 0.0043942,
+      "setup_seconds": 0.0073357
+    },
+    "included": false
+  },
+  {
+    "run_id": "0026-warmup-confirm-s128021-g8-spread-immediate-r0-7f8bc6",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g8-spread-immediate",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:39.269044+00:00",
+    "ended": "2026-10-25T01:45:39.303421+00:00",
+    "elapsed_process_seconds": 0.034373799999997345,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.14e-05,
+      "end_to_end_seconds": 0.0250545,
+      "epoch_seconds": 0.0029688,
+      "setup_seconds": 0.007395
+    },
+    "included": false
+  },
+  {
+    "run_id": "0027-warmup-confirm-s128021-g8-spread-bounded_backoff-r0-551b1a",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g8-spread-bounded_backoff",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:39.334316+00:00",
+    "ended": "2026-10-25T01:45:39.368671+00:00",
+    "elapsed_process_seconds": 0.03435150000001386,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.27e-05,
+      "end_to_end_seconds": 0.0252487,
+      "epoch_seconds": 0.003311,
+      "setup_seconds": 0.007694
+    },
+    "included": false
+  },
+  {
+    "run_id": "0028-warmup-confirm-s134033-g8-concentrated-immediate-r0-2b5d50",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g8-concentrated-immediate",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:39.394654+00:00",
+    "ended": "2026-10-25T01:45:39.439346+00:00",
+    "elapsed_process_seconds": 0.044692900000001146,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.55e-05,
+      "end_to_end_seconds": 0.0346322,
+      "epoch_seconds": 0.0042138,
+      "setup_seconds": 0.0089022
+    },
+    "included": false
+  },
+  {
+    "run_id": "0029-warmup-confirm-s134033-g8-concentrated-bounded_backoff-r0-c4c3f1",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g8-concentrated-bounded_backoff",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:39.469275+00:00",
+    "ended": "2026-10-25T01:45:39.515051+00:00",
+    "elapsed_process_seconds": 0.045775599999984706,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.45e-05,
+      "end_to_end_seconds": 0.0360225,
+      "epoch_seconds": 0.0043015,
+      "setup_seconds": 0.0095695
+    },
+    "included": false
+  },
+  {
+    "run_id": "0030-warmup-confirm-s128021-g256-concentrated-immediate-r0-4fb73e",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g256-concentrated-immediate",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:39.543595+00:00",
+    "ended": "2026-10-25T01:45:39.576310+00:00",
+    "elapsed_process_seconds": 0.03272519999998735,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 9.1e-06,
+      "end_to_end_seconds": 0.024893,
+      "epoch_seconds": 0.0033224,
+      "setup_seconds": 0.0051733
+    },
+    "included": false
+  },
+  {
+    "run_id": "0031-warmup-confirm-s128021-g256-concentrated-bounded_backoff-r0-693ab0",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g256-concentrated-bounded_backoff",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:39.602626+00:00",
+    "ended": "2026-10-25T01:45:39.633578+00:00",
+    "elapsed_process_seconds": 0.030953699999997752,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8e-06,
+      "end_to_end_seconds": 0.0223696,
+      "epoch_seconds": 0.0031115,
+      "setup_seconds": 0.0049036
+    },
+    "included": false
+  },
+  {
+    "run_id": "0032-warmup-confirm-s128021-g8-concentrated-immediate-r0-f6df0c",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g8-concentrated-immediate",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:39.658426+00:00",
+    "ended": "2026-10-25T01:45:39.693980+00:00",
+    "elapsed_process_seconds": 0.03563460000000873,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.81e-05,
+      "end_to_end_seconds": 0.0260306,
+      "epoch_seconds": 0.0040347,
+      "setup_seconds": 0.0069687
+    },
+    "included": false
+  },
+  {
+    "run_id": "0033-warmup-confirm-s128021-g8-concentrated-bounded_backoff-r0-330da5",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g8-concentrated-bounded_backoff",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:39.716918+00:00",
+    "ended": "2026-10-25T01:45:39.749550+00:00",
+    "elapsed_process_seconds": 0.032631100000003244,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.24e-05,
+      "end_to_end_seconds": 0.0235479,
+      "epoch_seconds": 0.0029529,
+      "setup_seconds": 0.0067708
+    },
+    "included": false
+  },
+  {
+    "run_id": "0034-warmup-confirm-s134033-g8-spread-immediate-r0-ad180a",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g8-spread-immediate",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:39.772757+00:00",
+    "ended": "2026-10-25T01:45:39.812155+00:00",
+    "elapsed_process_seconds": 0.039397400000012794,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.58e-05,
+      "end_to_end_seconds": 0.0316494,
+      "epoch_seconds": 0.0039553,
+      "setup_seconds": 0.0086405
+    },
+    "included": false
+  },
+  {
+    "run_id": "0035-warmup-confirm-s134033-g8-spread-bounded_backoff-r0-04e77e",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g8-spread-bounded_backoff",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:39.839805+00:00",
+    "ended": "2026-10-25T01:45:39.886643+00:00",
+    "elapsed_process_seconds": 0.046842900000001464,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.95e-05,
+      "end_to_end_seconds": 0.0370621,
+      "epoch_seconds": 0.0059454,
+      "setup_seconds": 0.0095419
+    },
+    "included": false
+  },
+  {
+    "run_id": "0036-warmup-confirm-s128021-g256-spread-immediate-r0-af9708",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g256-spread-immediate",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:39.914720+00:00",
+    "ended": "2026-10-25T01:45:39.948878+00:00",
+    "elapsed_process_seconds": 0.03415300000000343,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.49e-05,
+      "end_to_end_seconds": 0.0241945,
+      "epoch_seconds": 0.0033179,
+      "setup_seconds": 0.0054646
+    },
+    "included": false
+  },
+  {
+    "run_id": "0037-warmup-confirm-s128021-g256-spread-bounded_backoff-r0-cf3282",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g256-spread-bounded_backoff",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:39.973109+00:00",
+    "ended": "2026-10-25T01:45:40.004408+00:00",
+    "elapsed_process_seconds": 0.03129949999998871,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7.7e-06,
+      "end_to_end_seconds": 0.022386,
+      "epoch_seconds": 0.003051,
+      "setup_seconds": 0.0045621
+    },
+    "included": false
+  },
+  {
+    "run_id": "0038-warmup-confirm-s134033-g256-spread-immediate-r0-8d3eb1",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g256-spread-immediate",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:40.027750+00:00",
+    "ended": "2026-10-25T01:45:40.071671+00:00",
+    "elapsed_process_seconds": 0.04391889999999421,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2.1e-06,
+      "end_to_end_seconds": 0.0347631,
+      "epoch_seconds": 0.0053767,
+      "setup_seconds": 0.0073694
+    },
+    "included": false
+  },
+  {
+    "run_id": "0039-warmup-confirm-s134033-g256-spread-bounded_backoff-r0-30b94b",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g256-spread-bounded_backoff",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-25T01:45:40.095792+00:00",
+    "ended": "2026-10-25T01:45:40.136839+00:00",
+    "elapsed_process_seconds": 0.041050499999983,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.8e-06,
+      "end_to_end_seconds": 0.0335163,
+      "epoch_seconds": 0.0040933,
+      "setup_seconds": 0.0066796
+    },
+    "included": false
+  },
+  {
+    "run_id": "0040-timing-confirm-s134033-g256-concentrated-immediate-r1-af597a",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g256-concentrated-immediate",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-25T01:45:40.163414+00:00",
+    "ended": "2026-10-25T01:45:40.207467+00:00",
+    "elapsed_process_seconds": 0.04405199999999354,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2.2e-06,
+      "end_to_end_seconds": 0.033585,
+      "epoch_seconds": 0.0041884,
+      "setup_seconds": 0.0065659
+    },
+    "included": true
+  },
+  {
+    "run_id": "0041-timing-confirm-s134033-g256-concentrated-bounded_backoff-r1-09ddd2",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g256-concentrated-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-25T01:45:40.239728+00:00",
+    "ended": "2026-10-25T01:45:40.285497+00:00",
+    "elapsed_process_seconds": 0.04577659999998218,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.9e-06,
+      "end_to_end_seconds": 0.0362124,
+      "epoch_seconds": 0.0059738,
+      "setup_seconds": 0.0066613
+    },
+    "included": true
+  },
+  {
+    "run_id": "0042-timing-confirm-s128021-g8-spread-immediate-r1-f71668",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g8-spread-immediate",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-25T01:45:40.315381+00:00",
+    "ended": "2026-10-25T01:45:40.350974+00:00",
+    "elapsed_process_seconds": 0.035593499999976075,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.08e-05,
+      "end_to_end_seconds": 0.0250323,
+      "epoch_seconds": 0.0025135,
+      "setup_seconds": 0.0071376
+    },
+    "included": true
+  },
+  {
+    "run_id": "0043-timing-confirm-s128021-g8-spread-bounded_backoff-r1-9501eb",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g8-spread-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-25T01:45:40.379488+00:00",
+    "ended": "2026-10-25T01:45:40.415473+00:00",
+    "elapsed_process_seconds": 0.035987300000016376,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.29e-05,
+      "end_to_end_seconds": 0.0278395,
+      "epoch_seconds": 0.0030813,
+      "setup_seconds": 0.0083708
+    },
+    "included": true
+  },
+  {
+    "run_id": "0044-timing-confirm-s134033-g8-concentrated-immediate-r1-bfb614",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g8-concentrated-immediate",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-25T01:45:40.442177+00:00",
+    "ended": "2026-10-25T01:45:40.486348+00:00",
+    "elapsed_process_seconds": 0.04416950000000952,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2.77e-05,
+      "end_to_end_seconds": 0.0350788,
+      "epoch_seconds": 0.004011,
+      "setup_seconds": 0.009918
+    },
+    "included": true
+  },
+  {
+    "run_id": "0045-timing-confirm-s134033-g8-concentrated-bounded_backoff-r1-77ab58",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g8-concentrated-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-25T01:45:40.513139+00:00",
+    "ended": "2026-10-25T01:45:40.557278+00:00",
+    "elapsed_process_seconds": 0.04413900000000126,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.43e-05,
+      "end_to_end_seconds": 0.0369736,
+      "epoch_seconds": 0.0062669,
+      "setup_seconds": 0.0091015
+    },
+    "included": true
+  },
+  {
+    "run_id": "0046-timing-confirm-s128021-g256-concentrated-immediate-r1-263288",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g256-concentrated-immediate",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-25T01:45:40.584228+00:00",
+    "ended": "2026-10-25T01:45:40.618406+00:00",
+    "elapsed_process_seconds": 0.034177999999997155,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8e-06,
+      "end_to_end_seconds": 0.0260269,
+      "epoch_seconds": 0.0032968,
+      "setup_seconds": 0.0061047
+    },
+    "included": true
+  },
+  {
+    "run_id": "0047-timing-confirm-s128021-g256-concentrated-bounded_backoff-r1-3138a9",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g256-concentrated-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-25T01:45:40.646039+00:00",
+    "ended": "2026-10-25T01:45:40.675615+00:00",
+    "elapsed_process_seconds": 0.029576399999996283,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7.3e-06,
+      "end_to_end_seconds": 0.0228101,
+      "epoch_seconds": 0.0032047,
+      "setup_seconds": 0.005214
+    },
+    "included": true
+  },
+  {
+    "run_id": "0048-timing-confirm-s128021-g8-concentrated-immediate-r1-9ea4a6",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g8-concentrated-immediate",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-25T01:45:40.701441+00:00",
+    "ended": "2026-10-25T01:45:40.734439+00:00",
+    "elapsed_process_seconds": 0.03299440000000686,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 9.9e-06,
+      "end_to_end_seconds": 0.0250292,
+      "epoch_seconds": 0.002984,
+      "setup_seconds": 0.007413
+    },
+    "included": true
+  },
+  {
+    "run_id": "0049-timing-confirm-s128021-g8-concentrated-bounded_backoff-r1-ee4829",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g8-concentrated-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-25T01:45:40.763226+00:00",
+    "ended": "2026-10-25T01:45:40.798043+00:00",
+    "elapsed_process_seconds": 0.03481580000001827,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.24e-05,
+      "end_to_end_seconds": 0.0264098,
+      "epoch_seconds": 0.0032192,
+      "setup_seconds": 0.0080158
+    },
+    "included": true
+  },
+  {
+    "run_id": "0050-timing-confirm-s134033-g8-spread-immediate-r1-a5ddff",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g8-spread-immediate",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-25T01:45:40.826199+00:00",
+    "ended": "2026-10-25T01:45:40.868013+00:00",
+    "elapsed_process_seconds": 0.041829700000022285,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2.69e-05,
+      "end_to_end_seconds": 0.0330866,
+      "epoch_seconds": 0.0035528,
+      "setup_seconds": 0.0098876
+    },
+    "included": true
+  },
+  {
+    "run_id": "0051-timing-confirm-s134033-g8-spread-bounded_backoff-r1-7330d4",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g8-spread-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-25T01:45:40.894162+00:00",
+    "ended": "2026-10-25T01:45:40.938269+00:00",
+    "elapsed_process_seconds": 0.044109199999979865,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.45e-05,
+      "end_to_end_seconds": 0.0336739,
+      "epoch_seconds": 0.0037652,
+      "setup_seconds": 0.0088622
+    },
+    "included": true
+  },
+  {
+    "run_id": "0052-timing-confirm-s128021-g256-spread-immediate-r1-6cdf9f",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g256-spread-immediate",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-25T01:45:40.963227+00:00",
+    "ended": "2026-10-25T01:45:40.997027+00:00",
+    "elapsed_process_seconds": 0.03380570000001626,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7.7e-06,
+      "end_to_end_seconds": 0.023915,
+      "epoch_seconds": 0.0029882,
+      "setup_seconds": 0.0053053
+    },
+    "included": true
+  },
+  {
+    "run_id": "0053-timing-confirm-s128021-g256-spread-bounded_backoff-r1-4f986c",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g256-spread-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-25T01:45:41.025190+00:00",
+    "ended": "2026-10-25T01:45:41.057505+00:00",
+    "elapsed_process_seconds": 0.03232169999998291,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7.8e-06,
+      "end_to_end_seconds": 0.0221483,
+      "epoch_seconds": 0.0032074,
+      "setup_seconds": 0.005302
+    },
+    "included": true
+  },
+  {
+    "run_id": "0054-timing-confirm-s134033-g256-spread-immediate-r1-13b149",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g256-spread-immediate",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-25T01:45:41.079850+00:00",
+    "ended": "2026-10-25T01:45:41.115607+00:00",
+    "elapsed_process_seconds": 0.035759800000022324,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.8e-06,
+      "end_to_end_seconds": 0.0280165,
+      "epoch_seconds": 0.0039294,
+      "setup_seconds": 0.0057622
+    },
+    "included": true
+  },
+  {
+    "run_id": "0055-timing-confirm-s134033-g256-spread-bounded_backoff-r1-129cb4",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g256-spread-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-25T01:45:41.141009+00:00",
+    "ended": "2026-10-25T01:45:41.180312+00:00",
+    "elapsed_process_seconds": 0.03930189999999811,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.7e-06,
+      "end_to_end_seconds": 0.0314198,
+      "epoch_seconds": 0.003812,
+      "setup_seconds": 0.0067594
+    },
+    "included": true
+  },
+  {
+    "run_id": "0056-timing-confirm-s128021-g8-spread-bounded_backoff-r2-eb1488",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g8-spread-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-25T01:45:41.206235+00:00",
+    "ended": "2026-10-25T01:45:41.237878+00:00",
+    "elapsed_process_seconds": 0.03164160000000038,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.03e-05,
+      "end_to_end_seconds": 0.0229431,
+      "epoch_seconds": 0.0025344,
+      "setup_seconds": 0.0067701
+    },
+    "included": true
+  },
+  {
+    "run_id": "0057-timing-confirm-s128021-g8-spread-immediate-r2-400fd2",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g8-spread-immediate",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-25T01:45:41.260999+00:00",
+    "ended": "2026-10-25T01:45:41.291841+00:00",
+    "elapsed_process_seconds": 0.030845900000002757,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.06e-05,
+      "end_to_end_seconds": 0.0237478,
+      "epoch_seconds": 0.003375,
+      "setup_seconds": 0.0073187
+    },
+    "included": true
+  },
+  {
+    "run_id": "0058-timing-confirm-s134033-g8-concentrated-bounded_backoff-r2-731903",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g8-concentrated-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-25T01:45:41.314465+00:00",
+    "ended": "2026-10-25T01:45:41.357337+00:00",
+    "elapsed_process_seconds": 0.04288009999999076,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2.87e-05,
+      "end_to_end_seconds": 0.0338402,
+      "epoch_seconds": 0.0043146,
+      "setup_seconds": 0.0090595
+    },
+    "included": true
+  },
+  {
+    "run_id": "0059-timing-confirm-s134033-g8-concentrated-immediate-r2-06a4a5",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g8-concentrated-immediate",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-25T01:45:41.383063+00:00",
+    "ended": "2026-10-25T01:45:41.429145+00:00",
+    "elapsed_process_seconds": 0.046083500000008826,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.29e-05,
+      "end_to_end_seconds": 0.0375918,
+      "epoch_seconds": 0.0070622,
+      "setup_seconds": 0.0094492
+    },
+    "included": true
+  },
+  {
+    "run_id": "0060-timing-confirm-s128021-g256-concentrated-bounded_backoff-r2-35c9c6",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g256-concentrated-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-25T01:45:41.454694+00:00",
+    "ended": "2026-10-25T01:45:41.486034+00:00",
+    "elapsed_process_seconds": 0.031340599999992946,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7.3e-06,
+      "end_to_end_seconds": 0.0218629,
+      "epoch_seconds": 0.0027332,
+      "setup_seconds": 0.0050032
+    },
+    "included": true
+  },
+  {
+    "run_id": "0061-timing-confirm-s128021-g256-concentrated-immediate-r2-a1c90e",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g256-concentrated-immediate",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-25T01:45:41.511645+00:00",
+    "ended": "2026-10-25T01:45:41.542808+00:00",
+    "elapsed_process_seconds": 0.03115930000001299,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7e-06,
+      "end_to_end_seconds": 0.0219974,
+      "epoch_seconds": 0.0027529,
+      "setup_seconds": 0.0047694
+    },
+    "included": true
+  },
+  {
+    "run_id": "0062-timing-confirm-s128021-g8-concentrated-bounded_backoff-r2-7d31a3",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g8-concentrated-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-25T01:45:41.569560+00:00",
+    "ended": "2026-10-25T01:45:41.603725+00:00",
+    "elapsed_process_seconds": 0.034166400000003705,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.11e-05,
+      "end_to_end_seconds": 0.0235829,
+      "epoch_seconds": 0.0025499,
+      "setup_seconds": 0.0067932
+    },
+    "included": true
+  },
+  {
+    "run_id": "0063-timing-confirm-s128021-g8-concentrated-immediate-r2-b9c664",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g8-concentrated-immediate",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-25T01:45:41.632807+00:00",
+    "ended": "2026-10-25T01:45:41.664880+00:00",
+    "elapsed_process_seconds": 0.032071100000024444,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 9e-06,
+      "end_to_end_seconds": 0.0234841,
+      "epoch_seconds": 0.0025669,
+      "setup_seconds": 0.0068254
+    },
+    "included": true
+  },
+  {
+    "run_id": "0064-timing-confirm-s134033-g8-spread-bounded_backoff-r2-fe5b22",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g8-spread-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-25T01:45:41.686965+00:00",
+    "ended": "2026-10-25T01:45:41.727050+00:00",
+    "elapsed_process_seconds": 0.04008550000000355,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.7e-05,
+      "end_to_end_seconds": 0.0314866,
+      "epoch_seconds": 0.0039298,
+      "setup_seconds": 0.0087208
+    },
+    "included": true
+  },
+  {
+    "run_id": "0065-timing-confirm-s134033-g8-spread-immediate-r2-474ae6",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g8-spread-immediate",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-25T01:45:41.752731+00:00",
+    "ended": "2026-10-25T01:45:41.796549+00:00",
+    "elapsed_process_seconds": 0.043774700000000166,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.73e-05,
+      "end_to_end_seconds": 0.0361657,
+      "epoch_seconds": 0.004426,
+      "setup_seconds": 0.0100358
+    },
+    "included": true
+  },
+  {
+    "run_id": "0066-timing-confirm-s128021-g256-spread-bounded_backoff-r2-bd15b6",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g256-spread-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-25T01:45:41.820142+00:00",
+    "ended": "2026-10-25T01:45:41.850454+00:00",
+    "elapsed_process_seconds": 0.030311399999987998,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.23e-05,
+      "end_to_end_seconds": 0.0223153,
+      "epoch_seconds": 0.0024824,
+      "setup_seconds": 0.0050376
+    },
+    "included": true
+  },
+  {
+    "run_id": "0067-timing-confirm-s128021-g256-spread-immediate-r2-98c921",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g256-spread-immediate",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-25T01:45:41.876698+00:00",
+    "ended": "2026-10-25T01:45:41.904966+00:00",
+    "elapsed_process_seconds": 0.028267499999998336,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 6.7e-06,
+      "end_to_end_seconds": 0.0211307,
+      "epoch_seconds": 0.0029489,
+      "setup_seconds": 0.0044756
+    },
+    "included": true
+  },
+  {
+    "run_id": "0068-timing-confirm-s134033-g256-spread-bounded_backoff-r2-8df30a",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g256-spread-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-25T01:45:41.929792+00:00",
+    "ended": "2026-10-25T01:45:41.969380+00:00",
+    "elapsed_process_seconds": 0.03958890000001247,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.5e-06,
+      "end_to_end_seconds": 0.0306003,
+      "epoch_seconds": 0.0039329,
+      "setup_seconds": 0.0065874
+    },
+    "included": true
+  },
+  {
+    "run_id": "0069-timing-confirm-s134033-g256-spread-immediate-r2-fd72b1",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g256-spread-immediate",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-25T01:45:41.994911+00:00",
+    "ended": "2026-10-25T01:45:42.032964+00:00",
+    "elapsed_process_seconds": 0.0380527000000086,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2.5e-06,
+      "end_to_end_seconds": 0.0295197,
+      "epoch_seconds": 0.0039945,
+      "setup_seconds": 0.0063437
+    },
+    "included": true
+  },
+  {
+    "run_id": "0070-timing-confirm-s134033-g256-concentrated-bounded_backoff-r2-22548e",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g256-concentrated-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-25T01:45:42.057846+00:00",
+    "ended": "2026-10-25T01:45:42.098214+00:00",
+    "elapsed_process_seconds": 0.04036210000001006,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.6e-06,
+      "end_to_end_seconds": 0.031704,
+      "epoch_seconds": 0.0058093,
+      "setup_seconds": 0.0064185
+    },
+    "included": true
+  },
+  {
+    "run_id": "0071-timing-confirm-s134033-g256-concentrated-immediate-r2-3b54e3",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g256-concentrated-immediate",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-25T01:45:42.122331+00:00",
+    "ended": "2026-10-25T01:45:42.158214+00:00",
+    "elapsed_process_seconds": 0.03588340000001722,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.5e-06,
+      "end_to_end_seconds": 0.029101,
+      "epoch_seconds": 0.0036687,
+      "setup_seconds": 0.0063893
+    },
+    "included": true
+  },
+  {
+    "run_id": "0072-timing-confirm-s134033-g8-concentrated-immediate-r3-78a747",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g8-concentrated-immediate",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-25T01:45:42.182918+00:00",
+    "ended": "2026-10-25T01:45:42.223432+00:00",
+    "elapsed_process_seconds": 0.04051499999999919,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.58e-05,
+      "end_to_end_seconds": 0.0319063,
+      "epoch_seconds": 0.0044083,
+      "setup_seconds": 0.0084763
+    },
+    "included": true
+  },
+  {
+    "run_id": "0073-timing-confirm-s134033-g8-concentrated-bounded_backoff-r3-ff5ddb",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g8-concentrated-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-25T01:45:42.250062+00:00",
+    "ended": "2026-10-25T01:45:42.291327+00:00",
+    "elapsed_process_seconds": 0.04126600000000735,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.21e-05,
+      "end_to_end_seconds": 0.0320481,
+      "epoch_seconds": 0.0036521,
+      "setup_seconds": 0.0092122
+    },
+    "included": true
+  },
+  {
+    "run_id": "0074-timing-confirm-s128021-g256-concentrated-immediate-r3-12a781",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g256-concentrated-immediate",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-25T01:45:42.314587+00:00",
+    "ended": "2026-10-25T01:45:42.345808+00:00",
+    "elapsed_process_seconds": 0.031222500000012587,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 6.7e-06,
+      "end_to_end_seconds": 0.022106,
+      "epoch_seconds": 0.0031062,
+      "setup_seconds": 0.0048539
+    },
+    "included": true
+  },
+  {
+    "run_id": "0075-timing-confirm-s128021-g256-concentrated-bounded_backoff-r3-5b0e4a",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g256-concentrated-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-25T01:45:42.370593+00:00",
+    "ended": "2026-10-25T01:45:42.402476+00:00",
+    "elapsed_process_seconds": 0.031883299999975634,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 6.7e-06,
+      "end_to_end_seconds": 0.0234032,
+      "epoch_seconds": 0.0033832,
+      "setup_seconds": 0.0048028
+    },
+    "included": true
+  },
+  {
+    "run_id": "0076-timing-confirm-s128021-g8-concentrated-immediate-r3-921e12",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g8-concentrated-immediate",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-25T01:45:42.427336+00:00",
+    "ended": "2026-10-25T01:45:42.460559+00:00",
+    "elapsed_process_seconds": 0.03322239999999965,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.07e-05,
+      "end_to_end_seconds": 0.0235637,
+      "epoch_seconds": 0.0028069,
+      "setup_seconds": 0.006856
+    },
+    "included": true
+  },
+  {
+    "run_id": "0077-timing-confirm-s128021-g8-concentrated-bounded_backoff-r3-818b0a",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g8-concentrated-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-25T01:45:42.486677+00:00",
+    "ended": "2026-10-25T01:45:42.519069+00:00",
+    "elapsed_process_seconds": 0.032395799999989094,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.07e-05,
+      "end_to_end_seconds": 0.0232574,
+      "epoch_seconds": 0.002988,
+      "setup_seconds": 0.0073584
+    },
+    "included": true
+  },
+  {
+    "run_id": "0078-timing-confirm-s134033-g8-spread-immediate-r3-a5adec",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g8-spread-immediate",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-25T01:45:42.545436+00:00",
+    "ended": "2026-10-25T01:45:42.589419+00:00",
+    "elapsed_process_seconds": 0.043983700000012504,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.78e-05,
+      "end_to_end_seconds": 0.035581,
+      "epoch_seconds": 0.00614,
+      "setup_seconds": 0.0091529
+    },
+    "included": true
+  },
+  {
+    "run_id": "0079-timing-confirm-s134033-g8-spread-bounded_backoff-r3-7353cb",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g8-spread-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-25T01:45:42.613064+00:00",
+    "ended": "2026-10-25T01:45:42.653758+00:00",
+    "elapsed_process_seconds": 0.04069100000000958,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2.16e-05,
+      "end_to_end_seconds": 0.0315383,
+      "epoch_seconds": 0.004385,
+      "setup_seconds": 0.0084093
+    },
+    "included": true
+  },
+  {
+    "run_id": "0080-timing-confirm-s128021-g256-spread-immediate-r3-54bb00",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g256-spread-immediate",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-25T01:45:42.678412+00:00",
+    "ended": "2026-10-25T01:45:42.709038+00:00",
+    "elapsed_process_seconds": 0.030627399999985983,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7.5e-06,
+      "end_to_end_seconds": 0.0221521,
+      "epoch_seconds": 0.0027963,
+      "setup_seconds": 0.0044344
+    },
+    "included": true
+  },
+  {
+    "run_id": "0081-timing-confirm-s128021-g256-spread-bounded_backoff-r3-5db4b9",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g256-spread-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-25T01:45:42.733523+00:00",
+    "ended": "2026-10-25T01:45:42.762663+00:00",
+    "elapsed_process_seconds": 0.02913899999998648,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.03e-05,
+      "end_to_end_seconds": 0.021069,
+      "epoch_seconds": 0.0026297,
+      "setup_seconds": 0.0048002
+    },
+    "included": true
+  },
+  {
+    "run_id": "0082-timing-confirm-s134033-g256-spread-immediate-r3-44863f",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g256-spread-immediate",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-25T01:45:42.787454+00:00",
+    "ended": "2026-10-25T01:45:42.830831+00:00",
+    "elapsed_process_seconds": 0.04338070000000016,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.7e-06,
+      "end_to_end_seconds": 0.0349663,
+      "epoch_seconds": 0.0057983,
+      "setup_seconds": 0.0077151
+    },
+    "included": true
+  },
+  {
+    "run_id": "0083-timing-confirm-s134033-g256-spread-bounded_backoff-r3-d35500",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g256-spread-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-25T01:45:42.858275+00:00",
+    "ended": "2026-10-25T01:45:42.898968+00:00",
+    "elapsed_process_seconds": 0.04069150000000832,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.7e-06,
+      "end_to_end_seconds": 0.0315904,
+      "epoch_seconds": 0.0046772,
+      "setup_seconds": 0.0070289
+    },
+    "included": true
+  },
+  {
+    "run_id": "0084-timing-confirm-s134033-g256-concentrated-immediate-r3-dd00f8",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g256-concentrated-immediate",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-25T01:45:42.927947+00:00",
+    "ended": "2026-10-25T01:45:42.966712+00:00",
+    "elapsed_process_seconds": 0.03876449999998499,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2.1e-06,
+      "end_to_end_seconds": 0.0309167,
+      "epoch_seconds": 0.004104,
+      "setup_seconds": 0.0070472
+    },
+    "included": true
+  },
+  {
+    "run_id": "0085-timing-confirm-s134033-g256-concentrated-bounded_backoff-r3-a99016",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g256-concentrated-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-25T01:45:42.989567+00:00",
+    "ended": "2026-10-25T01:45:43.028937+00:00",
+    "elapsed_process_seconds": 0.03937070000000631,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.8e-06,
+      "end_to_end_seconds": 0.0313753,
+      "epoch_seconds": 0.0051685,
+      "setup_seconds": 0.0062272
+    },
+    "included": true
+  },
+  {
+    "run_id": "0086-timing-confirm-s128021-g8-spread-immediate-r3-6e984c",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g8-spread-immediate",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-25T01:45:43.055131+00:00",
+    "ended": "2026-10-25T01:45:43.087138+00:00",
+    "elapsed_process_seconds": 0.0320066999999824,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.14e-05,
+      "end_to_end_seconds": 0.0246382,
+      "epoch_seconds": 0.0024578,
+      "setup_seconds": 0.0071708
+    },
+    "included": true
+  },
+  {
+    "run_id": "0087-timing-confirm-s128021-g8-spread-bounded_backoff-r3-e8fe41",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g8-spread-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-25T01:45:43.109385+00:00",
+    "ended": "2026-10-25T01:45:43.139269+00:00",
+    "elapsed_process_seconds": 0.029884199999997918,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2.08e-05,
+      "end_to_end_seconds": 0.0230936,
+      "epoch_seconds": 0.0026069,
+      "setup_seconds": 0.0071451
+    },
+    "included": true
+  },
+  {
+    "run_id": "0088-timing-confirm-s128021-g256-concentrated-bounded_backoff-r4-fcb779",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g256-concentrated-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-25T01:45:43.163827+00:00",
+    "ended": "2026-10-25T01:45:43.193345+00:00",
+    "elapsed_process_seconds": 0.029514500000004773,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7.3e-06,
+      "end_to_end_seconds": 0.0211184,
+      "epoch_seconds": 0.0026007,
+      "setup_seconds": 0.0047397
+    },
+    "included": true
+  },
+  {
+    "run_id": "0089-timing-confirm-s128021-g256-concentrated-immediate-r4-384f11",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g256-concentrated-immediate",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-25T01:45:43.215441+00:00",
+    "ended": "2026-10-25T01:45:43.247971+00:00",
+    "elapsed_process_seconds": 0.0325326999999902,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8.3e-06,
+      "end_to_end_seconds": 0.0237009,
+      "epoch_seconds": 0.0031986,
+      "setup_seconds": 0.0049657
+    },
+    "included": true
+  },
+  {
+    "run_id": "0090-timing-confirm-s128021-g8-concentrated-bounded_backoff-r4-8adfbb",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g8-concentrated-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-25T01:45:43.271265+00:00",
+    "ended": "2026-10-25T01:45:43.303953+00:00",
+    "elapsed_process_seconds": 0.03268690000001584,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 9.7e-06,
+      "end_to_end_seconds": 0.0243987,
+      "epoch_seconds": 0.0032642,
+      "setup_seconds": 0.0071094
+    },
+    "included": true
+  },
+  {
+    "run_id": "0091-timing-confirm-s128021-g8-concentrated-immediate-r4-ed96bf",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g8-concentrated-immediate",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-25T01:45:43.328063+00:00",
+    "ended": "2026-10-25T01:45:43.362214+00:00",
+    "elapsed_process_seconds": 0.03415040000001568,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 9.5e-06,
+      "end_to_end_seconds": 0.0245519,
+      "epoch_seconds": 0.0032418,
+      "setup_seconds": 0.007015
+    },
+    "included": true
+  },
+  {
+    "run_id": "0092-timing-confirm-s134033-g8-spread-bounded_backoff-r4-d47f38",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g8-spread-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-25T01:45:43.383922+00:00",
+    "ended": "2026-10-25T01:45:43.425877+00:00",
+    "elapsed_process_seconds": 0.041958300000004556,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.45e-05,
+      "end_to_end_seconds": 0.0346513,
+      "epoch_seconds": 0.0060709,
+      "setup_seconds": 0.0090082
+    },
+    "included": true
+  },
+  {
+    "run_id": "0093-timing-confirm-s134033-g8-spread-immediate-r4-b0ceba",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g8-spread-immediate",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-25T01:45:43.451104+00:00",
+    "ended": "2026-10-25T01:45:43.493094+00:00",
+    "elapsed_process_seconds": 0.041990800000007766,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.46e-05,
+      "end_to_end_seconds": 0.0325733,
+      "epoch_seconds": 0.0035512,
+      "setup_seconds": 0.008905
+    },
+    "included": true
+  },
+  {
+    "run_id": "0094-timing-confirm-s128021-g256-spread-bounded_backoff-r4-416af1",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g256-spread-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-25T01:45:43.520947+00:00",
+    "ended": "2026-10-25T01:45:43.554288+00:00",
+    "elapsed_process_seconds": 0.03333639999999605,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.65e-05,
+      "end_to_end_seconds": 0.0251107,
+      "epoch_seconds": 0.003631,
+      "setup_seconds": 0.0064785
+    },
+    "included": true
+  },
+  {
+    "run_id": "0095-timing-confirm-s128021-g256-spread-immediate-r4-cc2977",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g256-spread-immediate",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-25T01:45:43.581349+00:00",
+    "ended": "2026-10-25T01:45:43.616081+00:00",
+    "elapsed_process_seconds": 0.03473579999999288,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.4e-05,
+      "end_to_end_seconds": 0.0248537,
+      "epoch_seconds": 0.0036669,
+      "setup_seconds": 0.0052499
+    },
+    "included": true
+  },
+  {
+    "run_id": "0096-timing-confirm-s134033-g256-spread-bounded_backoff-r4-be903d",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g256-spread-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-25T01:45:43.643088+00:00",
+    "ended": "2026-10-25T01:45:43.680577+00:00",
+    "elapsed_process_seconds": 0.0374905000000183,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.8e-06,
+      "end_to_end_seconds": 0.0302392,
+      "epoch_seconds": 0.0043481,
+      "setup_seconds": 0.0066031
+    },
+    "included": true
+  },
+  {
+    "run_id": "0097-timing-confirm-s134033-g256-spread-immediate-r4-4b0f5e",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g256-spread-immediate",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-25T01:45:43.708574+00:00",
+    "ended": "2026-10-25T01:45:43.750965+00:00",
+    "elapsed_process_seconds": 0.042362300000007735,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.9e-06,
+      "end_to_end_seconds": 0.0325683,
+      "epoch_seconds": 0.0048199,
+      "setup_seconds": 0.0071933
+    },
+    "included": true
+  },
+  {
+    "run_id": "0098-timing-confirm-s134033-g256-concentrated-bounded_backoff-r4-fdfa4c",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g256-concentrated-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-25T01:45:43.777432+00:00",
+    "ended": "2026-10-25T01:45:43.821647+00:00",
+    "elapsed_process_seconds": 0.04422350000001529,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.9e-06,
+      "end_to_end_seconds": 0.034048,
+      "epoch_seconds": 0.0054348,
+      "setup_seconds": 0.0073247
+    },
+    "included": true
+  },
+  {
+    "run_id": "0099-timing-confirm-s134033-g256-concentrated-immediate-r4-25d9ca",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g256-concentrated-immediate",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-25T01:45:43.851326+00:00",
+    "ended": "2026-10-25T01:45:43.890901+00:00",
+    "elapsed_process_seconds": 0.03957360000001131,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.9e-06,
+      "end_to_end_seconds": 0.0296575,
+      "epoch_seconds": 0.0040336,
+      "setup_seconds": 0.0065958
+    },
+    "included": true
+  },
+  {
+    "run_id": "0100-timing-confirm-s128021-g8-spread-bounded_backoff-r4-238e67",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g8-spread-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-25T01:45:43.915927+00:00",
+    "ended": "2026-10-25T01:45:43.948810+00:00",
+    "elapsed_process_seconds": 0.03287850000000958,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.03e-05,
+      "end_to_end_seconds": 0.023238,
+      "epoch_seconds": 0.0028841,
+      "setup_seconds": 0.0066219
+    },
+    "included": true
+  },
+  {
+    "run_id": "0101-timing-confirm-s128021-g8-spread-immediate-r4-992819",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g8-spread-immediate",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-25T01:45:43.978284+00:00",
+    "ended": "2026-10-25T01:45:44.015392+00:00",
+    "elapsed_process_seconds": 0.03710689999999772,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.54e-05,
+      "end_to_end_seconds": 0.0264243,
+      "epoch_seconds": 0.0039034,
+      "setup_seconds": 0.0073097
+    },
+    "included": true
+  },
+  {
+    "run_id": "0102-timing-confirm-s134033-g8-concentrated-bounded_backoff-r4-8f070f",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g8-concentrated-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-25T01:45:44.045752+00:00",
+    "ended": "2026-10-25T01:45:44.092418+00:00",
+    "elapsed_process_seconds": 0.046663499999993974,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.74e-05,
+      "end_to_end_seconds": 0.0353065,
+      "epoch_seconds": 0.0041598,
+      "setup_seconds": 0.0100908
+    },
+    "included": true
+  },
+  {
+    "run_id": "0103-timing-confirm-s134033-g8-concentrated-immediate-r4-f16321",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g8-concentrated-immediate",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-25T01:45:44.119073+00:00",
+    "ended": "2026-10-25T01:45:44.163894+00:00",
+    "elapsed_process_seconds": 0.04482630000001109,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.5e-05,
+      "end_to_end_seconds": 0.0341231,
+      "epoch_seconds": 0.0037573,
+      "setup_seconds": 0.0098124
+    },
+    "included": true
+  },
+  {
+    "run_id": "0104-timing-confirm-s128021-g8-concentrated-immediate-r5-e3737a",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g8-concentrated-immediate",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-25T01:45:44.190967+00:00",
+    "ended": "2026-10-25T01:45:44.224013+00:00",
+    "elapsed_process_seconds": 0.0330485000000067,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.81e-05,
+      "end_to_end_seconds": 0.0240887,
+      "epoch_seconds": 0.0026177,
+      "setup_seconds": 0.0071461
+    },
+    "included": true
+  },
+  {
+    "run_id": "0105-timing-confirm-s128021-g8-concentrated-bounded_backoff-r5-e728b4",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g8-concentrated-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-25T01:45:44.246588+00:00",
+    "ended": "2026-10-25T01:45:44.280242+00:00",
+    "elapsed_process_seconds": 0.03365489999998772,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1e-05,
+      "end_to_end_seconds": 0.0256448,
+      "epoch_seconds": 0.0037511,
+      "setup_seconds": 0.0069418
+    },
+    "included": true
+  },
+  {
+    "run_id": "0106-timing-confirm-s134033-g8-spread-immediate-r5-883dc9",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g8-spread-immediate",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-25T01:45:44.305789+00:00",
+    "ended": "2026-10-25T01:45:44.349956+00:00",
+    "elapsed_process_seconds": 0.044169100000004846,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.77e-05,
+      "end_to_end_seconds": 0.0339163,
+      "epoch_seconds": 0.0040882,
+      "setup_seconds": 0.0097786
+    },
+    "included": true
+  },
+  {
+    "run_id": "0107-timing-confirm-s134033-g8-spread-bounded_backoff-r5-e1490a",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g8-spread-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-25T01:45:44.376889+00:00",
+    "ended": "2026-10-25T01:45:44.419230+00:00",
+    "elapsed_process_seconds": 0.04234329999999886,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.6e-05,
+      "end_to_end_seconds": 0.0322074,
+      "epoch_seconds": 0.0038714,
+      "setup_seconds": 0.0089582
+    },
+    "included": true
+  },
+  {
+    "run_id": "0108-timing-confirm-s128021-g256-spread-immediate-r5-60fcf7",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g256-spread-immediate",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-25T01:45:44.445632+00:00",
+    "ended": "2026-10-25T01:45:44.478338+00:00",
+    "elapsed_process_seconds": 0.0327062000000069,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.28e-05,
+      "end_to_end_seconds": 0.0237158,
+      "epoch_seconds": 0.0033812,
+      "setup_seconds": 0.0053642
+    },
+    "included": true
+  },
+  {
+    "run_id": "0109-timing-confirm-s128021-g256-spread-bounded_backoff-r5-705a03",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g256-spread-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-25T01:45:44.507907+00:00",
+    "ended": "2026-10-25T01:45:44.540194+00:00",
+    "elapsed_process_seconds": 0.03231519999999932,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 6.5e-06,
+      "end_to_end_seconds": 0.0241781,
+      "epoch_seconds": 0.0036747,
+      "setup_seconds": 0.0048964
+    },
+    "included": true
+  },
+  {
+    "run_id": "0110-timing-confirm-s134033-g256-spread-immediate-r5-01676c",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g256-spread-immediate",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-25T01:45:44.566344+00:00",
+    "ended": "2026-10-25T01:45:44.606993+00:00",
+    "elapsed_process_seconds": 0.04064690000001292,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2.3e-06,
+      "end_to_end_seconds": 0.0311605,
+      "epoch_seconds": 0.0037437,
+      "setup_seconds": 0.0063577
+    },
+    "included": true
+  },
+  {
+    "run_id": "0111-timing-confirm-s134033-g256-spread-bounded_backoff-r5-8d16fa",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g256-spread-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-25T01:45:44.631204+00:00",
+    "ended": "2026-10-25T01:45:44.667442+00:00",
+    "elapsed_process_seconds": 0.03623640000000705,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.4e-06,
+      "end_to_end_seconds": 0.0292108,
+      "epoch_seconds": 0.0039559,
+      "setup_seconds": 0.0060608
+    },
+    "included": true
+  },
+  {
+    "run_id": "0112-timing-confirm-s134033-g256-concentrated-immediate-r5-f0a287",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g256-concentrated-immediate",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-25T01:45:44.695311+00:00",
+    "ended": "2026-10-25T01:45:44.730551+00:00",
+    "elapsed_process_seconds": 0.03523649999999634,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.7e-06,
+      "end_to_end_seconds": 0.0285195,
+      "epoch_seconds": 0.0037619,
+      "setup_seconds": 0.0061908
+    },
+    "included": true
+  },
+  {
+    "run_id": "0113-timing-confirm-s134033-g256-concentrated-bounded_backoff-r5-83e328",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g256-concentrated-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-25T01:45:44.751296+00:00",
+    "ended": "2026-10-25T01:45:44.787698+00:00",
+    "elapsed_process_seconds": 0.036403199999995195,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.9e-06,
+      "end_to_end_seconds": 0.0298328,
+      "epoch_seconds": 0.0040046,
+      "setup_seconds": 0.0062275
+    },
+    "included": true
+  },
+  {
+    "run_id": "0114-timing-confirm-s128021-g8-spread-immediate-r5-fa719b",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g8-spread-immediate",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-25T01:45:44.808809+00:00",
+    "ended": "2026-10-25T01:45:44.838582+00:00",
+    "elapsed_process_seconds": 0.02977490000000671,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2.39e-05,
+      "end_to_end_seconds": 0.0223592,
+      "epoch_seconds": 0.0023654,
+      "setup_seconds": 0.0066124
+    },
+    "included": true
+  },
+  {
+    "run_id": "0115-timing-confirm-s128021-g8-spread-bounded_backoff-r5-5c24ce",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g8-spread-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-25T01:45:44.860560+00:00",
+    "ended": "2026-10-25T01:45:44.890897+00:00",
+    "elapsed_process_seconds": 0.03033600000000547,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8.6e-06,
+      "end_to_end_seconds": 0.0224193,
+      "epoch_seconds": 0.0028653,
+      "setup_seconds": 0.0064947
+    },
+    "included": true
+  },
+  {
+    "run_id": "0116-timing-confirm-s134033-g8-concentrated-immediate-r5-648561",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g8-concentrated-immediate",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-25T01:45:44.912481+00:00",
+    "ended": "2026-10-25T01:45:44.954901+00:00",
+    "elapsed_process_seconds": 0.042426799999987,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.24e-05,
+      "end_to_end_seconds": 0.0341925,
+      "epoch_seconds": 0.0063903,
+      "setup_seconds": 0.0091465
+    },
+    "included": true
+  },
+  {
+    "run_id": "0117-timing-confirm-s134033-g8-concentrated-bounded_backoff-r5-46f2e1",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g8-concentrated-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-25T01:45:44.980052+00:00",
+    "ended": "2026-10-25T01:45:45.019073+00:00",
+    "elapsed_process_seconds": 0.03901899999999614,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.27e-05,
+      "end_to_end_seconds": 0.0302549,
+      "epoch_seconds": 0.0039356,
+      "setup_seconds": 0.0080845
+    },
+    "included": true
+  },
+  {
+    "run_id": "0118-timing-confirm-s128021-g256-concentrated-immediate-r5-e77976",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g256-concentrated-immediate",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-25T01:45:45.042407+00:00",
+    "ended": "2026-10-25T01:45:45.072499+00:00",
+    "elapsed_process_seconds": 0.030093100000016193,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.42e-05,
+      "end_to_end_seconds": 0.0222354,
+      "epoch_seconds": 0.0034142,
+      "setup_seconds": 0.004963
+    },
+    "included": true
+  },
+  {
+    "run_id": "0119-timing-confirm-s128021-g256-concentrated-bounded_backoff-r5-db6bc0",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g256-concentrated-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-25T01:45:45.098918+00:00",
+    "ended": "2026-10-25T01:45:45.129271+00:00",
+    "elapsed_process_seconds": 0.03035410000001093,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.06e-05,
+      "end_to_end_seconds": 0.0223195,
+      "epoch_seconds": 0.0028791,
+      "setup_seconds": 0.0045406
+    },
+    "included": true
+  },
+  {
+    "run_id": "0120-timing-confirm-s134033-g8-spread-bounded_backoff-r6-0c951b",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g8-spread-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 6,
+    "started": "2026-10-25T01:45:45.155339+00:00",
+    "ended": "2026-10-25T01:45:45.195211+00:00",
+    "elapsed_process_seconds": 0.03987750000001711,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.6e-05,
+      "end_to_end_seconds": 0.0321156,
+      "epoch_seconds": 0.0037834,
+      "setup_seconds": 0.0090751
+    },
+    "included": true
+  },
+  {
+    "run_id": "0121-timing-confirm-s134033-g8-spread-immediate-r6-fbe524",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g8-spread-immediate",
+    "purpose": "timing",
+    "repeat": 6,
+    "started": "2026-10-25T01:45:45.217572+00:00",
+    "ended": "2026-10-25T01:45:45.262185+00:00",
+    "elapsed_process_seconds": 0.04461639999999534,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.39e-05,
+      "end_to_end_seconds": 0.0357591,
+      "epoch_seconds": 0.0067386,
+      "setup_seconds": 0.0094503
+    },
+    "included": true
+  },
+  {
+    "run_id": "0122-timing-confirm-s128021-g256-spread-bounded_backoff-r6-ecbecc",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g256-spread-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 6,
+    "started": "2026-10-25T01:45:45.285225+00:00",
+    "ended": "2026-10-25T01:45:45.314070+00:00",
+    "elapsed_process_seconds": 0.028846099999981334,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7.7e-06,
+      "end_to_end_seconds": 0.0214413,
+      "epoch_seconds": 0.0030766,
+      "setup_seconds": 0.0047728
+    },
+    "included": true
+  },
+  {
+    "run_id": "0123-timing-confirm-s128021-g256-spread-immediate-r6-dbd4be",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g256-spread-immediate",
+    "purpose": "timing",
+    "repeat": 6,
+    "started": "2026-10-25T01:45:45.335913+00:00",
+    "ended": "2026-10-25T01:45:45.366412+00:00",
+    "elapsed_process_seconds": 0.030499100000014323,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 6.9e-06,
+      "end_to_end_seconds": 0.0223337,
+      "epoch_seconds": 0.0036122,
+      "setup_seconds": 0.0047313
+    },
+    "included": true
+  },
+  {
+    "run_id": "0124-timing-confirm-s134033-g256-spread-bounded_backoff-r6-2238d6",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g256-spread-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 6,
+    "started": "2026-10-25T01:45:45.388582+00:00",
+    "ended": "2026-10-25T01:45:45.427639+00:00",
+    "elapsed_process_seconds": 0.03905770000000075,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.8e-06,
+      "end_to_end_seconds": 0.0305322,
+      "epoch_seconds": 0.0037472,
+      "setup_seconds": 0.006716
+    },
+    "included": true
+  },
+  {
+    "run_id": "0125-timing-confirm-s134033-g256-spread-immediate-r6-191093",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g256-spread-immediate",
+    "purpose": "timing",
+    "repeat": 6,
+    "started": "2026-10-25T01:45:45.452852+00:00",
+    "ended": "2026-10-25T01:45:45.492974+00:00",
+    "elapsed_process_seconds": 0.040124399999996285,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2e-06,
+      "end_to_end_seconds": 0.0317774,
+      "epoch_seconds": 0.0053137,
+      "setup_seconds": 0.0067788
+    },
+    "included": true
+  },
+  {
+    "run_id": "0126-timing-confirm-s134033-g256-concentrated-bounded_backoff-r6-d1b5a5",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g256-concentrated-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 6,
+    "started": "2026-10-25T01:45:45.515861+00:00",
+    "ended": "2026-10-25T01:45:45.553670+00:00",
+    "elapsed_process_seconds": 0.03781260000002362,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.9e-06,
+      "end_to_end_seconds": 0.0294971,
+      "epoch_seconds": 0.0044895,
+      "setup_seconds": 0.0062716
+    },
+    "included": true
+  },
+  {
+    "run_id": "0127-timing-confirm-s134033-g256-concentrated-immediate-r6-fe86f2",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g256-concentrated-immediate",
+    "purpose": "timing",
+    "repeat": 6,
+    "started": "2026-10-25T01:45:45.579221+00:00",
+    "ended": "2026-10-25T01:45:45.616298+00:00",
+    "elapsed_process_seconds": 0.03708270000001335,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.7e-06,
+      "end_to_end_seconds": 0.0283941,
+      "epoch_seconds": 0.0039146,
+      "setup_seconds": 0.0058796
+    },
+    "included": true
+  },
+  {
+    "run_id": "0128-timing-confirm-s128021-g8-spread-bounded_backoff-r6-ab96e4",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g8-spread-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 6,
+    "started": "2026-10-25T01:45:45.641759+00:00",
+    "ended": "2026-10-25T01:45:45.676157+00:00",
+    "elapsed_process_seconds": 0.034401799999983496,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.25e-05,
+      "end_to_end_seconds": 0.0256276,
+      "epoch_seconds": 0.0036543,
+      "setup_seconds": 0.0065538
+    },
+    "included": true
+  },
+  {
+    "run_id": "0129-timing-confirm-s128021-g8-spread-immediate-r6-3920e8",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g8-spread-immediate",
+    "purpose": "timing",
+    "repeat": 6,
+    "started": "2026-10-25T01:45:45.702087+00:00",
+    "ended": "2026-10-25T01:45:45.732202+00:00",
+    "elapsed_process_seconds": 0.03011229999998477,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.02e-05,
+      "end_to_end_seconds": 0.023378,
+      "epoch_seconds": 0.0025516,
+      "setup_seconds": 0.0067934
+    },
+    "included": true
+  },
+  {
+    "run_id": "0130-timing-confirm-s134033-g8-concentrated-bounded_backoff-r6-76ed62",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g8-concentrated-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 6,
+    "started": "2026-10-25T01:45:45.758676+00:00",
+    "ended": "2026-10-25T01:45:45.799967+00:00",
+    "elapsed_process_seconds": 0.04128969999999299,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.59e-05,
+      "end_to_end_seconds": 0.0333592,
+      "epoch_seconds": 0.0055371,
+      "setup_seconds": 0.0084195
+    },
+    "included": true
+  },
+  {
+    "run_id": "0131-timing-confirm-s134033-g8-concentrated-immediate-r6-f06ff6",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g8-concentrated-immediate",
+    "purpose": "timing",
+    "repeat": 6,
+    "started": "2026-10-25T01:45:45.821532+00:00",
+    "ended": "2026-10-25T01:45:45.859875+00:00",
+    "elapsed_process_seconds": 0.03834369999998444,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.48e-05,
+      "end_to_end_seconds": 0.031698,
+      "epoch_seconds": 0.0037888,
+      "setup_seconds": 0.0086919
+    },
+    "included": true
+  },
+  {
+    "run_id": "0132-timing-confirm-s128021-g256-concentrated-bounded_backoff-r6-426433",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g256-concentrated-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 6,
+    "started": "2026-10-25T01:45:45.883200+00:00",
+    "ended": "2026-10-25T01:45:45.911916+00:00",
+    "elapsed_process_seconds": 0.028715399999981628,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 9.3e-06,
+      "end_to_end_seconds": 0.0212191,
+      "epoch_seconds": 0.0026885,
+      "setup_seconds": 0.0048564
+    },
+    "included": true
+  },
+  {
+    "run_id": "0133-timing-confirm-s128021-g256-concentrated-immediate-r6-ac27b6",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g256-concentrated-immediate",
+    "purpose": "timing",
+    "repeat": 6,
+    "started": "2026-10-25T01:45:45.934900+00:00",
+    "ended": "2026-10-25T01:45:45.962340+00:00",
+    "elapsed_process_seconds": 0.027442000000007738,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.08e-05,
+      "end_to_end_seconds": 0.0210691,
+      "epoch_seconds": 0.0025332,
+      "setup_seconds": 0.0045958
+    },
+    "included": true
+  },
+  {
+    "run_id": "0134-timing-confirm-s128021-g8-concentrated-bounded_backoff-r6-5c4740",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g8-concentrated-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 6,
+    "started": "2026-10-25T01:45:45.992092+00:00",
+    "ended": "2026-10-25T01:45:46.021859+00:00",
+    "elapsed_process_seconds": 0.029767399999997224,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1e-05,
+      "end_to_end_seconds": 0.0236646,
+      "epoch_seconds": 0.0040974,
+      "setup_seconds": 0.0065064
+    },
+    "included": true
+  },
+  {
+    "run_id": "0135-timing-confirm-s128021-g8-concentrated-immediate-r6-82a92f",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g8-concentrated-immediate",
+    "purpose": "timing",
+    "repeat": 6,
+    "started": "2026-10-25T01:45:46.046030+00:00",
+    "ended": "2026-10-25T01:45:46.076995+00:00",
+    "elapsed_process_seconds": 0.030966400000011163,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.01e-05,
+      "end_to_end_seconds": 0.0230466,
+      "epoch_seconds": 0.002597,
+      "setup_seconds": 0.0064306
+    },
+    "included": true
+  },
+  {
+    "run_id": "0136-timing-confirm-s128021-g256-spread-immediate-r7-4da516",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g256-spread-immediate",
+    "purpose": "timing",
+    "repeat": 7,
+    "started": "2026-10-25T01:45:46.104530+00:00",
+    "ended": "2026-10-25T01:45:46.133681+00:00",
+    "elapsed_process_seconds": 0.029149300000000267,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.93e-05,
+      "end_to_end_seconds": 0.0210976,
+      "epoch_seconds": 0.0029526,
+      "setup_seconds": 0.0046042
+    },
+    "included": true
+  },
+  {
+    "run_id": "0137-timing-confirm-s128021-g256-spread-bounded_backoff-r7-7d9b21",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g256-spread-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 7,
+    "started": "2026-10-25T01:45:46.160749+00:00",
+    "ended": "2026-10-25T01:45:46.190998+00:00",
+    "elapsed_process_seconds": 0.030250300000005836,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.47e-05,
+      "end_to_end_seconds": 0.0210871,
+      "epoch_seconds": 0.0029123,
+      "setup_seconds": 0.0045496
+    },
+    "included": true
+  },
+  {
+    "run_id": "0138-timing-confirm-s134033-g256-spread-immediate-r7-81b3e1",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g256-spread-immediate",
+    "purpose": "timing",
+    "repeat": 7,
+    "started": "2026-10-25T01:45:46.216768+00:00",
+    "ended": "2026-10-25T01:45:46.254568+00:00",
+    "elapsed_process_seconds": 0.037804800000003524,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.7e-06,
+      "end_to_end_seconds": 0.0290119,
+      "epoch_seconds": 0.0036688,
+      "setup_seconds": 0.0067764
+    },
+    "included": true
+  },
+  {
+    "run_id": "0139-timing-confirm-s134033-g256-spread-bounded_backoff-r7-50a150",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g256-spread-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 7,
+    "started": "2026-10-25T01:45:46.282097+00:00",
+    "ended": "2026-10-25T01:45:46.320762+00:00",
+    "elapsed_process_seconds": 0.038668499999999995,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2.4e-06,
+      "end_to_end_seconds": 0.0294286,
+      "epoch_seconds": 0.0040912,
+      "setup_seconds": 0.0065072
+    },
+    "included": true
+  },
+  {
+    "run_id": "0140-timing-confirm-s134033-g256-concentrated-immediate-r7-8be213",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g256-concentrated-immediate",
+    "purpose": "timing",
+    "repeat": 7,
+    "started": "2026-10-25T01:45:46.346111+00:00",
+    "ended": "2026-10-25T01:45:46.381749+00:00",
+    "elapsed_process_seconds": 0.035637500000007094,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.5e-06,
+      "end_to_end_seconds": 0.0283236,
+      "epoch_seconds": 0.0038831,
+      "setup_seconds": 0.0058032
+    },
+    "included": true
+  },
+  {
+    "run_id": "0141-timing-confirm-s134033-g256-concentrated-bounded_backoff-r7-1189da",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g256-concentrated-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 7,
+    "started": "2026-10-25T01:45:46.404688+00:00",
+    "ended": "2026-10-25T01:45:46.444324+00:00",
+    "elapsed_process_seconds": 0.03963569999999095,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.9e-06,
+      "end_to_end_seconds": 0.0314017,
+      "epoch_seconds": 0.0040197,
+      "setup_seconds": 0.0065609
+    },
+    "included": true
+  },
+  {
+    "run_id": "0142-timing-confirm-s128021-g8-spread-immediate-r7-11bb3e",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g8-spread-immediate",
+    "purpose": "timing",
+    "repeat": 7,
+    "started": "2026-10-25T01:45:46.470568+00:00",
+    "ended": "2026-10-25T01:45:46.502728+00:00",
+    "elapsed_process_seconds": 0.03215779999999313,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.05e-05,
+      "end_to_end_seconds": 0.0236559,
+      "epoch_seconds": 0.0026046,
+      "setup_seconds": 0.0063804
+    },
+    "included": true
+  },
+  {
+    "run_id": "0143-timing-confirm-s128021-g8-spread-bounded_backoff-r7-85d0ff",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g8-spread-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 7,
+    "started": "2026-10-25T01:45:46.526493+00:00",
+    "ended": "2026-10-25T01:45:46.560105+00:00",
+    "elapsed_process_seconds": 0.03361250000000382,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 9.9e-06,
+      "end_to_end_seconds": 0.0252478,
+      "epoch_seconds": 0.0027992,
+      "setup_seconds": 0.0071392
+    },
+    "included": true
+  },
+  {
+    "run_id": "0144-timing-confirm-s134033-g8-concentrated-immediate-r7-468b59",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g8-concentrated-immediate",
+    "purpose": "timing",
+    "repeat": 7,
+    "started": "2026-10-25T01:45:46.586318+00:00",
+    "ended": "2026-10-25T01:45:46.630928+00:00",
+    "elapsed_process_seconds": 0.04461759999998094,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.61e-05,
+      "end_to_end_seconds": 0.0347319,
+      "epoch_seconds": 0.0047149,
+      "setup_seconds": 0.0093278
+    },
+    "included": true
+  },
+  {
+    "run_id": "0145-timing-confirm-s134033-g8-concentrated-bounded_backoff-r7-5e1a39",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g8-concentrated-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 7,
+    "started": "2026-10-25T01:45:46.660909+00:00",
+    "ended": "2026-10-25T01:45:46.705238+00:00",
+    "elapsed_process_seconds": 0.04433080000001155,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.7e-05,
+      "end_to_end_seconds": 0.0339375,
+      "epoch_seconds": 0.0043442,
+      "setup_seconds": 0.0096971
+    },
+    "included": true
+  },
+  {
+    "run_id": "0146-timing-confirm-s128021-g256-concentrated-immediate-r7-33795b",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g256-concentrated-immediate",
+    "purpose": "timing",
+    "repeat": 7,
+    "started": "2026-10-25T01:45:46.731934+00:00",
+    "ended": "2026-10-25T01:45:46.761078+00:00",
+    "elapsed_process_seconds": 0.029143000000004804,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 6.8e-06,
+      "end_to_end_seconds": 0.0206813,
+      "epoch_seconds": 0.0028017,
+      "setup_seconds": 0.0042738
+    },
+    "included": true
+  },
+  {
+    "run_id": "0147-timing-confirm-s128021-g256-concentrated-bounded_backoff-r7-d18996",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g256-concentrated-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 7,
+    "started": "2026-10-25T01:45:46.790901+00:00",
+    "ended": "2026-10-25T01:45:46.821562+00:00",
+    "elapsed_process_seconds": 0.030657600000012053,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.51e-05,
+      "end_to_end_seconds": 0.0215301,
+      "epoch_seconds": 0.0028777,
+      "setup_seconds": 0.0052104
+    },
+    "included": true
+  },
+  {
+    "run_id": "0148-timing-confirm-s128021-g8-concentrated-immediate-r7-dc9459",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g8-concentrated-immediate",
+    "purpose": "timing",
+    "repeat": 7,
+    "started": "2026-10-25T01:45:46.848285+00:00",
+    "ended": "2026-10-25T01:45:46.881156+00:00",
+    "elapsed_process_seconds": 0.032868799999988596,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.07e-05,
+      "end_to_end_seconds": 0.0237343,
+      "epoch_seconds": 0.0026266,
+      "setup_seconds": 0.0070024
+    },
+    "included": true
+  },
+  {
+    "run_id": "0149-timing-confirm-s128021-g8-concentrated-bounded_backoff-r7-181860",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s128021-g8-concentrated-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 7,
+    "started": "2026-10-25T01:45:46.910131+00:00",
+    "ended": "2026-10-25T01:45:46.943088+00:00",
+    "elapsed_process_seconds": 0.032963100000017675,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 9.7e-06,
+      "end_to_end_seconds": 0.0228199,
+      "epoch_seconds": 0.0028524,
+      "setup_seconds": 0.0068391
+    },
+    "included": true
+  },
+  {
+    "run_id": "0150-timing-confirm-s134033-g8-spread-immediate-r7-854218",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g8-spread-immediate",
+    "purpose": "timing",
+    "repeat": 7,
+    "started": "2026-10-25T01:45:46.968794+00:00",
+    "ended": "2026-10-25T01:45:47.008427+00:00",
+    "elapsed_process_seconds": 0.039638199999984636,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.45e-05,
+      "end_to_end_seconds": 0.03146,
+      "epoch_seconds": 0.003592,
+      "setup_seconds": 0.0082263
+    },
+    "included": true
+  },
+  {
+    "run_id": "0151-timing-confirm-s134033-g8-spread-bounded_backoff-r7-9c502a",
+    "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+    "condition": "confirm-s134033-g8-spread-bounded_backoff",
+    "purpose": "timing",
+    "repeat": 7,
+    "started": "2026-10-25T01:45:47.039309+00:00",
+    "ended": "2026-10-25T01:45:47.081355+00:00",
+    "elapsed_process_seconds": 0.042045599999994465,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.35e-05,
+      "end_to_end_seconds": 0.0338292,
+      "epoch_seconds": 0.0038072,
+      "setup_seconds": 0.0089186
+    },
+    "included": true
+  }
+]

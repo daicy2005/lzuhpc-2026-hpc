@@ -1,0 +1,11 @@
+{
+  "label": "default-build",
+  "argv": [
+    "cmake",
+    "--build",
+    "/root/lzuhpc-experiments/ws-20261025-submission-native/build-default",
+    "-j2"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 27.875458300000002
+}

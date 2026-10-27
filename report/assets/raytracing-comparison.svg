@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="495.27559055118115" height="119" preserveAspectRatio="xMinYMin meet" viewBox="0 0 495 119" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="495.27559055118115" height="119"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-119)" style="clip-path: url(#clip)">
+		<g transform="">
+			<path d="M 78,27 L 78,102 Z" style="stroke: rgb(79%,83%,87%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="75.6141357421875" y="14" style="font-family: DejaVu Sans; font-size: 7.5px;fill: rgb(34%,40%,45%); stroke:none;" transform="translate(0,28) scale(1,-1)">0</text>
+			<path d="M 156.637045,27 L 156.637045,102 Z" style="stroke: rgb(79%,83%,87%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="149.47945259589136" y="14" style="font-family: DejaVu Sans; font-size: 7.5px;fill: rgb(34%,40%,45%); stroke:none;" transform="translate(0,28) scale(1,-1)">500</text>
+			<path d="M 235.274091,27 L 235.274091,102 Z" style="stroke: rgb(79%,83%,87%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="225.7306337074077" y="14" style="font-family: DejaVu Sans; font-size: 7.5px;fill: rgb(34%,40%,45%); stroke:none;" transform="translate(0,28) scale(1,-1)">1000</text>
+			<path d="M 313.911136,27 L 313.911136,102 Z" style="stroke: rgb(79%,83%,87%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="304.3676790767365" y="14" style="font-family: DejaVu Sans; font-size: 7.5px;fill: rgb(34%,40%,45%); stroke:none;" transform="translate(0,28) scale(1,-1)">1500</text>
+			<path d="M 392.548181,27 L 392.548181,102 Z" style="stroke: rgb(79%,83%,87%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="383.0047244460654" y="14" style="font-family: DejaVu Sans; font-size: 7.5px;fill: rgb(34%,40%,45%); stroke:none;" transform="translate(0,28) scale(1,-1)">2000</text>
+			<text x="36.72460937499999" y="88" style="font-family: Microsoft YaHei; font-size: 9px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,176) scale(1,-1)">原版 O2</text>
+			<rect x="78" y="84" width="309.62503061492316" height="14" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,24%,36%); fill-rule: evenodd;"/>
+			<circle cx="376.4301035620548" cy="89" r="2.5" style="stroke: rgb(12%,14%,16%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="387.62503061492316" cy="91" r="2.5" style="stroke: rgb(12%,14%,16%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="391.49947784027" cy="93" r="2.5" style="stroke: rgb(12%,14%,16%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="441.50117648868115" y="88" style="font-family: Microsoft YaHei; font-size: 9px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,176) scale(1,-1)">1968.697 秒</text>
+			<text x="43.0" y="51" style="font-family: Microsoft YaHei; font-size: 9px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,102) scale(1,-1)">最终版</text>
+			<rect x="78" y="47" width="13.369241357330338" height="14" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(6%,54%,56%); fill-rule: evenodd;"/>
+			<circle cx="91.34580751781027" cy="52" r="2.5" style="stroke: rgb(12%,14%,16%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="91.36924135733034" cy="54" r="2.5" style="stroke: rgb(12%,14%,16%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="91.39928070866142" cy="56" r="2.5" style="stroke: rgb(12%,14%,16%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="452.05684055118115" y="51" style="font-family: Microsoft YaHei; font-size: 9px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,102) scale(1,-1)">85.006 秒</text>
+			<text x="216.10459215059058" y="0" style="font-family: Microsoft YaHei; font-size: 8px;fill: rgb(34%,40%,45%); stroke:none;" transform="translate(0,0) scale(1,-1)">Render time / 秒</text>
+		</g>
+	</g>
+</svg>

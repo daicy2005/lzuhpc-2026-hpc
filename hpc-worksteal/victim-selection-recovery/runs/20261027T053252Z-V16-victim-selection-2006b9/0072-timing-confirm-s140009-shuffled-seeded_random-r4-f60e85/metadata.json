@@ -1,0 +1,28 @@
+{
+  "run_id": "0072-timing-confirm-s140009-shuffled-seeded_random-r4-f60e85",
+  "batch_id": "20261027T053252Z-V16-victim-selection-2006b9",
+  "condition": "confirm-s140009-shuffled-seeded_random",
+  "purpose": "timing",
+  "repeat": 4,
+  "started": "2026-10-27T05:33:07.738791+00:00",
+  "ended": "2026-10-27T05:33:08.206231+00:00",
+  "elapsed_process_seconds": 0.4674412000000103,
+  "exit_code": 0,
+  "expected_exit": 0,
+  "status": "completed",
+  "failure_reason": null,
+  "source_id": "e85c97b09468b4a3c6a6286bdceac7ffa408d2983cc2a957765e6b3bd9580c86",
+  "binary_sha256": "c52674ba1244813d7d71808298b552042487a8bbeb41b8349a3eb4915027da8c",
+  "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+  "environment_ref": "../environment.json",
+  "correctness": {
+    "pass": true
+  },
+  "timing": {
+    "dispatch_seconds": 5.4e-06,
+    "end_to_end_seconds": 0.1447119,
+    "epoch_seconds": 0.0263403,
+    "setup_seconds": 0.0137581
+  },
+  "included": true
+}

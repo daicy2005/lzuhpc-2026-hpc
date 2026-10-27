@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1440" height="540" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1440 540" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1440" height="540"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-540)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="490.32080078125" y="499" style="font-family: Microsoft YaHei; font-weight: bold; font-size: 38px;fill: rgb(9%,23%,39%); stroke:none;" transform="translate(0,998) scale(1,-1)">Mini WorkSteal 运行流程</text>
+			<rect x="15" y="154" width="330" height="304" rx="18" ry="18" style="stroke: rgb(44%,71%,79%); stroke-linecap: butt; stroke-width: 2; fill: rgb(96%,98%,99%); fill-rule: evenodd;"/>
+			<rect x="17" y="395" width="326" height="61" rx="16" ry="16" style="stroke: none; stroke-linecap: butt; stroke-width: 2; fill: rgb(90%,95%,97%); fill-rule: evenodd;"/>
+			<text x="102.5" y="413" style="font-family: Microsoft YaHei; font-weight: bold; font-size: 31px;fill: rgb(9%,23%,39%); stroke:none;" transform="translate(0,826) scale(1,-1)">配置与注册</text>
+			<text x="90.087890625" y="357" style="font-family: Microsoft YaHei; font-size: 24px;fill: rgb(9%,23%,39%); stroke:none;" transform="translate(0,714) scale(1,-1)">JSON / Registry</text>
+			<rect x="141.0" y="224.0" width="78.0" height="92.0" rx="5.0" ry="5.0" style="stroke: rgb(9%,23%,39%); stroke-linecap: butt; stroke-width: 3.4; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 155,293 L 205,293 Z" style="stroke: rgb(9%,23%,39%); stroke-linecap: round; stroke-width: 3.4;"/>
+			<circle cx="167.0" cy="293.0" r="5.0" style="stroke: rgb(9%,23%,39%); stroke-linecap: butt; stroke-width: 3.4; fill: rgb(85%,94%,94%); fill-rule: evenodd;"/>
+			<path d="M 155,270 L 205,270 Z" style="stroke: rgb(9%,23%,39%); stroke-linecap: round; stroke-width: 3.4;"/>
+			<circle cx="193.0" cy="270.0" r="5.0" style="stroke: rgb(9%,23%,39%); stroke-linecap: butt; stroke-width: 3.4; fill: rgb(85%,94%,94%); fill-rule: evenodd;"/>
+			<path d="M 155,247 L 205,247 Z" style="stroke: rgb(9%,23%,39%); stroke-linecap: round; stroke-width: 3.4;"/>
+			<circle cx="180.0" cy="247.0" r="5.0" style="stroke: rgb(9%,23%,39%); stroke-linecap: butt; stroke-width: 3.4; fill: rgb(85%,94%,94%); fill-rule: evenodd;"/>
+			<path d="M 352,303 L 363.24,303 Z" style="stroke: rgb(8%,54%,56%); stroke-linecap: round; stroke-width: 3;"/>
+			<polygon points="368 303, 362.24 299.4288, 362.24 306.5712" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(8%,54%,56%); fill-rule: evenodd;"/>
+			<rect x="375" y="154" width="330" height="304" rx="18" ry="18" style="stroke: rgb(44%,71%,79%); stroke-linecap: butt; stroke-width: 2; fill: rgb(96%,98%,99%); fill-rule: evenodd;"/>
+			<rect x="377" y="395" width="326" height="61" rx="16" ry="16" style="stroke: none; stroke-linecap: butt; stroke-width: 2; fill: rgb(90%,95%,97%); fill-rule: evenodd;"/>
+			<text x="462.5" y="413" style="font-family: Microsoft YaHei; font-weight: bold; font-size: 31px;fill: rgb(9%,23%,39%); stroke:none;" transform="translate(0,826) scale(1,-1)">切分与放置</text>
+			<text x="418.951171875" y="357" style="font-family: Microsoft YaHei; font-size: 24px;fill: rgb(9%,23%,39%); stroke:none;" transform="translate(0,714) scale(1,-1)">Partition / Placement</text>
+			<rect x="524.0" y="247.0" width="60.0" height="68.0" rx="5.0" ry="5.0" style="stroke: rgb(50%,71%,78%); stroke-linecap: butt; stroke-width: 3.4; fill: rgb(86%,93%,95%); fill-rule: evenodd;"/>
+			<rect x="511.0" y="234.0" width="60.0" height="68.0" rx="5.0" ry="5.0" style="stroke: rgb(36%,61%,70%); stroke-linecap: butt; stroke-width: 3.4; fill: rgb(93%,96%,98%); fill-rule: evenodd;"/>
+			<rect x="498.0" y="221.0" width="60.0" height="68.0" rx="5.0" ry="5.0" style="stroke: rgb(9%,23%,39%); stroke-linecap: butt; stroke-width: 3.4; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 511,270 L 545,270 Z" style="stroke: rgb(8%,54%,56%); stroke-linecap: round; stroke-width: 3.4;"/>
+			<path d="M 511,255 L 545,255 Z" style="stroke: rgb(8%,54%,56%); stroke-linecap: round; stroke-width: 3.4;"/>
+			<path d="M 511,240 L 545,240 Z" style="stroke: rgb(8%,54%,56%); stroke-linecap: round; stroke-width: 3.4;"/>
+			<rect x="398" y="168" width="284" height="33" rx="16" ry="16" style="stroke: none; stroke-linecap: butt; stroke-width: 2; fill: rgb(87%,94%,96%); fill-rule: evenodd;"/>
+			<text x="477.0" y="177" style="font-family: Microsoft YaHei; font-size: 21px;fill: rgb(9%,23%,39%); stroke:none;" transform="translate(0,354) scale(1,-1)">固定任务集合</text>
+			<path d="M 712,303 L 723.24,303 Z" style="stroke: rgb(8%,54%,56%); stroke-linecap: round; stroke-width: 3;"/>
+			<polygon points="728 303, 722.24 299.4288, 722.24 306.5712" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(8%,54%,56%); fill-rule: evenodd;"/>
+			<rect x="735" y="154" width="330" height="304" rx="18" ry="18" style="stroke: rgb(44%,71%,79%); stroke-linecap: butt; stroke-width: 2; fill: rgb(96%,98%,99%); fill-rule: evenodd;"/>
+			<rect x="737" y="395" width="326" height="61" rx="16" ry="16" style="stroke: none; stroke-linecap: butt; stroke-width: 2; fill: rgb(90%,95%,97%); fill-rule: evenodd;"/>
+			<text x="822.5" y="413" style="font-family: Microsoft YaHei; font-weight: bold; font-size: 31px;fill: rgb(9%,23%,39%); stroke:none;" transform="translate(0,826) scale(1,-1)">执行与窃取</text>
+			<text x="811.95703125" y="357" style="font-family: Microsoft YaHei; font-size: 24px;fill: rgb(9%,23%,39%); stroke:none;" transform="translate(0,714) scale(1,-1)">Victim / Timing</text>
+			<text x="843.50390625" y="328" style="font-family: Microsoft YaHei; font-size: 24px;fill: rgb(9%,23%,39%); stroke:none;" transform="translate(0,656) scale(1,-1)">Migration</text>
+			<circle cx="856.0" cy="301.0" r="9.0" style="stroke: rgb(9%,23%,39%); stroke-linecap: butt; stroke-width: 3.4; fill: rgb(76%,90%,92%); fill-rule: evenodd;"/>
+			<rect x="875.0" y="291.0" width="62.0" height="20.0" rx="4.0" ry="4.0" style="stroke: rgb(9%,23%,39%); stroke-linecap: butt; stroke-width: 3.4; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="856.0" cy="270.0" r="9.0" style="stroke: rgb(9%,23%,39%); stroke-linecap: butt; stroke-width: 3.4; fill: rgb(76%,90%,92%); fill-rule: evenodd;"/>
+			<rect x="875.0" y="260.0" width="62.0" height="20.0" rx="4.0" ry="4.0" style="stroke: rgb(9%,23%,39%); stroke-linecap: butt; stroke-width: 3.4; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="856.0" cy="239.0" r="9.0" style="stroke: rgb(9%,23%,39%); stroke-linecap: butt; stroke-width: 3.4; fill: rgb(76%,90%,92%); fill-rule: evenodd;"/>
+			<rect x="875.0" y="229.0" width="62.0" height="20.0" rx="4.0" ry="4.0" style="stroke: rgb(9%,23%,39%); stroke-linecap: butt; stroke-width: 3.4; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="917.0" y="291.0" width="20.0" height="20.0" rx="3.0" ry="3.0" style="stroke: rgb(83%,58%,22%); stroke-linecap: butt; stroke-width: 3.4; fill: rgb(97%,87%,70%); fill-rule: evenodd;"/>
+			<path d="M 895,310 L 895,292 Z" style="stroke: rgb(60%,79%,83%); stroke-linecap: round; stroke-width: 3.4;"/>
+			<path d="M 916,310 L 916,292 Z" style="stroke: rgb(60%,79%,83%); stroke-linecap: round; stroke-width: 3.4;"/>
+			<path d="M 895,279 L 895,261 Z" style="stroke: rgb(60%,79%,83%); stroke-linecap: round; stroke-width: 3.4;"/>
+			<path d="M 895,248 L 895,230 Z" style="stroke: rgb(60%,79%,83%); stroke-linecap: round; stroke-width: 3.4;"/>
+			<path d="M 942 301 L 953 301 L 953 239 " style="stroke: rgb(83%,58%,22%); stroke-linecap: round; stroke-width: 3.4; fill: none; fill-rule: evenodd;"/>
+			<path d="M 953,239 L 943.68,239 Z" style="stroke: rgb(83%,58%,22%); stroke-linecap: round; stroke-width: 3.4;"/>
+			<polygon points="940 239, 944.68 241.9016, 944.68 236.0984" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(83%,58%,22%); fill-rule: evenodd;"/>
+			<rect x="758" y="168" width="284" height="33" rx="16" ry="16" style="stroke: none; stroke-linecap: butt; stroke-width: 2; fill: rgb(87%,94%,96%); fill-rule: evenodd;"/>
+			<text x="805.300048828125" y="177" style="font-family: Microsoft YaHei; font-size: 21px;fill: rgb(9%,23%,39%); stroke:none;" transform="translate(0,354) scale(1,-1)">持久线程 / 带锁队列</text>
+			<path d="M 1072,303 L 1083.24,303 Z" style="stroke: rgb(8%,54%,56%); stroke-linecap: round; stroke-width: 3;"/>
+			<polygon points="1088 303, 1082.24 299.4288, 1082.24 306.5712" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(8%,54%,56%); fill-rule: evenodd;"/>
+			<rect x="1095" y="154" width="330" height="304" rx="18" ry="18" style="stroke: rgb(44%,71%,79%); stroke-linecap: butt; stroke-width: 2; fill: rgb(96%,98%,99%); fill-rule: evenodd;"/>
+			<rect x="1097" y="395" width="326" height="61" rx="16" ry="16" style="stroke: none; stroke-linecap: butt; stroke-width: 2; fill: rgb(90%,95%,97%); fill-rule: evenodd;"/>
+			<text x="1182.5" y="413" style="font-family: Microsoft YaHei; font-weight: bold; font-size: 31px;fill: rgb(9%,23%,39%); stroke:none;" transform="translate(0,826) scale(1,-1)">完成与核验</text>
+			<text x="1139.771484375" y="357" style="font-family: Microsoft YaHei; font-size: 24px;fill: rgb(9%,23%,39%); stroke:none;" transform="translate(0,714) scale(1,-1)">结果发布 / 逐元素参考</text>
+			<rect x="1226.0" y="227.0" width="68.0" height="86.0" rx="5.0" ry="5.0" style="stroke: rgb(9%,23%,39%); stroke-linecap: butt; stroke-width: 3.4; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="1247.0" y="307.0" width="26.0" height="12.0" rx="4.0" ry="4.0" style="stroke: rgb(9%,23%,39%); stroke-linecap: butt; stroke-width: 3.4; fill: rgb(90%,94%,96%); fill-rule: evenodd;"/>
+			<path d="M 1237.7 290 L 1242.6 285.8 L 1250.72 294.9 " style="stroke: rgb(8%,54%,56%); stroke-linecap: round; stroke-width: 3.4; fill: none; fill-rule: evenodd;"/>
+			<path d="M 1261,290 L 1282,290 Z" style="stroke: rgb(43%,68%,75%); stroke-linecap: round; stroke-width: 3.4;"/>
+			<path d="M 1237.7 267 L 1242.6 262.8 L 1250.72 271.9 " style="stroke: rgb(8%,54%,56%); stroke-linecap: round; stroke-width: 3.4; fill: none; fill-rule: evenodd;"/>
+			<path d="M 1261,267 L 1282,267 Z" style="stroke: rgb(43%,68%,75%); stroke-linecap: round; stroke-width: 3.4;"/>
+			<path d="M 1237.7 244 L 1242.6 239.8 L 1250.72 248.9 " style="stroke: rgb(8%,54%,56%); stroke-linecap: round; stroke-width: 3.4; fill: none; fill-rule: evenodd;"/>
+			<path d="M 1261,244 L 1282,244 Z" style="stroke: rgb(43%,68%,75%); stroke-linecap: round; stroke-width: 3.4;"/>
+			<rect x="357" y="60" width="726" height="64" rx="30" ry="30" style="stroke: rgb(44%,71%,79%); stroke-linecap: butt; stroke-width: 2; fill: rgb(90%,95%,97%); fill-rule: evenodd;"/>
+			<text x="466.5888671875" y="82" style="font-family: Microsoft YaHei; font-weight: bold; font-size: 26px;fill: rgb(9%,23%,39%); stroke:none;" transform="translate(0,164) scale(1,-1)">Affinity：工作线程与逻辑 CPU 的绑定请求</text>
+			<text x="514.2119140625" y="13" style="font-family: Microsoft YaHei; font-size: 22px;fill: rgb(9%,23%,39%); stroke:none;" transform="translate(0,26) scale(1,-1)">Migration：任务描述符在工作队列间转移</text>
+		</g>
+	</g>
+</svg>

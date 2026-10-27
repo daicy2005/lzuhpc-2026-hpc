@@ -1,0 +1,11 @@
+{
+  "label": "optimized-build",
+  "argv": [
+    "cmake",
+    "--build",
+    "/root/lzuhpc-experiments/ws-20261025-submission-native/build-optimized",
+    "-j2"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 20.3950466
+}

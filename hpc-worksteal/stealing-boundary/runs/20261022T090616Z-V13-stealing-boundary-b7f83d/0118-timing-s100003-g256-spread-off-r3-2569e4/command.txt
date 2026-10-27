@@ -1,0 +1,11 @@
+{
+  "cwd": "/root/lzuhpc-experiments/ws-20261022-stealing-boundary-study",
+  "argv": [
+    "/root/lzuhpc-experiments/ws-20261022-fill-interleaved-release/build-none/worksteal",
+    "--config",
+    "/root/lzuhpc-experiments/ws-20261022-stealing-boundary-study/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0118-timing-s100003-g256-spread-off-r3-2569e4/config.json",
+    "--output",
+    "/root/lzuhpc-experiments/ws-20261022-stealing-boundary-study/runs/20261022T090616Z-V13-stealing-boundary-b7f83d/0118-timing-s100003-g256-spread-off-r3-2569e4/result.json"
+  ],
+  "explicit_environment": {}
+}

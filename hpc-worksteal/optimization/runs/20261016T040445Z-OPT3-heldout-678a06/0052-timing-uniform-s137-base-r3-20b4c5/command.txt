@@ -1,0 +1,11 @@
+{
+  "cwd": "/root/lzuhpc-experiments/ws-20261016-opt-baseline",
+  "argv": [
+    "/root/lzuhpc-experiments/ws-20261016-opt-baseline/build-none/worksteal",
+    "--config",
+    "/root/lzuhpc-experiments/ws-20261016-opt-baseline/runs/20261016T040445Z-OPT3-heldout-678a06/0052-timing-uniform-s137-base-r3-20b4c5/config.json",
+    "--output",
+    "/root/lzuhpc-experiments/ws-20261016-opt-baseline/runs/20261016T040445Z-OPT3-heldout-678a06/0052-timing-uniform-s137-base-r3-20b4c5/result.json"
+  ],
+  "explicit_environment": {}
+}

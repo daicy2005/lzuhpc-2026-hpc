@@ -1,0 +1,28 @@
+{
+  "run_id": "0033-timing-memory-s41011-candidate-r5-e5ada0",
+  "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+  "condition": "memory-s41011-candidate",
+  "purpose": "timing",
+  "repeat": 5,
+  "started": "2026-10-21T13:12:07.672841+00:00",
+  "ended": "2026-10-21T13:12:07.803471+00:00",
+  "elapsed_process_seconds": 0.13063099999999395,
+  "exit_code": 0,
+  "expected_exit": 0,
+  "status": "completed",
+  "failure_reason": null,
+  "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+  "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+  "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+  "environment_ref": "../environment.json",
+  "correctness": {
+    "pass": true
+  },
+  "timing": {
+    "dispatch_seconds": 9.299999999999999e-06,
+    "end_to_end_seconds": 0.1175778,
+    "epoch_seconds": 0.0057894,
+    "setup_seconds": 0.0850096
+  },
+  "included": true
+}

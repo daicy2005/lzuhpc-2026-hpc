@@ -1,0 +1,3204 @@
+{
+  "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+  "created": "2026-10-22T09:06:16.870981+00:00",
+  "source_id": "36b3bb9976737f6ed283edb59bfae2384060ebfbc10306854bfe73bb777dfa08",
+  "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+  "budget_seconds": 600,
+  "stage": "V13-stealing-boundary",
+  "conditions": [
+    {
+      "id": "s99041-g8-concentrated-off",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 1031,
+          "iterations": 7,
+          "seed": 99041
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "diagnostic",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 99041
+      },
+      "small": true,
+      "mode": "off"
+    },
+    {
+      "id": "s99041-g8-concentrated-on",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 1031,
+          "iterations": 7,
+          "seed": 99041
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "diagnostic",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 99041
+      },
+      "small": true,
+      "mode": "on"
+    },
+    {
+      "id": "s99041-g8-spread-off",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 1031,
+          "iterations": 7,
+          "seed": 99041
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "diagnostic",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 99041
+      },
+      "small": true,
+      "mode": "off"
+    },
+    {
+      "id": "s99041-g8-spread-on",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 1031,
+          "iterations": 7,
+          "seed": 99041
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "diagnostic",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 99041
+      },
+      "small": true,
+      "mode": "on"
+    },
+    {
+      "id": "s99041-g256-concentrated-off",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 1031,
+          "iterations": 7,
+          "seed": 99041
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 256
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "diagnostic",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 99041
+      },
+      "small": true,
+      "mode": "off"
+    },
+    {
+      "id": "s99041-g256-concentrated-on",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 1031,
+          "iterations": 7,
+          "seed": 99041
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 256
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "diagnostic",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 99041
+      },
+      "small": true,
+      "mode": "on"
+    },
+    {
+      "id": "s99041-g256-spread-off",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 1031,
+          "iterations": 7,
+          "seed": 99041
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 256
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "diagnostic",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 99041
+      },
+      "small": true,
+      "mode": "off"
+    },
+    {
+      "id": "s99041-g256-spread-on",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 1031,
+          "iterations": 7,
+          "seed": 99041
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 256
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "diagnostic",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 99041
+      },
+      "small": true,
+      "mode": "on"
+    },
+    {
+      "id": "s99041-g16384-concentrated-off",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 1031,
+          "iterations": 7,
+          "seed": 99041
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 16384
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "diagnostic",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 99041
+      },
+      "small": true,
+      "mode": "off"
+    },
+    {
+      "id": "s99041-g16384-concentrated-on",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 1031,
+          "iterations": 7,
+          "seed": 99041
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 16384
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "diagnostic",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 99041
+      },
+      "small": true,
+      "mode": "on"
+    },
+    {
+      "id": "s99041-g16384-spread-off",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 1031,
+          "iterations": 7,
+          "seed": 99041
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 16384
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "diagnostic",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 99041
+      },
+      "small": true,
+      "mode": "off"
+    },
+    {
+      "id": "s99041-g16384-spread-on",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 1031,
+          "iterations": 7,
+          "seed": 99041
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 16384
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "diagnostic",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 99041
+      },
+      "small": true,
+      "mode": "on"
+    },
+    {
+      "id": "s100003-g8-concentrated-off",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 65536,
+          "iterations": 256,
+          "seed": 100003
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 100003
+      },
+      "small": false,
+      "mode": "off"
+    },
+    {
+      "id": "s100003-g8-concentrated-on",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 65536,
+          "iterations": 256,
+          "seed": 100003
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 100003
+      },
+      "small": false,
+      "mode": "on"
+    },
+    {
+      "id": "s100003-g8-spread-off",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 65536,
+          "iterations": 256,
+          "seed": 100003
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 100003
+      },
+      "small": false,
+      "mode": "off"
+    },
+    {
+      "id": "s100003-g8-spread-on",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 65536,
+          "iterations": 256,
+          "seed": 100003
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 100003
+      },
+      "small": false,
+      "mode": "on"
+    },
+    {
+      "id": "s100003-g256-concentrated-off",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 65536,
+          "iterations": 256,
+          "seed": 100003
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 256
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 100003
+      },
+      "small": false,
+      "mode": "off"
+    },
+    {
+      "id": "s100003-g256-concentrated-on",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 65536,
+          "iterations": 256,
+          "seed": 100003
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 256
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 100003
+      },
+      "small": false,
+      "mode": "on"
+    },
+    {
+      "id": "s100003-g256-spread-off",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 65536,
+          "iterations": 256,
+          "seed": 100003
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 256
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 100003
+      },
+      "small": false,
+      "mode": "off"
+    },
+    {
+      "id": "s100003-g256-spread-on",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 65536,
+          "iterations": 256,
+          "seed": 100003
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 256
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 100003
+      },
+      "small": false,
+      "mode": "on"
+    },
+    {
+      "id": "s100003-g16384-concentrated-off",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 65536,
+          "iterations": 256,
+          "seed": 100003
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 16384
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 100003
+      },
+      "small": false,
+      "mode": "off"
+    },
+    {
+      "id": "s100003-g16384-concentrated-on",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 65536,
+          "iterations": 256,
+          "seed": 100003
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 16384
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 100003
+      },
+      "small": false,
+      "mode": "on"
+    },
+    {
+      "id": "s100003-g16384-spread-off",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 65536,
+          "iterations": 256,
+          "seed": 100003
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 16384
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 100003
+      },
+      "small": false,
+      "mode": "off"
+    },
+    {
+      "id": "s100003-g16384-spread-on",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 65536,
+          "iterations": 256,
+          "seed": 100003
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 16384
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 100003
+      },
+      "small": false,
+      "mode": "on"
+    },
+    {
+      "id": "s106013-g8-concentrated-off",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 98304,
+          "iterations": 256,
+          "seed": 106013
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 106013
+      },
+      "small": false,
+      "mode": "off"
+    },
+    {
+      "id": "s106013-g8-concentrated-on",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 98304,
+          "iterations": 256,
+          "seed": 106013
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 106013
+      },
+      "small": false,
+      "mode": "on"
+    },
+    {
+      "id": "s106013-g8-spread-off",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 98304,
+          "iterations": 256,
+          "seed": 106013
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 106013
+      },
+      "small": false,
+      "mode": "off"
+    },
+    {
+      "id": "s106013-g8-spread-on",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 98304,
+          "iterations": 256,
+          "seed": 106013
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 106013
+      },
+      "small": false,
+      "mode": "on"
+    },
+    {
+      "id": "s106013-g256-concentrated-off",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 98304,
+          "iterations": 256,
+          "seed": 106013
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 256
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 106013
+      },
+      "small": false,
+      "mode": "off"
+    },
+    {
+      "id": "s106013-g256-concentrated-on",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 98304,
+          "iterations": 256,
+          "seed": 106013
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 256
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 106013
+      },
+      "small": false,
+      "mode": "on"
+    },
+    {
+      "id": "s106013-g256-spread-off",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 98304,
+          "iterations": 256,
+          "seed": 106013
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 256
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 106013
+      },
+      "small": false,
+      "mode": "off"
+    },
+    {
+      "id": "s106013-g256-spread-on",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 98304,
+          "iterations": 256,
+          "seed": 106013
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 256
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 106013
+      },
+      "small": false,
+      "mode": "on"
+    },
+    {
+      "id": "s106013-g16384-concentrated-off",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 98304,
+          "iterations": 256,
+          "seed": 106013
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 16384
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 106013
+      },
+      "small": false,
+      "mode": "off"
+    },
+    {
+      "id": "s106013-g16384-concentrated-on",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 98304,
+          "iterations": 256,
+          "seed": 106013
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 16384
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 106013
+      },
+      "small": false,
+      "mode": "on"
+    },
+    {
+      "id": "s106013-g16384-spread-off",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 98304,
+          "iterations": 256,
+          "seed": 106013
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 16384
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 106013
+      },
+      "small": false,
+      "mode": "off"
+    },
+    {
+      "id": "s106013-g16384-spread-on",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 98304,
+          "iterations": 256,
+          "seed": 106013
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 16384
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 106013
+      },
+      "small": false,
+      "mode": "on"
+    }
+  ],
+  "pairs": [
+    [
+      "s100003-g16384-spread-off",
+      "s100003-g16384-spread-on"
+    ],
+    [
+      "s106013-g256-spread-off",
+      "s106013-g256-spread-on"
+    ],
+    [
+      "s100003-g8-concentrated-off",
+      "s100003-g8-concentrated-on"
+    ],
+    [
+      "s106013-g8-spread-off",
+      "s106013-g8-spread-on"
+    ],
+    [
+      "s106013-g256-concentrated-off",
+      "s106013-g256-concentrated-on"
+    ],
+    [
+      "s106013-g16384-concentrated-off",
+      "s106013-g16384-concentrated-on"
+    ],
+    [
+      "s106013-g8-concentrated-off",
+      "s106013-g8-concentrated-on"
+    ],
+    [
+      "s100003-g256-concentrated-off",
+      "s100003-g256-concentrated-on"
+    ],
+    [
+      "s106013-g16384-spread-off",
+      "s106013-g16384-spread-on"
+    ],
+    [
+      "s100003-g256-spread-off",
+      "s100003-g256-spread-on"
+    ],
+    [
+      "s100003-g16384-concentrated-off",
+      "s100003-g16384-concentrated-on"
+    ],
+    [
+      "s100003-g8-spread-off",
+      "s100003-g8-spread-on"
+    ]
+  ],
+  "order": [
+    [
+      "control",
+      0,
+      "s99041-g8-concentrated-off"
+    ],
+    [
+      "control",
+      0,
+      "s99041-g8-concentrated-on"
+    ],
+    [
+      "control",
+      0,
+      "s99041-g8-spread-off"
+    ],
+    [
+      "control",
+      0,
+      "s99041-g8-spread-on"
+    ],
+    [
+      "control",
+      0,
+      "s99041-g256-concentrated-off"
+    ],
+    [
+      "control",
+      0,
+      "s99041-g256-concentrated-on"
+    ],
+    [
+      "control",
+      0,
+      "s99041-g256-spread-off"
+    ],
+    [
+      "control",
+      0,
+      "s99041-g256-spread-on"
+    ],
+    [
+      "control",
+      0,
+      "s99041-g16384-concentrated-off"
+    ],
+    [
+      "control",
+      0,
+      "s99041-g16384-concentrated-on"
+    ],
+    [
+      "control",
+      0,
+      "s99041-g16384-spread-off"
+    ],
+    [
+      "control",
+      0,
+      "s99041-g16384-spread-on"
+    ],
+    [
+      "diagnostic",
+      0,
+      "s100003-g16384-spread-off"
+    ],
+    [
+      "diagnostic",
+      0,
+      "s100003-g16384-spread-on"
+    ],
+    [
+      "diagnostic",
+      0,
+      "s106013-g256-spread-off"
+    ],
+    [
+      "diagnostic",
+      0,
+      "s106013-g256-spread-on"
+    ],
+    [
+      "diagnostic",
+      0,
+      "s100003-g8-concentrated-off"
+    ],
+    [
+      "diagnostic",
+      0,
+      "s100003-g8-concentrated-on"
+    ],
+    [
+      "diagnostic",
+      0,
+      "s106013-g8-spread-off"
+    ],
+    [
+      "diagnostic",
+      0,
+      "s106013-g8-spread-on"
+    ],
+    [
+      "diagnostic",
+      0,
+      "s106013-g256-concentrated-off"
+    ],
+    [
+      "diagnostic",
+      0,
+      "s106013-g256-concentrated-on"
+    ],
+    [
+      "diagnostic",
+      0,
+      "s106013-g16384-concentrated-off"
+    ],
+    [
+      "diagnostic",
+      0,
+      "s106013-g16384-concentrated-on"
+    ],
+    [
+      "diagnostic",
+      0,
+      "s106013-g8-concentrated-off"
+    ],
+    [
+      "diagnostic",
+      0,
+      "s106013-g8-concentrated-on"
+    ],
+    [
+      "diagnostic",
+      0,
+      "s100003-g256-concentrated-off"
+    ],
+    [
+      "diagnostic",
+      0,
+      "s100003-g256-concentrated-on"
+    ],
+    [
+      "diagnostic",
+      0,
+      "s106013-g16384-spread-off"
+    ],
+    [
+      "diagnostic",
+      0,
+      "s106013-g16384-spread-on"
+    ],
+    [
+      "diagnostic",
+      0,
+      "s100003-g256-spread-off"
+    ],
+    [
+      "diagnostic",
+      0,
+      "s100003-g256-spread-on"
+    ],
+    [
+      "diagnostic",
+      0,
+      "s100003-g16384-concentrated-off"
+    ],
+    [
+      "diagnostic",
+      0,
+      "s100003-g16384-concentrated-on"
+    ],
+    [
+      "diagnostic",
+      0,
+      "s100003-g8-spread-off"
+    ],
+    [
+      "diagnostic",
+      0,
+      "s100003-g8-spread-on"
+    ],
+    [
+      "warmup",
+      0,
+      "s100003-g16384-spread-off"
+    ],
+    [
+      "warmup",
+      0,
+      "s100003-g16384-spread-on"
+    ],
+    [
+      "warmup",
+      0,
+      "s106013-g256-spread-off"
+    ],
+    [
+      "warmup",
+      0,
+      "s106013-g256-spread-on"
+    ],
+    [
+      "warmup",
+      0,
+      "s100003-g8-concentrated-off"
+    ],
+    [
+      "warmup",
+      0,
+      "s100003-g8-concentrated-on"
+    ],
+    [
+      "warmup",
+      0,
+      "s106013-g8-spread-off"
+    ],
+    [
+      "warmup",
+      0,
+      "s106013-g8-spread-on"
+    ],
+    [
+      "warmup",
+      0,
+      "s106013-g256-concentrated-off"
+    ],
+    [
+      "warmup",
+      0,
+      "s106013-g256-concentrated-on"
+    ],
+    [
+      "warmup",
+      0,
+      "s106013-g16384-concentrated-off"
+    ],
+    [
+      "warmup",
+      0,
+      "s106013-g16384-concentrated-on"
+    ],
+    [
+      "warmup",
+      0,
+      "s106013-g8-concentrated-off"
+    ],
+    [
+      "warmup",
+      0,
+      "s106013-g8-concentrated-on"
+    ],
+    [
+      "warmup",
+      0,
+      "s100003-g256-concentrated-off"
+    ],
+    [
+      "warmup",
+      0,
+      "s100003-g256-concentrated-on"
+    ],
+    [
+      "warmup",
+      0,
+      "s106013-g16384-spread-off"
+    ],
+    [
+      "warmup",
+      0,
+      "s106013-g16384-spread-on"
+    ],
+    [
+      "warmup",
+      0,
+      "s100003-g256-spread-off"
+    ],
+    [
+      "warmup",
+      0,
+      "s100003-g256-spread-on"
+    ],
+    [
+      "warmup",
+      0,
+      "s100003-g16384-concentrated-off"
+    ],
+    [
+      "warmup",
+      0,
+      "s100003-g16384-concentrated-on"
+    ],
+    [
+      "warmup",
+      0,
+      "s100003-g8-spread-off"
+    ],
+    [
+      "warmup",
+      0,
+      "s100003-g8-spread-on"
+    ],
+    [
+      "timing",
+      1,
+      "s100003-g16384-spread-off"
+    ],
+    [
+      "timing",
+      1,
+      "s100003-g16384-spread-on"
+    ],
+    [
+      "timing",
+      1,
+      "s106013-g256-spread-off"
+    ],
+    [
+      "timing",
+      1,
+      "s106013-g256-spread-on"
+    ],
+    [
+      "timing",
+      1,
+      "s100003-g8-concentrated-off"
+    ],
+    [
+      "timing",
+      1,
+      "s100003-g8-concentrated-on"
+    ],
+    [
+      "timing",
+      1,
+      "s106013-g8-spread-off"
+    ],
+    [
+      "timing",
+      1,
+      "s106013-g8-spread-on"
+    ],
+    [
+      "timing",
+      1,
+      "s106013-g256-concentrated-off"
+    ],
+    [
+      "timing",
+      1,
+      "s106013-g256-concentrated-on"
+    ],
+    [
+      "timing",
+      1,
+      "s106013-g16384-concentrated-off"
+    ],
+    [
+      "timing",
+      1,
+      "s106013-g16384-concentrated-on"
+    ],
+    [
+      "timing",
+      1,
+      "s106013-g8-concentrated-off"
+    ],
+    [
+      "timing",
+      1,
+      "s106013-g8-concentrated-on"
+    ],
+    [
+      "timing",
+      1,
+      "s100003-g256-concentrated-off"
+    ],
+    [
+      "timing",
+      1,
+      "s100003-g256-concentrated-on"
+    ],
+    [
+      "timing",
+      1,
+      "s106013-g16384-spread-off"
+    ],
+    [
+      "timing",
+      1,
+      "s106013-g16384-spread-on"
+    ],
+    [
+      "timing",
+      1,
+      "s100003-g256-spread-off"
+    ],
+    [
+      "timing",
+      1,
+      "s100003-g256-spread-on"
+    ],
+    [
+      "timing",
+      1,
+      "s100003-g16384-concentrated-off"
+    ],
+    [
+      "timing",
+      1,
+      "s100003-g16384-concentrated-on"
+    ],
+    [
+      "timing",
+      1,
+      "s100003-g8-spread-off"
+    ],
+    [
+      "timing",
+      1,
+      "s100003-g8-spread-on"
+    ],
+    [
+      "timing",
+      2,
+      "s100003-g8-concentrated-on"
+    ],
+    [
+      "timing",
+      2,
+      "s100003-g8-concentrated-off"
+    ],
+    [
+      "timing",
+      2,
+      "s106013-g8-spread-on"
+    ],
+    [
+      "timing",
+      2,
+      "s106013-g8-spread-off"
+    ],
+    [
+      "timing",
+      2,
+      "s106013-g256-concentrated-on"
+    ],
+    [
+      "timing",
+      2,
+      "s106013-g256-concentrated-off"
+    ],
+    [
+      "timing",
+      2,
+      "s106013-g16384-concentrated-on"
+    ],
+    [
+      "timing",
+      2,
+      "s106013-g16384-concentrated-off"
+    ],
+    [
+      "timing",
+      2,
+      "s106013-g8-concentrated-on"
+    ],
+    [
+      "timing",
+      2,
+      "s106013-g8-concentrated-off"
+    ],
+    [
+      "timing",
+      2,
+      "s100003-g256-concentrated-on"
+    ],
+    [
+      "timing",
+      2,
+      "s100003-g256-concentrated-off"
+    ],
+    [
+      "timing",
+      2,
+      "s106013-g16384-spread-on"
+    ],
+    [
+      "timing",
+      2,
+      "s106013-g16384-spread-off"
+    ],
+    [
+      "timing",
+      2,
+      "s100003-g256-spread-on"
+    ],
+    [
+      "timing",
+      2,
+      "s100003-g256-spread-off"
+    ],
+    [
+      "timing",
+      2,
+      "s100003-g16384-concentrated-on"
+    ],
+    [
+      "timing",
+      2,
+      "s100003-g16384-concentrated-off"
+    ],
+    [
+      "timing",
+      2,
+      "s100003-g8-spread-on"
+    ],
+    [
+      "timing",
+      2,
+      "s100003-g8-spread-off"
+    ],
+    [
+      "timing",
+      2,
+      "s100003-g16384-spread-on"
+    ],
+    [
+      "timing",
+      2,
+      "s100003-g16384-spread-off"
+    ],
+    [
+      "timing",
+      2,
+      "s106013-g256-spread-on"
+    ],
+    [
+      "timing",
+      2,
+      "s106013-g256-spread-off"
+    ],
+    [
+      "timing",
+      3,
+      "s106013-g256-concentrated-off"
+    ],
+    [
+      "timing",
+      3,
+      "s106013-g256-concentrated-on"
+    ],
+    [
+      "timing",
+      3,
+      "s106013-g16384-concentrated-off"
+    ],
+    [
+      "timing",
+      3,
+      "s106013-g16384-concentrated-on"
+    ],
+    [
+      "timing",
+      3,
+      "s106013-g8-concentrated-off"
+    ],
+    [
+      "timing",
+      3,
+      "s106013-g8-concentrated-on"
+    ],
+    [
+      "timing",
+      3,
+      "s100003-g256-concentrated-off"
+    ],
+    [
+      "timing",
+      3,
+      "s100003-g256-concentrated-on"
+    ],
+    [
+      "timing",
+      3,
+      "s106013-g16384-spread-off"
+    ],
+    [
+      "timing",
+      3,
+      "s106013-g16384-spread-on"
+    ],
+    [
+      "timing",
+      3,
+      "s100003-g256-spread-off"
+    ],
+    [
+      "timing",
+      3,
+      "s100003-g256-spread-on"
+    ],
+    [
+      "timing",
+      3,
+      "s100003-g16384-concentrated-off"
+    ],
+    [
+      "timing",
+      3,
+      "s100003-g16384-concentrated-on"
+    ],
+    [
+      "timing",
+      3,
+      "s100003-g8-spread-off"
+    ],
+    [
+      "timing",
+      3,
+      "s100003-g8-spread-on"
+    ],
+    [
+      "timing",
+      3,
+      "s100003-g16384-spread-off"
+    ],
+    [
+      "timing",
+      3,
+      "s100003-g16384-spread-on"
+    ],
+    [
+      "timing",
+      3,
+      "s106013-g256-spread-off"
+    ],
+    [
+      "timing",
+      3,
+      "s106013-g256-spread-on"
+    ],
+    [
+      "timing",
+      3,
+      "s100003-g8-concentrated-off"
+    ],
+    [
+      "timing",
+      3,
+      "s100003-g8-concentrated-on"
+    ],
+    [
+      "timing",
+      3,
+      "s106013-g8-spread-off"
+    ],
+    [
+      "timing",
+      3,
+      "s106013-g8-spread-on"
+    ],
+    [
+      "timing",
+      4,
+      "s100003-g256-concentrated-on"
+    ],
+    [
+      "timing",
+      4,
+      "s100003-g256-concentrated-off"
+    ],
+    [
+      "timing",
+      4,
+      "s106013-g16384-spread-on"
+    ],
+    [
+      "timing",
+      4,
+      "s106013-g16384-spread-off"
+    ],
+    [
+      "timing",
+      4,
+      "s100003-g256-spread-on"
+    ],
+    [
+      "timing",
+      4,
+      "s100003-g256-spread-off"
+    ],
+    [
+      "timing",
+      4,
+      "s100003-g16384-concentrated-on"
+    ],
+    [
+      "timing",
+      4,
+      "s100003-g16384-concentrated-off"
+    ],
+    [
+      "timing",
+      4,
+      "s100003-g8-spread-on"
+    ],
+    [
+      "timing",
+      4,
+      "s100003-g8-spread-off"
+    ],
+    [
+      "timing",
+      4,
+      "s100003-g16384-spread-on"
+    ],
+    [
+      "timing",
+      4,
+      "s100003-g16384-spread-off"
+    ],
+    [
+      "timing",
+      4,
+      "s106013-g256-spread-on"
+    ],
+    [
+      "timing",
+      4,
+      "s106013-g256-spread-off"
+    ],
+    [
+      "timing",
+      4,
+      "s100003-g8-concentrated-on"
+    ],
+    [
+      "timing",
+      4,
+      "s100003-g8-concentrated-off"
+    ],
+    [
+      "timing",
+      4,
+      "s106013-g8-spread-on"
+    ],
+    [
+      "timing",
+      4,
+      "s106013-g8-spread-off"
+    ],
+    [
+      "timing",
+      4,
+      "s106013-g256-concentrated-on"
+    ],
+    [
+      "timing",
+      4,
+      "s106013-g256-concentrated-off"
+    ],
+    [
+      "timing",
+      4,
+      "s106013-g16384-concentrated-on"
+    ],
+    [
+      "timing",
+      4,
+      "s106013-g16384-concentrated-off"
+    ],
+    [
+      "timing",
+      4,
+      "s106013-g8-concentrated-on"
+    ],
+    [
+      "timing",
+      4,
+      "s106013-g8-concentrated-off"
+    ],
+    [
+      "timing",
+      5,
+      "s100003-g256-spread-off"
+    ],
+    [
+      "timing",
+      5,
+      "s100003-g256-spread-on"
+    ],
+    [
+      "timing",
+      5,
+      "s100003-g16384-concentrated-off"
+    ],
+    [
+      "timing",
+      5,
+      "s100003-g16384-concentrated-on"
+    ],
+    [
+      "timing",
+      5,
+      "s100003-g8-spread-off"
+    ],
+    [
+      "timing",
+      5,
+      "s100003-g8-spread-on"
+    ],
+    [
+      "timing",
+      5,
+      "s100003-g16384-spread-off"
+    ],
+    [
+      "timing",
+      5,
+      "s100003-g16384-spread-on"
+    ],
+    [
+      "timing",
+      5,
+      "s106013-g256-spread-off"
+    ],
+    [
+      "timing",
+      5,
+      "s106013-g256-spread-on"
+    ],
+    [
+      "timing",
+      5,
+      "s100003-g8-concentrated-off"
+    ],
+    [
+      "timing",
+      5,
+      "s100003-g8-concentrated-on"
+    ],
+    [
+      "timing",
+      5,
+      "s106013-g8-spread-off"
+    ],
+    [
+      "timing",
+      5,
+      "s106013-g8-spread-on"
+    ],
+    [
+      "timing",
+      5,
+      "s106013-g256-concentrated-off"
+    ],
+    [
+      "timing",
+      5,
+      "s106013-g256-concentrated-on"
+    ],
+    [
+      "timing",
+      5,
+      "s106013-g16384-concentrated-off"
+    ],
+    [
+      "timing",
+      5,
+      "s106013-g16384-concentrated-on"
+    ],
+    [
+      "timing",
+      5,
+      "s106013-g8-concentrated-off"
+    ],
+    [
+      "timing",
+      5,
+      "s106013-g8-concentrated-on"
+    ],
+    [
+      "timing",
+      5,
+      "s100003-g256-concentrated-off"
+    ],
+    [
+      "timing",
+      5,
+      "s100003-g256-concentrated-on"
+    ],
+    [
+      "timing",
+      5,
+      "s106013-g16384-spread-off"
+    ],
+    [
+      "timing",
+      5,
+      "s106013-g16384-spread-on"
+    ]
+  ],
+  "max_processes": 180,
+  "timing_samples": 120,
+  "no_recommendation_search": true,
+  "build": {
+    "exe": "/root/lzuhpc-experiments/ws-20261022-fill-interleaved-release/build-none/worksteal",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768"
+  },
+  "availability_receipt": "results/availability-ff7459cb09e3479b8a87d0e17ce8bd44.json",
+  "frozen_plan_sha256": "e51cd6849855a7879507b676ef82d9fed0380f8eb72e55035066b2de56104c54"
+}

@@ -1,0 +1,12 @@
+{
+  "label": "recommended-uniform",
+  "argv": [
+    "/root/lzuhpc-experiments/ws-20261025-submission-native/build-uniform/worksteal",
+    "--config",
+    "/root/lzuhpc-experiments/ws-20261025-submission-native/configs/verified/uniform.json",
+    "--output",
+    "/root/lzuhpc-experiments/ws-20261025-submission-native/reproduction-evidence/recommended-uniform.json"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 0.1163905000000085
+}

@@ -1,0 +1,2308 @@
+{
+  "batch_id": "20261016T024903Z-W03-500fe3",
+  "created": "2026-10-16T02:49:03.598863+00:00",
+  "source_id": "29eb76079bbf3fe5387ec1111c91bfe85bdc0357ed2fa0ffd4f42066930272af",
+  "binary_sha256": "bb438206f4fa0317a79b9f6553521b151662e580d1a721e3791b5bfaa9990329",
+  "budget_seconds": 900,
+  "experiment": "W03",
+  "conditions": [
+    {
+      "id": "small-policy-off",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 64,
+          "iterations": 1,
+          "seed": 42,
+          "bytes_per_element": 524288,
+          "passes": 16
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "small-policy-on",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 64,
+          "iterations": 1,
+          "seed": 42,
+          "bytes_per_element": 524288,
+          "passes": 16
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "small-concentrated-off",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 64,
+          "iterations": 1,
+          "seed": 42,
+          "bytes_per_element": 524288,
+          "passes": 16
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "concentrated",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "small-concentrated-on",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 64,
+          "iterations": 1,
+          "seed": 42,
+          "bytes_per_element": 524288,
+          "passes": 16
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "concentrated",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "middle-policy-off",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 16,
+          "iterations": 1,
+          "seed": 42,
+          "bytes_per_element": 4718592,
+          "passes": 8
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "middle-policy-on",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 16,
+          "iterations": 1,
+          "seed": 42,
+          "bytes_per_element": 4718592,
+          "passes": 8
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "middle-concentrated-off",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 16,
+          "iterations": 1,
+          "seed": 42,
+          "bytes_per_element": 4718592,
+          "passes": 8
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "concentrated",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "middle-concentrated-on",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 16,
+          "iterations": 1,
+          "seed": 42,
+          "bytes_per_element": 4718592,
+          "passes": 8
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "concentrated",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "large-policy-off",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 4,
+          "iterations": 1,
+          "seed": 42,
+          "bytes_per_element": 301989888,
+          "passes": 2
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "large-policy-on",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 4,
+          "iterations": 1,
+          "seed": 42,
+          "bytes_per_element": 301989888,
+          "passes": 2
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "large-concentrated-off",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 4,
+          "iterations": 1,
+          "seed": 42,
+          "bytes_per_element": 301989888,
+          "passes": 2
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "concentrated",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "large-concentrated-on",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 4,
+          "iterations": 1,
+          "seed": 42,
+          "bytes_per_element": 301989888,
+          "passes": 2
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "concentrated",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "small-controlled-h0-e0",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 1,
+          "iterations": 1,
+          "seed": 42,
+          "bytes_per_element": 524288,
+          "passes": 16
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "home_worker": 0,
+          "controlled_worker": 0
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "small-controlled-h0-e1",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 1,
+          "iterations": 1,
+          "seed": 42,
+          "bytes_per_element": 524288,
+          "passes": 16
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "home_worker": 0,
+          "controlled_worker": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "small-controlled-h1-e1",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 1,
+          "iterations": 1,
+          "seed": 42,
+          "bytes_per_element": 524288,
+          "passes": 16
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "home_worker": 1,
+          "controlled_worker": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "small-controlled-h1-e0",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 1,
+          "iterations": 1,
+          "seed": 42,
+          "bytes_per_element": 524288,
+          "passes": 16
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "home_worker": 1,
+          "controlled_worker": 0
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "middle-controlled-h0-e0",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 1,
+          "iterations": 1,
+          "seed": 42,
+          "bytes_per_element": 4718592,
+          "passes": 8
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "home_worker": 0,
+          "controlled_worker": 0
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "middle-controlled-h0-e1",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 1,
+          "iterations": 1,
+          "seed": 42,
+          "bytes_per_element": 4718592,
+          "passes": 8
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "home_worker": 0,
+          "controlled_worker": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "middle-controlled-h1-e1",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 1,
+          "iterations": 1,
+          "seed": 42,
+          "bytes_per_element": 4718592,
+          "passes": 8
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "home_worker": 1,
+          "controlled_worker": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "middle-controlled-h1-e0",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 1,
+          "iterations": 1,
+          "seed": 42,
+          "bytes_per_element": 4718592,
+          "passes": 8
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "home_worker": 1,
+          "controlled_worker": 0
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "large-controlled-h0-e0",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 1,
+          "iterations": 1,
+          "seed": 42,
+          "bytes_per_element": 301989888,
+          "passes": 2
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "home_worker": 0,
+          "controlled_worker": 0
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "large-controlled-h0-e1",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 1,
+          "iterations": 1,
+          "seed": 42,
+          "bytes_per_element": 301989888,
+          "passes": 2
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "home_worker": 0,
+          "controlled_worker": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "large-controlled-h1-e1",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 1,
+          "iterations": 1,
+          "seed": 42,
+          "bytes_per_element": 301989888,
+          "passes": 2
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "home_worker": 1,
+          "controlled_worker": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "large-controlled-h1-e0",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 1,
+          "iterations": 1,
+          "seed": 42,
+          "bytes_per_element": 301989888,
+          "passes": 2
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "home_worker": 1,
+          "controlled_worker": 0
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    }
+  ],
+  "order": [
+    [
+      "warmup",
+      0,
+      "middle-controlled-h1-e0"
+    ],
+    [
+      "warmup",
+      0,
+      "small-policy-on"
+    ],
+    [
+      "warmup",
+      0,
+      "middle-concentrated-on"
+    ],
+    [
+      "warmup",
+      0,
+      "large-controlled-h0-e0"
+    ],
+    [
+      "warmup",
+      0,
+      "large-concentrated-off"
+    ],
+    [
+      "warmup",
+      0,
+      "middle-concentrated-off"
+    ],
+    [
+      "warmup",
+      0,
+      "large-controlled-h0-e1"
+    ],
+    [
+      "warmup",
+      0,
+      "small-concentrated-off"
+    ],
+    [
+      "warmup",
+      0,
+      "small-policy-off"
+    ],
+    [
+      "warmup",
+      0,
+      "large-controlled-h1-e0"
+    ],
+    [
+      "warmup",
+      0,
+      "small-controlled-h0-e0"
+    ],
+    [
+      "warmup",
+      0,
+      "small-controlled-h1-e0"
+    ],
+    [
+      "warmup",
+      0,
+      "large-policy-off"
+    ],
+    [
+      "warmup",
+      0,
+      "middle-controlled-h1-e1"
+    ],
+    [
+      "warmup",
+      0,
+      "large-concentrated-on"
+    ],
+    [
+      "warmup",
+      0,
+      "small-concentrated-on"
+    ],
+    [
+      "warmup",
+      0,
+      "middle-policy-on"
+    ],
+    [
+      "warmup",
+      0,
+      "small-controlled-h1-e1"
+    ],
+    [
+      "warmup",
+      0,
+      "large-policy-on"
+    ],
+    [
+      "warmup",
+      0,
+      "large-controlled-h1-e1"
+    ],
+    [
+      "warmup",
+      0,
+      "small-controlled-h0-e1"
+    ],
+    [
+      "warmup",
+      0,
+      "middle-controlled-h0-e0"
+    ],
+    [
+      "warmup",
+      0,
+      "middle-controlled-h0-e1"
+    ],
+    [
+      "warmup",
+      0,
+      "middle-policy-off"
+    ],
+    [
+      "timing",
+      1,
+      "middle-controlled-h1-e0"
+    ],
+    [
+      "timing",
+      1,
+      "small-policy-on"
+    ],
+    [
+      "timing",
+      1,
+      "middle-concentrated-on"
+    ],
+    [
+      "timing",
+      1,
+      "large-controlled-h0-e0"
+    ],
+    [
+      "timing",
+      1,
+      "large-concentrated-off"
+    ],
+    [
+      "timing",
+      1,
+      "middle-concentrated-off"
+    ],
+    [
+      "timing",
+      1,
+      "large-controlled-h0-e1"
+    ],
+    [
+      "timing",
+      1,
+      "small-concentrated-off"
+    ],
+    [
+      "timing",
+      1,
+      "small-policy-off"
+    ],
+    [
+      "timing",
+      1,
+      "large-controlled-h1-e0"
+    ],
+    [
+      "timing",
+      1,
+      "small-controlled-h0-e0"
+    ],
+    [
+      "timing",
+      1,
+      "small-controlled-h1-e0"
+    ],
+    [
+      "timing",
+      1,
+      "large-policy-off"
+    ],
+    [
+      "timing",
+      1,
+      "middle-controlled-h1-e1"
+    ],
+    [
+      "timing",
+      1,
+      "large-concentrated-on"
+    ],
+    [
+      "timing",
+      1,
+      "small-concentrated-on"
+    ],
+    [
+      "timing",
+      1,
+      "middle-policy-on"
+    ],
+    [
+      "timing",
+      1,
+      "small-controlled-h1-e1"
+    ],
+    [
+      "timing",
+      1,
+      "large-policy-on"
+    ],
+    [
+      "timing",
+      1,
+      "large-controlled-h1-e1"
+    ],
+    [
+      "timing",
+      1,
+      "small-controlled-h0-e1"
+    ],
+    [
+      "timing",
+      1,
+      "middle-controlled-h0-e0"
+    ],
+    [
+      "timing",
+      1,
+      "middle-controlled-h0-e1"
+    ],
+    [
+      "timing",
+      1,
+      "middle-policy-off"
+    ],
+    [
+      "timing",
+      2,
+      "small-policy-off"
+    ],
+    [
+      "timing",
+      2,
+      "large-controlled-h1-e0"
+    ],
+    [
+      "timing",
+      2,
+      "small-controlled-h0-e0"
+    ],
+    [
+      "timing",
+      2,
+      "small-controlled-h1-e0"
+    ],
+    [
+      "timing",
+      2,
+      "large-policy-off"
+    ],
+    [
+      "timing",
+      2,
+      "middle-controlled-h1-e1"
+    ],
+    [
+      "timing",
+      2,
+      "large-concentrated-on"
+    ],
+    [
+      "timing",
+      2,
+      "small-concentrated-on"
+    ],
+    [
+      "timing",
+      2,
+      "middle-policy-on"
+    ],
+    [
+      "timing",
+      2,
+      "small-controlled-h1-e1"
+    ],
+    [
+      "timing",
+      2,
+      "large-policy-on"
+    ],
+    [
+      "timing",
+      2,
+      "large-controlled-h1-e1"
+    ],
+    [
+      "timing",
+      2,
+      "small-controlled-h0-e1"
+    ],
+    [
+      "timing",
+      2,
+      "middle-controlled-h0-e0"
+    ],
+    [
+      "timing",
+      2,
+      "middle-controlled-h0-e1"
+    ],
+    [
+      "timing",
+      2,
+      "middle-policy-off"
+    ],
+    [
+      "timing",
+      2,
+      "middle-controlled-h1-e0"
+    ],
+    [
+      "timing",
+      2,
+      "small-policy-on"
+    ],
+    [
+      "timing",
+      2,
+      "middle-concentrated-on"
+    ],
+    [
+      "timing",
+      2,
+      "large-controlled-h0-e0"
+    ],
+    [
+      "timing",
+      2,
+      "large-concentrated-off"
+    ],
+    [
+      "timing",
+      2,
+      "middle-concentrated-off"
+    ],
+    [
+      "timing",
+      2,
+      "large-controlled-h0-e1"
+    ],
+    [
+      "timing",
+      2,
+      "small-concentrated-off"
+    ],
+    [
+      "timing",
+      3,
+      "middle-policy-on"
+    ],
+    [
+      "timing",
+      3,
+      "small-controlled-h1-e1"
+    ],
+    [
+      "timing",
+      3,
+      "large-policy-on"
+    ],
+    [
+      "timing",
+      3,
+      "large-controlled-h1-e1"
+    ],
+    [
+      "timing",
+      3,
+      "small-controlled-h0-e1"
+    ],
+    [
+      "timing",
+      3,
+      "middle-controlled-h0-e0"
+    ],
+    [
+      "timing",
+      3,
+      "middle-controlled-h0-e1"
+    ],
+    [
+      "timing",
+      3,
+      "middle-policy-off"
+    ],
+    [
+      "timing",
+      3,
+      "middle-controlled-h1-e0"
+    ],
+    [
+      "timing",
+      3,
+      "small-policy-on"
+    ],
+    [
+      "timing",
+      3,
+      "middle-concentrated-on"
+    ],
+    [
+      "timing",
+      3,
+      "large-controlled-h0-e0"
+    ],
+    [
+      "timing",
+      3,
+      "large-concentrated-off"
+    ],
+    [
+      "timing",
+      3,
+      "middle-concentrated-off"
+    ],
+    [
+      "timing",
+      3,
+      "large-controlled-h0-e1"
+    ],
+    [
+      "timing",
+      3,
+      "small-concentrated-off"
+    ],
+    [
+      "timing",
+      3,
+      "small-policy-off"
+    ],
+    [
+      "timing",
+      3,
+      "large-controlled-h1-e0"
+    ],
+    [
+      "timing",
+      3,
+      "small-controlled-h0-e0"
+    ],
+    [
+      "timing",
+      3,
+      "small-controlled-h1-e0"
+    ],
+    [
+      "timing",
+      3,
+      "large-policy-off"
+    ],
+    [
+      "timing",
+      3,
+      "middle-controlled-h1-e1"
+    ],
+    [
+      "timing",
+      3,
+      "large-concentrated-on"
+    ],
+    [
+      "timing",
+      3,
+      "small-concentrated-on"
+    ]
+  ],
+  "diagnostics": [
+    {
+      "id": "small-policy-off",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 64,
+          "iterations": 1,
+          "seed": 42,
+          "bytes_per_element": 524288,
+          "passes": 16
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "small-policy-on",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 64,
+          "iterations": 1,
+          "seed": 42,
+          "bytes_per_element": 524288,
+          "passes": 16
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "small-concentrated-off",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 64,
+          "iterations": 1,
+          "seed": 42,
+          "bytes_per_element": 524288,
+          "passes": 16
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "concentrated",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "small-concentrated-on",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 64,
+          "iterations": 1,
+          "seed": 42,
+          "bytes_per_element": 524288,
+          "passes": 16
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "concentrated",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "middle-policy-off",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 16,
+          "iterations": 1,
+          "seed": 42,
+          "bytes_per_element": 4718592,
+          "passes": 8
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "middle-policy-on",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 16,
+          "iterations": 1,
+          "seed": 42,
+          "bytes_per_element": 4718592,
+          "passes": 8
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "middle-concentrated-off",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 16,
+          "iterations": 1,
+          "seed": 42,
+          "bytes_per_element": 4718592,
+          "passes": 8
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "concentrated",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "middle-concentrated-on",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 16,
+          "iterations": 1,
+          "seed": 42,
+          "bytes_per_element": 4718592,
+          "passes": 8
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "concentrated",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "large-policy-off",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 4,
+          "iterations": 1,
+          "seed": 42,
+          "bytes_per_element": 301989888,
+          "passes": 2
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "large-policy-on",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 4,
+          "iterations": 1,
+          "seed": 42,
+          "bytes_per_element": 301989888,
+          "passes": 2
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "large-concentrated-off",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 4,
+          "iterations": 1,
+          "seed": 42,
+          "bytes_per_element": 301989888,
+          "passes": 2
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "concentrated",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "large-concentrated-on",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 4,
+          "iterations": 1,
+          "seed": 42,
+          "bytes_per_element": 301989888,
+          "passes": 2
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "concentrated",
+        "layout_seed": 42
+      }
+    }
+  ],
+  "statistics": "three timing processes screening; all successful slow runs retained; warmup separate",
+  "hypothesis": "home versus foreign executor may differ when reuse fits caches; zero effect is allowed",
+  "reported_llc_bytes": 37748736,
+  "scales": [
+    [
+      "small",
+      524288,
+      64,
+      16
+    ],
+    [
+      "middle",
+      4718592,
+      16,
+      8
+    ],
+    [
+      "large",
+      301989888,
+      4,
+      2
+    ]
+  ],
+  "affinity_limit": "WSL1 hardware residency unproven; no PMU; report worker/time association, not exact cache-miss causality",
+  "memory_limit": "max active payload 4 * 288 MiB = 1.125 GiB; no swapping intentionally requested",
+  "preprocess": "same-process home-worker read, no stealing; input hashes before pre-read; result verification after timed epoch"
+}

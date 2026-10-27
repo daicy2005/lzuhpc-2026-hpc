@@ -1,0 +1,12 @@
+{
+  "label": "memory-interleaved-large",
+  "argv": [
+    "/root/lzuhpc-experiments/ws-20261025-submission-native/build-optimized/worksteal",
+    "--config",
+    "/root/lzuhpc-experiments/ws-20261025-submission-native/configs/memory-interleaved/memory-large.json",
+    "--output",
+    "/root/lzuhpc-experiments/ws-20261025-submission-native/reproduction-evidence/memory-interleaved-large.json"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 0.19122020000000362
+}

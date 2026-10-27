@@ -1,0 +1,11 @@
+{
+  "cwd": "/root/lzuhpc-experiments/ws-20261021-memory-kernel-study",
+  "argv": [
+    "/root/lzuhpc-experiments/ws-20261021-memory-kernel-release/build-none/worksteal",
+    "--config",
+    "/root/lzuhpc-experiments/ws-20261021-memory-kernel-study/runs/20261021T131202Z-V8-memory-interleaved-dddd91/0019-timing-memory-s47017-candidate-r1-b291f8/config.json",
+    "--output",
+    "/root/lzuhpc-experiments/ws-20261021-memory-kernel-study/runs/20261021T131202Z-V8-memory-interleaved-dddd91/0019-timing-memory-s47017-candidate-r1-b291f8/result.json"
+  ],
+  "explicit_environment": {}
+}

@@ -1,0 +1,1659 @@
+{
+  "batch_id": "20261016T023905Z-W00-W01-99f9cd",
+  "created": "2026-10-16T02:39:05.750807+00:00",
+  "source_id": "422f4b9ecfc85fb436bf3ab298e9db00a22ec048c6227e9606029157be9deaf3",
+  "binary_sha256": "81c5dfa27ae5ce13e920a9317869b11982d798df4d7167242e87a5ff5e5fecfb",
+  "budget_seconds": 900,
+  "experiment": "W00_W01",
+  "logical_cpu_pilot": true,
+  "calibration_candidates": [
+    64,
+    256,
+    1024
+  ],
+  "calibration_target": [
+    0.2,
+    1.0
+  ],
+  "conditions": [
+    {
+      "id": "S0",
+      "config": {
+        "schema_version": 1,
+        "executor": "serial",
+        "workers": 1,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 262144,
+          "iterations": 256,
+          "seed": 42
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 262144
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "static-p1-g1",
+      "config": {
+        "schema_version": 1,
+        "executor": "static",
+        "workers": 1,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 262144,
+          "iterations": 256,
+          "seed": 42
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "static-p1-g64",
+      "config": {
+        "schema_version": 1,
+        "executor": "static",
+        "workers": 1,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 262144,
+          "iterations": 256,
+          "seed": 42
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 64
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "static-p1-g4096",
+      "config": {
+        "schema_version": 1,
+        "executor": "static",
+        "workers": 1,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 262144,
+          "iterations": 256,
+          "seed": 42
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 4096
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "static-p4-g1",
+      "config": {
+        "schema_version": 1,
+        "executor": "static",
+        "workers": 4,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 262144,
+          "iterations": 256,
+          "seed": 42
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "static-p4-g64",
+      "config": {
+        "schema_version": 1,
+        "executor": "static",
+        "workers": 4,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 262144,
+          "iterations": 256,
+          "seed": 42
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 64
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "static-p4-g4096",
+      "config": {
+        "schema_version": 1,
+        "executor": "static",
+        "workers": 4,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 262144,
+          "iterations": 256,
+          "seed": 42
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 4096
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "central-p1-g1",
+      "config": {
+        "schema_version": 1,
+        "executor": "central",
+        "workers": 1,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 262144,
+          "iterations": 256,
+          "seed": 42
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "central-p1-g64",
+      "config": {
+        "schema_version": 1,
+        "executor": "central",
+        "workers": 1,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 262144,
+          "iterations": 256,
+          "seed": 42
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 64
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "central-p1-g4096",
+      "config": {
+        "schema_version": 1,
+        "executor": "central",
+        "workers": 1,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 262144,
+          "iterations": 256,
+          "seed": 42
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 4096
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "central-p4-g1",
+      "config": {
+        "schema_version": 1,
+        "executor": "central",
+        "workers": 4,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 262144,
+          "iterations": 256,
+          "seed": 42
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "central-p4-g64",
+      "config": {
+        "schema_version": 1,
+        "executor": "central",
+        "workers": 4,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 262144,
+          "iterations": 256,
+          "seed": 42
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 64
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "central-p4-g4096",
+      "config": {
+        "schema_version": 1,
+        "executor": "central",
+        "workers": 4,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 262144,
+          "iterations": 256,
+          "seed": 42
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 4096
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "off-p1-g1",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 1,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 262144,
+          "iterations": 256,
+          "seed": 42
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "off-p1-g64",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 1,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 262144,
+          "iterations": 256,
+          "seed": 42
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 64
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "off-p1-g4096",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 1,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 262144,
+          "iterations": 256,
+          "seed": 42
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 4096
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "off-p4-g1",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 262144,
+          "iterations": 256,
+          "seed": 42
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "off-p4-g64",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 262144,
+          "iterations": 256,
+          "seed": 42
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 64
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "off-p4-g4096",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 262144,
+          "iterations": 256,
+          "seed": 42
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 4096
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "disabled"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "on-p1-g1",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 1,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 262144,
+          "iterations": 256,
+          "seed": 42
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "on-p1-g64",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 1,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 262144,
+          "iterations": 256,
+          "seed": 42
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 64
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "on-p1-g4096",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 1,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 262144,
+          "iterations": 256,
+          "seed": 42
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 4096
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "on-p4-g1",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 262144,
+          "iterations": 256,
+          "seed": 42
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "on-p4-g64",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 262144,
+          "iterations": 256,
+          "seed": 42
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 64
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    {
+      "id": "on-p4-g4096",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 262144,
+          "iterations": 256,
+          "seed": 42
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 4096
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    }
+  ],
+  "order": [
+    [
+      "warmup",
+      0,
+      "static-p1-g64"
+    ],
+    [
+      "warmup",
+      0,
+      "central-p1-g64"
+    ],
+    [
+      "warmup",
+      0,
+      "central-p4-g4096"
+    ],
+    [
+      "warmup",
+      0,
+      "static-p4-g1"
+    ],
+    [
+      "warmup",
+      0,
+      "on-p1-g1"
+    ],
+    [
+      "warmup",
+      0,
+      "off-p4-g4096"
+    ],
+    [
+      "warmup",
+      0,
+      "static-p4-g64"
+    ],
+    [
+      "warmup",
+      0,
+      "central-p1-g1"
+    ],
+    [
+      "warmup",
+      0,
+      "static-p1-g4096"
+    ],
+    [
+      "warmup",
+      0,
+      "on-p1-g4096"
+    ],
+    [
+      "warmup",
+      0,
+      "central-p4-g64"
+    ],
+    [
+      "warmup",
+      0,
+      "central-p4-g1"
+    ],
+    [
+      "warmup",
+      0,
+      "central-p1-g4096"
+    ],
+    [
+      "warmup",
+      0,
+      "off-p4-g64"
+    ],
+    [
+      "warmup",
+      0,
+      "on-p4-g1"
+    ],
+    [
+      "warmup",
+      0,
+      "off-p1-g1"
+    ],
+    [
+      "warmup",
+      0,
+      "off-p4-g1"
+    ],
+    [
+      "warmup",
+      0,
+      "on-p4-g64"
+    ],
+    [
+      "warmup",
+      0,
+      "on-p1-g64"
+    ],
+    [
+      "warmup",
+      0,
+      "static-p1-g1"
+    ],
+    [
+      "warmup",
+      0,
+      "S0"
+    ],
+    [
+      "warmup",
+      0,
+      "off-p1-g4096"
+    ],
+    [
+      "warmup",
+      0,
+      "off-p1-g64"
+    ],
+    [
+      "warmup",
+      0,
+      "on-p4-g4096"
+    ],
+    [
+      "warmup",
+      0,
+      "static-p4-g4096"
+    ],
+    [
+      "timing",
+      1,
+      "static-p1-g64"
+    ],
+    [
+      "timing",
+      1,
+      "central-p1-g64"
+    ],
+    [
+      "timing",
+      1,
+      "central-p4-g4096"
+    ],
+    [
+      "timing",
+      1,
+      "static-p4-g1"
+    ],
+    [
+      "timing",
+      1,
+      "on-p1-g1"
+    ],
+    [
+      "timing",
+      1,
+      "off-p4-g4096"
+    ],
+    [
+      "timing",
+      1,
+      "static-p4-g64"
+    ],
+    [
+      "timing",
+      1,
+      "central-p1-g1"
+    ],
+    [
+      "timing",
+      1,
+      "static-p1-g4096"
+    ],
+    [
+      "timing",
+      1,
+      "on-p1-g4096"
+    ],
+    [
+      "timing",
+      1,
+      "central-p4-g64"
+    ],
+    [
+      "timing",
+      1,
+      "central-p4-g1"
+    ],
+    [
+      "timing",
+      1,
+      "central-p1-g4096"
+    ],
+    [
+      "timing",
+      1,
+      "off-p4-g64"
+    ],
+    [
+      "timing",
+      1,
+      "on-p4-g1"
+    ],
+    [
+      "timing",
+      1,
+      "off-p1-g1"
+    ],
+    [
+      "timing",
+      1,
+      "off-p4-g1"
+    ],
+    [
+      "timing",
+      1,
+      "on-p4-g64"
+    ],
+    [
+      "timing",
+      1,
+      "on-p1-g64"
+    ],
+    [
+      "timing",
+      1,
+      "static-p1-g1"
+    ],
+    [
+      "timing",
+      1,
+      "S0"
+    ],
+    [
+      "timing",
+      1,
+      "off-p1-g4096"
+    ],
+    [
+      "timing",
+      1,
+      "off-p1-g64"
+    ],
+    [
+      "timing",
+      1,
+      "on-p4-g4096"
+    ],
+    [
+      "timing",
+      1,
+      "static-p4-g4096"
+    ],
+    [
+      "timing",
+      2,
+      "static-p1-g4096"
+    ],
+    [
+      "timing",
+      2,
+      "on-p1-g4096"
+    ],
+    [
+      "timing",
+      2,
+      "central-p4-g64"
+    ],
+    [
+      "timing",
+      2,
+      "central-p4-g1"
+    ],
+    [
+      "timing",
+      2,
+      "central-p1-g4096"
+    ],
+    [
+      "timing",
+      2,
+      "off-p4-g64"
+    ],
+    [
+      "timing",
+      2,
+      "on-p4-g1"
+    ],
+    [
+      "timing",
+      2,
+      "off-p1-g1"
+    ],
+    [
+      "timing",
+      2,
+      "off-p4-g1"
+    ],
+    [
+      "timing",
+      2,
+      "on-p4-g64"
+    ],
+    [
+      "timing",
+      2,
+      "on-p1-g64"
+    ],
+    [
+      "timing",
+      2,
+      "static-p1-g1"
+    ],
+    [
+      "timing",
+      2,
+      "S0"
+    ],
+    [
+      "timing",
+      2,
+      "off-p1-g4096"
+    ],
+    [
+      "timing",
+      2,
+      "off-p1-g64"
+    ],
+    [
+      "timing",
+      2,
+      "on-p4-g4096"
+    ],
+    [
+      "timing",
+      2,
+      "static-p4-g4096"
+    ],
+    [
+      "timing",
+      2,
+      "static-p1-g64"
+    ],
+    [
+      "timing",
+      2,
+      "central-p1-g64"
+    ],
+    [
+      "timing",
+      2,
+      "central-p4-g4096"
+    ],
+    [
+      "timing",
+      2,
+      "static-p4-g1"
+    ],
+    [
+      "timing",
+      2,
+      "on-p1-g1"
+    ],
+    [
+      "timing",
+      2,
+      "off-p4-g4096"
+    ],
+    [
+      "timing",
+      2,
+      "static-p4-g64"
+    ],
+    [
+      "timing",
+      2,
+      "central-p1-g1"
+    ],
+    [
+      "timing",
+      3,
+      "off-p4-g1"
+    ],
+    [
+      "timing",
+      3,
+      "on-p4-g64"
+    ],
+    [
+      "timing",
+      3,
+      "on-p1-g64"
+    ],
+    [
+      "timing",
+      3,
+      "static-p1-g1"
+    ],
+    [
+      "timing",
+      3,
+      "S0"
+    ],
+    [
+      "timing",
+      3,
+      "off-p1-g4096"
+    ],
+    [
+      "timing",
+      3,
+      "off-p1-g64"
+    ],
+    [
+      "timing",
+      3,
+      "on-p4-g4096"
+    ],
+    [
+      "timing",
+      3,
+      "static-p4-g4096"
+    ],
+    [
+      "timing",
+      3,
+      "static-p1-g64"
+    ],
+    [
+      "timing",
+      3,
+      "central-p1-g64"
+    ],
+    [
+      "timing",
+      3,
+      "central-p4-g4096"
+    ],
+    [
+      "timing",
+      3,
+      "static-p4-g1"
+    ],
+    [
+      "timing",
+      3,
+      "on-p1-g1"
+    ],
+    [
+      "timing",
+      3,
+      "off-p4-g4096"
+    ],
+    [
+      "timing",
+      3,
+      "static-p4-g64"
+    ],
+    [
+      "timing",
+      3,
+      "central-p1-g1"
+    ],
+    [
+      "timing",
+      3,
+      "static-p1-g4096"
+    ],
+    [
+      "timing",
+      3,
+      "on-p1-g4096"
+    ],
+    [
+      "timing",
+      3,
+      "central-p4-g64"
+    ],
+    [
+      "timing",
+      3,
+      "central-p4-g1"
+    ],
+    [
+      "timing",
+      3,
+      "central-p1-g4096"
+    ],
+    [
+      "timing",
+      3,
+      "off-p4-g64"
+    ],
+    [
+      "timing",
+      3,
+      "on-p4-g1"
+    ],
+    [
+      "timing",
+      3,
+      "off-p1-g1"
+    ]
+  ],
+  "note": "condition iterations replaced only with first qualifying serial calibration; no candidate-specific changes; three blocks distribute positions without exact complete balance"
+}

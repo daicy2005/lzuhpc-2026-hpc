@@ -1,0 +1,61 @@
+{
+  "light": {
+    "build": "runtime",
+    "config": "configs/optimized/light.json",
+    "config_sha256": "2143ebae48ae4a2e200cc54c5bcbaa0c93bcd351ea709f2cbed8147101b9815f",
+    "cmake_options": [
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DWS_COMPLETION_BATCH=32",
+      "-DWS_STEAL_SCRATCH=ON",
+      "-DWS_ENABLE_IPO=OFF"
+    ],
+    "binary_sha256": "0f41f09805cf0110bb2d1c860b29994fcbeed19e80897f6d3e90428bc73223ef",
+    "snapshot": "evidence\\opt-runtime\\snapshots\\builds\\0f41f09805cf0110bb2d1c860b29994fcbeed19e80897f6d3e90428bc73223ef",
+    "accepted": true
+  },
+  "uniform": {
+    "build": "lanes8",
+    "config": "configs/optimized/uniform.json",
+    "config_sha256": "ac1aae7ca567cf4a3f26509e50026b26ec93d2f90b889425555ba7f12f625d3b",
+    "cmake_options": [
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DWS_COMPLETION_BATCH=1",
+      "-DWS_STEAL_SCRATCH=OFF",
+      "-DWS_ENABLE_IPO=ON",
+      "-DWS_COMPUTE_LANES=8"
+    ],
+    "binary_sha256": "14efc53ec11b8e9e327caaaed8f386be3f4980a845af14b3df205245aad8bfb3",
+    "snapshot": "evidence\\opt-lanes8\\snapshots\\builds\\14efc53ec11b8e9e327caaaed8f386be3f4980a845af14b3df205245aad8bfb3",
+    "accepted": true
+  },
+  "skewed": {
+    "build": "full_lanes8",
+    "config": "configs/optimized/skewed.json",
+    "config_sha256": "53fb0257d77eca4650e582fb35a0990ac3c25e430d6b38e92f5c2f8e6982ca8f",
+    "cmake_options": [
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DWS_COMPLETION_BATCH=32",
+      "-DWS_STEAL_SCRATCH=ON",
+      "-DWS_ENABLE_IPO=ON",
+      "-DWS_COMPUTE_LANES=8"
+    ],
+    "binary_sha256": "e26cb2e4caad0f89a48e4473b49ea0ef89b75774f41ff230aa3211e766424c37",
+    "snapshot": "evidence\\opt-full_lanes8\\snapshots\\builds\\e26cb2e4caad0f89a48e4473b49ea0ef89b75774f41ff230aa3211e766424c37",
+    "accepted": true
+  },
+  "memory": {
+    "build": "full_lanes8",
+    "config": "configs/optimized/memory.json",
+    "config_sha256": "4121b35aa7f585dde1ca7507e8c10972ebbf64ab03cb54db13a76dd14ebfb659",
+    "cmake_options": [
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DWS_COMPLETION_BATCH=32",
+      "-DWS_STEAL_SCRATCH=ON",
+      "-DWS_ENABLE_IPO=ON",
+      "-DWS_COMPUTE_LANES=8"
+    ],
+    "binary_sha256": "e26cb2e4caad0f89a48e4473b49ea0ef89b75774f41ff230aa3211e766424c37",
+    "snapshot": "evidence\\opt-full_lanes8\\snapshots\\builds\\e26cb2e4caad0f89a48e4473b49ea0ef89b75774f41ff230aa3211e766424c37",
+    "accepted": true
+  }
+}

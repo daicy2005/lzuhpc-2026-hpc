@@ -1,0 +1,11 @@
+{
+  "cwd": "/root/lzuhpc-experiments/ws-20261016-phase-runtime",
+  "argv": [
+    "/root/lzuhpc-experiments/ws-20261016-phase-lanes8/build-none/worksteal",
+    "--config",
+    "/root/lzuhpc-experiments/ws-20261016-phase-runtime/runs/20261016T042648Z-R3C-phase-observation-65b081/0019-profiling-uniform-phase-lanes8-p32-g1024-r3-0fac25/config.json",
+    "--output",
+    "/root/lzuhpc-experiments/ws-20261016-phase-runtime/runs/20261016T042648Z-R3C-phase-observation-65b081/0019-profiling-uniform-phase-lanes8-p32-g1024-r3-0fac25/result.json"
+  ],
+  "explicit_environment": {}
+}

@@ -1,0 +1,9 @@
+{
+  "label": "environment",
+  "argv": [
+    "uname",
+    "-a"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 0.008391800000000005
+}

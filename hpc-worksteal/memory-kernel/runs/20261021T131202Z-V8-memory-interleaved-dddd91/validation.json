@@ -1,0 +1,27 @@
+{
+  "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+  "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+  "records": [
+    {
+      "command": [
+        "/root/lzuhpc-experiments/ws-20261021-memory-kernel-release/build-none/runtime_checks"
+      ],
+      "returncode": 0,
+      "stdout": "{\"checks\":2308,\"status\":\"pass\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/root/lzuhpc-experiments/ws-20261021-memory-kernel-release/tests/cli_checks.py",
+        "/root/lzuhpc-experiments/ws-20261021-memory-kernel-release/build-none/worksteal",
+        "/root/lzuhpc-experiments/ws-20261021-memory-kernel-release/build-none/worksteal_extension"
+      ],
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"checks\": 367, \"golden_output_hash\": \"3ae93543031ba3af\"}\n",
+      "stderr": ""
+    }
+  ],
+  "pass": true,
+  "created": "2026-10-21T13:04:27.863862+00:00"
+}

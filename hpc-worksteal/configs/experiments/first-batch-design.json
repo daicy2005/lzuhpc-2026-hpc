@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "document_status": "design_not_executed",
+  "runtime_config": false,
+  "scope": ["W00", "W01"],
+  "prerequisites": [
+    "P1-P3 correctness and extension checks passed with archived evidence",
+    "no other long-running benchmark on host",
+    "Linux allowed CPUs and actual affinity verified",
+    "source, binary, kernel and tool versions frozen"
+  ],
+  "calibration": {
+    "purpose": "development",
+    "executor": "serial",
+    "elements": 262144,
+    "seed": 42,
+    "cost_candidates": [64, 256, 1024],
+    "target_epoch_seconds": [0.2, 1.0],
+    "selection_rule": "first correct candidate in interval; stop if above upper bound or all exhausted",
+    "max_processes": 3,
+    "resolved_cost": null
+  },
+  "matrix": {
+    "serial_conditions": 1,
+    "parallel_modes": ["static", "central", "worksteal_off", "worksteal_on"],
+    "workers_rule": "unique [1, min(4, allowed_CPU_count)]",
+    "grain_elements": [1, 64, 4096],
+    "placement": "round_robin",
+    "victim": "round_robin",
+    "migration": "single",
+    "steal_timing": {"off": "disabled", "on": "immediate"},
+    "affinity_rule": "sorted allowed logical CPUs, at most four, verified singleton masks",
+    "max_timing_conditions": 25
+  },
+  "measurement": {
+    "warmup_processes_per_condition": 1,
+    "timing_processes_per_condition": 3,
+    "warmup_epochs_per_process": 0,
+    "measured_epochs_per_process": 1,
+    "validate_each_process": true,
+    "schedule_seed": 20261015,
+    "save_expanded_order_before_execution": true,
+    "blocks": "one full warmup block then three balanced timing blocks"
+  },
+  "limits": {
+    "max_W00_integration_processes": 40,
+    "W00_timeout_seconds": 10,
+    "max_W01_processes_including_warmup": 100,
+    "W01_process_timeout_seconds": 30,
+    "max_diagnostic_processes": 4,
+    "max_batch_processes": 147,
+    "batch_wall_budget_seconds": 900,
+    "stop_on_execution_or_correctness_failure": true,
+    "budget_exhausted_status": "incomplete"
+  },
+  "results": null
+}

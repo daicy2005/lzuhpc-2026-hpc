@@ -1,0 +1,42 @@
+{
+  "mode": "User-selected imagegen CLI design, then native vector reconstruction",
+  "entrypoint": "C:/Users/admin/.codex/tools/imagegen/imagegen.ps1",
+  "provider": "laogou",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "reconstruction_generator": "tools/student_diagrams.py",
+  "vector_revision": "icons-v2-consistent-strokes",
+  "new_image_generation_requests_in_this_revision": 0,
+  "icon_refinements": [
+    "Shared 3.4-unit strokes and rounded line ends",
+    "Parameter sliders replace the abstract chain",
+    "Checklist, memory chip and task-queue transfer symbols",
+    "Arrowheads scale to connector length"
+  ],
+  "assets": {
+    "runtime-flow-designed": {
+      "source_image": "output/imagegen/runtime-flow-20261026.png",
+      "source_image_sha256": "0e4ee4ccd366dc616e524a5a9c0a3df6437d8cc89880ceb337dad47abf512dd8",
+      "prompt": "report/student/figures/prompts/runtime-flow-20261026.txt",
+      "prompt_sha256": "58bd93293028d923724d0b95cf8ce58dc4e5b6d7a0104dde5aaf60dca4e94b04",
+      "provider_result_receipt_id": "b1911315636e483eb0feea8767274b21",
+      "vector": "report/student/figures/runtime-flow-designed.svg",
+      "vector_sha256": "c48d206c30cbd88168bb8312a64cddb6a7dc00e99cc74891f03e52573c524472",
+      "embedded_raster_images": 0,
+      "text_editable": true,
+      "review": "Reconstructed labels, stages, status and arrows checked against project sources."
+    },
+    "exploration-roadmap-designed": {
+      "source_image": "output/imagegen/exploration-roadmap-20261026.png",
+      "source_image_sha256": "72472ae9bf35e386e26e83bda8a1aa1076b6b0b92d73154a99ab5844a7d8dde9",
+      "prompt": "report/student/figures/prompts/exploration-roadmap-20261026.txt",
+      "prompt_sha256": "72ca57c9237e0f91e8108c35e1d4303120f2003a96352526b35f32d3faca9687",
+      "provider_result_receipt_id": "f8e6608b5ccb452184b07212a129b10f",
+      "vector": "report/student/figures/exploration-roadmap-designed.svg",
+      "vector_sha256": "e2985292ec19eed1c2276412034a5fffd61e98acd77e0e7f2d7156c9d5b7569d",
+      "embedded_raster_images": 0,
+      "text_editable": true,
+      "review": "Reconstructed labels, stages, status and arrows checked against project sources."
+    }
+  }
+}

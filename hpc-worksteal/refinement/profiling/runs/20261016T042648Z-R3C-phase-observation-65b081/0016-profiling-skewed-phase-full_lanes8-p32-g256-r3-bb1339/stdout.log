@@ -1,0 +1,332 @@
+{
+  "affinity": {
+    "actual_workers": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ],
+      [
+        6
+      ],
+      [
+        7
+      ],
+      [
+        8
+      ],
+      [
+        9
+      ],
+      [
+        10
+      ],
+      [
+        11
+      ],
+      [
+        12
+      ],
+      [
+        13
+      ],
+      [
+        14
+      ],
+      [
+        15
+      ],
+      [
+        16
+      ],
+      [
+        17
+      ],
+      [
+        18
+      ],
+      [
+        19
+      ],
+      [
+        20
+      ],
+      [
+        21
+      ],
+      [
+        22
+      ],
+      [
+        23
+      ],
+      [
+        24
+      ],
+      [
+        25
+      ],
+      [
+        26
+      ],
+      [
+        27
+      ],
+      [
+        28
+      ],
+      [
+        29
+      ],
+      [
+        30
+      ],
+      [
+        31
+      ]
+    ],
+    "control_wait": "condition_variable",
+    "main_mask_before": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "requested": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ]
+  },
+  "correctness": {
+    "pass": true
+  },
+  "epochs": [
+    {
+      "correctness": {
+        "compared_elements": 262144,
+        "exact_once": null,
+        "mismatches": 0,
+        "output_hash_fnv1a64": "f866197bba9e93d7",
+        "pass": true
+      },
+      "epoch": 0,
+      "epoch_seconds": 0.0365196,
+      "execution": null,
+      "identity": {
+        "cost_hash_fnv1a64": "96f3f8bcee522325",
+        "data_hash_fnv1a64": null,
+        "initial_cost_units": [
+          75497472,
+          75497472,
+          75497472,
+          75497472,
+          8388608,
+          8388608,
+          8388608,
+          8388608,
+          8388608,
+          8388608,
+          8388608,
+          8388608,
+          8388608,
+          8388608,
+          8388608,
+          8388608,
+          8388608,
+          8388608,
+          8388608,
+          8388608,
+          8388608,
+          8388608,
+          8388608,
+          8388608,
+          8388608,
+          8388608,
+          8388608,
+          8388608,
+          8388608,
+          8388608,
+          8388608,
+          8388608
+        ],
+        "input_hash_fnv1a64": "89bb43e569815b04",
+        "max_task_cost_units": 2359296,
+        "per_element_bytes": 8,
+        "queue_hash_fnv1a64": "89cc1bf57deca365",
+        "task_count": 1024,
+        "task_hash_fnv1a64": "8e906f42b4430f81",
+        "total_cost_units": 536870912,
+        "total_data_bytes": 0
+      },
+      "local_only": false,
+      "pretouch_hash_fnv1a64": null,
+      "worker_stats": null
+    }
+  ],
+  "metrics_mode": "timing",
+  "phase_seconds": {
+    "configuration_and_policies": 2.15e-05,
+    "dispatch_and_execution_wall": 0.0370805,
+    "full_reference_verification": 1.8010341,
+    "home_preread": 1.8e-06,
+    "identity_hashes": 0.0035912,
+    "output_and_counts_preparation": 0.0002315,
+    "partition_and_placement": 0.0005267,
+    "pool_creation": 0.0022248,
+    "pool_shutdown": 0.0008354,
+    "result_summary": 1.81e-05,
+    "workload_initialization": 0.0071856
+  },
+  "resolved_config": {
+    "executor": "worksteal",
+    "layout": "concentrated",
+    "layout_seed": 911,
+    "measurement": {
+      "epochs": 1,
+      "mode": "timing"
+    },
+    "policies": {
+      "affinity": {
+        "cpus": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31
+        ],
+        "name": "explicit"
+      },
+      "migration": {
+        "name": "single"
+      },
+      "partition": {
+        "grain": 256,
+        "name": "fixed_grain"
+      },
+      "placement": {
+        "name": "round_robin"
+      },
+      "steal_timing": {
+        "name": "immediate"
+      },
+      "victim": {
+        "name": "round_robin"
+      }
+    },
+    "schema_version": 1,
+    "steal_enabled": true,
+    "workers": 32,
+    "workload": {
+      "elements": 262144,
+      "iterations": 1024,
+      "name": "compute_skewed",
+      "seed": 911
+    }
+  },
+  "schema_version": 1,
+  "status": "completed",
+  "timing": {
+    "dispatch_seconds": 3.1e-06,
+    "end_to_end_seconds": 1.8527661,
+    "epoch_seconds": 0.0365196,
+    "setup_seconds": 0.0135554
+  }
+}

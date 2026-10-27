@@ -1,0 +1,2323 @@
+{
+  "created": "2026-10-27T05:34:55.046085+00:00",
+  "audit_pass": true,
+  "complete": true,
+  "accepted": false,
+  "confirmation": {
+    "accepted": false,
+    "groups": [
+      {
+        "seed": 140009,
+        "elements": 229376,
+        "layout": "shuffled",
+        "target": false,
+        "epoch_wins": 1,
+        "medians": {
+          "base": {
+            "epoch": 0.0238369,
+            "app": 0.1383301,
+            "process": 0.1457630000000023
+          },
+          "candidate": {
+            "epoch": 0.0257793,
+            "app": 0.1428506,
+            "process": 0.14926370000000588
+          }
+        },
+        "epoch_speedup": 0.9246527252485521,
+        "app_speedup": 0.9683550506613204,
+        "pass": true,
+        "pairs": [
+          {
+            "repeat": 1,
+            "base": {
+              "epoch": 0.0257909,
+              "app": 0.1383461,
+              "process": 0.1460129999999964,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0030-timing-confirm-s140009-shuffled-round_robin-r1-3c5763"
+            },
+            "candidate": {
+              "epoch": 0.0273931,
+              "app": 0.1423862,
+              "process": 0.14926220000000967,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0031-timing-confirm-s140009-shuffled-seeded_random-r1-829ca4"
+            }
+          },
+          {
+            "repeat": 2,
+            "base": {
+              "epoch": 0.0223237,
+              "app": 0.1383301,
+              "process": 0.1457630000000023,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0053-timing-confirm-s140009-shuffled-round_robin-r2-0121d0"
+            },
+            "candidate": {
+              "epoch": 0.0245527,
+              "app": 0.1385444,
+              "process": 0.1461728000000022,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0052-timing-confirm-s140009-shuffled-seeded_random-r2-a92f88"
+            }
+          },
+          {
+            "repeat": 3,
+            "base": {
+              "epoch": 0.0251831,
+              "app": 0.1470095,
+              "process": 0.15379369999999426,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0062-timing-confirm-s140009-shuffled-round_robin-r3-0e5800"
+            },
+            "candidate": {
+              "epoch": 0.0261955,
+              "app": 0.1458311,
+              "process": 0.15453099999999154,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0063-timing-confirm-s140009-shuffled-seeded_random-r3-cb9100"
+            }
+          },
+          {
+            "repeat": 4,
+            "base": {
+              "epoch": 0.0233826,
+              "app": 0.1360006,
+              "process": 0.14397640000001388,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0073-timing-confirm-s140009-shuffled-round_robin-r4-47566a"
+            },
+            "candidate": {
+              "epoch": 0.0263403,
+              "app": 0.1447119,
+              "process": 0.4674412000000103,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0072-timing-confirm-s140009-shuffled-seeded_random-r4-f60e85"
+            }
+          },
+          {
+            "repeat": 5,
+            "base": {
+              "epoch": 0.0238369,
+              "app": 0.1392791,
+              "process": 0.14759420000000034,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0082-timing-confirm-s140009-shuffled-round_robin-r5-56f98a"
+            },
+            "candidate": {
+              "epoch": 0.0254735,
+              "app": 0.1428506,
+              "process": 0.14926370000000588,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0083-timing-confirm-s140009-shuffled-seeded_random-r5-2cfda1"
+            }
+          },
+          {
+            "repeat": 6,
+            "base": {
+              "epoch": 0.0251251,
+              "app": 0.1345995,
+              "process": 0.14280060000000105,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0093-timing-confirm-s140009-shuffled-round_robin-r6-b75f86"
+            },
+            "candidate": {
+              "epoch": 0.024874,
+              "app": 0.1353755,
+              "process": 0.14193180000000893,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0092-timing-confirm-s140009-shuffled-seeded_random-r6-f24f6f"
+            }
+          },
+          {
+            "repeat": 7,
+            "base": {
+              "epoch": 0.0233355,
+              "app": 0.1326877,
+              "process": 0.13907330000000684,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0102-timing-confirm-s140009-shuffled-round_robin-r7-475ef5"
+            },
+            "candidate": {
+              "epoch": 0.0257793,
+              "app": 0.1445991,
+              "process": 0.1520698000000067,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0103-timing-confirm-s140009-shuffled-seeded_random-r7-db2022"
+            }
+          }
+        ]
+      },
+      {
+        "seed": 146021,
+        "elements": 360448,
+        "layout": "concentrated",
+        "target": true,
+        "epoch_wins": 2,
+        "medians": {
+          "base": {
+            "epoch": 0.038513,
+            "app": 0.2044612,
+            "process": 0.21285530000000108
+          },
+          "candidate": {
+            "epoch": 0.0392698,
+            "app": 0.2091059,
+            "process": 0.2160907000000094
+          }
+        },
+        "epoch_speedup": 0.9807281931662498,
+        "app_speedup": 0.9777878099087591,
+        "pass": false,
+        "pairs": [
+          {
+            "repeat": 1,
+            "base": {
+              "epoch": 0.0366222,
+              "app": 0.196066,
+              "process": 0.20325219999999433,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0032-timing-confirm-s146021-concentrated-round_robin-r1-7e3a75"
+            },
+            "candidate": {
+              "epoch": 0.0403129,
+              "app": 0.2187936,
+              "process": 0.2258970999999974,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0033-timing-confirm-s146021-concentrated-seeded_random-r1-25b8bf"
+            }
+          },
+          {
+            "repeat": 2,
+            "base": {
+              "epoch": 0.0419581,
+              "app": 0.2104133,
+              "process": 0.21918530000000658,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0043-timing-confirm-s146021-concentrated-round_robin-r2-481b0a"
+            },
+            "candidate": {
+              "epoch": 0.0463878,
+              "app": 0.2388771,
+              "process": 0.24636750000000518,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0042-timing-confirm-s146021-concentrated-seeded_random-r2-b615d6"
+            }
+          },
+          {
+            "repeat": 3,
+            "base": {
+              "epoch": 0.038513,
+              "app": 0.2003316,
+              "process": 0.20734260000000404,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0064-timing-confirm-s146021-concentrated-round_robin-r3-b969b3"
+            },
+            "candidate": {
+              "epoch": 0.037265,
+              "app": 0.1998099,
+              "process": 0.20650739999999246,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0065-timing-confirm-s146021-concentrated-seeded_random-r3-2d0345"
+            }
+          },
+          {
+            "repeat": 4,
+            "base": {
+              "epoch": 0.0396016,
+              "app": 0.2068418,
+              "process": 0.21505519999999478,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0075-timing-confirm-s146021-concentrated-round_robin-r4-71a273"
+            },
+            "candidate": {
+              "epoch": 0.0387162,
+              "app": 0.2091059,
+              "process": 0.2160907000000094,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0074-timing-confirm-s146021-concentrated-seeded_random-r4-5c2691"
+            }
+          },
+          {
+            "repeat": 5,
+            "base": {
+              "epoch": 0.0373606,
+              "app": 0.2037708,
+              "process": 0.2119655999999992,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0084-timing-confirm-s146021-concentrated-round_robin-r5-ca78f7"
+            },
+            "candidate": {
+              "epoch": 0.0392698,
+              "app": 0.201638,
+              "process": 0.2101026999999931,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0085-timing-confirm-s146021-concentrated-seeded_random-r5-781e3d"
+            }
+          },
+          {
+            "repeat": 6,
+            "base": {
+              "epoch": 0.0341831,
+              "app": 0.2044612,
+              "process": 0.21285530000000108,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0095-timing-confirm-s146021-concentrated-round_robin-r6-c4a91c"
+            },
+            "candidate": {
+              "epoch": 0.0358415,
+              "app": 0.2013096,
+              "process": 0.211456400000003,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0094-timing-confirm-s146021-concentrated-seeded_random-r6-fbba1e"
+            }
+          },
+          {
+            "repeat": 7,
+            "base": {
+              "epoch": 0.0400388,
+              "app": 0.2059748,
+              "process": 0.2133216999999945,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0104-timing-confirm-s146021-concentrated-round_robin-r7-0c0c9c"
+            },
+            "candidate": {
+              "epoch": 0.0414596,
+              "app": 0.2235346,
+              "process": 0.23011409999999444,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0105-timing-confirm-s146021-concentrated-seeded_random-r7-8403c9"
+            }
+          }
+        ]
+      },
+      {
+        "seed": 146021,
+        "elements": 360448,
+        "layout": "spread",
+        "target": false,
+        "epoch_wins": 3,
+        "medians": {
+          "base": {
+            "epoch": 0.0390088,
+            "app": 0.2108959,
+            "process": 0.21950339999999358
+          },
+          "candidate": {
+            "epoch": 0.0400374,
+            "app": 0.2159354,
+            "process": 0.22473820000000444
+          }
+        },
+        "epoch_speedup": 0.974309021065304,
+        "app_speedup": 0.9766620016912465,
+        "pass": true,
+        "pairs": [
+          {
+            "repeat": 1,
+            "base": {
+              "epoch": 0.0430511,
+              "app": 0.2419247,
+              "process": 0.24913829999999848,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0034-timing-confirm-s146021-spread-round_robin-r1-d64c05"
+            },
+            "candidate": {
+              "epoch": 0.0400374,
+              "app": 0.2159354,
+              "process": 0.22379949999999837,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0035-timing-confirm-s146021-spread-seeded_random-r1-57c31d"
+            }
+          },
+          {
+            "repeat": 2,
+            "base": {
+              "epoch": 0.0393036,
+              "app": 0.2110455,
+              "process": 0.21950339999999358,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0045-timing-confirm-s146021-spread-round_robin-r2-7a8584"
+            },
+            "candidate": {
+              "epoch": 0.0411841,
+              "app": 0.2155323,
+              "process": 0.22473820000000444,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0044-timing-confirm-s146021-spread-seeded_random-r2-768ba5"
+            }
+          },
+          {
+            "repeat": 3,
+            "base": {
+              "epoch": 0.0360996,
+              "app": 0.2042802,
+              "process": 0.21203650000001062,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0054-timing-confirm-s146021-spread-round_robin-r3-e5a596"
+            },
+            "candidate": {
+              "epoch": 0.0407611,
+              "app": 0.2251821,
+              "process": 0.2380078999999995,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0055-timing-confirm-s146021-spread-seeded_random-r3-b1f222"
+            }
+          },
+          {
+            "repeat": 4,
+            "base": {
+              "epoch": 0.0388742,
+              "app": 0.1954224,
+              "process": 0.20805730000000722,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0077-timing-confirm-s146021-spread-round_robin-r4-a779ea"
+            },
+            "candidate": {
+              "epoch": 0.039878,
+              "app": 0.2313274,
+              "process": 0.2466136999999975,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0076-timing-confirm-s146021-spread-seeded_random-r4-159170"
+            }
+          },
+          {
+            "repeat": 5,
+            "base": {
+              "epoch": 0.0399932,
+              "app": 0.2215199,
+              "process": 0.23005340000000274,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0086-timing-confirm-s146021-spread-round_robin-r5-9af6e5"
+            },
+            "candidate": {
+              "epoch": 0.042425,
+              "app": 0.2480126,
+              "process": 0.25492700000000923,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0087-timing-confirm-s146021-spread-seeded_random-r5-309499"
+            }
+          },
+          {
+            "repeat": 6,
+            "base": {
+              "epoch": 0.035525,
+              "app": 0.2038868,
+              "process": 0.21956489999999462,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0097-timing-confirm-s146021-spread-round_robin-r6-bedf03"
+            },
+            "candidate": {
+              "epoch": 0.03515,
+              "app": 0.1959723,
+              "process": 0.20315209999999695,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0096-timing-confirm-s146021-spread-seeded_random-r6-71fcc7"
+            }
+          },
+          {
+            "repeat": 7,
+            "base": {
+              "epoch": 0.0390088,
+              "app": 0.2108959,
+              "process": 0.21905339999999285,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0106-timing-confirm-s146021-spread-round_robin-r7-232958"
+            },
+            "candidate": {
+              "epoch": 0.0369446,
+              "app": 0.2032311,
+              "process": 0.20988810000000058,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0107-timing-confirm-s146021-spread-seeded_random-r7-31d711"
+            }
+          }
+        ]
+      },
+      {
+        "seed": 146021,
+        "elements": 360448,
+        "layout": "shuffled",
+        "target": false,
+        "epoch_wins": 5,
+        "medians": {
+          "base": {
+            "epoch": 0.0424748,
+            "app": 0.2183164,
+            "process": 0.22669000000000494
+          },
+          "candidate": {
+            "epoch": 0.0408336,
+            "app": 0.2072928,
+            "process": 0.21516720000001044
+          }
+        },
+        "epoch_speedup": 1.0401923905803065,
+        "app_speedup": 1.0531788851325274,
+        "pass": true,
+        "pairs": [
+          {
+            "repeat": 1,
+            "base": {
+              "epoch": 0.0437635,
+              "app": 0.2176928,
+              "process": 0.22669000000000494,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0036-timing-confirm-s146021-shuffled-round_robin-r1-c502fa"
+            },
+            "candidate": {
+              "epoch": 0.0408336,
+              "app": 0.2301952,
+              "process": 0.23800380000000132,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0037-timing-confirm-s146021-shuffled-seeded_random-r1-7a1879"
+            }
+          },
+          {
+            "repeat": 2,
+            "base": {
+              "epoch": 0.0389939,
+              "app": 0.2183164,
+              "process": 0.2263949000000025,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0047-timing-confirm-s146021-shuffled-round_robin-r2-1958c5"
+            },
+            "candidate": {
+              "epoch": 0.0409341,
+              "app": 0.2049755,
+              "process": 0.2129355000000004,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0046-timing-confirm-s146021-shuffled-seeded_random-r2-0f0c5c"
+            }
+          },
+          {
+            "repeat": 3,
+            "base": {
+              "epoch": 0.0453898,
+              "app": 0.2353411,
+              "process": 0.24248469999999145,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0056-timing-confirm-s146021-shuffled-round_robin-r3-0a035f"
+            },
+            "candidate": {
+              "epoch": 0.0424706,
+              "app": 0.2317192,
+              "process": 0.24005669999999668,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0057-timing-confirm-s146021-shuffled-seeded_random-r3-f42b87"
+            }
+          },
+          {
+            "repeat": 4,
+            "base": {
+              "epoch": 0.0377816,
+              "app": 0.2188851,
+              "process": 0.22709890000000144,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0067-timing-confirm-s146021-shuffled-round_robin-r4-92ac3f"
+            },
+            "candidate": {
+              "epoch": 0.039607,
+              "app": 0.2072928,
+              "process": 0.21516720000001044,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0066-timing-confirm-s146021-shuffled-seeded_random-r4-911068"
+            }
+          },
+          {
+            "repeat": 5,
+            "base": {
+              "epoch": 0.041273,
+              "app": 0.2106928,
+              "process": 0.21867679999999723,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0088-timing-confirm-s146021-shuffled-round_robin-r5-05badc"
+            },
+            "candidate": {
+              "epoch": 0.0374909,
+              "app": 0.2133304,
+              "process": 0.22128949999999747,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0089-timing-confirm-s146021-shuffled-seeded_random-r5-f33e7a"
+            }
+          },
+          {
+            "repeat": 6,
+            "base": {
+              "epoch": 0.0424748,
+              "app": 0.206314,
+              "process": 0.21288859999999943,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0099-timing-confirm-s146021-shuffled-round_robin-r6-1e9f1f"
+            },
+            "candidate": {
+              "epoch": 0.0357068,
+              "app": 0.1982321,
+              "process": 0.2045171000000039,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0098-timing-confirm-s146021-shuffled-seeded_random-r6-bc1788"
+            }
+          },
+          {
+            "repeat": 7,
+            "base": {
+              "epoch": 0.0520995,
+              "app": 0.224876,
+              "process": 0.23155009999999265,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0108-timing-confirm-s146021-shuffled-round_robin-r7-9b96b1"
+            },
+            "candidate": {
+              "epoch": 0.0420089,
+              "app": 0.2060811,
+              "process": 0.2146022999999957,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0109-timing-confirm-s146021-shuffled-seeded_random-r7-f11347"
+            }
+          }
+        ]
+      },
+      {
+        "seed": 140009,
+        "elements": 229376,
+        "layout": "concentrated",
+        "target": true,
+        "epoch_wins": 6,
+        "medians": {
+          "base": {
+            "epoch": 0.0251315,
+            "app": 0.1444522,
+            "process": 0.1520639000000017
+          },
+          "candidate": {
+            "epoch": 0.0243663,
+            "app": 0.1364675,
+            "process": 0.1448488999999995
+          }
+        },
+        "epoch_speedup": 1.0314040293355988,
+        "app_speedup": 1.058509901624929,
+        "pass": false,
+        "pairs": [
+          {
+            "repeat": 1,
+            "base": {
+              "epoch": 0.0316048,
+              "app": 0.1713671,
+              "process": 0.17849230000000205,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0038-timing-confirm-s140009-concentrated-round_robin-r1-733e89"
+            },
+            "candidate": {
+              "epoch": 0.0285054,
+              "app": 0.1533737,
+              "process": 0.16093130000000144,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0039-timing-confirm-s140009-concentrated-seeded_random-r1-47f9ad"
+            }
+          },
+          {
+            "repeat": 2,
+            "base": {
+              "epoch": 0.0238324,
+              "app": 0.1372305,
+              "process": 0.14476700000000164,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0049-timing-confirm-s140009-concentrated-round_robin-r2-0665bc"
+            },
+            "candidate": {
+              "epoch": 0.0236882,
+              "app": 0.1364675,
+              "process": 0.14289449999999704,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0048-timing-confirm-s140009-concentrated-seeded_random-r2-1fcd71"
+            }
+          },
+          {
+            "repeat": 3,
+            "base": {
+              "epoch": 0.0251315,
+              "app": 0.1474751,
+              "process": 0.15510550000000478,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0058-timing-confirm-s140009-concentrated-round_robin-r3-7bd939"
+            },
+            "candidate": {
+              "epoch": 0.0267067,
+              "app": 0.1448081,
+              "process": 0.15130419999999845,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0059-timing-confirm-s140009-concentrated-seeded_random-r3-0b1d80"
+            }
+          },
+          {
+            "repeat": 4,
+            "base": {
+              "epoch": 0.0242298,
+              "app": 0.139958,
+              "process": 0.14776270000000125,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0069-timing-confirm-s140009-concentrated-round_robin-r4-fe9af8"
+            },
+            "candidate": {
+              "epoch": 0.024138,
+              "app": 0.1360697,
+              "process": 0.1448488999999995,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0068-timing-confirm-s140009-concentrated-seeded_random-r4-e985bc"
+            }
+          },
+          {
+            "repeat": 5,
+            "base": {
+              "epoch": 0.0237557,
+              "app": 0.1356447,
+              "process": 0.1428051000000039,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0078-timing-confirm-s140009-concentrated-round_robin-r5-f46716"
+            },
+            "candidate": {
+              "epoch": 0.0225676,
+              "app": 0.1301355,
+              "process": 0.1376092,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0079-timing-confirm-s140009-concentrated-seeded_random-r5-3a4583"
+            }
+          },
+          {
+            "repeat": 6,
+            "base": {
+              "epoch": 0.0351831,
+              "app": 0.1542087,
+              "process": 0.1616972000000061,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0101-timing-confirm-s140009-concentrated-round_robin-r6-5cf397"
+            },
+            "candidate": {
+              "epoch": 0.0243663,
+              "app": 0.1348038,
+              "process": 0.14147799999999222,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0100-timing-confirm-s140009-concentrated-seeded_random-r6-4d1f97"
+            }
+          },
+          {
+            "repeat": 7,
+            "base": {
+              "epoch": 0.0291329,
+              "app": 0.1444522,
+              "process": 0.1520639000000017,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0110-timing-confirm-s140009-concentrated-round_robin-r7-1932d9"
+            },
+            "candidate": {
+              "epoch": 0.0261016,
+              "app": 0.1386397,
+              "process": 0.1471607000000006,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0111-timing-confirm-s140009-concentrated-seeded_random-r7-70e319"
+            }
+          }
+        ]
+      },
+      {
+        "seed": 140009,
+        "elements": 229376,
+        "layout": "spread",
+        "target": false,
+        "epoch_wins": 6,
+        "medians": {
+          "base": {
+            "epoch": 0.0257169,
+            "app": 0.1409741,
+            "process": 0.1475705000000005
+          },
+          "candidate": {
+            "epoch": 0.0241515,
+            "app": 0.1369597,
+            "process": 0.1441894000000019
+          }
+        },
+        "epoch_speedup": 1.0648158499472082,
+        "app_speedup": 1.0293108118665564,
+        "pass": true,
+        "pairs": [
+          {
+            "repeat": 1,
+            "base": {
+              "epoch": 0.0267578,
+              "app": 0.1593653,
+              "process": 0.16621759999999597,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0040-timing-confirm-s140009-spread-round_robin-r1-0a0515"
+            },
+            "candidate": {
+              "epoch": 0.0265028,
+              "app": 0.1596232,
+              "process": 0.1676049000000006,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0041-timing-confirm-s140009-spread-seeded_random-r1-95e6e2"
+            }
+          },
+          {
+            "repeat": 2,
+            "base": {
+              "epoch": 0.0232826,
+              "app": 0.137883,
+              "process": 0.14423419999999965,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0051-timing-confirm-s140009-spread-round_robin-r2-a48490"
+            },
+            "candidate": {
+              "epoch": 0.0226941,
+              "app": 0.1324312,
+              "process": 0.14019240000000366,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0050-timing-confirm-s140009-spread-seeded_random-r2-cf7ab0"
+            }
+          },
+          {
+            "repeat": 3,
+            "base": {
+              "epoch": 0.0259556,
+              "app": 0.154966,
+              "process": 0.16261450000000366,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0060-timing-confirm-s140009-spread-round_robin-r3-977008"
+            },
+            "candidate": {
+              "epoch": 0.0254836,
+              "app": 0.1434819,
+              "process": 0.15138249999999687,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0061-timing-confirm-s140009-spread-seeded_random-r3-676908"
+            }
+          },
+          {
+            "repeat": 4,
+            "base": {
+              "epoch": 0.0274679,
+              "app": 0.1409741,
+              "process": 0.1475705000000005,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0071-timing-confirm-s140009-spread-round_robin-r4-d0a7b4"
+            },
+            "candidate": {
+              "epoch": 0.0241515,
+              "app": 0.1391101,
+              "process": 0.14676190000000133,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0070-timing-confirm-s140009-spread-seeded_random-r4-2fa7d6"
+            }
+          },
+          {
+            "repeat": 5,
+            "base": {
+              "epoch": 0.0257169,
+              "app": 0.1378623,
+              "process": 0.14404559999999833,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0080-timing-confirm-s140009-spread-round_robin-r5-7d3dc6"
+            },
+            "candidate": {
+              "epoch": 0.0239233,
+              "app": 0.1355926,
+              "process": 0.14172829999999692,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0081-timing-confirm-s140009-spread-seeded_random-r5-cc010b"
+            }
+          },
+          {
+            "repeat": 6,
+            "base": {
+              "epoch": 0.0240366,
+              "app": 0.1370813,
+              "process": 0.14451230000000237,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0091-timing-confirm-s140009-spread-round_robin-r6-c5e264"
+            },
+            "candidate": {
+              "epoch": 0.0236984,
+              "app": 0.1369597,
+              "process": 0.1441894000000019,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0090-timing-confirm-s140009-spread-seeded_random-r6-ae8561"
+            }
+          },
+          {
+            "repeat": 7,
+            "base": {
+              "epoch": 0.0241291,
+              "app": 0.1423675,
+              "process": 0.14969809999999484,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0112-timing-confirm-s140009-spread-round_robin-r7-00da3e"
+            },
+            "candidate": {
+              "epoch": 0.0247133,
+              "app": 0.1328126,
+              "process": 0.14042709999999659,
+              "run_path": "runs/20261027T053252Z-V16-victim-selection-2006b9/0113-timing-confirm-s140009-spread-seeded_random-r7-59260f"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "batch": "20261027T053252Z-V16-victim-selection-2006b9",
+  "processes": 114,
+  "timing_samples": 84,
+  "diagnostic_samples": 18,
+  "resource_samples": 272,
+  "hash_checks": 1638,
+  "diagnostics": [
+    {
+      "condition": "control-s138007-concentrated-round_robin",
+      "purpose": "control",
+      "initial_cost_units": [
+        8960,
+        1792,
+        1792,
+        1792,
+        49,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "actual_cost_units": [
+        0,
+        49,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        14336,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "task_count": 5,
+      "total_cost_units": 14385,
+      "initial_cost_balance": 0.0501708984375,
+      "actual_cost_balance": 0.0313568115234375,
+      "final_owner_changed_tasks": 5,
+      "probe_counts": {
+        "attempts": 43,
+        "busy": 0,
+        "empty": 38,
+        "steals": 5,
+        "moved": 5
+      },
+      "home_mismatched_elements": 1031
+    },
+    {
+      "condition": "control-s138007-concentrated-seeded_random",
+      "purpose": "control",
+      "initial_cost_units": [
+        8960,
+        1792,
+        1792,
+        1792,
+        49,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "actual_cost_units": [
+        0,
+        1792,
+        1792,
+        1792,
+        49,
+        0,
+        0,
+        0,
+        0,
+        0,
+        8960,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "task_count": 5,
+      "total_cost_units": 14385,
+      "initial_cost_balance": 0.0501708984375,
+      "actual_cost_balance": 0.0501708984375,
+      "final_owner_changed_tasks": 1,
+      "probe_counts": {
+        "attempts": 38,
+        "busy": 2,
+        "empty": 37,
+        "steals": 1,
+        "moved": 1
+      },
+      "home_mismatched_elements": 256
+    },
+    {
+      "condition": "control-s138007-spread-round_robin",
+      "purpose": "control",
+      "initial_cost_units": [
+        8960,
+        1792,
+        1792,
+        1792,
+        49,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "actual_cost_units": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1792,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3633,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        8960,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "task_count": 5,
+      "total_cost_units": 14385,
+      "initial_cost_balance": 0.0501708984375,
+      "actual_cost_balance": 0.0501708984375,
+      "final_owner_changed_tasks": 5,
+      "probe_counts": {
+        "attempts": 87,
+        "busy": 1,
+        "empty": 82,
+        "steals": 5,
+        "moved": 5
+      },
+      "home_mismatched_elements": 1031
+    },
+    {
+      "condition": "control-s138007-spread-seeded_random",
+      "purpose": "control",
+      "initial_cost_units": [
+        8960,
+        1792,
+        1792,
+        1792,
+        49,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "actual_cost_units": [
+        0,
+        1792,
+        1792,
+        1792,
+        49,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        8960,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "task_count": 5,
+      "total_cost_units": 14385,
+      "initial_cost_balance": 0.0501708984375,
+      "actual_cost_balance": 0.0501708984375,
+      "final_owner_changed_tasks": 1,
+      "probe_counts": {
+        "attempts": 75,
+        "busy": 1,
+        "empty": 74,
+        "steals": 1,
+        "moved": 1
+      },
+      "home_mismatched_elements": 256
+    },
+    {
+      "condition": "control-s138007-shuffled-round_robin",
+      "purpose": "control",
+      "initial_cost_units": [
+        49,
+        1792,
+        8960,
+        1792,
+        1792,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "actual_cost_units": [
+        0,
+        0,
+        0,
+        1792,
+        1792,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        8960,
+        0,
+        0,
+        0,
+        1841,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "task_count": 5,
+      "total_cost_units": 14385,
+      "initial_cost_balance": 0.0501708984375,
+      "actual_cost_balance": 0.0501708984375,
+      "final_owner_changed_tasks": 3,
+      "probe_counts": {
+        "attempts": 78,
+        "busy": 1,
+        "empty": 75,
+        "steals": 3,
+        "moved": 3
+      },
+      "home_mismatched_elements": 1031
+    },
+    {
+      "condition": "control-s138007-shuffled-seeded_random",
+      "purpose": "control",
+      "initial_cost_units": [
+        49,
+        1792,
+        8960,
+        1792,
+        1792,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "actual_cost_units": [
+        0,
+        0,
+        8960,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1792,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3633,
+        0
+      ],
+      "task_count": 5,
+      "total_cost_units": 14385,
+      "initial_cost_balance": 0.0501708984375,
+      "actual_cost_balance": 0.0501708984375,
+      "final_owner_changed_tasks": 4,
+      "probe_counts": {
+        "attempts": 265,
+        "busy": 8,
+        "empty": 258,
+        "steals": 4,
+        "moved": 4
+      },
+      "home_mismatched_elements": 1031
+    },
+    {
+      "condition": "confirm-s140009-shuffled-round_robin",
+      "purpose": "diagnostic",
+      "initial_cost_units": [
+        13631488,
+        11534336,
+        19922944,
+        13631488,
+        7340032,
+        13631488,
+        19922944,
+        15728640,
+        11534336,
+        15728640,
+        17825792,
+        13631488,
+        13631488,
+        19922944,
+        15728640,
+        24117248,
+        13631488,
+        19922944,
+        11534336,
+        15728640,
+        15728640,
+        13631488,
+        9437184,
+        11534336,
+        22020096,
+        15728640,
+        17825792,
+        11534336,
+        7340032,
+        15728640,
+        9437184,
+        11534336
+      ],
+      "actual_cost_units": [
+        19398656,
+        19136512,
+        20709376,
+        10485760,
+        11010048,
+        8912896,
+        26476544,
+        19136512,
+        17039360,
+        6815744,
+        15728640,
+        4456448,
+        7602176,
+        5505024,
+        15466496,
+        17301504,
+        19660800,
+        18874368,
+        15466496,
+        13631488,
+        14680064,
+        10485760,
+        14417920,
+        14680064,
+        24641536,
+        19398656,
+        13369344,
+        12320768,
+        11796480,
+        16252928,
+        9961472,
+        14942208
+      ],
+      "task_count": 896,
+      "total_cost_units": 469762048,
+      "initial_cost_balance": 0.6086956521739131,
+      "actual_cost_balance": 0.5544554455445545,
+      "final_owner_changed_tasks": 174,
+      "probe_counts": {
+        "attempts": 22229,
+        "busy": 339,
+        "empty": 21956,
+        "steals": 174,
+        "moved": 174
+      },
+      "home_mismatched_elements": 220160
+    },
+    {
+      "condition": "confirm-s140009-shuffled-seeded_random",
+      "purpose": "diagnostic",
+      "initial_cost_units": [
+        13631488,
+        11534336,
+        19922944,
+        13631488,
+        7340032,
+        13631488,
+        19922944,
+        15728640,
+        11534336,
+        15728640,
+        17825792,
+        13631488,
+        13631488,
+        19922944,
+        15728640,
+        24117248,
+        13631488,
+        19922944,
+        11534336,
+        15728640,
+        15728640,
+        13631488,
+        9437184,
+        11534336,
+        22020096,
+        15728640,
+        17825792,
+        11534336,
+        7340032,
+        15728640,
+        9437184,
+        11534336
+      ],
+      "actual_cost_units": [
+        11272192,
+        10747904,
+        15728640,
+        13893632,
+        20185088,
+        12582912,
+        16515072,
+        15204352,
+        14155776,
+        16515072,
+        13631488,
+        17563648,
+        14942208,
+        15990784,
+        16777216,
+        17301504,
+        20447232,
+        16777216,
+        14680064,
+        16252928,
+        16515072,
+        10485760,
+        15466496,
+        12845056,
+        11796480,
+        7077888,
+        19660800,
+        11796480,
+        12320768,
+        11534336,
+        9699328,
+        19398656
+      ],
+      "task_count": 896,
+      "total_cost_units": 469762048,
+      "initial_cost_balance": 0.6086956521739131,
+      "actual_cost_balance": 0.717948717948718,
+      "final_owner_changed_tasks": 148,
+      "probe_counts": {
+        "attempts": 21684,
+        "busy": 651,
+        "empty": 21273,
+        "steals": 148,
+        "moved": 148
+      },
+      "home_mismatched_elements": 221696
+    },
+    {
+      "condition": "confirm-s146021-concentrated-round_robin",
+      "purpose": "diagnostic",
+      "initial_cost_units": [
+        103809024,
+        103809024,
+        103809024,
+        103809024,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336
+      ],
+      "actual_cost_units": [
+        23592960,
+        37748736,
+        23592960,
+        25952256,
+        21757952,
+        37224448,
+        16777216,
+        25427968,
+        16252928,
+        19136512,
+        19922944,
+        9175040,
+        21495808,
+        20709376,
+        23855104,
+        20971520,
+        23592960,
+        23592960,
+        21233664,
+        23592960,
+        23855104,
+        27000832,
+        18087936,
+        25165824,
+        19398656,
+        23068672,
+        26214400,
+        25427968,
+        25952256,
+        19922944,
+        15466496,
+        33030144
+      ],
+      "task_count": 1408,
+      "total_cost_units": 738197504,
+      "initial_cost_balance": 0.2222222222222222,
+      "actual_cost_balance": 0.6111111111111112,
+      "final_owner_changed_tasks": 233,
+      "probe_counts": {
+        "attempts": 19713,
+        "busy": 628,
+        "empty": 19263,
+        "steals": 233,
+        "moved": 233
+      },
+      "home_mismatched_elements": 349440
+    },
+    {
+      "condition": "confirm-s146021-concentrated-seeded_random",
+      "purpose": "diagnostic",
+      "initial_cost_units": [
+        103809024,
+        103809024,
+        103809024,
+        103809024,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336,
+        11534336
+      ],
+      "actual_cost_units": [
+        23592960,
+        28311552,
+        28311552,
+        28311552,
+        23592960,
+        26738688,
+        24117248,
+        26738688,
+        20709376,
+        23855104,
+        20971520,
+        23592960,
+        20971520,
+        23855104,
+        20971520,
+        20971520,
+        18874368,
+        24379392,
+        21233664,
+        21233664,
+        13893632,
+        13893632,
+        22806528,
+        26214400,
+        21233664,
+        19398656,
+        26476544,
+        27000832,
+        21233664,
+        24379392,
+        23855104,
+        26476544
+      ],
+      "task_count": 1408,
+      "total_cost_units": 738197504,
+      "initial_cost_balance": 0.2222222222222222,
+      "actual_cost_balance": 0.8148148148148148,
+      "final_owner_changed_tasks": 189,
+      "probe_counts": {
+        "attempts": 25921,
+        "busy": 751,
+        "empty": 25475,
+        "steals": 189,
+        "moved": 189
+      },
+      "home_mismatched_elements": 347904
+    },
+    {
+      "condition": "confirm-s146021-spread-round_robin",
+      "purpose": "diagnostic",
+      "initial_cost_units": [
+        24117248,
+        24117248,
+        24117248,
+        24117248,
+        24117248,
+        24117248,
+        24117248,
+        24117248,
+        24117248,
+        24117248,
+        24117248,
+        24117248,
+        24117248,
+        24117248,
+        24117248,
+        24117248,
+        22020096,
+        22020096,
+        22020096,
+        22020096,
+        22020096,
+        22020096,
+        22020096,
+        22020096,
+        22020096,
+        22020096,
+        22020096,
+        22020096,
+        22020096,
+        22020096,
+        22020096,
+        22020096
+      ],
+      "actual_cost_units": [
+        24641536,
+        19398656,
+        27262976,
+        29360128,
+        29360128,
+        25165824,
+        3407872,
+        15466496,
+        19660800,
+        24117248,
+        3932160,
+        19660800,
+        19660800,
+        4456448,
+        25165824,
+        25427968,
+        23330816,
+        24903680,
+        24903680,
+        25165824,
+        19660800,
+        25165824,
+        27262976,
+        29622272,
+        29622272,
+        27000832,
+        25952256,
+        27262976,
+        27262976,
+        31981568,
+        24641536,
+        28311552
+      ],
+      "task_count": 1408,
+      "total_cost_units": 738197504,
+      "initial_cost_balance": 0.9565217391304348,
+      "actual_cost_balance": 0.7213114754098361,
+      "final_owner_changed_tasks": 111,
+      "probe_counts": {
+        "attempts": 33100,
+        "busy": 2233,
+        "empty": 32127,
+        "steals": 111,
+        "moved": 111
+      },
+      "home_mismatched_elements": 28416
+    },
+    {
+      "condition": "confirm-s146021-spread-seeded_random",
+      "purpose": "diagnostic",
+      "initial_cost_units": [
+        24117248,
+        24117248,
+        24117248,
+        24117248,
+        24117248,
+        24117248,
+        24117248,
+        24117248,
+        24117248,
+        24117248,
+        24117248,
+        24117248,
+        24117248,
+        24117248,
+        24117248,
+        24117248,
+        22020096,
+        22020096,
+        22020096,
+        22020096,
+        22020096,
+        22020096,
+        22020096,
+        22020096,
+        22020096,
+        22020096,
+        22020096,
+        22020096,
+        22020096,
+        22020096,
+        22020096,
+        22020096
+      ],
+      "actual_cost_units": [
+        19660800,
+        24903680,
+        26476544,
+        24903680,
+        26476544,
+        24117248,
+        26738688,
+        21757952,
+        21757952,
+        24117248,
+        21757952,
+        24903680,
+        24117248,
+        21757952,
+        22020096,
+        26476544,
+        22544384,
+        22020096,
+        22020096,
+        22544384,
+        19922944,
+        2097152,
+        25165824,
+        27262976,
+        22544384,
+        22282240,
+        24641536,
+        25165824,
+        24379392,
+        26738688,
+        24641536,
+        22282240
+      ],
+      "task_count": 1408,
+      "total_cost_units": 738197504,
+      "initial_cost_balance": 0.9565217391304348,
+      "actual_cost_balance": 0.8461538461538461,
+      "final_owner_changed_tasks": 47,
+      "probe_counts": {
+        "attempts": 45597,
+        "busy": 2182,
+        "empty": 44711,
+        "steals": 47,
+        "moved": 47
+      },
+      "home_mismatched_elements": 12032
+    },
+    {
+      "condition": "confirm-s146021-shuffled-round_robin",
+      "purpose": "diagnostic",
+      "initial_cost_units": [
+        26214400,
+        19922944,
+        19922944,
+        13631488,
+        32505856,
+        22020096,
+        26214400,
+        17825792,
+        28311552,
+        22020096,
+        28311552,
+        22020096,
+        26214400,
+        24117248,
+        19922944,
+        19922944,
+        15728640,
+        36700160,
+        17825792,
+        17825792,
+        19922944,
+        26214400,
+        19922944,
+        32505856,
+        24117248,
+        19922944,
+        17825792,
+        28311552,
+        19922944,
+        28311552,
+        24117248,
+        19922944
+      ],
+      "actual_cost_units": [
+        27525120,
+        25427968,
+        24641536,
+        9175040,
+        27262976,
+        25165824,
+        19660800,
+        20447232,
+        23592960,
+        20447232,
+        21757952,
+        19660800,
+        23855104,
+        21757952,
+        23592960,
+        20971520,
+        22544384,
+        23855104,
+        22544384,
+        24379392,
+        23068672,
+        24641536,
+        26476544,
+        28049408,
+        25165824,
+        22282240,
+        25165824,
+        9961472,
+        26738688,
+        26476544,
+        27787264,
+        24117248
+      ],
+      "task_count": 1408,
+      "total_cost_units": 738197504,
+      "initial_cost_balance": 0.6285714285714286,
+      "actual_cost_balance": 0.822429906542056,
+      "final_owner_changed_tasks": 189,
+      "probe_counts": {
+        "attempts": 21296,
+        "busy": 479,
+        "empty": 20921,
+        "steals": 189,
+        "moved": 189
+      },
+      "home_mismatched_elements": 350464
+    },
+    {
+      "condition": "confirm-s146021-shuffled-seeded_random",
+      "purpose": "diagnostic",
+      "initial_cost_units": [
+        26214400,
+        19922944,
+        19922944,
+        13631488,
+        32505856,
+        22020096,
+        26214400,
+        17825792,
+        28311552,
+        22020096,
+        28311552,
+        22020096,
+        26214400,
+        24117248,
+        19922944,
+        19922944,
+        15728640,
+        36700160,
+        17825792,
+        17825792,
+        19922944,
+        26214400,
+        19922944,
+        32505856,
+        24117248,
+        19922944,
+        17825792,
+        28311552,
+        19922944,
+        28311552,
+        24117248,
+        19922944
+      ],
+      "actual_cost_units": [
+        28311552,
+        27787264,
+        25427968,
+        23592960,
+        25427968,
+        25952256,
+        24379392,
+        15466496,
+        23592960,
+        22020096,
+        22544384,
+        21495808,
+        27262976,
+        22282240,
+        20971520,
+        6553600,
+        22282240,
+        23592960,
+        21233664,
+        20709376,
+        23330816,
+        21233664,
+        27000832,
+        26214400,
+        25427968,
+        16252928,
+        28835840,
+        24379392,
+        20709376,
+        24117248,
+        22544384,
+        27262976
+      ],
+      "task_count": 1408,
+      "total_cost_units": 738197504,
+      "initial_cost_balance": 0.6285714285714286,
+      "actual_cost_balance": 0.8,
+      "final_owner_changed_tasks": 178,
+      "probe_counts": {
+        "attempts": 25576,
+        "busy": 770,
+        "empty": 25137,
+        "steals": 178,
+        "moved": 178
+      },
+      "home_mismatched_elements": 350976
+    },
+    {
+      "condition": "confirm-s140009-concentrated-round_robin",
+      "purpose": "diagnostic",
+      "initial_cost_units": [
+        66060288,
+        66060288,
+        66060288,
+        66060288,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032
+      ],
+      "actual_cost_units": [
+        16515072,
+        18874368,
+        18874368,
+        14155776,
+        7340032,
+        15204352,
+        13369344,
+        14942208,
+        14155776,
+        17825792,
+        6291456,
+        5767168,
+        13893632,
+        16777216,
+        16777216,
+        8126464,
+        14155776,
+        17563648,
+        16777216,
+        13631488,
+        17825792,
+        15990784,
+        16777216,
+        15990784,
+        16777216,
+        15204352,
+        14155776,
+        16252928,
+        14417920,
+        14155776,
+        17039360,
+        14155776
+      ],
+      "task_count": 896,
+      "total_cost_units": 469762048,
+      "initial_cost_balance": 0.2222222222222222,
+      "actual_cost_balance": 0.7777777777777778,
+      "final_owner_changed_tasks": 128,
+      "probe_counts": {
+        "attempts": 19824,
+        "busy": 589,
+        "empty": 19470,
+        "steals": 128,
+        "moved": 128
+      },
+      "home_mismatched_elements": 222976
+    },
+    {
+      "condition": "confirm-s140009-concentrated-seeded_random",
+      "purpose": "diagnostic",
+      "initial_cost_units": [
+        66060288,
+        66060288,
+        66060288,
+        66060288,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032,
+        7340032
+      ],
+      "actual_cost_units": [
+        16515072,
+        18874368,
+        21233664,
+        18874368,
+        18874368,
+        18087936,
+        14417920,
+        15466496,
+        14680064,
+        12058624,
+        14942208,
+        12320768,
+        14942208,
+        14417920,
+        14680064,
+        12058624,
+        12058624,
+        8912896,
+        9961472,
+        4456448,
+        9437184,
+        13107200,
+        14155776,
+        16777216,
+        17039360,
+        16777216,
+        16777216,
+        18087936,
+        12058624,
+        14680064,
+        16515072,
+        16515072
+      ],
+      "task_count": 896,
+      "total_cost_units": 469762048,
+      "initial_cost_balance": 0.2222222222222222,
+      "actual_cost_balance": 0.691358024691358,
+      "final_owner_changed_tasks": 121,
+      "probe_counts": {
+        "attempts": 20859,
+        "busy": 432,
+        "empty": 20559,
+        "steals": 121,
+        "moved": 121
+      },
+      "home_mismatched_elements": 221184
+    },
+    {
+      "condition": "confirm-s140009-spread-round_robin",
+      "purpose": "diagnostic",
+      "initial_cost_units": [
+        15728640,
+        15728640,
+        15728640,
+        15728640,
+        15728640,
+        15728640,
+        15728640,
+        15728640,
+        15728640,
+        15728640,
+        15728640,
+        15728640,
+        15728640,
+        15728640,
+        15728640,
+        15728640,
+        13631488,
+        13631488,
+        13631488,
+        13631488,
+        13631488,
+        13631488,
+        13631488,
+        13631488,
+        13631488,
+        13631488,
+        13631488,
+        13631488,
+        13631488,
+        13631488,
+        13631488,
+        13631488
+      ],
+      "actual_cost_units": [
+        13369344,
+        4980736,
+        20447232,
+        15728640,
+        8650752,
+        13369344,
+        18087936,
+        16252928,
+        15728640,
+        15728640,
+        13893632,
+        20447232,
+        15728640,
+        15728640,
+        15990784,
+        18350080,
+        16252928,
+        16252928,
+        15990784,
+        15990784,
+        15990784,
+        15990784,
+        11272192,
+        8912896,
+        8912896,
+        20709376,
+        5242880,
+        25690112,
+        8912896,
+        13893632,
+        6553600,
+        20709376
+      ],
+      "task_count": 896,
+      "total_cost_units": 469762048,
+      "initial_cost_balance": 0.9333333333333333,
+      "actual_cost_balance": 0.5714285714285714,
+      "final_owner_changed_tasks": 44,
+      "probe_counts": {
+        "attempts": 17057,
+        "busy": 373,
+        "empty": 16878,
+        "steals": 44,
+        "moved": 44
+      },
+      "home_mismatched_elements": 11264
+    },
+    {
+      "condition": "confirm-s140009-spread-seeded_random",
+      "purpose": "diagnostic",
+      "initial_cost_units": [
+        15728640,
+        15728640,
+        15728640,
+        15728640,
+        15728640,
+        15728640,
+        15728640,
+        15728640,
+        15728640,
+        15728640,
+        15728640,
+        15728640,
+        15728640,
+        15728640,
+        15728640,
+        15728640,
+        13631488,
+        13631488,
+        13631488,
+        13631488,
+        13631488,
+        13631488,
+        13631488,
+        13631488,
+        13631488,
+        13631488,
+        13631488,
+        13631488,
+        13631488,
+        13631488,
+        13631488,
+        13631488
+      ],
+      "actual_cost_units": [
+        22806528,
+        15728640,
+        13369344,
+        15990784,
+        15728640,
+        15728640,
+        15728640,
+        13369344,
+        13369344,
+        15728640,
+        15728640,
+        15728640,
+        13631488,
+        15728640,
+        15728640,
+        15728640,
+        13631488,
+        15990784,
+        15990784,
+        15990784,
+        15990784,
+        13631488,
+        11534336,
+        15990784,
+        11272192,
+        11272192,
+        13631488,
+        13631488,
+        8912896,
+        5505024,
+        18612224,
+        18350080
+      ],
+      "task_count": 896,
+      "total_cost_units": 469762048,
+      "initial_cost_balance": 0.9333333333333333,
+      "actual_cost_balance": 0.6436781609195402,
+      "final_owner_changed_tasks": 19,
+      "probe_counts": {
+        "attempts": 23756,
+        "busy": 917,
+        "empty": 23391,
+        "steals": 19,
+        "moved": 19
+      },
+      "home_mismatched_elements": 4864
+    }
+  ]
+}

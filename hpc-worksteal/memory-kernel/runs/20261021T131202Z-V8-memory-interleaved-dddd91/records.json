@@ -1,0 +1,1234 @@
+[
+  {
+    "run_id": "0000-control-control-light-old-r0-5ee24d",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "control-light-old",
+    "purpose": "control",
+    "repeat": 0,
+    "started": "2026-10-21T13:12:03.067704+00:00",
+    "ended": "2026-10-21T13:12:03.077830+00:00",
+    "elapsed_process_seconds": 0.010125699999946391,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "926ccdac2d34cddff1cdb9dcfd0cad7cbbc838fcfc595c1189bf73f0c014c4cc",
+    "binary_sha256": "acc7f9ac6d7872eeee25340d81fb0d0f2f78d75ba79d466488b16172e651b767",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8.1e-06,
+      "end_to_end_seconds": 0.0027778,
+      "epoch_seconds": 0.0001683,
+      "setup_seconds": 0.001518
+    },
+    "included": false
+  },
+  {
+    "run_id": "0001-control-control-light-scalar-r0-2fce3e",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "control-light-scalar",
+    "purpose": "control",
+    "repeat": 0,
+    "started": "2026-10-21T13:12:03.104086+00:00",
+    "ended": "2026-10-21T13:12:03.113962+00:00",
+    "elapsed_process_seconds": 0.009874500000023545,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.2e-05,
+      "end_to_end_seconds": 0.0027721,
+      "epoch_seconds": 9.76e-05,
+      "setup_seconds": 0.001467
+    },
+    "included": false
+  },
+  {
+    "run_id": "0002-control-control-light-interleaved-r0-41f21f",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "control-light-interleaved",
+    "purpose": "control",
+    "repeat": 0,
+    "started": "2026-10-21T13:12:03.137412+00:00",
+    "ended": "2026-10-21T13:12:03.147319+00:00",
+    "elapsed_process_seconds": 0.009907300000008945,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7.5e-06,
+      "end_to_end_seconds": 0.0028434,
+      "epoch_seconds": 0.0001032,
+      "setup_seconds": 0.0015626
+    },
+    "included": false
+  },
+  {
+    "run_id": "0003-control-control-uniform-old-r0-0b150e",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "control-uniform-old",
+    "purpose": "control",
+    "repeat": 0,
+    "started": "2026-10-21T13:12:03.173221+00:00",
+    "ended": "2026-10-21T13:12:03.190226+00:00",
+    "elapsed_process_seconds": 0.017004199999973935,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "926ccdac2d34cddff1cdb9dcfd0cad7cbbc838fcfc595c1189bf73f0c014c4cc",
+    "binary_sha256": "acc7f9ac6d7872eeee25340d81fb0d0f2f78d75ba79d466488b16172e651b767",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.6e-06,
+      "end_to_end_seconds": 0.0100181,
+      "epoch_seconds": 0.0020218,
+      "setup_seconds": 0.0031175
+    },
+    "included": false
+  },
+  {
+    "run_id": "0004-control-control-uniform-scalar-r0-da0fab",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "control-uniform-scalar",
+    "purpose": "control",
+    "repeat": 0,
+    "started": "2026-10-21T13:12:03.216530+00:00",
+    "ended": "2026-10-21T13:12:03.233634+00:00",
+    "elapsed_process_seconds": 0.017106500000011238,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2e-06,
+      "end_to_end_seconds": 0.0096559,
+      "epoch_seconds": 0.0017198,
+      "setup_seconds": 0.002849
+    },
+    "included": false
+  },
+  {
+    "run_id": "0005-control-control-uniform-interleaved-r0-4c6c0c",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "control-uniform-interleaved",
+    "purpose": "control",
+    "repeat": 0,
+    "started": "2026-10-21T13:12:03.260758+00:00",
+    "ended": "2026-10-21T13:12:03.279527+00:00",
+    "elapsed_process_seconds": 0.018769499999962136,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2e-06,
+      "end_to_end_seconds": 0.0097246,
+      "epoch_seconds": 0.0018477,
+      "setup_seconds": 0.0031244
+    },
+    "included": false
+  },
+  {
+    "run_id": "0006-control-control-skewed-old-r0-f89b8b",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "control-skewed-old",
+    "purpose": "control",
+    "repeat": 0,
+    "started": "2026-10-21T13:12:03.305206+00:00",
+    "ended": "2026-10-21T13:12:03.331066+00:00",
+    "elapsed_process_seconds": 0.025860299999976633,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "926ccdac2d34cddff1cdb9dcfd0cad7cbbc838fcfc595c1189bf73f0c014c4cc",
+    "binary_sha256": "acc7f9ac6d7872eeee25340d81fb0d0f2f78d75ba79d466488b16172e651b767",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2.12e-05,
+      "end_to_end_seconds": 0.0188349,
+      "epoch_seconds": 0.0035875,
+      "setup_seconds": 0.0035712
+    },
+    "included": false
+  },
+  {
+    "run_id": "0007-control-control-skewed-scalar-r0-692c31",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "control-skewed-scalar",
+    "purpose": "control",
+    "repeat": 0,
+    "started": "2026-10-21T13:12:03.356813+00:00",
+    "ended": "2026-10-21T13:12:03.384743+00:00",
+    "elapsed_process_seconds": 0.02793109999998933,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.83e-05,
+      "end_to_end_seconds": 0.0196022,
+      "epoch_seconds": 0.0027044,
+      "setup_seconds": 0.0035243
+    },
+    "included": false
+  },
+  {
+    "run_id": "0008-control-control-skewed-interleaved-r0-1598a4",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "control-skewed-interleaved",
+    "purpose": "control",
+    "repeat": 0,
+    "started": "2026-10-21T13:12:03.410695+00:00",
+    "ended": "2026-10-21T13:12:03.439278+00:00",
+    "elapsed_process_seconds": 0.02858720000000403,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.96e-05,
+      "end_to_end_seconds": 0.0200906,
+      "epoch_seconds": 0.0037024,
+      "setup_seconds": 0.0037846
+    },
+    "included": false
+  },
+  {
+    "run_id": "0009-control-control-memory-old-r0-0ad841",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "control-memory-old",
+    "purpose": "control",
+    "repeat": 0,
+    "started": "2026-10-21T13:12:03.464826+00:00",
+    "ended": "2026-10-21T13:12:03.574215+00:00",
+    "elapsed_process_seconds": 0.10938870000001089,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "926ccdac2d34cddff1cdb9dcfd0cad7cbbc838fcfc595c1189bf73f0c014c4cc",
+    "binary_sha256": "acc7f9ac6d7872eeee25340d81fb0d0f2f78d75ba79d466488b16172e651b767",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.3199999999999999e-05,
+      "end_to_end_seconds": 0.0995669,
+      "epoch_seconds": 0.0047153,
+      "setup_seconds": 0.078046
+    },
+    "included": false
+  },
+  {
+    "run_id": "0010-control-control-memory-scalar-r0-2f57b5",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "control-memory-scalar",
+    "purpose": "control",
+    "repeat": 0,
+    "started": "2026-10-21T13:12:03.604051+00:00",
+    "ended": "2026-10-21T13:12:03.723486+00:00",
+    "elapsed_process_seconds": 0.11943609999997307,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.33e-05,
+      "end_to_end_seconds": 0.1075618,
+      "epoch_seconds": 0.0123848,
+      "setup_seconds": 0.078622
+    },
+    "included": false
+  },
+  {
+    "run_id": "0011-control-control-memory-interleaved-r0-8db738",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "control-memory-interleaved",
+    "purpose": "control",
+    "repeat": 0,
+    "started": "2026-10-21T13:12:03.745230+00:00",
+    "ended": "2026-10-21T13:12:03.834889+00:00",
+    "elapsed_process_seconds": 0.08966409999999314,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.34e-05,
+      "end_to_end_seconds": 0.0782357,
+      "epoch_seconds": 0.0026102,
+      "setup_seconds": 0.0612395
+    },
+    "included": false
+  },
+  {
+    "run_id": "0012-warmup-memory-s41011-base-r0-e5f7cb",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "memory-s41011-base",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-21T13:12:03.859071+00:00",
+    "ended": "2026-10-21T13:12:03.994146+00:00",
+    "elapsed_process_seconds": 0.13507789999999886,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 9.9e-06,
+      "end_to_end_seconds": 0.1236458,
+      "epoch_seconds": 0.0124714,
+      "setup_seconds": 0.0886989
+    },
+    "included": false
+  },
+  {
+    "run_id": "0013-warmup-memory-s41011-candidate-r0-c397af",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "memory-s41011-candidate",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-21T13:12:04.017941+00:00",
+    "ended": "2026-10-21T13:12:04.144145+00:00",
+    "elapsed_process_seconds": 0.12620739999999842,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8.8e-06,
+      "end_to_end_seconds": 0.1149661,
+      "epoch_seconds": 0.003632,
+      "setup_seconds": 0.0890432
+    },
+    "included": false
+  },
+  {
+    "run_id": "0014-warmup-memory-s47017-base-r0-51e44f",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "memory-s47017-base",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-21T13:12:04.166812+00:00",
+    "ended": "2026-10-21T13:12:04.356496+00:00",
+    "elapsed_process_seconds": 0.18968419999998787,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.83e-05,
+      "end_to_end_seconds": 0.1763874,
+      "epoch_seconds": 0.014594,
+      "setup_seconds": 0.1284445
+    },
+    "included": false
+  },
+  {
+    "run_id": "0015-warmup-memory-s47017-candidate-r0-832466",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "memory-s47017-candidate",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-21T13:12:04.380381+00:00",
+    "ended": "2026-10-21T13:12:04.560962+00:00",
+    "elapsed_process_seconds": 0.1805838999999878,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8.400000000000001e-06,
+      "end_to_end_seconds": 0.1675031,
+      "epoch_seconds": 0.0064802,
+      "setup_seconds": 0.1258999
+    },
+    "included": false
+  },
+  {
+    "run_id": "0016-timing-memory-s41011-base-r1-96d04d",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "memory-s41011-base",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-21T13:12:04.588391+00:00",
+    "ended": "2026-10-21T13:12:04.715941+00:00",
+    "elapsed_process_seconds": 0.12755229999999074,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 9.100000000000001e-06,
+      "end_to_end_seconds": 0.1155026,
+      "epoch_seconds": 0.0089044,
+      "setup_seconds": 0.0859515
+    },
+    "included": true
+  },
+  {
+    "run_id": "0017-timing-memory-s41011-candidate-r1-e510c1",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "memory-s41011-candidate",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-21T13:12:04.740971+00:00",
+    "ended": "2026-10-21T13:12:04.863095+00:00",
+    "elapsed_process_seconds": 0.1221259999999802,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7.7e-06,
+      "end_to_end_seconds": 0.1112916,
+      "epoch_seconds": 0.0037656,
+      "setup_seconds": 0.0857133
+    },
+    "included": true
+  },
+  {
+    "run_id": "0018-timing-memory-s47017-base-r1-2e88fc",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "memory-s47017-base",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-21T13:12:04.886980+00:00",
+    "ended": "2026-10-21T13:12:05.072185+00:00",
+    "elapsed_process_seconds": 0.18520710000001372,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8.1e-06,
+      "end_to_end_seconds": 0.1725622,
+      "epoch_seconds": 0.0103566,
+      "setup_seconds": 0.1290715
+    },
+    "included": true
+  },
+  {
+    "run_id": "0019-timing-memory-s47017-candidate-r1-b291f8",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "memory-s47017-candidate",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-21T13:12:05.095808+00:00",
+    "ended": "2026-10-21T13:12:05.283533+00:00",
+    "elapsed_process_seconds": 0.18772609999996348,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7.9e-06,
+      "end_to_end_seconds": 0.1747199,
+      "epoch_seconds": 0.0065905,
+      "setup_seconds": 0.1353568
+    },
+    "included": true
+  },
+  {
+    "run_id": "0020-timing-memory-s41011-candidate-r2-89c0ad",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "memory-s41011-candidate",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-21T13:12:05.308966+00:00",
+    "ended": "2026-10-21T13:12:05.431306+00:00",
+    "elapsed_process_seconds": 0.12234290000003512,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7.4e-06,
+      "end_to_end_seconds": 0.1103726,
+      "epoch_seconds": 0.0036459,
+      "setup_seconds": 0.0865701
+    },
+    "included": true
+  },
+  {
+    "run_id": "0021-timing-memory-s41011-base-r2-dca748",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "memory-s41011-base",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-21T13:12:05.455574+00:00",
+    "ended": "2026-10-21T13:12:05.583723+00:00",
+    "elapsed_process_seconds": 0.12815370000004123,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7.3999999999999995e-06,
+      "end_to_end_seconds": 0.1163731,
+      "epoch_seconds": 0.0078695,
+      "setup_seconds": 0.0868968
+    },
+    "included": true
+  },
+  {
+    "run_id": "0022-timing-memory-s47017-candidate-r2-d0152b",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "memory-s47017-candidate",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-21T13:12:05.609449+00:00",
+    "ended": "2026-10-21T13:12:05.799569+00:00",
+    "elapsed_process_seconds": 0.1901217999999858,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7.3999999999999995e-06,
+      "end_to_end_seconds": 0.1767544,
+      "epoch_seconds": 0.0066841,
+      "setup_seconds": 0.1356434
+    },
+    "included": true
+  },
+  {
+    "run_id": "0023-timing-memory-s47017-base-r2-e5661a",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "memory-s47017-base",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-21T13:12:05.824354+00:00",
+    "ended": "2026-10-21T13:12:06.022795+00:00",
+    "elapsed_process_seconds": 0.198442,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 9.5e-06,
+      "end_to_end_seconds": 0.1848681,
+      "epoch_seconds": 0.0130852,
+      "setup_seconds": 0.1375674
+    },
+    "included": true
+  },
+  {
+    "run_id": "0024-timing-memory-s41011-base-r3-466523",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "memory-s41011-base",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-21T13:12:06.049192+00:00",
+    "ended": "2026-10-21T13:12:06.184892+00:00",
+    "elapsed_process_seconds": 0.13569990000002008,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8.900000000000001e-06,
+      "end_to_end_seconds": 0.1243835,
+      "epoch_seconds": 0.0070659,
+      "setup_seconds": 0.0951345
+    },
+    "included": true
+  },
+  {
+    "run_id": "0025-timing-memory-s41011-candidate-r3-e2ab06",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "memory-s41011-candidate",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-21T13:12:06.208386+00:00",
+    "ended": "2026-10-21T13:12:06.327059+00:00",
+    "elapsed_process_seconds": 0.11867589999997108,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7.4e-06,
+      "end_to_end_seconds": 0.1075658,
+      "epoch_seconds": 0.0041585,
+      "setup_seconds": 0.0834238
+    },
+    "included": true
+  },
+  {
+    "run_id": "0026-timing-memory-s47017-base-r3-2d6b2a",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "memory-s47017-base",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-21T13:12:06.351927+00:00",
+    "ended": "2026-10-21T13:12:06.544712+00:00",
+    "elapsed_process_seconds": 0.1927880000000073,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8.6e-06,
+      "end_to_end_seconds": 0.178856,
+      "epoch_seconds": 0.0100508,
+      "setup_seconds": 0.1351709
+    },
+    "included": true
+  },
+  {
+    "run_id": "0027-timing-memory-s47017-candidate-r3-270a85",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "memory-s47017-candidate",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-21T13:12:06.571889+00:00",
+    "ended": "2026-10-21T13:12:06.755624+00:00",
+    "elapsed_process_seconds": 0.18373189999999795,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 9.2e-06,
+      "end_to_end_seconds": 0.1700386,
+      "epoch_seconds": 0.006258,
+      "setup_seconds": 0.1316278
+    },
+    "included": true
+  },
+  {
+    "run_id": "0028-timing-memory-s41011-candidate-r4-2d295d",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "memory-s41011-candidate",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-21T13:12:06.781011+00:00",
+    "ended": "2026-10-21T13:12:06.907878+00:00",
+    "elapsed_process_seconds": 0.12686910000002172,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2e-05,
+      "end_to_end_seconds": 0.1120181,
+      "epoch_seconds": 0.0060609,
+      "setup_seconds": 0.0833352
+    },
+    "included": true
+  },
+  {
+    "run_id": "0029-timing-memory-s41011-base-r4-2e04b5",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "memory-s41011-base",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-21T13:12:06.931375+00:00",
+    "ended": "2026-10-21T13:12:07.063210+00:00",
+    "elapsed_process_seconds": 0.131837599999983,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7.499999999999999e-06,
+      "end_to_end_seconds": 0.120691,
+      "epoch_seconds": 0.0115243,
+      "setup_seconds": 0.0868732
+    },
+    "included": true
+  },
+  {
+    "run_id": "0030-timing-memory-s47017-candidate-r4-f3cc14",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "memory-s47017-candidate",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-21T13:12:07.085897+00:00",
+    "ended": "2026-10-21T13:12:07.268049+00:00",
+    "elapsed_process_seconds": 0.1821558000000323,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.08e-05,
+      "end_to_end_seconds": 0.1671673,
+      "epoch_seconds": 0.0039656,
+      "setup_seconds": 0.1301295
+    },
+    "included": true
+  },
+  {
+    "run_id": "0031-timing-memory-s47017-base-r4-412b2d",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "memory-s47017-base",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-21T13:12:07.293563+00:00",
+    "ended": "2026-10-21T13:12:07.497946+00:00",
+    "elapsed_process_seconds": 0.20438609999996515,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8.3e-06,
+      "end_to_end_seconds": 0.1905844,
+      "epoch_seconds": 0.0098497,
+      "setup_seconds": 0.1452821
+    },
+    "included": true
+  },
+  {
+    "run_id": "0032-timing-memory-s41011-base-r5-b37c0b",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "memory-s41011-base",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-21T13:12:07.521494+00:00",
+    "ended": "2026-10-21T13:12:07.644846+00:00",
+    "elapsed_process_seconds": 0.12335510000002614,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7.6e-06,
+      "end_to_end_seconds": 0.1107303,
+      "epoch_seconds": 0.0090979,
+      "setup_seconds": 0.0796017
+    },
+    "included": true
+  },
+  {
+    "run_id": "0033-timing-memory-s41011-candidate-r5-e5ada0",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "memory-s41011-candidate",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-21T13:12:07.672841+00:00",
+    "ended": "2026-10-21T13:12:07.803471+00:00",
+    "elapsed_process_seconds": 0.13063099999999395,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 9.299999999999999e-06,
+      "end_to_end_seconds": 0.1175778,
+      "epoch_seconds": 0.0057894,
+      "setup_seconds": 0.0850096
+    },
+    "included": true
+  },
+  {
+    "run_id": "0034-timing-memory-s47017-base-r5-5e6569",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "memory-s47017-base",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-21T13:12:07.831348+00:00",
+    "ended": "2026-10-21T13:12:08.032990+00:00",
+    "elapsed_process_seconds": 0.20164060000001882,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7.499999999999999e-06,
+      "end_to_end_seconds": 0.187478,
+      "epoch_seconds": 0.0116156,
+      "setup_seconds": 0.142867
+    },
+    "included": true
+  },
+  {
+    "run_id": "0035-timing-memory-s47017-candidate-r5-3baafc",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "memory-s47017-candidate",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-21T13:12:08.059427+00:00",
+    "ended": "2026-10-21T13:12:08.256751+00:00",
+    "elapsed_process_seconds": 0.19732790000000477,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 9e-06,
+      "end_to_end_seconds": 0.1826715,
+      "epoch_seconds": 0.0079884,
+      "setup_seconds": 0.139212
+    },
+    "included": true
+  },
+  {
+    "run_id": "0036-timing-memory-s41011-candidate-r6-c1b86c",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "memory-s41011-candidate",
+    "purpose": "timing",
+    "repeat": 6,
+    "started": "2026-10-21T13:12:08.284994+00:00",
+    "ended": "2026-10-21T13:12:08.444086+00:00",
+    "elapsed_process_seconds": 0.1590947999999912,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.26e-05,
+      "end_to_end_seconds": 0.146549,
+      "epoch_seconds": 0.0057864,
+      "setup_seconds": 0.1153991
+    },
+    "included": true
+  },
+  {
+    "run_id": "0037-timing-memory-s41011-base-r6-b0f46d",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "memory-s41011-base",
+    "purpose": "timing",
+    "repeat": 6,
+    "started": "2026-10-21T13:12:08.470773+00:00",
+    "ended": "2026-10-21T13:12:08.609518+00:00",
+    "elapsed_process_seconds": 0.138746900000001,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8.4e-06,
+      "end_to_end_seconds": 0.1278176,
+      "epoch_seconds": 0.0093232,
+      "setup_seconds": 0.0955922
+    },
+    "included": true
+  },
+  {
+    "run_id": "0038-timing-memory-s47017-candidate-r6-90b104",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "memory-s47017-candidate",
+    "purpose": "timing",
+    "repeat": 6,
+    "started": "2026-10-21T13:12:08.636049+00:00",
+    "ended": "2026-10-21T13:12:08.844239+00:00",
+    "elapsed_process_seconds": 0.2081890000000044,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.23e-05,
+      "end_to_end_seconds": 0.194289,
+      "epoch_seconds": 0.008778,
+      "setup_seconds": 0.1505266
+    },
+    "included": true
+  },
+  {
+    "run_id": "0039-timing-memory-s47017-base-r6-94c778",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "memory-s47017-base",
+    "purpose": "timing",
+    "repeat": 6,
+    "started": "2026-10-21T13:12:08.866537+00:00",
+    "ended": "2026-10-21T13:12:09.059243+00:00",
+    "elapsed_process_seconds": 0.1927099000000112,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.13e-05,
+      "end_to_end_seconds": 0.1791925,
+      "epoch_seconds": 0.0161775,
+      "setup_seconds": 0.1284094
+    },
+    "included": true
+  },
+  {
+    "run_id": "0040-timing-memory-s41011-base-r7-f261e3",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "memory-s41011-base",
+    "purpose": "timing",
+    "repeat": 7,
+    "started": "2026-10-21T13:12:09.084848+00:00",
+    "ended": "2026-10-21T13:12:09.218217+00:00",
+    "elapsed_process_seconds": 0.13337179999996351,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7.5e-06,
+      "end_to_end_seconds": 0.1218869,
+      "epoch_seconds": 0.0164978,
+      "setup_seconds": 0.0833711
+    },
+    "included": true
+  },
+  {
+    "run_id": "0041-timing-memory-s41011-candidate-r7-71c63b",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "memory-s41011-candidate",
+    "purpose": "timing",
+    "repeat": 7,
+    "started": "2026-10-21T13:12:09.244911+00:00",
+    "ended": "2026-10-21T13:12:09.369848+00:00",
+    "elapsed_process_seconds": 0.12494060000000218,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7.499999999999999e-06,
+      "end_to_end_seconds": 0.1144446,
+      "epoch_seconds": 0.0070724,
+      "setup_seconds": 0.0867188
+    },
+    "included": true
+  },
+  {
+    "run_id": "0042-timing-memory-s47017-base-r7-84bb66",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "memory-s47017-base",
+    "purpose": "timing",
+    "repeat": 7,
+    "started": "2026-10-21T13:12:09.394072+00:00",
+    "ended": "2026-10-21T13:12:09.591482+00:00",
+    "elapsed_process_seconds": 0.19741249999998445,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8.6e-06,
+      "end_to_end_seconds": 0.1835315,
+      "epoch_seconds": 0.0186225,
+      "setup_seconds": 0.130944
+    },
+    "included": true
+  },
+  {
+    "run_id": "0043-timing-memory-s47017-candidate-r7-f6f764",
+    "batch_id": "20261021T131202Z-V8-memory-interleaved-dddd91",
+    "condition": "memory-s47017-candidate",
+    "purpose": "timing",
+    "repeat": 7,
+    "started": "2026-10-21T13:12:09.620436+00:00",
+    "ended": "2026-10-21T13:12:09.809831+00:00",
+    "elapsed_process_seconds": 0.18939469999997982,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "4c9cdd0f4aacf04acc313a4dda6c2ed1bf2151b37bf3ffad12059a031f4bc6bb",
+    "binary_sha256": "3b98bf25474bfc27a1b3af44cce428cf1a9e16705d940d3df0c1cec32efef275",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 9.6e-06,
+      "end_to_end_seconds": 0.1750829,
+      "epoch_seconds": 0.0097666,
+      "setup_seconds": 0.1306034
+    },
+    "included": true
+  }
+]

@@ -1,0 +1,30 @@
+Internal ctest changing into directory: /root/lzuhpc-experiments/ws-20261025-submission-native/build-default
+UpdateCTestConfiguration  from :/root/lzuhpc-experiments/ws-20261025-submission-native/build-default/DartConfiguration.tcl
+UpdateCTestConfiguration  from :/root/lzuhpc-experiments/ws-20261025-submission-native/build-default/DartConfiguration.tcl
+Test project /root/lzuhpc-experiments/ws-20261025-submission-native/build-default
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: runtime_checks
+
+1: Test command: /root/lzuhpc-experiments/ws-20261025-submission-native/build-default/runtime_checks
+1: Working Directory: /root/lzuhpc-experiments/ws-20261025-submission-native/build-default
+1: Test timeout computed to be: 60
+1: {"checks":2551,"status":"pass"}
+1/2 Test #1: runtime_checks ...................   Passed    0.26 sec
+test 2
+    Start 2: cli_checks
+
+2: Test command: /usr/bin/python3 "/root/lzuhpc-experiments/ws-20261025-submission-native/tests/cli_checks.py" "/root/lzuhpc-experiments/ws-20261025-submission-native/build-default/worksteal" "/root/lzuhpc-experiments/ws-20261025-submission-native/build-default/worksteal_extension"
+2: Working Directory: /root/lzuhpc-experiments/ws-20261025-submission-native/build-default
+2: Test timeout computed to be: 120
+2: {"status": "pass", "checks": 497, "golden_output_hash": "3ae93543031ba3af"}
+2/2 Test #2: cli_checks .......................   Passed    4.43 sec
+
+100% tests passed, 0 tests failed out of 2
+
+Total Test time (real) =   4.70 sec

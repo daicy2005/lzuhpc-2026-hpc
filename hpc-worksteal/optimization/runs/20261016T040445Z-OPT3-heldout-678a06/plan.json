@@ -1,0 +1,2050 @@
+{
+  "batch_id": "20261016T040445Z-OPT3-heldout-678a06",
+  "created": "2026-10-16T04:04:45.489120+00:00",
+  "source_id": "caf0992e98caaf79fc4b4805c9e6b5de09a44c098d8030715db6fc258d1b7965",
+  "binary_sha256": "f8fd5648d7ec307eb66b928f906974764681392e261eafc1ba09af87f58303e4",
+  "budget_seconds": 600,
+  "experiment": "OPT3-heldout",
+  "builds": {
+    "baseline": {
+      "exe": "/root/lzuhpc-experiments/ws-20261016-opt-baseline/build-none/worksteal",
+      "binary_sha256": "f8fd5648d7ec307eb66b928f906974764681392e261eafc1ba09af87f58303e4",
+      "source_id": "3729d38d3e8f81fb06e13122b7e9ebf55f77854cd5d904b59defaede72a4ab32",
+      "validation": {
+        "source_id": "3729d38d3e8f81fb06e13122b7e9ebf55f77854cd5d904b59defaede72a4ab32",
+        "binary_sha256": "f8fd5648d7ec307eb66b928f906974764681392e261eafc1ba09af87f58303e4",
+        "records": [
+          {
+            "command": [
+              "/root/lzuhpc-experiments/ws-20261016-opt-baseline/build-none/runtime_checks"
+            ],
+            "returncode": 0,
+            "stdout": "{\"checks\":1204,\"status\":\"pass\"}\n",
+            "stderr": ""
+          },
+          {
+            "command": [
+              "/usr/bin/python3",
+              "/root/lzuhpc-experiments/ws-20261016-opt-baseline/tests/cli_checks.py",
+              "/root/lzuhpc-experiments/ws-20261016-opt-baseline/build-none/worksteal",
+              "/root/lzuhpc-experiments/ws-20261016-opt-baseline/build-none/worksteal_extension"
+            ],
+            "returncode": 0,
+            "stdout": "{\"status\": \"pass\", \"checks\": 38, \"golden_output_hash\": \"3ae93543031ba3af\"}\n",
+            "stderr": ""
+          }
+        ],
+        "pass": true,
+        "created": "2026-10-16T03:52:20.153539+00:00"
+      }
+    },
+    "batch32": {
+      "exe": "/root/lzuhpc-experiments/ws-20261016-opt-batch32/build-none/worksteal",
+      "binary_sha256": "051a14c8336c3778d86d6019c640b1ef7989b86423fa42695e059b035ab62b1e",
+      "source_id": "7647130371279006135b84000e6f854ff6b4477f8028940ac110504141395830",
+      "validation": {
+        "source_id": "7647130371279006135b84000e6f854ff6b4477f8028940ac110504141395830",
+        "binary_sha256": "051a14c8336c3778d86d6019c640b1ef7989b86423fa42695e059b035ab62b1e",
+        "records": [
+          {
+            "command": [
+              "/root/lzuhpc-experiments/ws-20261016-opt-batch32/build-none/runtime_checks"
+            ],
+            "returncode": 0,
+            "stdout": "{\"checks\":1276,\"status\":\"pass\"}\n",
+            "stderr": ""
+          },
+          {
+            "command": [
+              "/usr/bin/python3",
+              "/root/lzuhpc-experiments/ws-20261016-opt-batch32/tests/cli_checks.py",
+              "/root/lzuhpc-experiments/ws-20261016-opt-batch32/build-none/worksteal",
+              "/root/lzuhpc-experiments/ws-20261016-opt-batch32/build-none/worksteal_extension"
+            ],
+            "returncode": 0,
+            "stdout": "{\"status\": \"pass\", \"checks\": 38, \"golden_output_hash\": \"3ae93543031ba3af\"}\n",
+            "stderr": ""
+          }
+        ],
+        "pass": true,
+        "created": "2026-10-16T03:53:08.676976+00:00"
+      }
+    },
+    "scratch": {
+      "exe": "/root/lzuhpc-experiments/ws-20261016-opt-scratch/build-none/worksteal",
+      "binary_sha256": "102373e0d87e58328292e939668cf61995d13da655812780d8ce3e4251383aaa",
+      "source_id": "7647130371279006135b84000e6f854ff6b4477f8028940ac110504141395830",
+      "validation": {
+        "source_id": "7647130371279006135b84000e6f854ff6b4477f8028940ac110504141395830",
+        "binary_sha256": "102373e0d87e58328292e939668cf61995d13da655812780d8ce3e4251383aaa",
+        "records": [
+          {
+            "command": [
+              "/root/lzuhpc-experiments/ws-20261016-opt-scratch/build-none/runtime_checks"
+            ],
+            "returncode": 0,
+            "stdout": "{\"checks\":1276,\"status\":\"pass\"}\n",
+            "stderr": ""
+          },
+          {
+            "command": [
+              "/usr/bin/python3",
+              "/root/lzuhpc-experiments/ws-20261016-opt-scratch/tests/cli_checks.py",
+              "/root/lzuhpc-experiments/ws-20261016-opt-scratch/build-none/worksteal",
+              "/root/lzuhpc-experiments/ws-20261016-opt-scratch/build-none/worksteal_extension"
+            ],
+            "returncode": 0,
+            "stdout": "{\"status\": \"pass\", \"checks\": 38, \"golden_output_hash\": \"3ae93543031ba3af\"}\n",
+            "stderr": ""
+          }
+        ],
+        "pass": true,
+        "created": "2026-10-16T03:53:35.588715+00:00"
+      }
+    },
+    "lto": {
+      "exe": "/root/lzuhpc-experiments/ws-20261016-opt-lto/build-none/worksteal",
+      "binary_sha256": "e47524d5786ba9d697dc4dcc5aea9894a8c81eee52c4cd1e73934ac8db3d2a59",
+      "source_id": "7647130371279006135b84000e6f854ff6b4477f8028940ac110504141395830",
+      "validation": {
+        "source_id": "7647130371279006135b84000e6f854ff6b4477f8028940ac110504141395830",
+        "binary_sha256": "e47524d5786ba9d697dc4dcc5aea9894a8c81eee52c4cd1e73934ac8db3d2a59",
+        "records": [
+          {
+            "command": [
+              "/root/lzuhpc-experiments/ws-20261016-opt-lto/build-none/runtime_checks"
+            ],
+            "returncode": 0,
+            "stdout": "{\"checks\":1276,\"status\":\"pass\"}\n",
+            "stderr": ""
+          },
+          {
+            "command": [
+              "/usr/bin/python3",
+              "/root/lzuhpc-experiments/ws-20261016-opt-lto/tests/cli_checks.py",
+              "/root/lzuhpc-experiments/ws-20261016-opt-lto/build-none/worksteal",
+              "/root/lzuhpc-experiments/ws-20261016-opt-lto/build-none/worksteal_extension"
+            ],
+            "returncode": 0,
+            "stdout": "{\"status\": \"pass\", \"checks\": 38, \"golden_output_hash\": \"3ae93543031ba3af\"}\n",
+            "stderr": ""
+          }
+        ],
+        "pass": true,
+        "created": "2026-10-16T03:53:27.864203+00:00"
+      }
+    },
+    "runtime": {
+      "exe": "/root/lzuhpc-experiments/ws-20261016-opt-runtime/build-none/worksteal",
+      "binary_sha256": "0f41f09805cf0110bb2d1c860b29994fcbeed19e80897f6d3e90428bc73223ef",
+      "source_id": "ced55a945530539b6d261ef1c6dac14a3e72ba8edfa0d890b5db546b08171c9e",
+      "validation": {
+        "source_id": "ced55a945530539b6d261ef1c6dac14a3e72ba8edfa0d890b5db546b08171c9e",
+        "binary_sha256": "0f41f09805cf0110bb2d1c860b29994fcbeed19e80897f6d3e90428bc73223ef",
+        "records": [
+          {
+            "command": [
+              "/root/lzuhpc-experiments/ws-20261016-opt-runtime/build-none/runtime_checks"
+            ],
+            "returncode": 0,
+            "stdout": "{\"checks\":1276,\"status\":\"pass\"}\n",
+            "stderr": ""
+          },
+          {
+            "command": [
+              "/usr/bin/python3",
+              "/root/lzuhpc-experiments/ws-20261016-opt-runtime/tests/cli_checks.py",
+              "/root/lzuhpc-experiments/ws-20261016-opt-runtime/build-none/worksteal",
+              "/root/lzuhpc-experiments/ws-20261016-opt-runtime/build-none/worksteal_extension"
+            ],
+            "returncode": 0,
+            "stdout": "{\"status\": \"pass\", \"checks\": 38, \"golden_output_hash\": \"3ae93543031ba3af\"}\n",
+            "stderr": ""
+          }
+        ],
+        "pass": true,
+        "created": "2026-10-16T03:55:03.848501+00:00"
+      }
+    },
+    "full": {
+      "exe": "/root/lzuhpc-experiments/ws-20261016-opt-full/build-none/worksteal",
+      "binary_sha256": "d55dbd1773dfc59b01b62584be109e4f5f5e3376dc446e54c2d19aba633f610a",
+      "source_id": "ced55a945530539b6d261ef1c6dac14a3e72ba8edfa0d890b5db546b08171c9e",
+      "validation": {
+        "source_id": "ced55a945530539b6d261ef1c6dac14a3e72ba8edfa0d890b5db546b08171c9e",
+        "binary_sha256": "d55dbd1773dfc59b01b62584be109e4f5f5e3376dc446e54c2d19aba633f610a",
+        "records": [
+          {
+            "command": [
+              "/root/lzuhpc-experiments/ws-20261016-opt-full/build-none/runtime_checks"
+            ],
+            "returncode": 0,
+            "stdout": "{\"checks\":1276,\"status\":\"pass\"}\n",
+            "stderr": ""
+          },
+          {
+            "command": [
+              "/usr/bin/python3",
+              "/root/lzuhpc-experiments/ws-20261016-opt-full/tests/cli_checks.py",
+              "/root/lzuhpc-experiments/ws-20261016-opt-full/build-none/worksteal",
+              "/root/lzuhpc-experiments/ws-20261016-opt-full/build-none/worksteal_extension"
+            ],
+            "returncode": 0,
+            "stdout": "{\"status\": \"pass\", \"checks\": 38, \"golden_output_hash\": \"3ae93543031ba3af\"}\n",
+            "stderr": ""
+          }
+        ],
+        "pass": true,
+        "created": "2026-10-16T03:54:56.705101+00:00"
+      }
+    },
+    "lanes4": {
+      "exe": "/root/lzuhpc-experiments/ws-20261016-opt-lanes4/build-none/worksteal",
+      "binary_sha256": "5ef4799bfe875748e83fc147cdc200a4cea9a30d576cf850196ad7e2515c2684",
+      "source_id": "cac46b112aea185cec56e056a75f15b856aa3e0c257bcdae07a1655d22917cd4",
+      "validation": {
+        "source_id": "cac46b112aea185cec56e056a75f15b856aa3e0c257bcdae07a1655d22917cd4",
+        "binary_sha256": "5ef4799bfe875748e83fc147cdc200a4cea9a30d576cf850196ad7e2515c2684",
+        "records": [
+          {
+            "command": [
+              "/root/lzuhpc-experiments/ws-20261016-opt-lanes4/build-none/runtime_checks"
+            ],
+            "returncode": 0,
+            "stdout": "{\"checks\":1444,\"status\":\"pass\"}\n",
+            "stderr": ""
+          },
+          {
+            "command": [
+              "/usr/bin/python3",
+              "/root/lzuhpc-experiments/ws-20261016-opt-lanes4/tests/cli_checks.py",
+              "/root/lzuhpc-experiments/ws-20261016-opt-lanes4/build-none/worksteal",
+              "/root/lzuhpc-experiments/ws-20261016-opt-lanes4/build-none/worksteal_extension"
+            ],
+            "returncode": 0,
+            "stdout": "{\"status\": \"pass\", \"checks\": 38, \"golden_output_hash\": \"3ae93543031ba3af\"}\n",
+            "stderr": ""
+          }
+        ],
+        "pass": true,
+        "created": "2026-10-16T03:56:11.751731+00:00"
+      }
+    },
+    "lanes8": {
+      "exe": "/root/lzuhpc-experiments/ws-20261016-opt-lanes8/build-none/worksteal",
+      "binary_sha256": "14efc53ec11b8e9e327caaaed8f386be3f4980a845af14b3df205245aad8bfb3",
+      "source_id": "cac46b112aea185cec56e056a75f15b856aa3e0c257bcdae07a1655d22917cd4",
+      "validation": {
+        "source_id": "cac46b112aea185cec56e056a75f15b856aa3e0c257bcdae07a1655d22917cd4",
+        "binary_sha256": "14efc53ec11b8e9e327caaaed8f386be3f4980a845af14b3df205245aad8bfb3",
+        "records": [
+          {
+            "command": [
+              "/root/lzuhpc-experiments/ws-20261016-opt-lanes8/build-none/runtime_checks"
+            ],
+            "returncode": 0,
+            "stdout": "{\"checks\":1444,\"status\":\"pass\"}\n",
+            "stderr": ""
+          },
+          {
+            "command": [
+              "/usr/bin/python3",
+              "/root/lzuhpc-experiments/ws-20261016-opt-lanes8/tests/cli_checks.py",
+              "/root/lzuhpc-experiments/ws-20261016-opt-lanes8/build-none/worksteal",
+              "/root/lzuhpc-experiments/ws-20261016-opt-lanes8/build-none/worksteal_extension"
+            ],
+            "returncode": 0,
+            "stdout": "{\"status\": \"pass\", \"checks\": 38, \"golden_output_hash\": \"3ae93543031ba3af\"}\n",
+            "stderr": ""
+          }
+        ],
+        "pass": true,
+        "created": "2026-10-16T03:56:11.609598+00:00"
+      }
+    },
+    "full_lanes4": {
+      "exe": "/root/lzuhpc-experiments/ws-20261016-opt-full_lanes4/build-none/worksteal",
+      "binary_sha256": "2be1530b259ade6f85c701eb436829b28f5e0d9b4cd7bb67240bcc5bebb62f7c",
+      "source_id": "cac46b112aea185cec56e056a75f15b856aa3e0c257bcdae07a1655d22917cd4",
+      "validation": {
+        "source_id": "cac46b112aea185cec56e056a75f15b856aa3e0c257bcdae07a1655d22917cd4",
+        "binary_sha256": "2be1530b259ade6f85c701eb436829b28f5e0d9b4cd7bb67240bcc5bebb62f7c",
+        "records": [
+          {
+            "command": [
+              "/root/lzuhpc-experiments/ws-20261016-opt-full_lanes4/build-none/runtime_checks"
+            ],
+            "returncode": 0,
+            "stdout": "{\"checks\":1444,\"status\":\"pass\"}\n",
+            "stderr": ""
+          },
+          {
+            "command": [
+              "/usr/bin/python3",
+              "/root/lzuhpc-experiments/ws-20261016-opt-full_lanes4/tests/cli_checks.py",
+              "/root/lzuhpc-experiments/ws-20261016-opt-full_lanes4/build-none/worksteal",
+              "/root/lzuhpc-experiments/ws-20261016-opt-full_lanes4/build-none/worksteal_extension"
+            ],
+            "returncode": 0,
+            "stdout": "{\"status\": \"pass\", \"checks\": 38, \"golden_output_hash\": \"3ae93543031ba3af\"}\n",
+            "stderr": ""
+          }
+        ],
+        "pass": true,
+        "created": "2026-10-16T03:56:33.336610+00:00"
+      }
+    },
+    "full_lanes8": {
+      "exe": "/root/lzuhpc-experiments/ws-20261016-opt-full_lanes8/build-none/worksteal",
+      "binary_sha256": "e26cb2e4caad0f89a48e4473b49ea0ef89b75774f41ff230aa3211e766424c37",
+      "source_id": "cac46b112aea185cec56e056a75f15b856aa3e0c257bcdae07a1655d22917cd4",
+      "validation": {
+        "source_id": "cac46b112aea185cec56e056a75f15b856aa3e0c257bcdae07a1655d22917cd4",
+        "binary_sha256": "e26cb2e4caad0f89a48e4473b49ea0ef89b75774f41ff230aa3211e766424c37",
+        "records": [
+          {
+            "command": [
+              "/root/lzuhpc-experiments/ws-20261016-opt-full_lanes8/build-none/runtime_checks"
+            ],
+            "returncode": 0,
+            "stdout": "{\"checks\":1444,\"status\":\"pass\"}\n",
+            "stderr": ""
+          },
+          {
+            "command": [
+              "/usr/bin/python3",
+              "/root/lzuhpc-experiments/ws-20261016-opt-full_lanes8/tests/cli_checks.py",
+              "/root/lzuhpc-experiments/ws-20261016-opt-full_lanes8/build-none/worksteal",
+              "/root/lzuhpc-experiments/ws-20261016-opt-full_lanes8/build-none/worksteal_extension"
+            ],
+            "returncode": 0,
+            "stdout": "{\"status\": \"pass\", \"checks\": 38, \"golden_output_hash\": \"3ae93543031ba3af\"}\n",
+            "stderr": ""
+          }
+        ],
+        "pass": true,
+        "created": "2026-10-16T03:56:33.132237+00:00"
+      }
+    }
+  },
+  "conditions": [
+    {
+      "id": "light-s137-base",
+      "kind": "light",
+      "build": "baseline",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 196608,
+          "iterations": 16,
+          "seed": 137
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 137
+      }
+    },
+    {
+      "id": "light-s137-candidate",
+      "kind": "light",
+      "build": "runtime",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 196608,
+          "iterations": 16,
+          "seed": 137
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 256
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 137
+      }
+    },
+    {
+      "id": "light-s2027-base",
+      "kind": "light",
+      "build": "baseline",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 327680,
+          "iterations": 16,
+          "seed": 2027
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 2027
+      }
+    },
+    {
+      "id": "light-s2027-candidate",
+      "kind": "light",
+      "build": "runtime",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 327680,
+          "iterations": 16,
+          "seed": 2027
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 256
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 2027
+      }
+    },
+    {
+      "id": "uniform-s137-base",
+      "kind": "uniform",
+      "build": "baseline",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 196608,
+          "iterations": 1024,
+          "seed": 137
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 64
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 137
+      }
+    },
+    {
+      "id": "uniform-s137-candidate",
+      "kind": "uniform",
+      "build": "lanes8",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 32,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 196608,
+          "iterations": 1024,
+          "seed": 137
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1024
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 137
+      }
+    },
+    {
+      "id": "uniform-s2027-base",
+      "kind": "uniform",
+      "build": "baseline",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 327680,
+          "iterations": 1024,
+          "seed": 2027
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 64
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 2027
+      }
+    },
+    {
+      "id": "uniform-s2027-candidate",
+      "kind": "uniform",
+      "build": "lanes8",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 32,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 327680,
+          "iterations": 1024,
+          "seed": 2027
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1024
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 2027
+      }
+    },
+    {
+      "id": "skewed-s137-base",
+      "kind": "skewed",
+      "build": "baseline",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 196608,
+          "iterations": 1024,
+          "seed": 137
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 64
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "concentrated",
+        "layout_seed": 137
+      }
+    },
+    {
+      "id": "skewed-s137-candidate",
+      "kind": "skewed",
+      "build": "full_lanes8",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 32,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 196608,
+          "iterations": 1024,
+          "seed": 137
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 256
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "concentrated",
+        "layout_seed": 137
+      }
+    },
+    {
+      "id": "skewed-s2027-base",
+      "kind": "skewed",
+      "build": "baseline",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 327680,
+          "iterations": 1024,
+          "seed": 2027
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 64
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "concentrated",
+        "layout_seed": 2027
+      }
+    },
+    {
+      "id": "skewed-s2027-candidate",
+      "kind": "skewed",
+      "build": "full_lanes8",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 32,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 327680,
+          "iterations": 1024,
+          "seed": 2027
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 256
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "concentrated",
+        "layout_seed": 2027
+      }
+    },
+    {
+      "id": "memory-s137-base",
+      "kind": "memory",
+      "build": "baseline",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 48,
+          "iterations": 1,
+          "seed": 137,
+          "bytes_per_element": 524288,
+          "passes": 16
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 137
+      }
+    },
+    {
+      "id": "memory-s137-candidate",
+      "kind": "memory",
+      "build": "full_lanes8",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 48,
+          "iterations": 1,
+          "seed": 137,
+          "bytes_per_element": 524288,
+          "passes": 16
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 4
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 137
+      }
+    },
+    {
+      "id": "memory-s2027-base",
+      "kind": "memory",
+      "build": "baseline",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 4,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 80,
+          "iterations": 1,
+          "seed": 2027,
+          "bytes_per_element": 524288,
+          "passes": 16
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 2027
+      }
+    },
+    {
+      "id": "memory-s2027-candidate",
+      "kind": "memory",
+      "build": "full_lanes8",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 80,
+          "iterations": 1,
+          "seed": 2027,
+          "bytes_per_element": 524288,
+          "passes": 16
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 4
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 2027
+      }
+    }
+  ],
+  "order": [
+    [
+      "warmup",
+      0,
+      "light-s137-base"
+    ],
+    [
+      "warmup",
+      0,
+      "light-s137-candidate"
+    ],
+    [
+      "warmup",
+      0,
+      "light-s2027-base"
+    ],
+    [
+      "warmup",
+      0,
+      "light-s2027-candidate"
+    ],
+    [
+      "warmup",
+      0,
+      "uniform-s137-base"
+    ],
+    [
+      "warmup",
+      0,
+      "uniform-s137-candidate"
+    ],
+    [
+      "warmup",
+      0,
+      "uniform-s2027-base"
+    ],
+    [
+      "warmup",
+      0,
+      "uniform-s2027-candidate"
+    ],
+    [
+      "warmup",
+      0,
+      "skewed-s137-base"
+    ],
+    [
+      "warmup",
+      0,
+      "skewed-s137-candidate"
+    ],
+    [
+      "warmup",
+      0,
+      "skewed-s2027-base"
+    ],
+    [
+      "warmup",
+      0,
+      "skewed-s2027-candidate"
+    ],
+    [
+      "warmup",
+      0,
+      "memory-s137-base"
+    ],
+    [
+      "warmup",
+      0,
+      "memory-s137-candidate"
+    ],
+    [
+      "warmup",
+      0,
+      "memory-s2027-base"
+    ],
+    [
+      "warmup",
+      0,
+      "memory-s2027-candidate"
+    ],
+    [
+      "timing",
+      1,
+      "light-s137-base"
+    ],
+    [
+      "timing",
+      1,
+      "light-s137-candidate"
+    ],
+    [
+      "timing",
+      1,
+      "light-s2027-base"
+    ],
+    [
+      "timing",
+      1,
+      "light-s2027-candidate"
+    ],
+    [
+      "timing",
+      1,
+      "uniform-s137-base"
+    ],
+    [
+      "timing",
+      1,
+      "uniform-s137-candidate"
+    ],
+    [
+      "timing",
+      1,
+      "uniform-s2027-base"
+    ],
+    [
+      "timing",
+      1,
+      "uniform-s2027-candidate"
+    ],
+    [
+      "timing",
+      1,
+      "skewed-s137-base"
+    ],
+    [
+      "timing",
+      1,
+      "skewed-s137-candidate"
+    ],
+    [
+      "timing",
+      1,
+      "skewed-s2027-base"
+    ],
+    [
+      "timing",
+      1,
+      "skewed-s2027-candidate"
+    ],
+    [
+      "timing",
+      1,
+      "memory-s137-base"
+    ],
+    [
+      "timing",
+      1,
+      "memory-s137-candidate"
+    ],
+    [
+      "timing",
+      1,
+      "memory-s2027-base"
+    ],
+    [
+      "timing",
+      1,
+      "memory-s2027-candidate"
+    ],
+    [
+      "timing",
+      2,
+      "light-s137-candidate"
+    ],
+    [
+      "timing",
+      2,
+      "light-s137-base"
+    ],
+    [
+      "timing",
+      2,
+      "light-s2027-candidate"
+    ],
+    [
+      "timing",
+      2,
+      "light-s2027-base"
+    ],
+    [
+      "timing",
+      2,
+      "uniform-s137-candidate"
+    ],
+    [
+      "timing",
+      2,
+      "uniform-s137-base"
+    ],
+    [
+      "timing",
+      2,
+      "uniform-s2027-candidate"
+    ],
+    [
+      "timing",
+      2,
+      "uniform-s2027-base"
+    ],
+    [
+      "timing",
+      2,
+      "skewed-s137-candidate"
+    ],
+    [
+      "timing",
+      2,
+      "skewed-s137-base"
+    ],
+    [
+      "timing",
+      2,
+      "skewed-s2027-candidate"
+    ],
+    [
+      "timing",
+      2,
+      "skewed-s2027-base"
+    ],
+    [
+      "timing",
+      2,
+      "memory-s137-candidate"
+    ],
+    [
+      "timing",
+      2,
+      "memory-s137-base"
+    ],
+    [
+      "timing",
+      2,
+      "memory-s2027-candidate"
+    ],
+    [
+      "timing",
+      2,
+      "memory-s2027-base"
+    ],
+    [
+      "timing",
+      3,
+      "light-s137-base"
+    ],
+    [
+      "timing",
+      3,
+      "light-s137-candidate"
+    ],
+    [
+      "timing",
+      3,
+      "light-s2027-base"
+    ],
+    [
+      "timing",
+      3,
+      "light-s2027-candidate"
+    ],
+    [
+      "timing",
+      3,
+      "uniform-s137-base"
+    ],
+    [
+      "timing",
+      3,
+      "uniform-s137-candidate"
+    ],
+    [
+      "timing",
+      3,
+      "uniform-s2027-base"
+    ],
+    [
+      "timing",
+      3,
+      "uniform-s2027-candidate"
+    ],
+    [
+      "timing",
+      3,
+      "skewed-s137-base"
+    ],
+    [
+      "timing",
+      3,
+      "skewed-s137-candidate"
+    ],
+    [
+      "timing",
+      3,
+      "skewed-s2027-base"
+    ],
+    [
+      "timing",
+      3,
+      "skewed-s2027-candidate"
+    ],
+    [
+      "timing",
+      3,
+      "memory-s137-base"
+    ],
+    [
+      "timing",
+      3,
+      "memory-s137-candidate"
+    ],
+    [
+      "timing",
+      3,
+      "memory-s2027-base"
+    ],
+    [
+      "timing",
+      3,
+      "memory-s2027-candidate"
+    ],
+    [
+      "timing",
+      4,
+      "light-s137-candidate"
+    ],
+    [
+      "timing",
+      4,
+      "light-s137-base"
+    ],
+    [
+      "timing",
+      4,
+      "light-s2027-candidate"
+    ],
+    [
+      "timing",
+      4,
+      "light-s2027-base"
+    ],
+    [
+      "timing",
+      4,
+      "uniform-s137-candidate"
+    ],
+    [
+      "timing",
+      4,
+      "uniform-s137-base"
+    ],
+    [
+      "timing",
+      4,
+      "uniform-s2027-candidate"
+    ],
+    [
+      "timing",
+      4,
+      "uniform-s2027-base"
+    ],
+    [
+      "timing",
+      4,
+      "skewed-s137-candidate"
+    ],
+    [
+      "timing",
+      4,
+      "skewed-s137-base"
+    ],
+    [
+      "timing",
+      4,
+      "skewed-s2027-candidate"
+    ],
+    [
+      "timing",
+      4,
+      "skewed-s2027-base"
+    ],
+    [
+      "timing",
+      4,
+      "memory-s137-candidate"
+    ],
+    [
+      "timing",
+      4,
+      "memory-s137-base"
+    ],
+    [
+      "timing",
+      4,
+      "memory-s2027-candidate"
+    ],
+    [
+      "timing",
+      4,
+      "memory-s2027-base"
+    ],
+    [
+      "timing",
+      5,
+      "light-s137-base"
+    ],
+    [
+      "timing",
+      5,
+      "light-s137-candidate"
+    ],
+    [
+      "timing",
+      5,
+      "light-s2027-base"
+    ],
+    [
+      "timing",
+      5,
+      "light-s2027-candidate"
+    ],
+    [
+      "timing",
+      5,
+      "uniform-s137-base"
+    ],
+    [
+      "timing",
+      5,
+      "uniform-s137-candidate"
+    ],
+    [
+      "timing",
+      5,
+      "uniform-s2027-base"
+    ],
+    [
+      "timing",
+      5,
+      "uniform-s2027-candidate"
+    ],
+    [
+      "timing",
+      5,
+      "skewed-s137-base"
+    ],
+    [
+      "timing",
+      5,
+      "skewed-s137-candidate"
+    ],
+    [
+      "timing",
+      5,
+      "skewed-s2027-base"
+    ],
+    [
+      "timing",
+      5,
+      "skewed-s2027-candidate"
+    ],
+    [
+      "timing",
+      5,
+      "memory-s137-base"
+    ],
+    [
+      "timing",
+      5,
+      "memory-s137-candidate"
+    ],
+    [
+      "timing",
+      5,
+      "memory-s2027-base"
+    ],
+    [
+      "timing",
+      5,
+      "memory-s2027-candidate"
+    ]
+  ],
+  "scope": "WSL1 logical-mask optimization; identical mathematical inputs, output and total cost across builds",
+  "parameter_screen": "/root/lzuhpc-experiments/ws-20261016-opt-baseline/runs/20261016T035942Z-OPT2-parameter-screen-b7927a",
+  "selected": {
+    "light": {
+      "id": "light--runtime-p16-g256",
+      "kind": "light",
+      "build": "runtime",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 262144,
+          "iterations": 16,
+          "seed": 42
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 256
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    "uniform": {
+      "id": "uniform--lanes8-p32-g1024",
+      "kind": "uniform",
+      "build": "lanes8",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 32,
+        "workload": {
+          "name": "compute_uniform",
+          "elements": 262144,
+          "iterations": 1024,
+          "seed": 42
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 1024
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    },
+    "skewed": {
+      "id": "skewed--full_lanes8-p32-g256",
+      "kind": "skewed",
+      "build": "full_lanes8",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 32,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 262144,
+          "iterations": 1024,
+          "seed": 42
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 256
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "concentrated",
+        "layout_seed": 42
+      }
+    },
+    "memory": {
+      "id": "memory--full_lanes8-p16-g4",
+      "kind": "memory",
+      "build": "full_lanes8",
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "memory_reuse",
+          "elements": 64,
+          "iterations": 1,
+          "seed": 42,
+          "bytes_per_element": 524288,
+          "passes": 16
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 4
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1
+        },
+        "layout": "policy",
+        "layout_seed": 42
+      }
+    }
+  },
+  "gate": "both inputs: >=4/5 paired wins AND candidate median <=0.95*baseline median",
+  "prohibition": "no choosing second place, no new parameters, no dropping slow successful samples after heldout"
+}

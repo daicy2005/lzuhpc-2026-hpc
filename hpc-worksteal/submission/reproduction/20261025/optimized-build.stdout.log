@@ -1,0 +1,21 @@
+[  6%] Building CXX object CMakeFiles/ws_core.dir/src/runtime/worker_pool.cpp.o
+[ 12%] Building CXX object CMakeFiles/ws_core.dir/src/workloads/workload.cpp.o
+[ 18%] Linking CXX static library libws_core.a
+[ 18%] Built target ws_core
+[ 31%] Building CXX object CMakeFiles/worksteal.dir/src/app/main.cpp.o
+[ 31%] Building CXX object CMakeFiles/runtime_checks.dir/tests/runtime_checks.cpp.o
+[ 37%] Building CXX object CMakeFiles/runtime_checks.dir/src/policies/register_defaults.cpp.o
+[ 43%] Building CXX object CMakeFiles/worksteal.dir/src/policies/register_defaults.cpp.o
+[ 50%] Linking CXX executable runtime_checks
+[ 56%] Linking CXX executable worksteal
+[ 56%] Built target runtime_checks
+[ 62%] Building CXX object CMakeFiles/worksteal_extension.dir/src/app/main.cpp.o
+[ 62%] Built target worksteal
+[ 68%] Building CXX object CMakeFiles/host_probe.dir/src/platform/probe.cpp.o
+[ 75%] Building CXX object CMakeFiles/host_probe.dir/src/policies/register_defaults.cpp.o
+[ 81%] Building CXX object CMakeFiles/worksteal_extension.dir/src/policies/register_defaults.cpp.o
+[ 87%] Linking CXX executable host_probe
+[ 93%] Building CXX object CMakeFiles/worksteal_extension.dir/tests/register_reverse.cpp.o
+[ 93%] Built target host_probe
+[100%] Linking CXX executable worksteal_extension
+[100%] Built target worksteal_extension

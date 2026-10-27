@@ -1,0 +1,61 @@
+{
+  "version": 3,
+  "cmakeMinimumRequired": { "major": 3, "minor": 21, "patch": 0 },
+  "configurePresets": [
+    {
+      "name": "optimized-light",
+      "displayName": "Confirmed light-task runtime (batch32 + scratch)",
+      "generator": "Unix Makefiles",
+      "binaryDir": "${sourceDir}/build/optimized-light",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "WS_COMPLETION_BATCH": "32",
+        "WS_STEAL_SCRATCH": "ON",
+        "WS_ENABLE_IPO": "OFF",
+        "WS_COMPUTE_LANES": "1",
+        "WS_ASAN": "OFF",
+        "WS_TSAN": "OFF"
+      }
+    },
+    {
+      "name": "optimized-uniform",
+      "displayName": "Confirmed uniform kernel (LTO + eight lanes)",
+      "generator": "Unix Makefiles",
+      "binaryDir": "${sourceDir}/build/optimized-uniform",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "WS_COMPLETION_BATCH": "1",
+        "WS_STEAL_SCRATCH": "OFF",
+        "WS_ENABLE_IPO": "ON",
+        "WS_COMPUTE_LANES": "8",
+        "WS_ASAN": "OFF",
+        "WS_TSAN": "OFF"
+      }
+    },
+    {
+      "name": "optimized-skewed",
+      "displayName": "Confirmed skewed/memory build (batch32 + scratch + LTO + eight lanes)",
+      "generator": "Unix Makefiles",
+      "binaryDir": "${sourceDir}/build/optimized-skewed",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "WS_COMPLETION_BATCH": "32",
+        "WS_STEAL_SCRATCH": "ON",
+        "WS_ENABLE_IPO": "ON",
+        "WS_COMPUTE_LANES": "8",
+        "WS_ASAN": "OFF",
+        "WS_TSAN": "OFF"
+      }
+    }
+  ],
+  "buildPresets": [
+    { "name": "optimized-light", "configurePreset": "optimized-light", "jobs": 2 },
+    { "name": "optimized-uniform", "configurePreset": "optimized-uniform", "jobs": 2 },
+    { "name": "optimized-skewed", "configurePreset": "optimized-skewed", "jobs": 2 }
+  ],
+  "testPresets": [
+    { "name": "optimized-light", "configurePreset": "optimized-light", "output": { "outputOnFailure": true } },
+    { "name": "optimized-uniform", "configurePreset": "optimized-uniform", "output": { "outputOnFailure": true } },
+    { "name": "optimized-skewed", "configurePreset": "optimized-skewed", "output": { "outputOnFailure": true } }
+  ]
+}

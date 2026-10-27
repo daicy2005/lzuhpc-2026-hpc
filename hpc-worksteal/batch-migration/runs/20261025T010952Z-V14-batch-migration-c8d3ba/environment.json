@@ -1,0 +1,1670 @@
+{
+  "time": "2026-10-25T01:09:52.602063+00:00",
+  "uname": {
+    "command": [
+      "uname",
+      "-a"
+    ],
+    "exit_code": 0,
+    "stdout": "Linux DAICY 4.4.0-26100-Microsoft #9278-Microsoft Fri Jan 01 08:00:00 PST 2016 x86_64 x86_64 x86_64 GNU/Linux\n",
+    "stderr": ""
+  },
+  "compiler": {
+    "command": [
+      "c++",
+      "--version"
+    ],
+    "exit_code": 0,
+    "stdout": "c++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+    "stderr": ""
+  },
+  "cmake": {
+    "command": [
+      "cmake",
+      "--version"
+    ],
+    "exit_code": 0,
+    "stdout": "cmake version 3.28.3\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).\n",
+    "stderr": ""
+  },
+  "lscpu": {
+    "command": [
+      "lscpu"
+    ],
+    "exit_code": 0,
+    "stdout": "Architecture:        x86_64\nCPU op-mode(s):      32-bit, 64-bit\nAddress sizes:       36 bits physical, 48 bits virtual\nByte Order:          Little Endian\nCPU(s):              32\nOn-line CPU(s) list: 0-31\nVendor ID:           GenuineIntel\nModel name:          13th Gen Intel(R) Core(TM) i9-13900HX\nCPU family:          6\nModel:               183\nThread(s) per core:  2\nCore(s) per socket:  24\nSocket(s):           1\nStepping:            1\nCPU(s) scaling MHz:  100%\nCPU max MHz:         2200.0000\nCPU min MHz:         0.0000\nBogoMIPS:            4400.00\nFlags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm pni pclmulqdq monitor est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave osxsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb intel_pt sha_ni umip gfni vaes vpclmulqdq rdpid ibrs ibpb stibp ssbd\nHypervisor vendor:   Windows Subsystem for Linux\nVirtualization type: container\n",
+    "stderr": ""
+  },
+  "processes": {
+    "command": [
+      "ps",
+      "-eo",
+      "pid,comm,args"
+    ],
+    "exit_code": 0,
+    "stdout": "  PID COMMAND         COMMAND\n    1 init(HPC-Ubuntu /init\n    7 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12 SessionLeader   /init\n   13 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n   69 ps              ps -eo pid,comm,args\n",
+    "stderr": ""
+  },
+  "meminfo": "MemTotal:       33276132 kB\nMemFree:         8241080 kB\nBuffers:           34032 kB\nCached:           188576 kB\nSwapCached:            0 kB\nActive:           167556 kB\nInactive:         157876 kB\nActive(anon):     103104 kB\nInactive(anon):    17440 kB\nActive(file):      64452 kB\nInactive(file):   140436 kB\nUnevictable:           0 kB\nMlocked:               0 kB\nSwapTotal:      26073212 kB\nSwapFree:       25990016 kB\nDirty:                 0 kB\nWriteback:             0 kB\nAnonPages:        102824 kB\nMapped:            71404 kB\nShmem:             17720 kB\nSlab:              13868 kB\nSReclaimable:       6744 kB\nSUnreclaim:         7124 kB\nKernelStack:        2848 kB\nPageTables:         2524 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:      515524 kB\nCommitted_AS:    3450064 kB\nVmallocTotal:     122880 kB\nVmallocUsed:       21296 kB\nVmallocChunk:      66044 kB\nHardwareCorrupted:     0 kB\nAnonHugePages:      2048 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nDirectMap4k:       12280 kB\nDirectMap4M:      897024 kB\n",
+  "allowed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+  ],
+  "cpuid": {
+    "command": [
+      "/root/lzuhpc-experiments/ws-20261022-fill-interleaved-release/build-none/host_probe"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"allowed\": [\n    0,\n    1,\n    2,\n    3,\n    4,\n    5,\n    6,\n    7,\n    8,\n    9,\n    10,\n    11,\n    12,\n    13,\n    14,\n    15,\n    16,\n    17,\n    18,\n    19,\n    20,\n    21,\n    22,\n    23,\n    24,\n    25,\n    26,\n    27,\n    28,\n    29,\n    30,\n    31\n  ],\n  \"cpus\": [\n    {\n      \"caches\": [\n        {\n          \"bytes\": 49152,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 1\n        },\n        {\n          \"bytes\": 32768,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 2\n        },\n        {\n          \"bytes\": 2097152,\n          \"level\": 2,\n          \"max_addressable_logical_sharers\": 8,\n          \"type\": 3\n        },\n        {\n          \"bytes\": 37748736,\n          \"level\": 3,\n          \"max_addressable_logical_sharers\": 128,\n          \"type\": 3\n        }\n      ],\n      \"hybrid_core_type\": 64,\n      \"linux_cpu\": 0,\n      \"mask\": [\n        0\n      ],\n      \"topology\": [\n        {\n          \"logical_count\": 2,\n          \"shift\": 1,\n          \"type\": 1,\n          \"x2apic\": 24\n        },\n        {\n          \"logical_count\": 32,\n          \"shift\": 7,\n          \"type\": 2,\n          \"x2apic\": 24\n        }\n      ],\n      \"x2apic\": 24\n    },\n    {\n      \"caches\": [\n        {\n          \"bytes\": 49152,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 1\n        },\n        {\n          \"bytes\": 32768,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 2\n        },\n        {\n          \"bytes\": 2097152,\n          \"level\": 2,\n          \"max_addressable_logical_sharers\": 8,\n          \"type\": 3\n        },\n        {\n          \"bytes\": 37748736,\n          \"level\": 3,\n          \"max_addressable_logical_sharers\": 128,\n          \"type\": 3\n        }\n      ],\n      \"hybrid_core_type\": 64,\n      \"linux_cpu\": 1,\n      \"mask\": [\n        1\n      ],\n      \"topology\": [\n        {\n          \"logical_count\": 2,\n          \"shift\": 1,\n          \"type\": 1,\n          \"x2apic\": 33\n        },\n        {\n          \"logical_count\": 32,\n          \"shift\": 7,\n          \"type\": 2,\n          \"x2apic\": 33\n        }\n      ],\n      \"x2apic\": 33\n    },\n    {\n      \"caches\": [\n        {\n          \"bytes\": 49152,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 1\n        },\n        {\n          \"bytes\": 32768,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 2\n        },\n        {\n          \"bytes\": 2097152,\n          \"level\": 2,\n          \"max_addressable_logical_sharers\": 8,\n          \"type\": 3\n        },\n        {\n          \"bytes\": 37748736,\n          \"level\": 3,\n          \"max_addressable_logical_sharers\": 128,\n          \"type\": 3\n        }\n      ],\n      \"hybrid_core_type\": 64,\n      \"linux_cpu\": 2,\n      \"mask\": [\n        2\n      ],\n      \"topology\": [\n        {\n          \"logical_count\": 2,\n          \"shift\": 1,\n          \"type\": 1,\n          \"x2apic\": 48\n        },\n        {\n          \"logical_count\": 32,\n          \"shift\": 7,\n          \"type\": 2,\n          \"x2apic\": 48\n        }\n      ],\n      \"x2apic\": 48\n    },\n    {\n      \"caches\": [\n        {\n          \"bytes\": 49152,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 1\n        },\n        {\n          \"bytes\": 32768,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 2\n        },\n        {\n          \"bytes\": 2097152,\n          \"level\": 2,\n          \"max_addressable_logical_sharers\": 8,\n          \"type\": 3\n        },\n        {\n          \"bytes\": 37748736,\n          \"level\": 3,\n          \"max_addressable_logical_sharers\": 128,\n          \"type\": 3\n        }\n      ],\n      \"hybrid_core_type\": 64,\n      \"linux_cpu\": 3,\n      \"mask\": [\n        3\n      ],\n      \"topology\": [\n        {\n          \"logical_count\": 2,\n          \"shift\": 1,\n          \"type\": 1,\n          \"x2apic\": 41\n        },\n        {\n          \"logical_count\": 32,\n          \"shift\": 7,\n          \"type\": 2,\n          \"x2apic\": 41\n        }\n      ],\n      \"x2apic\": 41\n    },\n    {\n      \"caches\": [\n        {\n          \"bytes\": 49152,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 1\n        },\n        {\n          \"bytes\": 32768,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 2\n        },\n        {\n          \"bytes\": 2097152,\n          \"level\": 2,\n          \"max_addressable_logical_sharers\": 8,\n          \"type\": 3\n        },\n        {\n          \"bytes\": 37748736,\n          \"level\": 3,\n          \"max_addressable_logical_sharers\": 128,\n          \"type\": 3\n        }\n      ],\n      \"hybrid_core_type\": 64,\n      \"linux_cpu\": 4,\n      \"mask\": [\n        4\n      ],\n      \"topology\": [\n        {\n          \"logical_count\": 2,\n          \"shift\": 1,\n          \"type\": 1,\n          \"x2apic\": 33\n        },\n        {\n          \"logical_count\": 32,\n          \"shift\": 7,\n          \"type\": 2,\n          \"x2apic\": 33\n        }\n      ],\n      \"x2apic\": 33\n    },\n    {\n      \"caches\": [\n        {\n          \"bytes\": 49152,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 1\n        },\n        {\n          \"bytes\": 32768,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 2\n        },\n        {\n          \"bytes\": 2097152,\n          \"level\": 2,\n          \"max_addressable_logical_sharers\": 8,\n          \"type\": 3\n        },\n        {\n          \"bytes\": 37748736,\n          \"level\": 3,\n          \"max_addressable_logical_sharers\": 128,\n          \"type\": 3\n        }\n      ],\n      \"hybrid_core_type\": 64,\n      \"linux_cpu\": 5,\n      \"mask\": [\n        5\n      ],\n      \"topology\": [\n        {\n          \"logical_count\": 2,\n          \"shift\": 1,\n          \"type\": 1,\n          \"x2apic\": 33\n        },\n        {\n          \"logical_count\": 32,\n          \"shift\": 7,\n          \"type\": 2,\n          \"x2apic\": 33\n        }\n      ],\n      \"x2apic\": 33\n    },\n    {\n      \"caches\": [\n        {\n          \"bytes\": 49152,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 1\n        },\n        {\n          \"bytes\": 32768,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 2\n        },\n        {\n          \"bytes\": 2097152,\n          \"level\": 2,\n          \"max_addressable_logical_sharers\": 8,\n          \"type\": 3\n        },\n        {\n          \"bytes\": 37748736,\n          \"level\": 3,\n          \"max_addressable_logical_sharers\": 128,\n          \"type\": 3\n        }\n      ],\n      \"hybrid_core_type\": 64,\n      \"linux_cpu\": 6,\n      \"mask\": [\n        6\n      ],\n      \"topology\": [\n        {\n          \"logical_count\": 2,\n          \"shift\": 1,\n          \"type\": 1,\n          \"x2apic\": 24\n        },\n        {\n          \"logical_count\": 32,\n          \"shift\": 7,\n          \"type\": 2,\n          \"x2apic\": 24\n        }\n      ],\n      \"x2apic\": 24\n    },\n    {\n      \"caches\": [\n        {\n          \"bytes\": 49152,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 1\n        },\n        {\n          \"bytes\": 32768,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 2\n        },\n        {\n          \"bytes\": 2097152,\n          \"level\": 2,\n          \"max_addressable_logical_sharers\": 8,\n          \"type\": 3\n        },\n        {\n          \"bytes\": 37748736,\n          \"level\": 3,\n          \"max_addressable_logical_sharers\": 128,\n          \"type\": 3\n        }\n      ],\n      \"hybrid_core_type\": 64,\n      \"linux_cpu\": 7,\n      \"mask\": [\n        7\n      ],\n      \"topology\": [\n        {\n          \"logical_count\": 2,\n          \"shift\": 1,\n          \"type\": 1,\n          \"x2apic\": 56\n        },\n        {\n          \"logical_count\": 32,\n          \"shift\": 7,\n          \"type\": 2,\n          \"x2apic\": 56\n        }\n      ],\n      \"x2apic\": 56\n    },\n    {\n      \"caches\": [\n        {\n          \"bytes\": 49152,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 1\n        },\n        {\n          \"bytes\": 32768,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 2\n        },\n        {\n          \"bytes\": 2097152,\n          \"level\": 2,\n          \"max_addressable_logical_sharers\": 8,\n          \"type\": 3\n        },\n        {\n          \"bytes\": 37748736,\n          \"level\": 3,\n          \"max_addressable_logical_sharers\": 128,\n          \"type\": 3\n        }\n      ],\n      \"hybrid_core_type\": 64,\n      \"linux_cpu\": 8,\n      \"mask\": [\n        8\n      ],\n      \"topology\": [\n        {\n          \"logical_count\": 2,\n          \"shift\": 1,\n          \"type\": 1,\n          \"x2apic\": 24\n        },\n        {\n          \"logical_count\": 32,\n          \"shift\": 7,\n          \"type\": 2,\n          \"x2apic\": 24\n        }\n      ],\n      \"x2apic\": 24\n    },\n    {\n      \"caches\": [\n        {\n          \"bytes\": 49152,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 1\n        },\n        {\n          \"bytes\": 32768,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 2\n        },\n        {\n          \"bytes\": 2097152,\n          \"level\": 2,\n          \"max_addressable_logical_sharers\": 8,\n          \"type\": 3\n        },\n        {\n          \"bytes\": 37748736,\n          \"level\": 3,\n          \"max_addressable_logical_sharers\": 128,\n          \"type\": 3\n        }\n      ],\n      \"hybrid_core_type\": 64,\n      \"linux_cpu\": 9,\n      \"mask\": [\n        9\n      ],\n      \"topology\": [\n        {\n          \"logical_count\": 2,\n          \"shift\": 1,\n          \"type\": 1,\n          \"x2apic\": 33\n        },\n        {\n          \"logical_count\": 32,\n          \"shift\": 7,\n          \"type\": 2,\n          \"x2apic\": 33\n        }\n      ],\n      \"x2apic\": 33\n    },\n    {\n      \"caches\": [\n        {\n          \"bytes\": 49152,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 1\n        },\n        {\n          \"bytes\": 32768,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 2\n        },\n        {\n          \"bytes\": 2097152,\n          \"level\": 2,\n          \"max_addressable_logical_sharers\": 8,\n          \"type\": 3\n        },\n        {\n          \"bytes\": 37748736,\n          \"level\": 3,\n          \"max_addressable_logical_sharers\": 128,\n          \"type\": 3\n        }\n      ],\n      \"hybrid_core_type\": 64,\n      \"linux_cpu\": 10,\n      \"mask\": [\n        10\n      ],\n      \"topology\": [\n        {\n          \"logical_count\": 2,\n          \"shift\": 1,\n          \"type\": 1,\n          \"x2apic\": 33\n        },\n        {\n          \"logical_count\": 32,\n          \"shift\": 7,\n          \"type\": 2,\n          \"x2apic\": 33\n        }\n      ],\n      \"x2apic\": 33\n    },\n    {\n      \"caches\": [\n        {\n          \"bytes\": 49152,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 1\n        },\n        {\n          \"bytes\": 32768,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 2\n        },\n        {\n          \"bytes\": 2097152,\n          \"level\": 2,\n          \"max_addressable_logical_sharers\": 8,\n          \"type\": 3\n        },\n        {\n          \"bytes\": 37748736,\n          \"level\": 3,\n          \"max_addressable_logical_sharers\": 128,\n          \"type\": 3\n        }\n      ],\n      \"hybrid_core_type\": 64,\n      \"linux_cpu\": 11,\n      \"mask\": [\n        11\n      ],\n      \"topology\": [\n        {\n          \"logical_count\": 2,\n          \"shift\": 1,\n          \"type\": 1,\n          \"x2apic\": 33\n        },\n        {\n          \"logical_count\": 32,\n          \"shift\": 7,\n          \"type\": 2,\n          \"x2apic\": 33\n        }\n      ],\n      \"x2apic\": 33\n    },\n    {\n      \"caches\": [\n        {\n          \"bytes\": 49152,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 1\n        },\n        {\n          \"bytes\": 32768,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 2\n        },\n        {\n          \"bytes\": 2097152,\n          \"level\": 2,\n          \"max_addressable_logical_sharers\": 8,\n          \"type\": 3\n        },\n        {\n          \"bytes\": 37748736,\n          \"level\": 3,\n          \"max_addressable_logical_sharers\": 128,\n          \"type\": 3\n        }\n      ],\n      \"hybrid_core_type\": 64,\n      \"linux_cpu\": 12,\n      \"mask\": [\n        12\n      ],\n      \"topology\": [\n        {\n          \"logical_count\": 2,\n          \"shift\": 1,\n          \"type\": 1,\n          \"x2apic\": 1\n        },\n        {\n          \"logical_count\": 32,\n          \"shift\": 7,\n          \"type\": 2,\n          \"x2apic\": 1\n        }\n      ],\n      \"x2apic\": 1\n    },\n    {\n      \"caches\": [\n        {\n          \"bytes\": 49152,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 1\n        },\n        {\n          \"bytes\": 32768,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 2\n        },\n        {\n          \"bytes\": 2097152,\n          \"level\": 2,\n          \"max_addressable_logical_sharers\": 8,\n          \"type\": 3\n        },\n        {\n          \"bytes\": 37748736,\n          \"level\": 3,\n          \"max_addressable_logical_sharers\": 128,\n          \"type\": 3\n        }\n      ],\n      \"hybrid_core_type\": 64,\n      \"linux_cpu\": 13,\n      \"mask\": [\n        13\n      ],\n      \"topology\": [\n        {\n          \"logical_count\": 2,\n          \"shift\": 1,\n          \"type\": 1,\n          \"x2apic\": 16\n        },\n        {\n          \"logical_count\": 32,\n          \"shift\": 7,\n          \"type\": 2,\n          \"x2apic\": 16\n        }\n      ],\n      \"x2apic\": 16\n    },\n    {\n      \"caches\": [\n        {\n          \"bytes\": 49152,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 1\n        },\n        {\n          \"bytes\": 32768,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 2\n        },\n        {\n          \"bytes\": 2097152,\n          \"level\": 2,\n          \"max_addressable_logical_sharers\": 8,\n          \"type\": 3\n        },\n        {\n          \"bytes\": 37748736,\n          \"level\": 3,\n          \"max_addressable_logical_sharers\": 128,\n          \"type\": 3\n        }\n      ],\n      \"hybrid_core_type\": 64,\n      \"linux_cpu\": 14,\n      \"mask\": [\n        14\n      ],\n      \"topology\": [\n        {\n          \"logical_count\": 2,\n          \"shift\": 1,\n          \"type\": 1,\n          \"x2apic\": 1\n        },\n        {\n          \"logical_count\": 32,\n          \"shift\": 7,\n          \"type\": 2,\n          \"x2apic\": 1\n        }\n      ],\n      \"x2apic\": 1\n    },\n    {\n      \"caches\": [\n        {\n          \"bytes\": 49152,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 1\n        },\n        {\n          \"bytes\": 32768,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 2\n        },\n        {\n          \"bytes\": 2097152,\n          \"level\": 2,\n          \"max_addressable_logical_sharers\": 8,\n          \"type\": 3\n        },\n        {\n          \"bytes\": 37748736,\n          \"level\": 3,\n          \"max_addressable_logical_sharers\": 128,\n          \"type\": 3\n        }\n      ],\n      \"hybrid_core_type\": 64,\n      \"linux_cpu\": 15,\n      \"mask\": [\n        15\n      ],\n      \"topology\": [\n        {\n          \"logical_count\": 2,\n          \"shift\": 1,\n          \"type\": 1,\n          \"x2apic\": 48\n        },\n        {\n          \"logical_count\": 32,\n          \"shift\": 7,\n          \"type\": 2,\n          \"x2apic\": 48\n        }\n      ],\n      \"x2apic\": 48\n    },\n    {\n      \"caches\": [\n        {\n          \"bytes\": 49152,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 1\n        },\n        {\n          \"bytes\": 32768,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 2\n        },\n        {\n          \"bytes\": 2097152,\n          \"level\": 2,\n          \"max_addressable_logical_sharers\": 8,\n          \"type\": 3\n        },\n        {\n          \"bytes\": 37748736,\n          \"level\": 3,\n          \"max_addressable_logical_sharers\": 128,\n          \"type\": 3\n        }\n      ],\n      \"hybrid_core_type\": 64,\n      \"linux_cpu\": 16,\n      \"mask\": [\n        16\n      ],\n      \"topology\": [\n        {\n          \"logical_count\": 2,\n          \"shift\": 1,\n          \"type\": 1,\n          \"x2apic\": 48\n        },\n        {\n          \"logical_count\": 32,\n          \"shift\": 7,\n          \"type\": 2,\n          \"x2apic\": 48\n        }\n      ],\n      \"x2apic\": 48\n    },\n    {\n      \"caches\": [\n        {\n          \"bytes\": 49152,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 1\n        },\n        {\n          \"bytes\": 32768,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 2\n        },\n        {\n          \"bytes\": 2097152,\n          \"level\": 2,\n          \"max_addressable_logical_sharers\": 8,\n          \"type\": 3\n        },\n        {\n          \"bytes\": 37748736,\n          \"level\": 3,\n          \"max_addressable_logical_sharers\": 128,\n          \"type\": 3\n        }\n      ],\n      \"hybrid_core_type\": 64,\n      \"linux_cpu\": 17,\n      \"mask\": [\n        17\n      ],\n      \"topology\": [\n        {\n          \"logical_count\": 2,\n          \"shift\": 1,\n          \"type\": 1,\n          \"x2apic\": 1\n        },\n        {\n          \"logical_count\": 32,\n          \"shift\": 7,\n          \"type\": 2,\n          \"x2apic\": 1\n        }\n      ],\n      \"x2apic\": 1\n    },\n    {\n      \"caches\": [\n        {\n          \"bytes\": 49152,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 1\n        },\n        {\n          \"bytes\": 32768,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 2\n        },\n        {\n          \"bytes\": 2097152,\n          \"level\": 2,\n          \"max_addressable_logical_sharers\": 8,\n          \"type\": 3\n        },\n        {\n          \"bytes\": 37748736,\n          \"level\": 3,\n          \"max_addressable_logical_sharers\": 128,\n          \"type\": 3\n        }\n      ],\n      \"hybrid_core_type\": 64,\n      \"linux_cpu\": 18,\n      \"mask\": [\n        18\n      ],\n      \"topology\": [\n        {\n          \"logical_count\": 2,\n          \"shift\": 1,\n          \"type\": 1,\n          \"x2apic\": 16\n        },\n        {\n          \"logical_count\": 32,\n          \"shift\": 7,\n          \"type\": 2,\n          \"x2apic\": 16\n        }\n      ],\n      \"x2apic\": 16\n    },\n    {\n      \"caches\": [\n        {\n          \"bytes\": 49152,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 1\n        },\n        {\n          \"bytes\": 32768,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 2\n        },\n        {\n          \"bytes\": 2097152,\n          \"level\": 2,\n          \"max_addressable_logical_sharers\": 8,\n          \"type\": 3\n        },\n        {\n          \"bytes\": 37748736,\n          \"level\": 3,\n          \"max_addressable_logical_sharers\": 128,\n          \"type\": 3\n        }\n      ],\n      \"hybrid_core_type\": 64,\n      \"linux_cpu\": 19,\n      \"mask\": [\n        19\n      ],\n      \"topology\": [\n        {\n          \"logical_count\": 2,\n          \"shift\": 1,\n          \"type\": 1,\n          \"x2apic\": 1\n        },\n        {\n          \"logical_count\": 32,\n          \"shift\": 7,\n          \"type\": 2,\n          \"x2apic\": 1\n        }\n      ],\n      \"x2apic\": 1\n    },\n    {\n      \"caches\": [\n        {\n          \"bytes\": 49152,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 1\n        },\n        {\n          \"bytes\": 32768,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 2\n        },\n        {\n          \"bytes\": 2097152,\n          \"level\": 2,\n          \"max_addressable_logical_sharers\": 8,\n          \"type\": 3\n        },\n        {\n          \"bytes\": 37748736,\n          \"level\": 3,\n          \"max_addressable_logical_sharers\": 128,\n          \"type\": 3\n        }\n      ],\n      \"hybrid_core_type\": 64,\n      \"linux_cpu\": 20,\n      \"mask\": [\n        20\n      ],\n      \"topology\": [\n        {\n          \"logical_count\": 2,\n          \"shift\": 1,\n          \"type\": 1,\n          \"x2apic\": 1\n        },\n        {\n          \"logical_count\": 32,\n          \"shift\": 7,\n          \"type\": 2,\n          \"x2apic\": 1\n        }\n      ],\n      \"x2apic\": 1\n    },\n    {\n      \"caches\": [\n        {\n          \"bytes\": 49152,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 1\n        },\n        {\n          \"bytes\": 32768,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 2\n        },\n        {\n          \"bytes\": 2097152,\n          \"level\": 2,\n          \"max_addressable_logical_sharers\": 8,\n          \"type\": 3\n        },\n        {\n          \"bytes\": 37748736,\n          \"level\": 3,\n          \"max_addressable_logical_sharers\": 128,\n          \"type\": 3\n        }\n      ],\n      \"hybrid_core_type\": 64,\n      \"linux_cpu\": 21,\n      \"mask\": [\n        21\n      ],\n      \"topology\": [\n        {\n          \"logical_count\": 2,\n          \"shift\": 1,\n          \"type\": 1,\n          \"x2apic\": 24\n        },\n        {\n          \"logical_count\": 32,\n          \"shift\": 7,\n          \"type\": 2,\n          \"x2apic\": 24\n        }\n      ],\n      \"x2apic\": 24\n    },\n    {\n      \"caches\": [\n        {\n          \"bytes\": 49152,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 1\n        },\n        {\n          \"bytes\": 32768,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 2\n        },\n        {\n          \"bytes\": 2097152,\n          \"level\": 2,\n          \"max_addressable_logical_sharers\": 8,\n          \"type\": 3\n        },\n        {\n          \"bytes\": 37748736,\n          \"level\": 3,\n          \"max_addressable_logical_sharers\": 128,\n          \"type\": 3\n        }\n      ],\n      \"hybrid_core_type\": 64,\n      \"linux_cpu\": 22,\n      \"mask\": [\n        22\n      ],\n      \"topology\": [\n        {\n          \"logical_count\": 2,\n          \"shift\": 1,\n          \"type\": 1,\n          \"x2apic\": 1\n        },\n        {\n          \"logical_count\": 32,\n          \"shift\": 7,\n          \"type\": 2,\n          \"x2apic\": 1\n        }\n      ],\n      \"x2apic\": 1\n    },\n    {\n      \"caches\": [\n        {\n          \"bytes\": 49152,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 1\n        },\n        {\n          \"bytes\": 32768,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 2\n        },\n        {\n          \"bytes\": 2097152,\n          \"level\": 2,\n          \"max_addressable_logical_sharers\": 8,\n          \"type\": 3\n        },\n        {\n          \"bytes\": 37748736,\n          \"level\": 3,\n          \"max_addressable_logical_sharers\": 128,\n          \"type\": 3\n        }\n      ],\n      \"hybrid_core_type\": 64,\n      \"linux_cpu\": 23,\n      \"mask\": [\n        23\n      ],\n      \"topology\": [\n        {\n          \"logical_count\": 2,\n          \"shift\": 1,\n          \"type\": 1,\n          \"x2apic\": 1\n        },\n        {\n          \"logical_count\": 32,\n          \"shift\": 7,\n          \"type\": 2,\n          \"x2apic\": 1\n        }\n      ],\n      \"x2apic\": 1\n    },\n    {\n      \"caches\": [\n        {\n          \"bytes\": 49152,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 1\n        },\n        {\n          \"bytes\": 32768,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 2\n        },\n        {\n          \"bytes\": 2097152,\n          \"level\": 2,\n          \"max_addressable_logical_sharers\": 8,\n          \"type\": 3\n        },\n        {\n          \"bytes\": 37748736,\n          \"level\": 3,\n          \"max_addressable_logical_sharers\": 128,\n          \"type\": 3\n        }\n      ],\n      \"hybrid_core_type\": 64,\n      \"linux_cpu\": 24,\n      \"mask\": [\n        24\n      ],\n      \"topology\": [\n        {\n          \"logical_count\": 2,\n          \"shift\": 1,\n          \"type\": 1,\n          \"x2apic\": 16\n        },\n        {\n          \"logical_count\": 32,\n          \"shift\": 7,\n          \"type\": 2,\n          \"x2apic\": 16\n        }\n      ],\n      \"x2apic\": 16\n    },\n    {\n      \"caches\": [\n        {\n          \"bytes\": 49152,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 1\n        },\n        {\n          \"bytes\": 32768,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 2\n        },\n        {\n          \"bytes\": 2097152,\n          \"level\": 2,\n          \"max_addressable_logical_sharers\": 8,\n          \"type\": 3\n        },\n        {\n          \"bytes\": 37748736,\n          \"level\": 3,\n          \"max_addressable_logical_sharers\": 128,\n          \"type\": 3\n        }\n      ],\n      \"hybrid_core_type\": 64,\n      \"linux_cpu\": 25,\n      \"mask\": [\n        25\n      ],\n      \"topology\": [\n        {\n          \"logical_count\": 2,\n          \"shift\": 1,\n          \"type\": 1,\n          \"x2apic\": 16\n        },\n        {\n          \"logical_count\": 32,\n          \"shift\": 7,\n          \"type\": 2,\n          \"x2apic\": 16\n        }\n      ],\n      \"x2apic\": 16\n    },\n    {\n      \"caches\": [\n        {\n          \"bytes\": 49152,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 1\n        },\n        {\n          \"bytes\": 32768,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 2\n        },\n        {\n          \"bytes\": 2097152,\n          \"level\": 2,\n          \"max_addressable_logical_sharers\": 8,\n          \"type\": 3\n        },\n        {\n          \"bytes\": 37748736,\n          \"level\": 3,\n          \"max_addressable_logical_sharers\": 128,\n          \"type\": 3\n        }\n      ],\n      \"hybrid_core_type\": 64,\n      \"linux_cpu\": 26,\n      \"mask\": [\n        26\n      ],\n      \"topology\": [\n        {\n          \"logical_count\": 2,\n          \"shift\": 1,\n          \"type\": 1,\n          \"x2apic\": 1\n        },\n        {\n          \"logical_count\": 32,\n          \"shift\": 7,\n          \"type\": 2,\n          \"x2apic\": 1\n        }\n      ],\n      \"x2apic\": 1\n    },\n    {\n      \"caches\": [\n        {\n          \"bytes\": 49152,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 1\n        },\n        {\n          \"bytes\": 32768,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 2\n        },\n        {\n          \"bytes\": 2097152,\n          \"level\": 2,\n          \"max_addressable_logical_sharers\": 8,\n          \"type\": 3\n        },\n        {\n          \"bytes\": 37748736,\n          \"level\": 3,\n          \"max_addressable_logical_sharers\": 128,\n          \"type\": 3\n        }\n      ],\n      \"hybrid_core_type\": 64,\n      \"linux_cpu\": 27,\n      \"mask\": [\n        27\n      ],\n      \"topology\": [\n        {\n          \"logical_count\": 2,\n          \"shift\": 1,\n          \"type\": 1,\n          \"x2apic\": 24\n        },\n        {\n          \"logical_count\": 32,\n          \"shift\": 7,\n          \"type\": 2,\n          \"x2apic\": 24\n        }\n      ],\n      \"x2apic\": 24\n    },\n    {\n      \"caches\": [\n        {\n          \"bytes\": 49152,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 1\n        },\n        {\n          \"bytes\": 32768,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 2\n        },\n        {\n          \"bytes\": 2097152,\n          \"level\": 2,\n          \"max_addressable_logical_sharers\": 8,\n          \"type\": 3\n        },\n        {\n          \"bytes\": 37748736,\n          \"level\": 3,\n          \"max_addressable_logical_sharers\": 128,\n          \"type\": 3\n        }\n      ],\n      \"hybrid_core_type\": 64,\n      \"linux_cpu\": 28,\n      \"mask\": [\n        28\n      ],\n      \"topology\": [\n        {\n          \"logical_count\": 2,\n          \"shift\": 1,\n          \"type\": 1,\n          \"x2apic\": 16\n        },\n        {\n          \"logical_count\": 32,\n          \"shift\": 7,\n          \"type\": 2,\n          \"x2apic\": 16\n        }\n      ],\n      \"x2apic\": 16\n    },\n    {\n      \"caches\": [\n        {\n          \"bytes\": 49152,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 1\n        },\n        {\n          \"bytes\": 32768,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 2\n        },\n        {\n          \"bytes\": 2097152,\n          \"level\": 2,\n          \"max_addressable_logical_sharers\": 8,\n          \"type\": 3\n        },\n        {\n          \"bytes\": 37748736,\n          \"level\": 3,\n          \"max_addressable_logical_sharers\": 128,\n          \"type\": 3\n        }\n      ],\n      \"hybrid_core_type\": 64,\n      \"linux_cpu\": 29,\n      \"mask\": [\n        29\n      ],\n      \"topology\": [\n        {\n          \"logical_count\": 2,\n          \"shift\": 1,\n          \"type\": 1,\n          \"x2apic\": 1\n        },\n        {\n          \"logical_count\": 32,\n          \"shift\": 7,\n          \"type\": 2,\n          \"x2apic\": 1\n        }\n      ],\n      \"x2apic\": 1\n    },\n    {\n      \"caches\": [\n        {\n          \"bytes\": 49152,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 1\n        },\n        {\n          \"bytes\": 32768,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 2\n        },\n        {\n          \"bytes\": 2097152,\n          \"level\": 2,\n          \"max_addressable_logical_sharers\": 8,\n          \"type\": 3\n        },\n        {\n          \"bytes\": 37748736,\n          \"level\": 3,\n          \"max_addressable_logical_sharers\": 128,\n          \"type\": 3\n        }\n      ],\n      \"hybrid_core_type\": 64,\n      \"linux_cpu\": 30,\n      \"mask\": [\n        30\n      ],\n      \"topology\": [\n        {\n          \"logical_count\": 2,\n          \"shift\": 1,\n          \"type\": 1,\n          \"x2apic\": 1\n        },\n        {\n          \"logical_count\": 32,\n          \"shift\": 7,\n          \"type\": 2,\n          \"x2apic\": 1\n        }\n      ],\n      \"x2apic\": 1\n    },\n    {\n      \"caches\": [\n        {\n          \"bytes\": 49152,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 1\n        },\n        {\n          \"bytes\": 32768,\n          \"level\": 1,\n          \"max_addressable_logical_sharers\": 2,\n          \"type\": 2\n        },\n        {\n          \"bytes\": 2097152,\n          \"level\": 2,\n          \"max_addressable_logical_sharers\": 8,\n          \"type\": 3\n        },\n        {\n          \"bytes\": 37748736,\n          \"level\": 3,\n          \"max_addressable_logical_sharers\": 128,\n          \"type\": 3\n        }\n      ],\n      \"hybrid_core_type\": 64,\n      \"linux_cpu\": 31,\n      \"mask\": [\n        31\n      ],\n      \"topology\": [\n        {\n          \"logical_count\": 2,\n          \"shift\": 1,\n          \"type\": 1,\n          \"x2apic\": 24\n        },\n        {\n          \"logical_count\": 32,\n          \"shift\": 7,\n          \"type\": 2,\n          \"x2apic\": 24\n        }\n      ],\n      \"x2apic\": 24\n    }\n  ],\n  \"kernel\": \"4.4.0-26100-Microsoft\",\n  \"machine\": \"x86_64\",\n  \"source\": \"CPUID leaves 4, 0x1f/0xb, 0x1a executed after verified singleton sched_setaffinity\"\n}\n",
+    "stderr": "",
+    "parsed": {
+      "allowed": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "cpus": [
+        {
+          "caches": [
+            {
+              "bytes": 49152,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 1
+            },
+            {
+              "bytes": 32768,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 2
+            },
+            {
+              "bytes": 2097152,
+              "level": 2,
+              "max_addressable_logical_sharers": 8,
+              "type": 3
+            },
+            {
+              "bytes": 37748736,
+              "level": 3,
+              "max_addressable_logical_sharers": 128,
+              "type": 3
+            }
+          ],
+          "hybrid_core_type": 64,
+          "linux_cpu": 0,
+          "mask": [
+            0
+          ],
+          "topology": [
+            {
+              "logical_count": 2,
+              "shift": 1,
+              "type": 1,
+              "x2apic": 24
+            },
+            {
+              "logical_count": 32,
+              "shift": 7,
+              "type": 2,
+              "x2apic": 24
+            }
+          ],
+          "x2apic": 24
+        },
+        {
+          "caches": [
+            {
+              "bytes": 49152,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 1
+            },
+            {
+              "bytes": 32768,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 2
+            },
+            {
+              "bytes": 2097152,
+              "level": 2,
+              "max_addressable_logical_sharers": 8,
+              "type": 3
+            },
+            {
+              "bytes": 37748736,
+              "level": 3,
+              "max_addressable_logical_sharers": 128,
+              "type": 3
+            }
+          ],
+          "hybrid_core_type": 64,
+          "linux_cpu": 1,
+          "mask": [
+            1
+          ],
+          "topology": [
+            {
+              "logical_count": 2,
+              "shift": 1,
+              "type": 1,
+              "x2apic": 33
+            },
+            {
+              "logical_count": 32,
+              "shift": 7,
+              "type": 2,
+              "x2apic": 33
+            }
+          ],
+          "x2apic": 33
+        },
+        {
+          "caches": [
+            {
+              "bytes": 49152,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 1
+            },
+            {
+              "bytes": 32768,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 2
+            },
+            {
+              "bytes": 2097152,
+              "level": 2,
+              "max_addressable_logical_sharers": 8,
+              "type": 3
+            },
+            {
+              "bytes": 37748736,
+              "level": 3,
+              "max_addressable_logical_sharers": 128,
+              "type": 3
+            }
+          ],
+          "hybrid_core_type": 64,
+          "linux_cpu": 2,
+          "mask": [
+            2
+          ],
+          "topology": [
+            {
+              "logical_count": 2,
+              "shift": 1,
+              "type": 1,
+              "x2apic": 48
+            },
+            {
+              "logical_count": 32,
+              "shift": 7,
+              "type": 2,
+              "x2apic": 48
+            }
+          ],
+          "x2apic": 48
+        },
+        {
+          "caches": [
+            {
+              "bytes": 49152,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 1
+            },
+            {
+              "bytes": 32768,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 2
+            },
+            {
+              "bytes": 2097152,
+              "level": 2,
+              "max_addressable_logical_sharers": 8,
+              "type": 3
+            },
+            {
+              "bytes": 37748736,
+              "level": 3,
+              "max_addressable_logical_sharers": 128,
+              "type": 3
+            }
+          ],
+          "hybrid_core_type": 64,
+          "linux_cpu": 3,
+          "mask": [
+            3
+          ],
+          "topology": [
+            {
+              "logical_count": 2,
+              "shift": 1,
+              "type": 1,
+              "x2apic": 41
+            },
+            {
+              "logical_count": 32,
+              "shift": 7,
+              "type": 2,
+              "x2apic": 41
+            }
+          ],
+          "x2apic": 41
+        },
+        {
+          "caches": [
+            {
+              "bytes": 49152,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 1
+            },
+            {
+              "bytes": 32768,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 2
+            },
+            {
+              "bytes": 2097152,
+              "level": 2,
+              "max_addressable_logical_sharers": 8,
+              "type": 3
+            },
+            {
+              "bytes": 37748736,
+              "level": 3,
+              "max_addressable_logical_sharers": 128,
+              "type": 3
+            }
+          ],
+          "hybrid_core_type": 64,
+          "linux_cpu": 4,
+          "mask": [
+            4
+          ],
+          "topology": [
+            {
+              "logical_count": 2,
+              "shift": 1,
+              "type": 1,
+              "x2apic": 33
+            },
+            {
+              "logical_count": 32,
+              "shift": 7,
+              "type": 2,
+              "x2apic": 33
+            }
+          ],
+          "x2apic": 33
+        },
+        {
+          "caches": [
+            {
+              "bytes": 49152,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 1
+            },
+            {
+              "bytes": 32768,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 2
+            },
+            {
+              "bytes": 2097152,
+              "level": 2,
+              "max_addressable_logical_sharers": 8,
+              "type": 3
+            },
+            {
+              "bytes": 37748736,
+              "level": 3,
+              "max_addressable_logical_sharers": 128,
+              "type": 3
+            }
+          ],
+          "hybrid_core_type": 64,
+          "linux_cpu": 5,
+          "mask": [
+            5
+          ],
+          "topology": [
+            {
+              "logical_count": 2,
+              "shift": 1,
+              "type": 1,
+              "x2apic": 33
+            },
+            {
+              "logical_count": 32,
+              "shift": 7,
+              "type": 2,
+              "x2apic": 33
+            }
+          ],
+          "x2apic": 33
+        },
+        {
+          "caches": [
+            {
+              "bytes": 49152,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 1
+            },
+            {
+              "bytes": 32768,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 2
+            },
+            {
+              "bytes": 2097152,
+              "level": 2,
+              "max_addressable_logical_sharers": 8,
+              "type": 3
+            },
+            {
+              "bytes": 37748736,
+              "level": 3,
+              "max_addressable_logical_sharers": 128,
+              "type": 3
+            }
+          ],
+          "hybrid_core_type": 64,
+          "linux_cpu": 6,
+          "mask": [
+            6
+          ],
+          "topology": [
+            {
+              "logical_count": 2,
+              "shift": 1,
+              "type": 1,
+              "x2apic": 24
+            },
+            {
+              "logical_count": 32,
+              "shift": 7,
+              "type": 2,
+              "x2apic": 24
+            }
+          ],
+          "x2apic": 24
+        },
+        {
+          "caches": [
+            {
+              "bytes": 49152,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 1
+            },
+            {
+              "bytes": 32768,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 2
+            },
+            {
+              "bytes": 2097152,
+              "level": 2,
+              "max_addressable_logical_sharers": 8,
+              "type": 3
+            },
+            {
+              "bytes": 37748736,
+              "level": 3,
+              "max_addressable_logical_sharers": 128,
+              "type": 3
+            }
+          ],
+          "hybrid_core_type": 64,
+          "linux_cpu": 7,
+          "mask": [
+            7
+          ],
+          "topology": [
+            {
+              "logical_count": 2,
+              "shift": 1,
+              "type": 1,
+              "x2apic": 56
+            },
+            {
+              "logical_count": 32,
+              "shift": 7,
+              "type": 2,
+              "x2apic": 56
+            }
+          ],
+          "x2apic": 56
+        },
+        {
+          "caches": [
+            {
+              "bytes": 49152,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 1
+            },
+            {
+              "bytes": 32768,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 2
+            },
+            {
+              "bytes": 2097152,
+              "level": 2,
+              "max_addressable_logical_sharers": 8,
+              "type": 3
+            },
+            {
+              "bytes": 37748736,
+              "level": 3,
+              "max_addressable_logical_sharers": 128,
+              "type": 3
+            }
+          ],
+          "hybrid_core_type": 64,
+          "linux_cpu": 8,
+          "mask": [
+            8
+          ],
+          "topology": [
+            {
+              "logical_count": 2,
+              "shift": 1,
+              "type": 1,
+              "x2apic": 24
+            },
+            {
+              "logical_count": 32,
+              "shift": 7,
+              "type": 2,
+              "x2apic": 24
+            }
+          ],
+          "x2apic": 24
+        },
+        {
+          "caches": [
+            {
+              "bytes": 49152,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 1
+            },
+            {
+              "bytes": 32768,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 2
+            },
+            {
+              "bytes": 2097152,
+              "level": 2,
+              "max_addressable_logical_sharers": 8,
+              "type": 3
+            },
+            {
+              "bytes": 37748736,
+              "level": 3,
+              "max_addressable_logical_sharers": 128,
+              "type": 3
+            }
+          ],
+          "hybrid_core_type": 64,
+          "linux_cpu": 9,
+          "mask": [
+            9
+          ],
+          "topology": [
+            {
+              "logical_count": 2,
+              "shift": 1,
+              "type": 1,
+              "x2apic": 33
+            },
+            {
+              "logical_count": 32,
+              "shift": 7,
+              "type": 2,
+              "x2apic": 33
+            }
+          ],
+          "x2apic": 33
+        },
+        {
+          "caches": [
+            {
+              "bytes": 49152,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 1
+            },
+            {
+              "bytes": 32768,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 2
+            },
+            {
+              "bytes": 2097152,
+              "level": 2,
+              "max_addressable_logical_sharers": 8,
+              "type": 3
+            },
+            {
+              "bytes": 37748736,
+              "level": 3,
+              "max_addressable_logical_sharers": 128,
+              "type": 3
+            }
+          ],
+          "hybrid_core_type": 64,
+          "linux_cpu": 10,
+          "mask": [
+            10
+          ],
+          "topology": [
+            {
+              "logical_count": 2,
+              "shift": 1,
+              "type": 1,
+              "x2apic": 33
+            },
+            {
+              "logical_count": 32,
+              "shift": 7,
+              "type": 2,
+              "x2apic": 33
+            }
+          ],
+          "x2apic": 33
+        },
+        {
+          "caches": [
+            {
+              "bytes": 49152,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 1
+            },
+            {
+              "bytes": 32768,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 2
+            },
+            {
+              "bytes": 2097152,
+              "level": 2,
+              "max_addressable_logical_sharers": 8,
+              "type": 3
+            },
+            {
+              "bytes": 37748736,
+              "level": 3,
+              "max_addressable_logical_sharers": 128,
+              "type": 3
+            }
+          ],
+          "hybrid_core_type": 64,
+          "linux_cpu": 11,
+          "mask": [
+            11
+          ],
+          "topology": [
+            {
+              "logical_count": 2,
+              "shift": 1,
+              "type": 1,
+              "x2apic": 33
+            },
+            {
+              "logical_count": 32,
+              "shift": 7,
+              "type": 2,
+              "x2apic": 33
+            }
+          ],
+          "x2apic": 33
+        },
+        {
+          "caches": [
+            {
+              "bytes": 49152,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 1
+            },
+            {
+              "bytes": 32768,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 2
+            },
+            {
+              "bytes": 2097152,
+              "level": 2,
+              "max_addressable_logical_sharers": 8,
+              "type": 3
+            },
+            {
+              "bytes": 37748736,
+              "level": 3,
+              "max_addressable_logical_sharers": 128,
+              "type": 3
+            }
+          ],
+          "hybrid_core_type": 64,
+          "linux_cpu": 12,
+          "mask": [
+            12
+          ],
+          "topology": [
+            {
+              "logical_count": 2,
+              "shift": 1,
+              "type": 1,
+              "x2apic": 1
+            },
+            {
+              "logical_count": 32,
+              "shift": 7,
+              "type": 2,
+              "x2apic": 1
+            }
+          ],
+          "x2apic": 1
+        },
+        {
+          "caches": [
+            {
+              "bytes": 49152,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 1
+            },
+            {
+              "bytes": 32768,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 2
+            },
+            {
+              "bytes": 2097152,
+              "level": 2,
+              "max_addressable_logical_sharers": 8,
+              "type": 3
+            },
+            {
+              "bytes": 37748736,
+              "level": 3,
+              "max_addressable_logical_sharers": 128,
+              "type": 3
+            }
+          ],
+          "hybrid_core_type": 64,
+          "linux_cpu": 13,
+          "mask": [
+            13
+          ],
+          "topology": [
+            {
+              "logical_count": 2,
+              "shift": 1,
+              "type": 1,
+              "x2apic": 16
+            },
+            {
+              "logical_count": 32,
+              "shift": 7,
+              "type": 2,
+              "x2apic": 16
+            }
+          ],
+          "x2apic": 16
+        },
+        {
+          "caches": [
+            {
+              "bytes": 49152,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 1
+            },
+            {
+              "bytes": 32768,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 2
+            },
+            {
+              "bytes": 2097152,
+              "level": 2,
+              "max_addressable_logical_sharers": 8,
+              "type": 3
+            },
+            {
+              "bytes": 37748736,
+              "level": 3,
+              "max_addressable_logical_sharers": 128,
+              "type": 3
+            }
+          ],
+          "hybrid_core_type": 64,
+          "linux_cpu": 14,
+          "mask": [
+            14
+          ],
+          "topology": [
+            {
+              "logical_count": 2,
+              "shift": 1,
+              "type": 1,
+              "x2apic": 1
+            },
+            {
+              "logical_count": 32,
+              "shift": 7,
+              "type": 2,
+              "x2apic": 1
+            }
+          ],
+          "x2apic": 1
+        },
+        {
+          "caches": [
+            {
+              "bytes": 49152,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 1
+            },
+            {
+              "bytes": 32768,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 2
+            },
+            {
+              "bytes": 2097152,
+              "level": 2,
+              "max_addressable_logical_sharers": 8,
+              "type": 3
+            },
+            {
+              "bytes": 37748736,
+              "level": 3,
+              "max_addressable_logical_sharers": 128,
+              "type": 3
+            }
+          ],
+          "hybrid_core_type": 64,
+          "linux_cpu": 15,
+          "mask": [
+            15
+          ],
+          "topology": [
+            {
+              "logical_count": 2,
+              "shift": 1,
+              "type": 1,
+              "x2apic": 48
+            },
+            {
+              "logical_count": 32,
+              "shift": 7,
+              "type": 2,
+              "x2apic": 48
+            }
+          ],
+          "x2apic": 48
+        },
+        {
+          "caches": [
+            {
+              "bytes": 49152,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 1
+            },
+            {
+              "bytes": 32768,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 2
+            },
+            {
+              "bytes": 2097152,
+              "level": 2,
+              "max_addressable_logical_sharers": 8,
+              "type": 3
+            },
+            {
+              "bytes": 37748736,
+              "level": 3,
+              "max_addressable_logical_sharers": 128,
+              "type": 3
+            }
+          ],
+          "hybrid_core_type": 64,
+          "linux_cpu": 16,
+          "mask": [
+            16
+          ],
+          "topology": [
+            {
+              "logical_count": 2,
+              "shift": 1,
+              "type": 1,
+              "x2apic": 48
+            },
+            {
+              "logical_count": 32,
+              "shift": 7,
+              "type": 2,
+              "x2apic": 48
+            }
+          ],
+          "x2apic": 48
+        },
+        {
+          "caches": [
+            {
+              "bytes": 49152,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 1
+            },
+            {
+              "bytes": 32768,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 2
+            },
+            {
+              "bytes": 2097152,
+              "level": 2,
+              "max_addressable_logical_sharers": 8,
+              "type": 3
+            },
+            {
+              "bytes": 37748736,
+              "level": 3,
+              "max_addressable_logical_sharers": 128,
+              "type": 3
+            }
+          ],
+          "hybrid_core_type": 64,
+          "linux_cpu": 17,
+          "mask": [
+            17
+          ],
+          "topology": [
+            {
+              "logical_count": 2,
+              "shift": 1,
+              "type": 1,
+              "x2apic": 1
+            },
+            {
+              "logical_count": 32,
+              "shift": 7,
+              "type": 2,
+              "x2apic": 1
+            }
+          ],
+          "x2apic": 1
+        },
+        {
+          "caches": [
+            {
+              "bytes": 49152,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 1
+            },
+            {
+              "bytes": 32768,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 2
+            },
+            {
+              "bytes": 2097152,
+              "level": 2,
+              "max_addressable_logical_sharers": 8,
+              "type": 3
+            },
+            {
+              "bytes": 37748736,
+              "level": 3,
+              "max_addressable_logical_sharers": 128,
+              "type": 3
+            }
+          ],
+          "hybrid_core_type": 64,
+          "linux_cpu": 18,
+          "mask": [
+            18
+          ],
+          "topology": [
+            {
+              "logical_count": 2,
+              "shift": 1,
+              "type": 1,
+              "x2apic": 16
+            },
+            {
+              "logical_count": 32,
+              "shift": 7,
+              "type": 2,
+              "x2apic": 16
+            }
+          ],
+          "x2apic": 16
+        },
+        {
+          "caches": [
+            {
+              "bytes": 49152,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 1
+            },
+            {
+              "bytes": 32768,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 2
+            },
+            {
+              "bytes": 2097152,
+              "level": 2,
+              "max_addressable_logical_sharers": 8,
+              "type": 3
+            },
+            {
+              "bytes": 37748736,
+              "level": 3,
+              "max_addressable_logical_sharers": 128,
+              "type": 3
+            }
+          ],
+          "hybrid_core_type": 64,
+          "linux_cpu": 19,
+          "mask": [
+            19
+          ],
+          "topology": [
+            {
+              "logical_count": 2,
+              "shift": 1,
+              "type": 1,
+              "x2apic": 1
+            },
+            {
+              "logical_count": 32,
+              "shift": 7,
+              "type": 2,
+              "x2apic": 1
+            }
+          ],
+          "x2apic": 1
+        },
+        {
+          "caches": [
+            {
+              "bytes": 49152,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 1
+            },
+            {
+              "bytes": 32768,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 2
+            },
+            {
+              "bytes": 2097152,
+              "level": 2,
+              "max_addressable_logical_sharers": 8,
+              "type": 3
+            },
+            {
+              "bytes": 37748736,
+              "level": 3,
+              "max_addressable_logical_sharers": 128,
+              "type": 3
+            }
+          ],
+          "hybrid_core_type": 64,
+          "linux_cpu": 20,
+          "mask": [
+            20
+          ],
+          "topology": [
+            {
+              "logical_count": 2,
+              "shift": 1,
+              "type": 1,
+              "x2apic": 1
+            },
+            {
+              "logical_count": 32,
+              "shift": 7,
+              "type": 2,
+              "x2apic": 1
+            }
+          ],
+          "x2apic": 1
+        },
+        {
+          "caches": [
+            {
+              "bytes": 49152,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 1
+            },
+            {
+              "bytes": 32768,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 2
+            },
+            {
+              "bytes": 2097152,
+              "level": 2,
+              "max_addressable_logical_sharers": 8,
+              "type": 3
+            },
+            {
+              "bytes": 37748736,
+              "level": 3,
+              "max_addressable_logical_sharers": 128,
+              "type": 3
+            }
+          ],
+          "hybrid_core_type": 64,
+          "linux_cpu": 21,
+          "mask": [
+            21
+          ],
+          "topology": [
+            {
+              "logical_count": 2,
+              "shift": 1,
+              "type": 1,
+              "x2apic": 24
+            },
+            {
+              "logical_count": 32,
+              "shift": 7,
+              "type": 2,
+              "x2apic": 24
+            }
+          ],
+          "x2apic": 24
+        },
+        {
+          "caches": [
+            {
+              "bytes": 49152,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 1
+            },
+            {
+              "bytes": 32768,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 2
+            },
+            {
+              "bytes": 2097152,
+              "level": 2,
+              "max_addressable_logical_sharers": 8,
+              "type": 3
+            },
+            {
+              "bytes": 37748736,
+              "level": 3,
+              "max_addressable_logical_sharers": 128,
+              "type": 3
+            }
+          ],
+          "hybrid_core_type": 64,
+          "linux_cpu": 22,
+          "mask": [
+            22
+          ],
+          "topology": [
+            {
+              "logical_count": 2,
+              "shift": 1,
+              "type": 1,
+              "x2apic": 1
+            },
+            {
+              "logical_count": 32,
+              "shift": 7,
+              "type": 2,
+              "x2apic": 1
+            }
+          ],
+          "x2apic": 1
+        },
+        {
+          "caches": [
+            {
+              "bytes": 49152,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 1
+            },
+            {
+              "bytes": 32768,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 2
+            },
+            {
+              "bytes": 2097152,
+              "level": 2,
+              "max_addressable_logical_sharers": 8,
+              "type": 3
+            },
+            {
+              "bytes": 37748736,
+              "level": 3,
+              "max_addressable_logical_sharers": 128,
+              "type": 3
+            }
+          ],
+          "hybrid_core_type": 64,
+          "linux_cpu": 23,
+          "mask": [
+            23
+          ],
+          "topology": [
+            {
+              "logical_count": 2,
+              "shift": 1,
+              "type": 1,
+              "x2apic": 1
+            },
+            {
+              "logical_count": 32,
+              "shift": 7,
+              "type": 2,
+              "x2apic": 1
+            }
+          ],
+          "x2apic": 1
+        },
+        {
+          "caches": [
+            {
+              "bytes": 49152,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 1
+            },
+            {
+              "bytes": 32768,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 2
+            },
+            {
+              "bytes": 2097152,
+              "level": 2,
+              "max_addressable_logical_sharers": 8,
+              "type": 3
+            },
+            {
+              "bytes": 37748736,
+              "level": 3,
+              "max_addressable_logical_sharers": 128,
+              "type": 3
+            }
+          ],
+          "hybrid_core_type": 64,
+          "linux_cpu": 24,
+          "mask": [
+            24
+          ],
+          "topology": [
+            {
+              "logical_count": 2,
+              "shift": 1,
+              "type": 1,
+              "x2apic": 16
+            },
+            {
+              "logical_count": 32,
+              "shift": 7,
+              "type": 2,
+              "x2apic": 16
+            }
+          ],
+          "x2apic": 16
+        },
+        {
+          "caches": [
+            {
+              "bytes": 49152,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 1
+            },
+            {
+              "bytes": 32768,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 2
+            },
+            {
+              "bytes": 2097152,
+              "level": 2,
+              "max_addressable_logical_sharers": 8,
+              "type": 3
+            },
+            {
+              "bytes": 37748736,
+              "level": 3,
+              "max_addressable_logical_sharers": 128,
+              "type": 3
+            }
+          ],
+          "hybrid_core_type": 64,
+          "linux_cpu": 25,
+          "mask": [
+            25
+          ],
+          "topology": [
+            {
+              "logical_count": 2,
+              "shift": 1,
+              "type": 1,
+              "x2apic": 16
+            },
+            {
+              "logical_count": 32,
+              "shift": 7,
+              "type": 2,
+              "x2apic": 16
+            }
+          ],
+          "x2apic": 16
+        },
+        {
+          "caches": [
+            {
+              "bytes": 49152,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 1
+            },
+            {
+              "bytes": 32768,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 2
+            },
+            {
+              "bytes": 2097152,
+              "level": 2,
+              "max_addressable_logical_sharers": 8,
+              "type": 3
+            },
+            {
+              "bytes": 37748736,
+              "level": 3,
+              "max_addressable_logical_sharers": 128,
+              "type": 3
+            }
+          ],
+          "hybrid_core_type": 64,
+          "linux_cpu": 26,
+          "mask": [
+            26
+          ],
+          "topology": [
+            {
+              "logical_count": 2,
+              "shift": 1,
+              "type": 1,
+              "x2apic": 1
+            },
+            {
+              "logical_count": 32,
+              "shift": 7,
+              "type": 2,
+              "x2apic": 1
+            }
+          ],
+          "x2apic": 1
+        },
+        {
+          "caches": [
+            {
+              "bytes": 49152,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 1
+            },
+            {
+              "bytes": 32768,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 2
+            },
+            {
+              "bytes": 2097152,
+              "level": 2,
+              "max_addressable_logical_sharers": 8,
+              "type": 3
+            },
+            {
+              "bytes": 37748736,
+              "level": 3,
+              "max_addressable_logical_sharers": 128,
+              "type": 3
+            }
+          ],
+          "hybrid_core_type": 64,
+          "linux_cpu": 27,
+          "mask": [
+            27
+          ],
+          "topology": [
+            {
+              "logical_count": 2,
+              "shift": 1,
+              "type": 1,
+              "x2apic": 24
+            },
+            {
+              "logical_count": 32,
+              "shift": 7,
+              "type": 2,
+              "x2apic": 24
+            }
+          ],
+          "x2apic": 24
+        },
+        {
+          "caches": [
+            {
+              "bytes": 49152,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 1
+            },
+            {
+              "bytes": 32768,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 2
+            },
+            {
+              "bytes": 2097152,
+              "level": 2,
+              "max_addressable_logical_sharers": 8,
+              "type": 3
+            },
+            {
+              "bytes": 37748736,
+              "level": 3,
+              "max_addressable_logical_sharers": 128,
+              "type": 3
+            }
+          ],
+          "hybrid_core_type": 64,
+          "linux_cpu": 28,
+          "mask": [
+            28
+          ],
+          "topology": [
+            {
+              "logical_count": 2,
+              "shift": 1,
+              "type": 1,
+              "x2apic": 16
+            },
+            {
+              "logical_count": 32,
+              "shift": 7,
+              "type": 2,
+              "x2apic": 16
+            }
+          ],
+          "x2apic": 16
+        },
+        {
+          "caches": [
+            {
+              "bytes": 49152,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 1
+            },
+            {
+              "bytes": 32768,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 2
+            },
+            {
+              "bytes": 2097152,
+              "level": 2,
+              "max_addressable_logical_sharers": 8,
+              "type": 3
+            },
+            {
+              "bytes": 37748736,
+              "level": 3,
+              "max_addressable_logical_sharers": 128,
+              "type": 3
+            }
+          ],
+          "hybrid_core_type": 64,
+          "linux_cpu": 29,
+          "mask": [
+            29
+          ],
+          "topology": [
+            {
+              "logical_count": 2,
+              "shift": 1,
+              "type": 1,
+              "x2apic": 1
+            },
+            {
+              "logical_count": 32,
+              "shift": 7,
+              "type": 2,
+              "x2apic": 1
+            }
+          ],
+          "x2apic": 1
+        },
+        {
+          "caches": [
+            {
+              "bytes": 49152,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 1
+            },
+            {
+              "bytes": 32768,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 2
+            },
+            {
+              "bytes": 2097152,
+              "level": 2,
+              "max_addressable_logical_sharers": 8,
+              "type": 3
+            },
+            {
+              "bytes": 37748736,
+              "level": 3,
+              "max_addressable_logical_sharers": 128,
+              "type": 3
+            }
+          ],
+          "hybrid_core_type": 64,
+          "linux_cpu": 30,
+          "mask": [
+            30
+          ],
+          "topology": [
+            {
+              "logical_count": 2,
+              "shift": 1,
+              "type": 1,
+              "x2apic": 1
+            },
+            {
+              "logical_count": 32,
+              "shift": 7,
+              "type": 2,
+              "x2apic": 1
+            }
+          ],
+          "x2apic": 1
+        },
+        {
+          "caches": [
+            {
+              "bytes": 49152,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 1
+            },
+            {
+              "bytes": 32768,
+              "level": 1,
+              "max_addressable_logical_sharers": 2,
+              "type": 2
+            },
+            {
+              "bytes": 2097152,
+              "level": 2,
+              "max_addressable_logical_sharers": 8,
+              "type": 3
+            },
+            {
+              "bytes": 37748736,
+              "level": 3,
+              "max_addressable_logical_sharers": 128,
+              "type": 3
+            }
+          ],
+          "hybrid_core_type": 64,
+          "linux_cpu": 31,
+          "mask": [
+            31
+          ],
+          "topology": [
+            {
+              "logical_count": 2,
+              "shift": 1,
+              "type": 1,
+              "x2apic": 24
+            },
+            {
+              "logical_count": 32,
+              "shift": 7,
+              "type": 2,
+              "x2apic": 24
+            }
+          ],
+          "x2apic": 24
+        }
+      ],
+      "kernel": "4.4.0-26100-Microsoft",
+      "machine": "x86_64",
+      "source": "CPUID leaves 4, 0x1f/0xb, 0x1a executed after verified singleton sched_setaffinity"
+    }
+  },
+  "affinity_limit": "WSL1 singleton masks are verified, but CPUID APIC IDs were not stable per logical mask; physical placement is unproven",
+  "cache_limit": "CPUID leaf4 reports 36 MiB LLC; Windows CIM corroborated total, per-worker sharing/mapping unproven"
+}

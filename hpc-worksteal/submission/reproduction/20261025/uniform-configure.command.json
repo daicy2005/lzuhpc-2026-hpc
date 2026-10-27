@@ -1,0 +1,17 @@
+{
+  "label": "uniform-configure",
+  "argv": [
+    "cmake",
+    "-S",
+    "/root/lzuhpc-experiments/ws-20261025-submission-native",
+    "-B",
+    "/root/lzuhpc-experiments/ws-20261025-submission-native/build-uniform",
+    "-DCMAKE_BUILD_TYPE=Release",
+    "-DWS_COMPLETION_BATCH=1",
+    "-DWS_STEAL_SCRATCH=OFF",
+    "-DWS_ENABLE_IPO=ON",
+    "-DWS_COMPUTE_LANES=8"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 1.3801026999999948
+}

@@ -1,0 +1,5042 @@
+[
+  {
+    "run_id": "0000-control-s99041-g8-concentrated-off-r0-e33bad",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s99041-g8-concentrated-off",
+    "purpose": "control",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:17.071482+00:00",
+    "ended": "2026-10-22T09:06:17.084007+00:00",
+    "elapsed_process_seconds": 0.012522100000012415,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7.1e-06,
+      "end_to_end_seconds": 0.0031976,
+      "epoch_seconds": 0.0002366,
+      "setup_seconds": 0.0017602
+    },
+    "included": false
+  },
+  {
+    "run_id": "0001-control-s99041-g8-concentrated-on-r0-8179a5",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s99041-g8-concentrated-on",
+    "purpose": "control",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:17.127806+00:00",
+    "ended": "2026-10-22T09:06:17.142941+00:00",
+    "elapsed_process_seconds": 0.015137299999992138,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 9.4e-06,
+      "end_to_end_seconds": 0.0038263,
+      "epoch_seconds": 0.0006117,
+      "setup_seconds": 0.0016619
+    },
+    "included": false
+  },
+  {
+    "run_id": "0002-control-s99041-g8-spread-off-r0-bf18fc",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s99041-g8-spread-off",
+    "purpose": "control",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:17.178808+00:00",
+    "ended": "2026-10-22T09:06:17.191895+00:00",
+    "elapsed_process_seconds": 0.013088299999992614,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7.4e-06,
+      "end_to_end_seconds": 0.0030236,
+      "epoch_seconds": 0.0002821,
+      "setup_seconds": 0.0014536
+    },
+    "included": false
+  },
+  {
+    "run_id": "0003-control-s99041-g8-spread-on-r0-6f423a",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s99041-g8-spread-on",
+    "purpose": "control",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:17.221792+00:00",
+    "ended": "2026-10-22T09:06:17.234233+00:00",
+    "elapsed_process_seconds": 0.012442499999991696,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2.63e-05,
+      "end_to_end_seconds": 0.0029849,
+      "epoch_seconds": 9.55e-05,
+      "setup_seconds": 0.0014283
+    },
+    "included": false
+  },
+  {
+    "run_id": "0004-control-s99041-g256-concentrated-off-r0-4b9111",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s99041-g256-concentrated-off",
+    "purpose": "control",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:17.265825+00:00",
+    "ended": "2026-10-22T09:06:17.280108+00:00",
+    "elapsed_process_seconds": 0.014283499999976357,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7.4e-06,
+      "end_to_end_seconds": 0.0032486,
+      "epoch_seconds": 0.0001928,
+      "setup_seconds": 0.0013568
+    },
+    "included": false
+  },
+  {
+    "run_id": "0005-control-s99041-g256-concentrated-on-r0-fb4522",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s99041-g256-concentrated-on",
+    "purpose": "control",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:17.314800+00:00",
+    "ended": "2026-10-22T09:06:17.327286+00:00",
+    "elapsed_process_seconds": 0.012484299999982795,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7.1e-06,
+      "end_to_end_seconds": 0.0025029,
+      "epoch_seconds": 6.49e-05,
+      "setup_seconds": 0.0012528
+    },
+    "included": false
+  },
+  {
+    "run_id": "0006-control-s99041-g256-spread-off-r0-249821",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s99041-g256-spread-off",
+    "purpose": "control",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:17.361996+00:00",
+    "ended": "2026-10-22T09:06:17.376768+00:00",
+    "elapsed_process_seconds": 0.01476329999999848,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 9.4e-06,
+      "end_to_end_seconds": 0.0030287,
+      "epoch_seconds": 7.17e-05,
+      "setup_seconds": 0.0014671
+    },
+    "included": false
+  },
+  {
+    "run_id": "0007-control-s99041-g256-spread-on-r0-ad262d",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s99041-g256-spread-on",
+    "purpose": "control",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:17.407748+00:00",
+    "ended": "2026-10-22T09:06:17.421336+00:00",
+    "elapsed_process_seconds": 0.01358880000000795,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 9.3e-06,
+      "end_to_end_seconds": 0.0035449,
+      "epoch_seconds": 8.6e-05,
+      "setup_seconds": 0.0014735
+    },
+    "included": false
+  },
+  {
+    "run_id": "0008-control-s99041-g16384-concentrated-off-r0-0e739c",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s99041-g16384-concentrated-off",
+    "purpose": "control",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:17.454585+00:00",
+    "ended": "2026-10-22T09:06:17.467003+00:00",
+    "elapsed_process_seconds": 0.012415599999997085,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.2e-06,
+      "end_to_end_seconds": 0.0026654,
+      "epoch_seconds": 0.000226,
+      "setup_seconds": 0.0012791
+    },
+    "included": false
+  },
+  {
+    "run_id": "0009-control-s99041-g16384-concentrated-on-r0-d65547",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s99041-g16384-concentrated-on",
+    "purpose": "control",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:17.496928+00:00",
+    "ended": "2026-10-22T09:06:17.510267+00:00",
+    "elapsed_process_seconds": 0.013336400000014237,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.1e-06,
+      "end_to_end_seconds": 0.0029478,
+      "epoch_seconds": 8.88e-05,
+      "setup_seconds": 0.0014184
+    },
+    "included": false
+  },
+  {
+    "run_id": "0010-control-s99041-g16384-spread-off-r0-25f678",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s99041-g16384-spread-off",
+    "purpose": "control",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:17.541008+00:00",
+    "ended": "2026-10-22T09:06:17.555789+00:00",
+    "elapsed_process_seconds": 0.014779900000007729,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.8e-06,
+      "end_to_end_seconds": 0.00424,
+      "epoch_seconds": 0.0005481,
+      "setup_seconds": 0.0022077
+    },
+    "included": false
+  },
+  {
+    "run_id": "0011-control-s99041-g16384-spread-on-r0-fcd86c",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s99041-g16384-spread-on",
+    "purpose": "control",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:17.589042+00:00",
+    "ended": "2026-10-22T09:06:17.601636+00:00",
+    "elapsed_process_seconds": 0.012596400000006724,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.2e-06,
+      "end_to_end_seconds": 0.003247,
+      "epoch_seconds": 6.64e-05,
+      "setup_seconds": 0.001453
+    },
+    "included": false
+  },
+  {
+    "run_id": "0012-diagnostic-s100003-g16384-spread-off-r0-055ad7",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g16384-spread-off",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:17.632979+00:00",
+    "ended": "2026-10-22T09:06:17.676365+00:00",
+    "elapsed_process_seconds": 0.043389300000001185,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.2e-06,
+      "end_to_end_seconds": 0.0317397,
+      "epoch_seconds": 0.013837,
+      "setup_seconds": 0.0041734
+    },
+    "included": false
+  },
+  {
+    "run_id": "0013-diagnostic-s100003-g16384-spread-on-r0-ff1c8a",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g16384-spread-on",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:17.876990+00:00",
+    "ended": "2026-10-22T09:06:17.919139+00:00",
+    "elapsed_process_seconds": 0.04216040000000021,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.2e-06,
+      "end_to_end_seconds": 0.031863,
+      "epoch_seconds": 0.0147367,
+      "setup_seconds": 0.0039044
+    },
+    "included": false
+  },
+  {
+    "run_id": "0014-diagnostic-s106013-g256-spread-off-r0-d38c9e",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g256-spread-off",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:17.958067+00:00",
+    "ended": "2026-10-22T09:06:18.005430+00:00",
+    "elapsed_process_seconds": 0.04735669999999459,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 4.7e-06,
+      "end_to_end_seconds": 0.0344894,
+      "epoch_seconds": 0.0054443,
+      "setup_seconds": 0.0076437
+    },
+    "included": false
+  },
+  {
+    "run_id": "0015-diagnostic-s106013-g256-spread-on-r0-ba2220",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g256-spread-on",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:18.382927+00:00",
+    "ended": "2026-10-22T09:06:18.433453+00:00",
+    "elapsed_process_seconds": 0.05052470000001108,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 3.1e-06,
+      "end_to_end_seconds": 0.035252,
+      "epoch_seconds": 0.0049562,
+      "setup_seconds": 0.0095291
+    },
+    "included": false
+  },
+  {
+    "run_id": "0016-diagnostic-s100003-g8-concentrated-off-r0-cdf5d7",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g8-concentrated-off",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:18.475952+00:00",
+    "ended": "2026-10-22T09:06:18.521060+00:00",
+    "elapsed_process_seconds": 0.04510780000001091,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.66e-05,
+      "end_to_end_seconds": 0.0321987,
+      "epoch_seconds": 0.0088137,
+      "setup_seconds": 0.0076494
+    },
+    "included": false
+  },
+  {
+    "run_id": "0017-diagnostic-s100003-g8-concentrated-on-r0-e5454e",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g8-concentrated-on",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:18.627519+00:00",
+    "ended": "2026-10-22T09:06:18.666725+00:00",
+    "elapsed_process_seconds": 0.03919790000000489,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 9.3e-06,
+      "end_to_end_seconds": 0.0254206,
+      "epoch_seconds": 0.0047129,
+      "setup_seconds": 0.0064962
+    },
+    "included": false
+  },
+  {
+    "run_id": "0018-diagnostic-s106013-g8-spread-off-r0-479247",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g8-spread-off",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:18.774930+00:00",
+    "ended": "2026-10-22T09:06:18.821329+00:00",
+    "elapsed_process_seconds": 0.04639730000002373,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.55e-05,
+      "end_to_end_seconds": 0.0336657,
+      "epoch_seconds": 0.0068244,
+      "setup_seconds": 0.0076141
+    },
+    "included": false
+  },
+  {
+    "run_id": "0019-diagnostic-s106013-g8-spread-on-r0-c2f20b",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g8-spread-on",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:18.951159+00:00",
+    "ended": "2026-10-22T09:06:18.996723+00:00",
+    "elapsed_process_seconds": 0.04556660000000079,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2.36e-05,
+      "end_to_end_seconds": 0.0332066,
+      "epoch_seconds": 0.0052862,
+      "setup_seconds": 0.0076285
+    },
+    "included": false
+  },
+  {
+    "run_id": "0020-diagnostic-s106013-g256-concentrated-off-r0-a88e6d",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g256-concentrated-off",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:19.106822+00:00",
+    "ended": "2026-10-22T09:06:19.151891+00:00",
+    "elapsed_process_seconds": 0.04507080000001906,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2.5e-06,
+      "end_to_end_seconds": 0.0339301,
+      "epoch_seconds": 0.0090029,
+      "setup_seconds": 0.0057483
+    },
+    "included": false
+  },
+  {
+    "run_id": "0021-diagnostic-s106013-g256-concentrated-on-r0-d90006",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g256-concentrated-on",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:19.190101+00:00",
+    "ended": "2026-10-22T09:06:19.229215+00:00",
+    "elapsed_process_seconds": 0.03908429999998475,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2.2e-06,
+      "end_to_end_seconds": 0.0282998,
+      "epoch_seconds": 0.0036947,
+      "setup_seconds": 0.0059415
+    },
+    "included": false
+  },
+  {
+    "run_id": "0022-diagnostic-s106013-g16384-concentrated-off-r0-13bcf6",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g16384-concentrated-off",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:19.269983+00:00",
+    "ended": "2026-10-22T09:06:19.333855+00:00",
+    "elapsed_process_seconds": 0.06387269999999035,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 9.9e-06,
+      "end_to_end_seconds": 0.0500953,
+      "epoch_seconds": 0.0235087,
+      "setup_seconds": 0.0071301
+    },
+    "included": false
+  },
+  {
+    "run_id": "0023-diagnostic-s106013-g16384-concentrated-on-r0-6a7bcd",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g16384-concentrated-on",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:19.370864+00:00",
+    "ended": "2026-10-22T09:06:19.431019+00:00",
+    "elapsed_process_seconds": 0.06015759999999659,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 5.9e-06,
+      "end_to_end_seconds": 0.0495422,
+      "epoch_seconds": 0.0241367,
+      "setup_seconds": 0.0066501
+    },
+    "included": false
+  },
+  {
+    "run_id": "0024-diagnostic-s106013-g8-concentrated-off-r0-df27e1",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g8-concentrated-off",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:19.459703+00:00",
+    "ended": "2026-10-22T09:06:19.508916+00:00",
+    "elapsed_process_seconds": 0.04921640000000593,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.39e-05,
+      "end_to_end_seconds": 0.0370034,
+      "epoch_seconds": 0.0096483,
+      "setup_seconds": 0.0083565
+    },
+    "included": false
+  },
+  {
+    "run_id": "0025-diagnostic-s106013-g8-concentrated-on-r0-8af155",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g8-concentrated-on",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:19.651527+00:00",
+    "ended": "2026-10-22T09:06:19.697807+00:00",
+    "elapsed_process_seconds": 0.04628160000001458,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.73e-05,
+      "end_to_end_seconds": 0.0339329,
+      "epoch_seconds": 0.0055244,
+      "setup_seconds": 0.0087401
+    },
+    "included": false
+  },
+  {
+    "run_id": "0026-diagnostic-s100003-g256-concentrated-off-r0-eff5cd",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g256-concentrated-off",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:19.824311+00:00",
+    "ended": "2026-10-22T09:06:19.861250+00:00",
+    "elapsed_process_seconds": 0.03693979999999897,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.69e-05,
+      "end_to_end_seconds": 0.0266785,
+      "epoch_seconds": 0.0079735,
+      "setup_seconds": 0.0045301
+    },
+    "included": false
+  },
+  {
+    "run_id": "0027-diagnostic-s100003-g256-concentrated-on-r0-86a9c6",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g256-concentrated-on",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:19.893626+00:00",
+    "ended": "2026-10-22T09:06:19.926486+00:00",
+    "elapsed_process_seconds": 0.032856299999991734,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 9.6e-06,
+      "end_to_end_seconds": 0.0220564,
+      "epoch_seconds": 0.0027815,
+      "setup_seconds": 0.0049967
+    },
+    "included": false
+  },
+  {
+    "run_id": "0028-diagnostic-s106013-g16384-spread-off-r0-5f244e",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g16384-spread-off",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:19.961396+00:00",
+    "ended": "2026-10-22T09:06:20.018278+00:00",
+    "elapsed_process_seconds": 0.056878699999998616,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8.1e-06,
+      "end_to_end_seconds": 0.0477306,
+      "epoch_seconds": 0.0216477,
+      "setup_seconds": 0.0057454
+    },
+    "included": false
+  },
+  {
+    "run_id": "0029-diagnostic-s106013-g16384-spread-on-r0-84c4d2",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g16384-spread-on",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:20.048596+00:00",
+    "ended": "2026-10-22T09:06:20.108836+00:00",
+    "elapsed_process_seconds": 0.06024150000001782,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 6.8e-06,
+      "end_to_end_seconds": 0.0481445,
+      "epoch_seconds": 0.0204096,
+      "setup_seconds": 0.0059352
+    },
+    "included": false
+  },
+  {
+    "run_id": "0030-diagnostic-s100003-g256-spread-off-r0-a055aa",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g256-spread-off",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:20.141058+00:00",
+    "ended": "2026-10-22T09:06:20.173867+00:00",
+    "elapsed_process_seconds": 0.03280900000001452,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.1e-05,
+      "end_to_end_seconds": 0.0213419,
+      "epoch_seconds": 0.0031587,
+      "setup_seconds": 0.0048439
+    },
+    "included": false
+  },
+  {
+    "run_id": "0031-diagnostic-s100003-g256-spread-on-r0-fe8c37",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g256-spread-on",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:20.209140+00:00",
+    "ended": "2026-10-22T09:06:20.244185+00:00",
+    "elapsed_process_seconds": 0.035047899999995025,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.1e-05,
+      "end_to_end_seconds": 0.0234811,
+      "epoch_seconds": 0.0029999,
+      "setup_seconds": 0.0052043
+    },
+    "included": false
+  },
+  {
+    "run_id": "0032-diagnostic-s100003-g16384-concentrated-off-r0-1a5474",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g16384-concentrated-off",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:20.278092+00:00",
+    "ended": "2026-10-22T09:06:20.319874+00:00",
+    "elapsed_process_seconds": 0.04178189999998949,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.3e-06,
+      "end_to_end_seconds": 0.0319332,
+      "epoch_seconds": 0.0139429,
+      "setup_seconds": 0.0043302
+    },
+    "included": false
+  },
+  {
+    "run_id": "0033-diagnostic-s100003-g16384-concentrated-on-r0-16b1ef",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g16384-concentrated-on",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:20.348723+00:00",
+    "ended": "2026-10-22T09:06:20.393317+00:00",
+    "elapsed_process_seconds": 0.044594299999999976,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.3e-06,
+      "end_to_end_seconds": 0.0337236,
+      "epoch_seconds": 0.0149764,
+      "setup_seconds": 0.004504
+    },
+    "included": false
+  },
+  {
+    "run_id": "0034-diagnostic-s100003-g8-spread-off-r0-3a122c",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g8-spread-off",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:20.424029+00:00",
+    "ended": "2026-10-22T09:06:20.466705+00:00",
+    "elapsed_process_seconds": 0.04267409999999927,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2.64e-05,
+      "end_to_end_seconds": 0.0279637,
+      "epoch_seconds": 0.0050864,
+      "setup_seconds": 0.0072465
+    },
+    "included": false
+  },
+  {
+    "run_id": "0035-diagnostic-s100003-g8-spread-on-r0-afdd3f",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g8-spread-on",
+    "purpose": "diagnostic",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:20.563902+00:00",
+    "ended": "2026-10-22T09:06:20.600119+00:00",
+    "elapsed_process_seconds": 0.03621809999998504,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.18e-05,
+      "end_to_end_seconds": 0.0243492,
+      "epoch_seconds": 0.0036901,
+      "setup_seconds": 0.0056098
+    },
+    "included": false
+  },
+  {
+    "run_id": "0036-warmup-s100003-g16384-spread-off-r0-cd36a8",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g16384-spread-off",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:20.701164+00:00",
+    "ended": "2026-10-22T09:06:20.744569+00:00",
+    "elapsed_process_seconds": 0.043404299999991736,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.4e-06,
+      "end_to_end_seconds": 0.0317934,
+      "epoch_seconds": 0.0141733,
+      "setup_seconds": 0.0047558
+    },
+    "included": false
+  },
+  {
+    "run_id": "0037-warmup-s100003-g16384-spread-on-r0-e150c6",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g16384-spread-on",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:20.773967+00:00",
+    "ended": "2026-10-22T09:06:20.816036+00:00",
+    "elapsed_process_seconds": 0.04207170000000815,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.1e-06,
+      "end_to_end_seconds": 0.0310458,
+      "epoch_seconds": 0.0137348,
+      "setup_seconds": 0.0040616
+    },
+    "included": false
+  },
+  {
+    "run_id": "0038-warmup-s106013-g256-spread-off-r0-cc2543",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g256-spread-off",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:20.854207+00:00",
+    "ended": "2026-10-22T09:06:20.895885+00:00",
+    "elapsed_process_seconds": 0.04168749999999477,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.8e-06,
+      "end_to_end_seconds": 0.030792,
+      "epoch_seconds": 0.0050559,
+      "setup_seconds": 0.0071081
+    },
+    "included": false
+  },
+  {
+    "run_id": "0039-warmup-s106013-g256-spread-on-r0-a0bcd7",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g256-spread-on",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:20.927031+00:00",
+    "ended": "2026-10-22T09:06:20.964414+00:00",
+    "elapsed_process_seconds": 0.03738649999999666,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.7e-06,
+      "end_to_end_seconds": 0.0281532,
+      "epoch_seconds": 0.0035638,
+      "setup_seconds": 0.0060023
+    },
+    "included": false
+  },
+  {
+    "run_id": "0040-warmup-s100003-g8-concentrated-off-r0-49c070",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g8-concentrated-off",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:20.996008+00:00",
+    "ended": "2026-10-22T09:06:21.034303+00:00",
+    "elapsed_process_seconds": 0.03829310000000419,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8.7e-06,
+      "end_to_end_seconds": 0.0268168,
+      "epoch_seconds": 0.0075502,
+      "setup_seconds": 0.0060248
+    },
+    "included": false
+  },
+  {
+    "run_id": "0041-warmup-s100003-g8-concentrated-on-r0-940d67",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g8-concentrated-on",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:21.066803+00:00",
+    "ended": "2026-10-22T09:06:21.099169+00:00",
+    "elapsed_process_seconds": 0.03236730000000421,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.13e-05,
+      "end_to_end_seconds": 0.0227769,
+      "epoch_seconds": 0.0024463,
+      "setup_seconds": 0.0064203
+    },
+    "included": false
+  },
+  {
+    "run_id": "0042-warmup-s106013-g8-spread-off-r0-530bfd",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g8-spread-off",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:21.137361+00:00",
+    "ended": "2026-10-22T09:06:21.182807+00:00",
+    "elapsed_process_seconds": 0.04544059999997785,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.65e-05,
+      "end_to_end_seconds": 0.0348435,
+      "epoch_seconds": 0.0049468,
+      "setup_seconds": 0.0103234
+    },
+    "included": false
+  },
+  {
+    "run_id": "0043-warmup-s106013-g8-spread-on-r0-91450e",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g8-spread-on",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:21.213628+00:00",
+    "ended": "2026-10-22T09:06:21.256588+00:00",
+    "elapsed_process_seconds": 0.04296109999998521,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.76e-05,
+      "end_to_end_seconds": 0.0341929,
+      "epoch_seconds": 0.0039277,
+      "setup_seconds": 0.0095473
+    },
+    "included": false
+  },
+  {
+    "run_id": "0044-warmup-s106013-g256-concentrated-off-r0-961e5f",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g256-concentrated-off",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:21.285041+00:00",
+    "ended": "2026-10-22T09:06:21.336609+00:00",
+    "elapsed_process_seconds": 0.05156720000002224,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2.3e-06,
+      "end_to_end_seconds": 0.0438774,
+      "epoch_seconds": 0.0145143,
+      "setup_seconds": 0.0066091
+    },
+    "included": false
+  },
+  {
+    "run_id": "0045-warmup-s106013-g256-concentrated-on-r0-89b41d",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g256-concentrated-on",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:21.365676+00:00",
+    "ended": "2026-10-22T09:06:21.413483+00:00",
+    "elapsed_process_seconds": 0.04780540000001565,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2.3e-06,
+      "end_to_end_seconds": 0.0376956,
+      "epoch_seconds": 0.0048066,
+      "setup_seconds": 0.0109552
+    },
+    "included": false
+  },
+  {
+    "run_id": "0046-warmup-s106013-g16384-concentrated-off-r0-f241f4",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g16384-concentrated-off",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:21.442800+00:00",
+    "ended": "2026-10-22T09:06:21.502570+00:00",
+    "elapsed_process_seconds": 0.05977139999998826,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.09e-05,
+      "end_to_end_seconds": 0.0505373,
+      "epoch_seconds": 0.0235103,
+      "setup_seconds": 0.0065263
+    },
+    "included": false
+  },
+  {
+    "run_id": "0047-warmup-s106013-g16384-concentrated-on-r0-6879cb",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g16384-concentrated-on",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:21.533233+00:00",
+    "ended": "2026-10-22T09:06:21.594400+00:00",
+    "elapsed_process_seconds": 0.06116649999998458,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.95e-05,
+      "end_to_end_seconds": 0.0511352,
+      "epoch_seconds": 0.0228391,
+      "setup_seconds": 0.0078079
+    },
+    "included": false
+  },
+  {
+    "run_id": "0048-warmup-s106013-g8-concentrated-off-r0-5ca9ab",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g8-concentrated-off",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:21.623946+00:00",
+    "ended": "2026-10-22T09:06:21.677641+00:00",
+    "elapsed_process_seconds": 0.05369530000001532,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2.19e-05,
+      "end_to_end_seconds": 0.0443893,
+      "epoch_seconds": 0.0120765,
+      "setup_seconds": 0.0114174
+    },
+    "included": false
+  },
+  {
+    "run_id": "0049-warmup-s106013-g8-concentrated-on-r0-43a3d8",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g8-concentrated-on",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:21.711159+00:00",
+    "ended": "2026-10-22T09:06:21.753523+00:00",
+    "elapsed_process_seconds": 0.042358900000010635,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.42e-05,
+      "end_to_end_seconds": 0.0341689,
+      "epoch_seconds": 0.0041685,
+      "setup_seconds": 0.0094734
+    },
+    "included": false
+  },
+  {
+    "run_id": "0050-warmup-s100003-g256-concentrated-off-r0-96507a",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g256-concentrated-off",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:21.782784+00:00",
+    "ended": "2026-10-22T09:06:21.822678+00:00",
+    "elapsed_process_seconds": 0.03989260000000172,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.16e-05,
+      "end_to_end_seconds": 0.0298555,
+      "epoch_seconds": 0.0087452,
+      "setup_seconds": 0.0053908
+    },
+    "included": false
+  },
+  {
+    "run_id": "0051-warmup-s100003-g256-concentrated-on-r0-144ac0",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g256-concentrated-on",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:21.860164+00:00",
+    "ended": "2026-10-22T09:06:21.890930+00:00",
+    "elapsed_process_seconds": 0.030748700000003737,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7.8e-06,
+      "end_to_end_seconds": 0.021558,
+      "epoch_seconds": 0.0030191,
+      "setup_seconds": 0.0048811
+    },
+    "included": false
+  },
+  {
+    "run_id": "0052-warmup-s106013-g16384-spread-off-r0-95a205",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g16384-spread-off",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:21.920150+00:00",
+    "ended": "2026-10-22T09:06:21.976427+00:00",
+    "elapsed_process_seconds": 0.05627580000000876,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 9.6e-06,
+      "end_to_end_seconds": 0.0471712,
+      "epoch_seconds": 0.0211109,
+      "setup_seconds": 0.0065007
+    },
+    "included": false
+  },
+  {
+    "run_id": "0053-warmup-s106013-g16384-spread-on-r0-ed6c54",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g16384-spread-on",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:22.010159+00:00",
+    "ended": "2026-10-22T09:06:22.100157+00:00",
+    "elapsed_process_seconds": 0.09000030000001402,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7.9e-06,
+      "end_to_end_seconds": 0.049754,
+      "epoch_seconds": 0.0240402,
+      "setup_seconds": 0.0063165
+    },
+    "included": false
+  },
+  {
+    "run_id": "0054-warmup-s100003-g256-spread-off-r0-1ffd83",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g256-spread-off",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:22.129033+00:00",
+    "ended": "2026-10-22T09:06:22.161868+00:00",
+    "elapsed_process_seconds": 0.0328371999999888,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8.7e-06,
+      "end_to_end_seconds": 0.0237132,
+      "epoch_seconds": 0.003675,
+      "setup_seconds": 0.0051634
+    },
+    "included": false
+  },
+  {
+    "run_id": "0055-warmup-s100003-g256-spread-on-r0-551041",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g256-spread-on",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:22.190695+00:00",
+    "ended": "2026-10-22T09:06:22.225260+00:00",
+    "elapsed_process_seconds": 0.03456839999998351,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.2e-05,
+      "end_to_end_seconds": 0.0251202,
+      "epoch_seconds": 0.0029629,
+      "setup_seconds": 0.0061235
+    },
+    "included": false
+  },
+  {
+    "run_id": "0056-warmup-s100003-g16384-concentrated-off-r0-0f72fc",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g16384-concentrated-off",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:22.258536+00:00",
+    "ended": "2026-10-22T09:06:22.306338+00:00",
+    "elapsed_process_seconds": 0.04780850000000214,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.7e-06,
+      "end_to_end_seconds": 0.0391487,
+      "epoch_seconds": 0.0186257,
+      "setup_seconds": 0.0053892
+    },
+    "included": false
+  },
+  {
+    "run_id": "0057-warmup-s100003-g16384-concentrated-on-r0-ee0f2d",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g16384-concentrated-on",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:22.333544+00:00",
+    "ended": "2026-10-22T09:06:22.379653+00:00",
+    "elapsed_process_seconds": 0.04611129999997843,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.3e-06,
+      "end_to_end_seconds": 0.0371128,
+      "epoch_seconds": 0.0155513,
+      "setup_seconds": 0.0045754
+    },
+    "included": false
+  },
+  {
+    "run_id": "0058-warmup-s100003-g8-spread-off-r0-db1677",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g8-spread-off",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:22.405973+00:00",
+    "ended": "2026-10-22T09:06:22.438330+00:00",
+    "elapsed_process_seconds": 0.03236489999997616,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.86e-05,
+      "end_to_end_seconds": 0.0235196,
+      "epoch_seconds": 0.0030065,
+      "setup_seconds": 0.0055811
+    },
+    "included": false
+  },
+  {
+    "run_id": "0059-warmup-s100003-g8-spread-on-r0-2866fc",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g8-spread-on",
+    "purpose": "warmup",
+    "repeat": 0,
+    "started": "2026-10-22T09:06:22.467496+00:00",
+    "ended": "2026-10-22T09:06:22.500703+00:00",
+    "elapsed_process_seconds": 0.033206399999983205,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8.7e-06,
+      "end_to_end_seconds": 0.0235541,
+      "epoch_seconds": 0.0027493,
+      "setup_seconds": 0.0066717
+    },
+    "included": false
+  },
+  {
+    "run_id": "0060-timing-s100003-g16384-spread-off-r1-c5539e",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g16384-spread-off",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-22T09:06:22.529563+00:00",
+    "ended": "2026-10-22T09:06:22.573282+00:00",
+    "elapsed_process_seconds": 0.04371879999999351,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.4e-06,
+      "end_to_end_seconds": 0.0350835,
+      "epoch_seconds": 0.0161682,
+      "setup_seconds": 0.0047391
+    },
+    "included": true
+  },
+  {
+    "run_id": "0061-timing-s100003-g16384-spread-on-r1-5d3dcc",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g16384-spread-on",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-22T09:06:22.598729+00:00",
+    "ended": "2026-10-22T09:06:22.646256+00:00",
+    "elapsed_process_seconds": 0.047526900000008254,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.2e-06,
+      "end_to_end_seconds": 0.0398039,
+      "epoch_seconds": 0.0198646,
+      "setup_seconds": 0.0044482
+    },
+    "included": true
+  },
+  {
+    "run_id": "0062-timing-s106013-g256-spread-off-r1-07dfad",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g256-spread-off",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-22T09:06:22.672044+00:00",
+    "ended": "2026-10-22T09:06:22.713695+00:00",
+    "elapsed_process_seconds": 0.041654300000004696,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.7e-06,
+      "end_to_end_seconds": 0.0317467,
+      "epoch_seconds": 0.0052429,
+      "setup_seconds": 0.0066549
+    },
+    "included": true
+  },
+  {
+    "run_id": "0063-timing-s106013-g256-spread-on-r1-ee11fd",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g256-spread-on",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-22T09:06:22.741544+00:00",
+    "ended": "2026-10-22T09:06:22.780588+00:00",
+    "elapsed_process_seconds": 0.03904470000000515,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.9e-06,
+      "end_to_end_seconds": 0.0293942,
+      "epoch_seconds": 0.0036297,
+      "setup_seconds": 0.0062043
+    },
+    "included": true
+  },
+  {
+    "run_id": "0064-timing-s100003-g8-concentrated-off-r1-e5e678",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g8-concentrated-off",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-22T09:06:22.805641+00:00",
+    "ended": "2026-10-22T09:06:22.846184+00:00",
+    "elapsed_process_seconds": 0.04054380000002311,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.29e-05,
+      "end_to_end_seconds": 0.0314727,
+      "epoch_seconds": 0.0083613,
+      "setup_seconds": 0.0064849
+    },
+    "included": true
+  },
+  {
+    "run_id": "0065-timing-s100003-g8-concentrated-on-r1-7da2f7",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g8-concentrated-on",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-22T09:06:22.874423+00:00",
+    "ended": "2026-10-22T09:06:22.909647+00:00",
+    "elapsed_process_seconds": 0.03522409999999354,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 9.3e-06,
+      "end_to_end_seconds": 0.025127,
+      "epoch_seconds": 0.0028711,
+      "setup_seconds": 0.0070637
+    },
+    "included": true
+  },
+  {
+    "run_id": "0066-timing-s106013-g8-spread-off-r1-8d9e63",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g8-spread-off",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-22T09:06:22.937626+00:00",
+    "ended": "2026-10-22T09:06:22.983497+00:00",
+    "elapsed_process_seconds": 0.04587029999999004,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.52e-05,
+      "end_to_end_seconds": 0.0354242,
+      "epoch_seconds": 0.0051305,
+      "setup_seconds": 0.0110188
+    },
+    "included": true
+  },
+  {
+    "run_id": "0067-timing-s106013-g8-spread-on-r1-91ebde",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g8-spread-on",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-22T09:06:23.014504+00:00",
+    "ended": "2026-10-22T09:06:23.060411+00:00",
+    "elapsed_process_seconds": 0.04590569999999161,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 3.88e-05,
+      "end_to_end_seconds": 0.035727,
+      "epoch_seconds": 0.004234,
+      "setup_seconds": 0.0101297
+    },
+    "included": true
+  },
+  {
+    "run_id": "0068-timing-s106013-g256-concentrated-off-r1-c06173",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g256-concentrated-off",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-22T09:06:23.087005+00:00",
+    "ended": "2026-10-22T09:06:23.141138+00:00",
+    "elapsed_process_seconds": 0.054132199999997965,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2.2e-06,
+      "end_to_end_seconds": 0.0432833,
+      "epoch_seconds": 0.0133816,
+      "setup_seconds": 0.0077733
+    },
+    "included": true
+  },
+  {
+    "run_id": "0069-timing-s106013-g256-concentrated-on-r1-f84ed0",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g256-concentrated-on",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-22T09:06:23.170077+00:00",
+    "ended": "2026-10-22T09:06:23.214860+00:00",
+    "elapsed_process_seconds": 0.04478119999998853,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2.5e-06,
+      "end_to_end_seconds": 0.0336702,
+      "epoch_seconds": 0.0044264,
+      "setup_seconds": 0.0081948
+    },
+    "included": true
+  },
+  {
+    "run_id": "0070-timing-s106013-g16384-concentrated-off-r1-7f14dd",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g16384-concentrated-off",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-22T09:06:23.245577+00:00",
+    "ended": "2026-10-22T09:06:23.311094+00:00",
+    "elapsed_process_seconds": 0.06552189999999314,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8.5e-06,
+      "end_to_end_seconds": 0.0525465,
+      "epoch_seconds": 0.0230572,
+      "setup_seconds": 0.007047
+    },
+    "included": true
+  },
+  {
+    "run_id": "0071-timing-s106013-g16384-concentrated-on-r1-4fbd1d",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g16384-concentrated-on",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-22T09:06:23.355891+00:00",
+    "ended": "2026-10-22T09:06:23.443541+00:00",
+    "elapsed_process_seconds": 0.0876480000000015,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.14e-05,
+      "end_to_end_seconds": 0.0748793,
+      "epoch_seconds": 0.0435193,
+      "setup_seconds": 0.0088701
+    },
+    "included": true
+  },
+  {
+    "run_id": "0072-timing-s106013-g8-concentrated-off-r1-c28d72",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g8-concentrated-off",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-22T09:06:23.471448+00:00",
+    "ended": "2026-10-22T09:06:23.526663+00:00",
+    "elapsed_process_seconds": 0.05521550000000275,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.46e-05,
+      "end_to_end_seconds": 0.0451423,
+      "epoch_seconds": 0.0121847,
+      "setup_seconds": 0.0112623
+    },
+    "included": true
+  },
+  {
+    "run_id": "0073-timing-s106013-g8-concentrated-on-r1-9937b1",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g8-concentrated-on",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-22T09:06:23.556965+00:00",
+    "ended": "2026-10-22T09:06:23.607497+00:00",
+    "elapsed_process_seconds": 0.05053409999999303,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.58e-05,
+      "end_to_end_seconds": 0.0404497,
+      "epoch_seconds": 0.004352,
+      "setup_seconds": 0.0124361
+    },
+    "included": true
+  },
+  {
+    "run_id": "0074-timing-s100003-g256-concentrated-off-r1-d86fdf",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g256-concentrated-off",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-22T09:06:23.638641+00:00",
+    "ended": "2026-10-22T09:06:23.674748+00:00",
+    "elapsed_process_seconds": 0.03610439999999926,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 9.1e-06,
+      "end_to_end_seconds": 0.0282669,
+      "epoch_seconds": 0.008479,
+      "setup_seconds": 0.0051889
+    },
+    "included": true
+  },
+  {
+    "run_id": "0075-timing-s100003-g256-concentrated-on-r1-f45ca5",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g256-concentrated-on",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-22T09:06:23.701719+00:00",
+    "ended": "2026-10-22T09:06:23.733278+00:00",
+    "elapsed_process_seconds": 0.031557200000008834,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.32e-05,
+      "end_to_end_seconds": 0.0225163,
+      "epoch_seconds": 0.0029605,
+      "setup_seconds": 0.0051005
+    },
+    "included": true
+  },
+  {
+    "run_id": "0076-timing-s106013-g16384-spread-off-r1-9ce052",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g16384-spread-off",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-22T09:06:23.756215+00:00",
+    "ended": "2026-10-22T09:06:23.811077+00:00",
+    "elapsed_process_seconds": 0.05486460000000193,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8.6e-06,
+      "end_to_end_seconds": 0.0475679,
+      "epoch_seconds": 0.02035,
+      "setup_seconds": 0.006735
+    },
+    "included": true
+  },
+  {
+    "run_id": "0077-timing-s106013-g16384-spread-on-r1-e3d206",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g16384-spread-on",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-22T09:06:23.838607+00:00",
+    "ended": "2026-10-22T09:06:23.901688+00:00",
+    "elapsed_process_seconds": 0.06308269999999538,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8.8e-06,
+      "end_to_end_seconds": 0.0549035,
+      "epoch_seconds": 0.0262032,
+      "setup_seconds": 0.0065736
+    },
+    "included": true
+  },
+  {
+    "run_id": "0078-timing-s100003-g256-spread-off-r1-645ad9",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g256-spread-off",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-22T09:06:23.928965+00:00",
+    "ended": "2026-10-22T09:06:23.960470+00:00",
+    "elapsed_process_seconds": 0.0315070999999989,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8.8e-06,
+      "end_to_end_seconds": 0.0227975,
+      "epoch_seconds": 0.0035828,
+      "setup_seconds": 0.005063
+    },
+    "included": true
+  },
+  {
+    "run_id": "0079-timing-s100003-g256-spread-on-r1-8f4a56",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g256-spread-on",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-22T09:06:23.990571+00:00",
+    "ended": "2026-10-22T09:06:24.022578+00:00",
+    "elapsed_process_seconds": 0.0320060999999896,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8.8e-06,
+      "end_to_end_seconds": 0.0230748,
+      "epoch_seconds": 0.0030946,
+      "setup_seconds": 0.0051274
+    },
+    "included": true
+  },
+  {
+    "run_id": "0080-timing-s100003-g16384-concentrated-off-r1-22bfc1",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g16384-concentrated-off",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-22T09:06:24.048905+00:00",
+    "ended": "2026-10-22T09:06:24.093423+00:00",
+    "elapsed_process_seconds": 0.04452180000001249,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.7e-06,
+      "end_to_end_seconds": 0.0357384,
+      "epoch_seconds": 0.0158278,
+      "setup_seconds": 0.0051622
+    },
+    "included": true
+  },
+  {
+    "run_id": "0081-timing-s100003-g16384-concentrated-on-r1-c01081",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g16384-concentrated-on",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-22T09:06:24.124481+00:00",
+    "ended": "2026-10-22T09:06:24.180455+00:00",
+    "elapsed_process_seconds": 0.05597349999999324,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.7e-06,
+      "end_to_end_seconds": 0.045951,
+      "epoch_seconds": 0.0241845,
+      "setup_seconds": 0.0058609
+    },
+    "included": true
+  },
+  {
+    "run_id": "0082-timing-s100003-g8-spread-off-r1-8ae97b",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g8-spread-off",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-22T09:06:24.206970+00:00",
+    "ended": "2026-10-22T09:06:24.247163+00:00",
+    "elapsed_process_seconds": 0.040191899999996394,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.13e-05,
+      "end_to_end_seconds": 0.0305195,
+      "epoch_seconds": 0.0098106,
+      "setup_seconds": 0.0067837
+    },
+    "included": true
+  },
+  {
+    "run_id": "0083-timing-s100003-g8-spread-on-r1-f103f3",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g8-spread-on",
+    "purpose": "timing",
+    "repeat": 1,
+    "started": "2026-10-22T09:06:24.276899+00:00",
+    "ended": "2026-10-22T09:06:24.312942+00:00",
+    "elapsed_process_seconds": 0.03604319999999461,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.76e-05,
+      "end_to_end_seconds": 0.0257959,
+      "epoch_seconds": 0.0026942,
+      "setup_seconds": 0.0073961
+    },
+    "included": true
+  },
+  {
+    "run_id": "0084-timing-s100003-g8-concentrated-on-r2-f75a0f",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g8-concentrated-on",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-22T09:06:24.341958+00:00",
+    "ended": "2026-10-22T09:06:24.378447+00:00",
+    "elapsed_process_seconds": 0.03649110000000633,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.03e-05,
+      "end_to_end_seconds": 0.0249748,
+      "epoch_seconds": 0.0029807,
+      "setup_seconds": 0.0073094
+    },
+    "included": true
+  },
+  {
+    "run_id": "0085-timing-s100003-g8-concentrated-off-r2-acf69c",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g8-concentrated-off",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-22T09:06:24.413000+00:00",
+    "ended": "2026-10-22T09:06:24.456347+00:00",
+    "elapsed_process_seconds": 0.04333919999999125,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2.26e-05,
+      "end_to_end_seconds": 0.0323935,
+      "epoch_seconds": 0.0087993,
+      "setup_seconds": 0.0072287
+    },
+    "included": true
+  },
+  {
+    "run_id": "0086-timing-s106013-g8-spread-on-r2-328822",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g8-spread-on",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-22T09:06:24.488944+00:00",
+    "ended": "2026-10-22T09:06:24.537983+00:00",
+    "elapsed_process_seconds": 0.04901309999999626,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 3.57e-05,
+      "end_to_end_seconds": 0.0387761,
+      "epoch_seconds": 0.0045655,
+      "setup_seconds": 0.0111065
+    },
+    "included": true
+  },
+  {
+    "run_id": "0087-timing-s106013-g8-spread-off-r2-133df3",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g8-spread-off",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-22T09:06:24.569074+00:00",
+    "ended": "2026-10-22T09:06:24.618445+00:00",
+    "elapsed_process_seconds": 0.049372700000020586,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2.32e-05,
+      "end_to_end_seconds": 0.0366661,
+      "epoch_seconds": 0.0049555,
+      "setup_seconds": 0.0105196
+    },
+    "included": true
+  },
+  {
+    "run_id": "0088-timing-s106013-g256-concentrated-on-r2-9c9184",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g256-concentrated-on",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-22T09:06:24.649973+00:00",
+    "ended": "2026-10-22T09:06:24.690571+00:00",
+    "elapsed_process_seconds": 0.04059799999998859,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.8e-06,
+      "end_to_end_seconds": 0.0307792,
+      "epoch_seconds": 0.0040792,
+      "setup_seconds": 0.0070726
+    },
+    "included": true
+  },
+  {
+    "run_id": "0089-timing-s106013-g256-concentrated-off-r2-377390",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g256-concentrated-off",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-22T09:06:24.719928+00:00",
+    "ended": "2026-10-22T09:06:24.768142+00:00",
+    "elapsed_process_seconds": 0.04821400000000153,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.8e-06,
+      "end_to_end_seconds": 0.0378198,
+      "epoch_seconds": 0.0121845,
+      "setup_seconds": 0.0063925
+    },
+    "included": true
+  },
+  {
+    "run_id": "0090-timing-s106013-g16384-concentrated-on-r2-57e39d",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g16384-concentrated-on",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-22T09:06:24.795826+00:00",
+    "ended": "2026-10-22T09:06:24.853873+00:00",
+    "elapsed_process_seconds": 0.05804810000000771,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.3e-05,
+      "end_to_end_seconds": 0.0475667,
+      "epoch_seconds": 0.0202302,
+      "setup_seconds": 0.0068285
+    },
+    "included": true
+  },
+  {
+    "run_id": "0091-timing-s106013-g16384-concentrated-off-r2-b4921d",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g16384-concentrated-off",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-22T09:06:24.883057+00:00",
+    "ended": "2026-10-22T09:06:24.944649+00:00",
+    "elapsed_process_seconds": 0.06159230000000093,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 9.3e-06,
+      "end_to_end_seconds": 0.0517838,
+      "epoch_seconds": 0.025044,
+      "setup_seconds": 0.0070823
+    },
+    "included": true
+  },
+  {
+    "run_id": "0092-timing-s106013-g8-concentrated-on-r2-375e99",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g8-concentrated-on",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-22T09:06:24.967921+00:00",
+    "ended": "2026-10-22T09:06:25.010183+00:00",
+    "elapsed_process_seconds": 0.042263100000013765,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.3e-05,
+      "end_to_end_seconds": 0.0335266,
+      "epoch_seconds": 0.0051524,
+      "setup_seconds": 0.0079532
+    },
+    "included": true
+  },
+  {
+    "run_id": "0093-timing-s106013-g8-concentrated-off-r2-600179",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g8-concentrated-off",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-22T09:06:25.036643+00:00",
+    "ended": "2026-10-22T09:06:25.083173+00:00",
+    "elapsed_process_seconds": 0.04652899999999249,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.14e-05,
+      "end_to_end_seconds": 0.0379359,
+      "epoch_seconds": 0.01102,
+      "setup_seconds": 0.0083274
+    },
+    "included": true
+  },
+  {
+    "run_id": "0094-timing-s100003-g256-concentrated-on-r2-cfdedc",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g256-concentrated-on",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-22T09:06:25.107154+00:00",
+    "ended": "2026-10-22T09:06:25.138529+00:00",
+    "elapsed_process_seconds": 0.031376700000009805,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7.3e-06,
+      "end_to_end_seconds": 0.0229075,
+      "epoch_seconds": 0.0027546,
+      "setup_seconds": 0.0044938
+    },
+    "included": true
+  },
+  {
+    "run_id": "0095-timing-s100003-g256-concentrated-off-r2-70f045",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g256-concentrated-off",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-22T09:06:25.163955+00:00",
+    "ended": "2026-10-22T09:06:25.197635+00:00",
+    "elapsed_process_seconds": 0.03367829999999117,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7.4e-06,
+      "end_to_end_seconds": 0.0252138,
+      "epoch_seconds": 0.0072013,
+      "setup_seconds": 0.0045819
+    },
+    "included": true
+  },
+  {
+    "run_id": "0096-timing-s106013-g16384-spread-on-r2-f6a211",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g16384-spread-on",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-22T09:06:25.223166+00:00",
+    "ended": "2026-10-22T09:06:25.292044+00:00",
+    "elapsed_process_seconds": 0.06887849999998252,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8.6e-06,
+      "end_to_end_seconds": 0.0588938,
+      "epoch_seconds": 0.0326014,
+      "setup_seconds": 0.006999
+    },
+    "included": true
+  },
+  {
+    "run_id": "0097-timing-s106013-g16384-spread-off-r2-67199b",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g16384-spread-off",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-22T09:06:25.321084+00:00",
+    "ended": "2026-10-22T09:06:25.381249+00:00",
+    "elapsed_process_seconds": 0.060164200000002666,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8.8e-06,
+      "end_to_end_seconds": 0.05205,
+      "epoch_seconds": 0.0243193,
+      "setup_seconds": 0.0064176
+    },
+    "included": true
+  },
+  {
+    "run_id": "0098-timing-s100003-g256-spread-on-r2-c45b5d",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g256-spread-on",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-22T09:06:25.406346+00:00",
+    "ended": "2026-10-22T09:06:25.438432+00:00",
+    "elapsed_process_seconds": 0.032086199999980636,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8.7e-06,
+      "end_to_end_seconds": 0.0225839,
+      "epoch_seconds": 0.0029262,
+      "setup_seconds": 0.0051264
+    },
+    "included": true
+  },
+  {
+    "run_id": "0099-timing-s100003-g256-spread-off-r2-4334bc",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g256-spread-off",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-22T09:06:25.463080+00:00",
+    "ended": "2026-10-22T09:06:25.494051+00:00",
+    "elapsed_process_seconds": 0.030973800000026586,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7.5e-06,
+      "end_to_end_seconds": 0.0221125,
+      "epoch_seconds": 0.0031517,
+      "setup_seconds": 0.0044916
+    },
+    "included": true
+  },
+  {
+    "run_id": "0100-timing-s100003-g16384-concentrated-on-r2-aab9a8",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g16384-concentrated-on",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-22T09:06:25.519338+00:00",
+    "ended": "2026-10-22T09:06:25.563503+00:00",
+    "elapsed_process_seconds": 0.04416720000000396,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.5e-06,
+      "end_to_end_seconds": 0.0354684,
+      "epoch_seconds": 0.0164654,
+      "setup_seconds": 0.0048116
+    },
+    "included": true
+  },
+  {
+    "run_id": "0101-timing-s100003-g16384-concentrated-off-r2-504323",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g16384-concentrated-off",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-22T09:06:25.590619+00:00",
+    "ended": "2026-10-22T09:06:25.633940+00:00",
+    "elapsed_process_seconds": 0.04332309999998074,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.5e-06,
+      "end_to_end_seconds": 0.0357674,
+      "epoch_seconds": 0.0160138,
+      "setup_seconds": 0.0049572
+    },
+    "included": true
+  },
+  {
+    "run_id": "0102-timing-s100003-g8-spread-on-r2-89fea4",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g8-spread-on",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-22T09:06:25.660358+00:00",
+    "ended": "2026-10-22T09:06:25.693271+00:00",
+    "elapsed_process_seconds": 0.03291579999998362,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.12e-05,
+      "end_to_end_seconds": 0.0239731,
+      "epoch_seconds": 0.0025615,
+      "setup_seconds": 0.0063929
+    },
+    "included": true
+  },
+  {
+    "run_id": "0103-timing-s100003-g8-spread-off-r2-b0a13e",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g8-spread-off",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-22T09:06:25.723348+00:00",
+    "ended": "2026-10-22T09:06:25.756969+00:00",
+    "elapsed_process_seconds": 0.03362010000000737,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.39e-05,
+      "end_to_end_seconds": 0.02396,
+      "epoch_seconds": 0.0038752,
+      "setup_seconds": 0.0066113
+    },
+    "included": true
+  },
+  {
+    "run_id": "0104-timing-s100003-g16384-spread-on-r2-25bfde",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g16384-spread-on",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-22T09:06:25.785095+00:00",
+    "ended": "2026-10-22T09:06:25.825153+00:00",
+    "elapsed_process_seconds": 0.040058700000003,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.3e-06,
+      "end_to_end_seconds": 0.0308792,
+      "epoch_seconds": 0.0136074,
+      "setup_seconds": 0.0043295
+    },
+    "included": true
+  },
+  {
+    "run_id": "0105-timing-s100003-g16384-spread-off-r2-aee57c",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g16384-spread-off",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-22T09:06:25.851725+00:00",
+    "ended": "2026-10-22T09:06:25.891462+00:00",
+    "elapsed_process_seconds": 0.039736199999993005,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.4e-06,
+      "end_to_end_seconds": 0.0310511,
+      "epoch_seconds": 0.0138926,
+      "setup_seconds": 0.0043287
+    },
+    "included": true
+  },
+  {
+    "run_id": "0106-timing-s106013-g256-spread-on-r2-d2efcf",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g256-spread-on",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-22T09:06:25.918022+00:00",
+    "ended": "2026-10-22T09:06:25.961792+00:00",
+    "elapsed_process_seconds": 0.04377020000001153,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2.3e-06,
+      "end_to_end_seconds": 0.0328336,
+      "epoch_seconds": 0.0043688,
+      "setup_seconds": 0.0076055
+    },
+    "included": true
+  },
+  {
+    "run_id": "0107-timing-s106013-g256-spread-off-r2-407176",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g256-spread-off",
+    "purpose": "timing",
+    "repeat": 2,
+    "started": "2026-10-22T09:06:25.987636+00:00",
+    "ended": "2026-10-22T09:06:26.025771+00:00",
+    "elapsed_process_seconds": 0.03813660000000141,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.9e-06,
+      "end_to_end_seconds": 0.0282844,
+      "epoch_seconds": 0.004345,
+      "setup_seconds": 0.0059763
+    },
+    "included": true
+  },
+  {
+    "run_id": "0108-timing-s106013-g256-concentrated-off-r3-a5edc7",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g256-concentrated-off",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-22T09:06:26.053601+00:00",
+    "ended": "2026-10-22T09:06:26.103330+00:00",
+    "elapsed_process_seconds": 0.049733200000019906,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.8e-06,
+      "end_to_end_seconds": 0.0388883,
+      "epoch_seconds": 0.0117034,
+      "setup_seconds": 0.0066194
+    },
+    "included": true
+  },
+  {
+    "run_id": "0109-timing-s106013-g256-concentrated-on-r3-f404ea",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g256-concentrated-on",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-22T09:06:26.131830+00:00",
+    "ended": "2026-10-22T09:06:26.169302+00:00",
+    "elapsed_process_seconds": 0.03747219999999629,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2e-06,
+      "end_to_end_seconds": 0.0301234,
+      "epoch_seconds": 0.0043842,
+      "setup_seconds": 0.0070546
+    },
+    "included": true
+  },
+  {
+    "run_id": "0110-timing-s106013-g16384-concentrated-off-r3-6b5340",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g16384-concentrated-off",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-22T09:06:26.195122+00:00",
+    "ended": "2026-10-22T09:06:26.255641+00:00",
+    "elapsed_process_seconds": 0.06051949999999806,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8.3e-06,
+      "end_to_end_seconds": 0.0508975,
+      "epoch_seconds": 0.0236739,
+      "setup_seconds": 0.0067767
+    },
+    "included": true
+  },
+  {
+    "run_id": "0111-timing-s106013-g16384-concentrated-on-r3-f15702",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g16384-concentrated-on",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-22T09:06:26.284312+00:00",
+    "ended": "2026-10-22T09:06:26.342381+00:00",
+    "elapsed_process_seconds": 0.058069500000016205,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.09e-05,
+      "end_to_end_seconds": 0.0485814,
+      "epoch_seconds": 0.02093,
+      "setup_seconds": 0.0059458
+    },
+    "included": true
+  },
+  {
+    "run_id": "0112-timing-s106013-g8-concentrated-off-r3-53e46b",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g8-concentrated-off",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-22T09:06:26.368745+00:00",
+    "ended": "2026-10-22T09:06:26.415003+00:00",
+    "elapsed_process_seconds": 0.04625889999999799,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.04e-05,
+      "end_to_end_seconds": 0.0379614,
+      "epoch_seconds": 0.010006,
+      "setup_seconds": 0.0079774
+    },
+    "included": true
+  },
+  {
+    "run_id": "0113-timing-s106013-g8-concentrated-on-r3-018a97",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g8-concentrated-on",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-22T09:06:26.442313+00:00",
+    "ended": "2026-10-22T09:06:26.485116+00:00",
+    "elapsed_process_seconds": 0.042802200000011226,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2.46e-05,
+      "end_to_end_seconds": 0.0351099,
+      "epoch_seconds": 0.0040881,
+      "setup_seconds": 0.0113757
+    },
+    "included": true
+  },
+  {
+    "run_id": "0114-timing-s100003-g256-concentrated-off-r3-db1e79",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g256-concentrated-off",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-22T09:06:26.510513+00:00",
+    "ended": "2026-10-22T09:06:26.547149+00:00",
+    "elapsed_process_seconds": 0.03663520000000631,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8.7e-06,
+      "end_to_end_seconds": 0.0265837,
+      "epoch_seconds": 0.0072841,
+      "setup_seconds": 0.0051355
+    },
+    "included": true
+  },
+  {
+    "run_id": "0115-timing-s100003-g256-concentrated-on-r3-b9b660",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g256-concentrated-on",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-22T09:06:26.574563+00:00",
+    "ended": "2026-10-22T09:06:26.604331+00:00",
+    "elapsed_process_seconds": 0.029767399999997224,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8e-06,
+      "end_to_end_seconds": 0.0196867,
+      "epoch_seconds": 0.0025299,
+      "setup_seconds": 0.0045688
+    },
+    "included": true
+  },
+  {
+    "run_id": "0116-timing-s106013-g16384-spread-off-r3-7c42eb",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g16384-spread-off",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-22T09:06:26.629143+00:00",
+    "ended": "2026-10-22T09:06:26.686922+00:00",
+    "elapsed_process_seconds": 0.05777860000000601,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8.2e-06,
+      "end_to_end_seconds": 0.0484626,
+      "epoch_seconds": 0.0220034,
+      "setup_seconds": 0.0059205
+    },
+    "included": true
+  },
+  {
+    "run_id": "0117-timing-s106013-g16384-spread-on-r3-c3642b",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g16384-spread-on",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-22T09:06:26.712085+00:00",
+    "ended": "2026-10-22T09:06:26.769412+00:00",
+    "elapsed_process_seconds": 0.057330699999994295,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 6.8e-06,
+      "end_to_end_seconds": 0.0484317,
+      "epoch_seconds": 0.0224434,
+      "setup_seconds": 0.0057135
+    },
+    "included": true
+  },
+  {
+    "run_id": "0118-timing-s100003-g256-spread-off-r3-2569e4",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g256-spread-off",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-22T09:06:26.795849+00:00",
+    "ended": "2026-10-22T09:06:26.830483+00:00",
+    "elapsed_process_seconds": 0.03463590000001204,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.67e-05,
+      "end_to_end_seconds": 0.0253564,
+      "epoch_seconds": 0.0037872,
+      "setup_seconds": 0.0056381
+    },
+    "included": true
+  },
+  {
+    "run_id": "0119-timing-s100003-g256-spread-on-r3-8a32df",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g256-spread-on",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-22T09:06:26.858318+00:00",
+    "ended": "2026-10-22T09:06:26.890928+00:00",
+    "elapsed_process_seconds": 0.03261040000001003,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8e-06,
+      "end_to_end_seconds": 0.0230428,
+      "epoch_seconds": 0.0026525,
+      "setup_seconds": 0.0056439
+    },
+    "included": true
+  },
+  {
+    "run_id": "0120-timing-s100003-g16384-concentrated-off-r3-d715b6",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g16384-concentrated-off",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-22T09:06:26.920750+00:00",
+    "ended": "2026-10-22T09:06:26.965566+00:00",
+    "elapsed_process_seconds": 0.04481799999999225,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.7e-06,
+      "end_to_end_seconds": 0.0348153,
+      "epoch_seconds": 0.0157192,
+      "setup_seconds": 0.0047269
+    },
+    "included": true
+  },
+  {
+    "run_id": "0121-timing-s100003-g16384-concentrated-on-r3-4ffa51",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g16384-concentrated-on",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-22T09:06:26.991960+00:00",
+    "ended": "2026-10-22T09:06:27.030279+00:00",
+    "elapsed_process_seconds": 0.03831740000001105,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.2e-06,
+      "end_to_end_seconds": 0.0312072,
+      "epoch_seconds": 0.0138628,
+      "setup_seconds": 0.0039921
+    },
+    "included": true
+  },
+  {
+    "run_id": "0122-timing-s100003-g8-spread-off-r3-6b5fdd",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g8-spread-off",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-22T09:06:27.058264+00:00",
+    "ended": "2026-10-22T09:06:27.091721+00:00",
+    "elapsed_process_seconds": 0.033457800000007865,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 9.5e-06,
+      "end_to_end_seconds": 0.0244242,
+      "epoch_seconds": 0.0034927,
+      "setup_seconds": 0.0064211
+    },
+    "included": true
+  },
+  {
+    "run_id": "0123-timing-s100003-g8-spread-on-r3-f42ea5",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g8-spread-on",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-22T09:06:27.119458+00:00",
+    "ended": "2026-10-22T09:06:27.150203+00:00",
+    "elapsed_process_seconds": 0.03074680000000285,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.49e-05,
+      "end_to_end_seconds": 0.0214767,
+      "epoch_seconds": 0.0023194,
+      "setup_seconds": 0.0053553
+    },
+    "included": true
+  },
+  {
+    "run_id": "0124-timing-s100003-g16384-spread-off-r3-7a7724",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g16384-spread-off",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-22T09:06:27.175975+00:00",
+    "ended": "2026-10-22T09:06:27.220604+00:00",
+    "elapsed_process_seconds": 0.04463030000002277,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.2e-06,
+      "end_to_end_seconds": 0.0350065,
+      "epoch_seconds": 0.0155785,
+      "setup_seconds": 0.0046747
+    },
+    "included": true
+  },
+  {
+    "run_id": "0125-timing-s100003-g16384-spread-on-r3-16e33b",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g16384-spread-on",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-22T09:06:27.247628+00:00",
+    "ended": "2026-10-22T09:06:27.291832+00:00",
+    "elapsed_process_seconds": 0.04420769999998697,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.4e-06,
+      "end_to_end_seconds": 0.0331219,
+      "epoch_seconds": 0.0156984,
+      "setup_seconds": 0.0041836
+    },
+    "included": true
+  },
+  {
+    "run_id": "0126-timing-s106013-g256-spread-off-r3-160536",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g256-spread-off",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-22T09:06:27.321827+00:00",
+    "ended": "2026-10-22T09:06:27.359034+00:00",
+    "elapsed_process_seconds": 0.03721409999999992,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.7e-06,
+      "end_to_end_seconds": 0.0297691,
+      "epoch_seconds": 0.0049206,
+      "setup_seconds": 0.006413
+    },
+    "included": true
+  },
+  {
+    "run_id": "0127-timing-s106013-g256-spread-on-r3-0d6d67",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g256-spread-on",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-22T09:06:27.384970+00:00",
+    "ended": "2026-10-22T09:06:27.424607+00:00",
+    "elapsed_process_seconds": 0.039636999999999034,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2.2e-06,
+      "end_to_end_seconds": 0.03134,
+      "epoch_seconds": 0.0040065,
+      "setup_seconds": 0.0069329
+    },
+    "included": true
+  },
+  {
+    "run_id": "0128-timing-s100003-g8-concentrated-off-r3-724e30",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g8-concentrated-off",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-22T09:06:27.451075+00:00",
+    "ended": "2026-10-22T09:06:27.487097+00:00",
+    "elapsed_process_seconds": 0.0360225000000014,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8.5e-06,
+      "end_to_end_seconds": 0.0287637,
+      "epoch_seconds": 0.0083417,
+      "setup_seconds": 0.0060891
+    },
+    "included": true
+  },
+  {
+    "run_id": "0129-timing-s100003-g8-concentrated-on-r3-f31651",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g8-concentrated-on",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-22T09:06:27.511654+00:00",
+    "ended": "2026-10-22T09:06:27.543848+00:00",
+    "elapsed_process_seconds": 0.0321954000000062,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 9.2e-06,
+      "end_to_end_seconds": 0.0228193,
+      "epoch_seconds": 0.0025235,
+      "setup_seconds": 0.0065351
+    },
+    "included": true
+  },
+  {
+    "run_id": "0130-timing-s106013-g8-spread-off-r3-dbc339",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g8-spread-off",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-22T09:06:27.571153+00:00",
+    "ended": "2026-10-22T09:06:27.614893+00:00",
+    "elapsed_process_seconds": 0.043739399999992656,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.4e-05,
+      "end_to_end_seconds": 0.0335456,
+      "epoch_seconds": 0.0045515,
+      "setup_seconds": 0.0091703
+    },
+    "included": true
+  },
+  {
+    "run_id": "0131-timing-s106013-g8-spread-on-r3-a99cda",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g8-spread-on",
+    "purpose": "timing",
+    "repeat": 3,
+    "started": "2026-10-22T09:06:27.644218+00:00",
+    "ended": "2026-10-22T09:06:27.711485+00:00",
+    "elapsed_process_seconds": 0.06726660000001061,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.51e-05,
+      "end_to_end_seconds": 0.0335103,
+      "epoch_seconds": 0.0038289,
+      "setup_seconds": 0.0100964
+    },
+    "included": true
+  },
+  {
+    "run_id": "0132-timing-s100003-g256-concentrated-on-r4-67654b",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g256-concentrated-on",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-22T09:06:27.735966+00:00",
+    "ended": "2026-10-22T09:06:27.768546+00:00",
+    "elapsed_process_seconds": 0.032581199999981436,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7.6e-06,
+      "end_to_end_seconds": 0.020979,
+      "epoch_seconds": 0.0026851,
+      "setup_seconds": 0.004411
+    },
+    "included": true
+  },
+  {
+    "run_id": "0133-timing-s100003-g256-concentrated-off-r4-ca226d",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g256-concentrated-off",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-22T09:06:27.798230+00:00",
+    "ended": "2026-10-22T09:06:27.834658+00:00",
+    "elapsed_process_seconds": 0.036427500000002055,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8.6e-06,
+      "end_to_end_seconds": 0.0274943,
+      "epoch_seconds": 0.0083299,
+      "setup_seconds": 0.0049291
+    },
+    "included": true
+  },
+  {
+    "run_id": "0134-timing-s106013-g16384-spread-on-r4-8b48c7",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g16384-spread-on",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-22T09:06:27.858754+00:00",
+    "ended": "2026-10-22T09:06:27.916065+00:00",
+    "elapsed_process_seconds": 0.05731000000000108,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8.1e-06,
+      "end_to_end_seconds": 0.0487073,
+      "epoch_seconds": 0.0219207,
+      "setup_seconds": 0.0068754
+    },
+    "included": true
+  },
+  {
+    "run_id": "0135-timing-s106013-g16384-spread-off-r4-3ba780",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g16384-spread-off",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-22T09:06:27.943901+00:00",
+    "ended": "2026-10-22T09:06:28.003310+00:00",
+    "elapsed_process_seconds": 0.05940780000000245,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8.6e-06,
+      "end_to_end_seconds": 0.0503533,
+      "epoch_seconds": 0.0221807,
+      "setup_seconds": 0.0077374
+    },
+    "included": true
+  },
+  {
+    "run_id": "0136-timing-s100003-g256-spread-on-r4-e04c1c",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g256-spread-on",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-22T09:06:28.027971+00:00",
+    "ended": "2026-10-22T09:06:28.062014+00:00",
+    "elapsed_process_seconds": 0.03404140000000666,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.21e-05,
+      "end_to_end_seconds": 0.0229179,
+      "epoch_seconds": 0.0027942,
+      "setup_seconds": 0.0048523
+    },
+    "included": true
+  },
+  {
+    "run_id": "0137-timing-s100003-g256-spread-off-r4-18d593",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g256-spread-off",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-22T09:06:28.090191+00:00",
+    "ended": "2026-10-22T09:06:28.120066+00:00",
+    "elapsed_process_seconds": 0.029875000000004093,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.16e-05,
+      "end_to_end_seconds": 0.0218921,
+      "epoch_seconds": 0.0033749,
+      "setup_seconds": 0.0049067
+    },
+    "included": true
+  },
+  {
+    "run_id": "0138-timing-s100003-g16384-concentrated-on-r4-223c08",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g16384-concentrated-on",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-22T09:06:28.146803+00:00",
+    "ended": "2026-10-22T09:06:28.193224+00:00",
+    "elapsed_process_seconds": 0.0464217999999903,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.5e-06,
+      "end_to_end_seconds": 0.0382452,
+      "epoch_seconds": 0.0185602,
+      "setup_seconds": 0.0045875
+    },
+    "included": true
+  },
+  {
+    "run_id": "0139-timing-s100003-g16384-concentrated-off-r4-0ba3d8",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g16384-concentrated-off",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-22T09:06:28.221770+00:00",
+    "ended": "2026-10-22T09:06:28.265685+00:00",
+    "elapsed_process_seconds": 0.04391609999998991,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.6e-06,
+      "end_to_end_seconds": 0.0352244,
+      "epoch_seconds": 0.0159072,
+      "setup_seconds": 0.0050712
+    },
+    "included": true
+  },
+  {
+    "run_id": "0140-timing-s100003-g8-spread-on-r4-6345e6",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g8-spread-on",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-22T09:06:28.303861+00:00",
+    "ended": "2026-10-22T09:06:28.336651+00:00",
+    "elapsed_process_seconds": 0.03279090000000906,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 9.4e-06,
+      "end_to_end_seconds": 0.0237403,
+      "epoch_seconds": 0.0026421,
+      "setup_seconds": 0.0059491
+    },
+    "included": true
+  },
+  {
+    "run_id": "0141-timing-s100003-g8-spread-off-r4-e36268",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g8-spread-off",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-22T09:06:28.367401+00:00",
+    "ended": "2026-10-22T09:06:28.406794+00:00",
+    "elapsed_process_seconds": 0.039392399999996996,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.07e-05,
+      "end_to_end_seconds": 0.0273225,
+      "epoch_seconds": 0.0036855,
+      "setup_seconds": 0.0068487
+    },
+    "included": true
+  },
+  {
+    "run_id": "0142-timing-s100003-g16384-spread-on-r4-2962fd",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g16384-spread-on",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-22T09:06:28.440296+00:00",
+    "ended": "2026-10-22T09:06:28.500644+00:00",
+    "elapsed_process_seconds": 0.06034599999998136,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2.4e-06,
+      "end_to_end_seconds": 0.0479981,
+      "epoch_seconds": 0.0279445,
+      "setup_seconds": 0.00516
+    },
+    "included": true
+  },
+  {
+    "run_id": "0143-timing-s100003-g16384-spread-off-r4-fce480",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g16384-spread-off",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-22T09:06:28.531393+00:00",
+    "ended": "2026-10-22T09:06:28.582767+00:00",
+    "elapsed_process_seconds": 0.051375299999989466,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2.1e-06,
+      "end_to_end_seconds": 0.0399882,
+      "epoch_seconds": 0.0181462,
+      "setup_seconds": 0.0055392
+    },
+    "included": true
+  },
+  {
+    "run_id": "0144-timing-s106013-g256-spread-on-r4-a4f778",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g256-spread-on",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-22T09:06:28.611445+00:00",
+    "ended": "2026-10-22T09:06:28.655716+00:00",
+    "elapsed_process_seconds": 0.04426940000001878,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 3.4e-06,
+      "end_to_end_seconds": 0.0344536,
+      "epoch_seconds": 0.0047008,
+      "setup_seconds": 0.0068287
+    },
+    "included": true
+  },
+  {
+    "run_id": "0145-timing-s106013-g256-spread-off-r4-31b13c",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g256-spread-off",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-22T09:06:28.685330+00:00",
+    "ended": "2026-10-22T09:06:28.729681+00:00",
+    "elapsed_process_seconds": 0.04435060000000135,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2.7e-06,
+      "end_to_end_seconds": 0.0343242,
+      "epoch_seconds": 0.0050101,
+      "setup_seconds": 0.0086834
+    },
+    "included": true
+  },
+  {
+    "run_id": "0146-timing-s100003-g8-concentrated-on-r4-38013d",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g8-concentrated-on",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-22T09:06:28.759095+00:00",
+    "ended": "2026-10-22T09:06:28.797985+00:00",
+    "elapsed_process_seconds": 0.03889010000000326,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.69e-05,
+      "end_to_end_seconds": 0.0272687,
+      "epoch_seconds": 0.0031687,
+      "setup_seconds": 0.0079592
+    },
+    "included": true
+  },
+  {
+    "run_id": "0147-timing-s100003-g8-concentrated-off-r4-c565a6",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g8-concentrated-off",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-22T09:06:28.840914+00:00",
+    "ended": "2026-10-22T09:06:28.880549+00:00",
+    "elapsed_process_seconds": 0.03963529999998627,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.04e-05,
+      "end_to_end_seconds": 0.031092,
+      "epoch_seconds": 0.0087818,
+      "setup_seconds": 0.007857
+    },
+    "included": true
+  },
+  {
+    "run_id": "0148-timing-s106013-g8-spread-on-r4-3ef739",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g8-spread-on",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-22T09:06:28.910395+00:00",
+    "ended": "2026-10-22T09:06:28.955401+00:00",
+    "elapsed_process_seconds": 0.04500669999998763,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.83e-05,
+      "end_to_end_seconds": 0.0358641,
+      "epoch_seconds": 0.0039808,
+      "setup_seconds": 0.0098692
+    },
+    "included": true
+  },
+  {
+    "run_id": "0149-timing-s106013-g8-spread-off-r4-9b299d",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g8-spread-off",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-22T09:06:28.984930+00:00",
+    "ended": "2026-10-22T09:06:29.029267+00:00",
+    "elapsed_process_seconds": 0.044339199999996026,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2.53e-05,
+      "end_to_end_seconds": 0.0353746,
+      "epoch_seconds": 0.0051265,
+      "setup_seconds": 0.0092941
+    },
+    "included": true
+  },
+  {
+    "run_id": "0150-timing-s106013-g256-concentrated-on-r4-47c7c5",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g256-concentrated-on",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-22T09:06:29.054828+00:00",
+    "ended": "2026-10-22T09:06:29.094015+00:00",
+    "elapsed_process_seconds": 0.03918710000002079,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.9e-06,
+      "end_to_end_seconds": 0.0309873,
+      "epoch_seconds": 0.0037137,
+      "setup_seconds": 0.0058297
+    },
+    "included": true
+  },
+  {
+    "run_id": "0151-timing-s106013-g256-concentrated-off-r4-6af9e3",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g256-concentrated-off",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-22T09:06:29.121284+00:00",
+    "ended": "2026-10-22T09:06:29.169704+00:00",
+    "elapsed_process_seconds": 0.04842220000000452,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2e-06,
+      "end_to_end_seconds": 0.0392495,
+      "epoch_seconds": 0.0119452,
+      "setup_seconds": 0.0067632
+    },
+    "included": true
+  },
+  {
+    "run_id": "0152-timing-s106013-g16384-concentrated-on-r4-d85931",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g16384-concentrated-on",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-22T09:06:29.194575+00:00",
+    "ended": "2026-10-22T09:06:29.253577+00:00",
+    "elapsed_process_seconds": 0.0590028000000018,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.1e-05,
+      "end_to_end_seconds": 0.0506656,
+      "epoch_seconds": 0.024006,
+      "setup_seconds": 0.0070409
+    },
+    "included": true
+  },
+  {
+    "run_id": "0153-timing-s106013-g16384-concentrated-off-r4-a322cc",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g16384-concentrated-off",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-22T09:06:29.284079+00:00",
+    "ended": "2026-10-22T09:06:29.344312+00:00",
+    "elapsed_process_seconds": 0.06023079999999936,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 9e-06,
+      "end_to_end_seconds": 0.0509347,
+      "epoch_seconds": 0.022545,
+      "setup_seconds": 0.0070374
+    },
+    "included": true
+  },
+  {
+    "run_id": "0154-timing-s106013-g8-concentrated-on-r4-86210e",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g8-concentrated-on",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-22T09:06:29.372827+00:00",
+    "ended": "2026-10-22T09:06:29.417139+00:00",
+    "elapsed_process_seconds": 0.044300999999990154,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2.55e-05,
+      "end_to_end_seconds": 0.0359192,
+      "epoch_seconds": 0.0042052,
+      "setup_seconds": 0.0100041
+    },
+    "included": true
+  },
+  {
+    "run_id": "0155-timing-s106013-g8-concentrated-off-r4-8940cf",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g8-concentrated-off",
+    "purpose": "timing",
+    "repeat": 4,
+    "started": "2026-10-22T09:06:29.444946+00:00",
+    "ended": "2026-10-22T09:06:29.496750+00:00",
+    "elapsed_process_seconds": 0.05180579999998258,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.19e-05,
+      "end_to_end_seconds": 0.0434837,
+      "epoch_seconds": 0.0127087,
+      "setup_seconds": 0.0099142
+    },
+    "included": true
+  },
+  {
+    "run_id": "0156-timing-s100003-g256-spread-off-r5-018920",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g256-spread-off",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-22T09:06:29.526256+00:00",
+    "ended": "2026-10-22T09:06:29.559526+00:00",
+    "elapsed_process_seconds": 0.033268200000009074,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.04e-05,
+      "end_to_end_seconds": 0.0240309,
+      "epoch_seconds": 0.0034563,
+      "setup_seconds": 0.005685
+    },
+    "included": true
+  },
+  {
+    "run_id": "0157-timing-s100003-g256-spread-on-r5-d40488",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g256-spread-on",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-22T09:06:29.588021+00:00",
+    "ended": "2026-10-22T09:06:29.617759+00:00",
+    "elapsed_process_seconds": 0.02973700000001145,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8.2e-06,
+      "end_to_end_seconds": 0.020926,
+      "epoch_seconds": 0.0023891,
+      "setup_seconds": 0.0048868
+    },
+    "included": true
+  },
+  {
+    "run_id": "0158-timing-s100003-g16384-concentrated-off-r5-07ba11",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g16384-concentrated-off",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-22T09:06:29.646472+00:00",
+    "ended": "2026-10-22T09:06:29.689752+00:00",
+    "elapsed_process_seconds": 0.04327480000000605,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.4e-06,
+      "end_to_end_seconds": 0.0345852,
+      "epoch_seconds": 0.0158331,
+      "setup_seconds": 0.0047836
+    },
+    "included": true
+  },
+  {
+    "run_id": "0159-timing-s100003-g16384-concentrated-on-r5-eaf6d7",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g16384-concentrated-on",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-22T09:06:29.717139+00:00",
+    "ended": "2026-10-22T09:06:29.770334+00:00",
+    "elapsed_process_seconds": 0.05319610000000807,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.8e-06,
+      "end_to_end_seconds": 0.0419978,
+      "epoch_seconds": 0.0214225,
+      "setup_seconds": 0.0048067
+    },
+    "included": true
+  },
+  {
+    "run_id": "0160-timing-s100003-g8-spread-off-r5-f71e49",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g8-spread-off",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-22T09:06:29.797584+00:00",
+    "ended": "2026-10-22T09:06:29.830654+00:00",
+    "elapsed_process_seconds": 0.03307069999999612,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8.5e-06,
+      "end_to_end_seconds": 0.0239151,
+      "epoch_seconds": 0.0039707,
+      "setup_seconds": 0.0064869
+    },
+    "included": true
+  },
+  {
+    "run_id": "0161-timing-s100003-g8-spread-on-r5-9c486d",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g8-spread-on",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-22T09:06:29.860412+00:00",
+    "ended": "2026-10-22T09:06:29.895002+00:00",
+    "elapsed_process_seconds": 0.03459040000001323,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.99e-05,
+      "end_to_end_seconds": 0.0244436,
+      "epoch_seconds": 0.0027345,
+      "setup_seconds": 0.0068027
+    },
+    "included": true
+  },
+  {
+    "run_id": "0162-timing-s100003-g16384-spread-off-r5-93cb86",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g16384-spread-off",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-22T09:06:29.922585+00:00",
+    "ended": "2026-10-22T09:06:29.969941+00:00",
+    "elapsed_process_seconds": 0.047357700000020486,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.3e-06,
+      "end_to_end_seconds": 0.0372166,
+      "epoch_seconds": 0.0158732,
+      "setup_seconds": 0.0043514
+    },
+    "included": true
+  },
+  {
+    "run_id": "0163-timing-s100003-g16384-spread-on-r5-224d33",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g16384-spread-on",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-22T09:06:30.000606+00:00",
+    "ended": "2026-10-22T09:06:30.045179+00:00",
+    "elapsed_process_seconds": 0.04457179999999994,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.5e-06,
+      "end_to_end_seconds": 0.0341544,
+      "epoch_seconds": 0.015285,
+      "setup_seconds": 0.0048682
+    },
+    "included": true
+  },
+  {
+    "run_id": "0164-timing-s106013-g256-spread-off-r5-be5c4e",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g256-spread-off",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-22T09:06:30.074743+00:00",
+    "ended": "2026-10-22T09:06:30.119372+00:00",
+    "elapsed_process_seconds": 0.044628200000005336,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2.3e-06,
+      "end_to_end_seconds": 0.0348754,
+      "epoch_seconds": 0.0051397,
+      "setup_seconds": 0.0072016
+    },
+    "included": true
+  },
+  {
+    "run_id": "0165-timing-s106013-g256-spread-on-r5-4c6430",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g256-spread-on",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-22T09:06:30.149042+00:00",
+    "ended": "2026-10-22T09:06:30.188801+00:00",
+    "elapsed_process_seconds": 0.03975750000000744,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2.4e-06,
+      "end_to_end_seconds": 0.031059,
+      "epoch_seconds": 0.0039237,
+      "setup_seconds": 0.0068124
+    },
+    "included": true
+  },
+  {
+    "run_id": "0166-timing-s100003-g8-concentrated-off-r5-cc1e7c",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g8-concentrated-off",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-22T09:06:30.217528+00:00",
+    "ended": "2026-10-22T09:06:30.256352+00:00",
+    "elapsed_process_seconds": 0.038823600000000624,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.75e-05,
+      "end_to_end_seconds": 0.0300998,
+      "epoch_seconds": 0.008941,
+      "setup_seconds": 0.0067656
+    },
+    "included": true
+  },
+  {
+    "run_id": "0167-timing-s100003-g8-concentrated-on-r5-07acac",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g8-concentrated-on",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-22T09:06:30.286511+00:00",
+    "ended": "2026-10-22T09:06:30.321646+00:00",
+    "elapsed_process_seconds": 0.035133199999989984,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.29e-05,
+      "end_to_end_seconds": 0.0248111,
+      "epoch_seconds": 0.0027968,
+      "setup_seconds": 0.0071477
+    },
+    "included": true
+  },
+  {
+    "run_id": "0168-timing-s106013-g8-spread-off-r5-2322be",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g8-spread-off",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-22T09:06:30.348029+00:00",
+    "ended": "2026-10-22T09:06:30.396316+00:00",
+    "elapsed_process_seconds": 0.04828729999999837,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 3.06e-05,
+      "end_to_end_seconds": 0.0377253,
+      "epoch_seconds": 0.0054029,
+      "setup_seconds": 0.0103361
+    },
+    "included": true
+  },
+  {
+    "run_id": "0169-timing-s106013-g8-spread-on-r5-2016ec",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g8-spread-on",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-22T09:06:30.422990+00:00",
+    "ended": "2026-10-22T09:06:30.469825+00:00",
+    "elapsed_process_seconds": 0.046836100000007264,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.45e-05,
+      "end_to_end_seconds": 0.0362105,
+      "epoch_seconds": 0.0041523,
+      "setup_seconds": 0.0107123
+    },
+    "included": true
+  },
+  {
+    "run_id": "0170-timing-s106013-g256-concentrated-off-r5-4f0250",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g256-concentrated-off",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-22T09:06:30.496998+00:00",
+    "ended": "2026-10-22T09:06:30.546301+00:00",
+    "elapsed_process_seconds": 0.049302100000005566,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 2.1e-06,
+      "end_to_end_seconds": 0.0388544,
+      "epoch_seconds": 0.0117217,
+      "setup_seconds": 0.0072428
+    },
+    "included": true
+  },
+  {
+    "run_id": "0171-timing-s106013-g256-concentrated-on-r5-976875",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g256-concentrated-on",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-22T09:06:30.572830+00:00",
+    "ended": "2026-10-22T09:06:30.613030+00:00",
+    "elapsed_process_seconds": 0.040200600000019904,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.8e-06,
+      "end_to_end_seconds": 0.0307738,
+      "epoch_seconds": 0.0035893,
+      "setup_seconds": 0.0059922
+    },
+    "included": true
+  },
+  {
+    "run_id": "0172-timing-s106013-g16384-concentrated-off-r5-3f82c8",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g16384-concentrated-off",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-22T09:06:30.642690+00:00",
+    "ended": "2026-10-22T09:06:30.703684+00:00",
+    "elapsed_process_seconds": 0.06100129999998671,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7.3e-06,
+      "end_to_end_seconds": 0.0513779,
+      "epoch_seconds": 0.0236789,
+      "setup_seconds": 0.006065
+    },
+    "included": true
+  },
+  {
+    "run_id": "0173-timing-s106013-g16384-concentrated-on-r5-54ecc4",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g16384-concentrated-on",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-22T09:06:30.729452+00:00",
+    "ended": "2026-10-22T09:06:30.794650+00:00",
+    "elapsed_process_seconds": 0.0651982999999916,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.14e-05,
+      "end_to_end_seconds": 0.0568301,
+      "epoch_seconds": 0.0297319,
+      "setup_seconds": 0.0065671
+    },
+    "included": true
+  },
+  {
+    "run_id": "0174-timing-s106013-g8-concentrated-off-r5-5baa28",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g8-concentrated-off",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-22T09:06:30.822578+00:00",
+    "ended": "2026-10-22T09:06:30.874204+00:00",
+    "elapsed_process_seconds": 0.05162749999999505,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.54e-05,
+      "end_to_end_seconds": 0.0414953,
+      "epoch_seconds": 0.0108417,
+      "setup_seconds": 0.0098984
+    },
+    "included": true
+  },
+  {
+    "run_id": "0175-timing-s106013-g8-concentrated-on-r5-78149c",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g8-concentrated-on",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-22T09:06:30.901134+00:00",
+    "ended": "2026-10-22T09:06:30.944362+00:00",
+    "elapsed_process_seconds": 0.043229100000019116,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.39e-05,
+      "end_to_end_seconds": 0.0340629,
+      "epoch_seconds": 0.003686,
+      "setup_seconds": 0.0087081
+    },
+    "included": true
+  },
+  {
+    "run_id": "0176-timing-s100003-g256-concentrated-off-r5-b7152a",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g256-concentrated-off",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-22T09:06:30.974410+00:00",
+    "ended": "2026-10-22T09:06:31.011590+00:00",
+    "elapsed_process_seconds": 0.03718169999999077,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 7.9e-06,
+      "end_to_end_seconds": 0.0276151,
+      "epoch_seconds": 0.0077286,
+      "setup_seconds": 0.0047427
+    },
+    "included": true
+  },
+  {
+    "run_id": "0177-timing-s100003-g256-concentrated-on-r5-aff051",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s100003-g256-concentrated-on",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-22T09:06:31.043714+00:00",
+    "ended": "2026-10-22T09:06:31.076995+00:00",
+    "elapsed_process_seconds": 0.033281799999997475,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8.7e-06,
+      "end_to_end_seconds": 0.0242275,
+      "epoch_seconds": 0.0037404,
+      "setup_seconds": 0.0048466
+    },
+    "included": true
+  },
+  {
+    "run_id": "0178-timing-s106013-g16384-spread-off-r5-62515d",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g16384-spread-off",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-22T09:06:31.105205+00:00",
+    "ended": "2026-10-22T09:06:31.169281+00:00",
+    "elapsed_process_seconds": 0.06407960000001367,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 1.03e-05,
+      "end_to_end_seconds": 0.0514876,
+      "epoch_seconds": 0.0224662,
+      "setup_seconds": 0.0072196
+    },
+    "included": true
+  },
+  {
+    "run_id": "0179-timing-s106013-g16384-spread-on-r5-91085c",
+    "batch_id": "20261022T090616Z-V13-stealing-boundary-b7f83d",
+    "condition": "s106013-g16384-spread-on",
+    "purpose": "timing",
+    "repeat": 5,
+    "started": "2026-10-22T09:06:31.198638+00:00",
+    "ended": "2026-10-22T09:06:31.260402+00:00",
+    "elapsed_process_seconds": 0.06176350000001207,
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "completed",
+    "failure_reason": null,
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+    "environment_ref": "../environment.json",
+    "correctness": {
+      "pass": true
+    },
+    "timing": {
+      "dispatch_seconds": 8.9e-06,
+      "end_to_end_seconds": 0.0522324,
+      "epoch_seconds": 0.0258176,
+      "setup_seconds": 0.0070198
+    },
+    "included": true
+  }
+]

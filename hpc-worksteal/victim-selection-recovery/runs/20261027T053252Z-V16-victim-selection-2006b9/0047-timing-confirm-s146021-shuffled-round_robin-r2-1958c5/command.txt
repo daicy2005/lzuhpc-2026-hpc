@@ -1,0 +1,11 @@
+{
+  "cwd": "/root/lzuhpc-experiments/ws-20261027-victim-selection-recovery",
+  "argv": [
+    "/root/lzuhpc-experiments/ws-20261016-verify-full_lanes8/build-none/worksteal",
+    "--config",
+    "/root/lzuhpc-experiments/ws-20261027-victim-selection-recovery/runs/20261027T053252Z-V16-victim-selection-2006b9/0047-timing-confirm-s146021-shuffled-round_robin-r2-1958c5/config.json",
+    "--output",
+    "/root/lzuhpc-experiments/ws-20261027-victim-selection-recovery/runs/20261027T053252Z-V16-victim-selection-2006b9/0047-timing-confirm-s146021-shuffled-round_robin-r2-1958c5/result.json"
+  ],
+  "explicit_environment": {}
+}

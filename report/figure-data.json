@@ -1,0 +1,244 @@
+{
+  "raytracing": {
+    "source": "hpc-raytracing/results/round16-comparison.json",
+    "upstream_seconds": [
+      1897.516,
+      1968.697,
+      1993.332
+    ],
+    "final_seconds": [
+      84.857,
+      85.006,
+      85.197
+    ],
+    "median_ratio": 23.15950638778439
+  },
+  "worksteal_boundary": [
+    {
+      "seed": 100003,
+      "grain": 16384,
+      "layout": "spread",
+      "medians": {
+        "off": {
+          "epoch": 0.0158732,
+          "app": 0.0350835,
+          "process": 0.04463030000002277
+        },
+        "on": {
+          "epoch": 0.0156984,
+          "app": 0.0341544,
+          "process": 0.04457179999999994
+        }
+      },
+      "epoch_wins": 2
+    },
+    {
+      "seed": 106013,
+      "grain": 256,
+      "layout": "spread",
+      "medians": {
+        "off": {
+          "epoch": 0.0050101,
+          "app": 0.0317467,
+          "process": 0.041654300000004696
+        },
+        "on": {
+          "epoch": 0.0040065,
+          "app": 0.03134,
+          "process": 0.03975750000000744
+        }
+      },
+      "epoch_wins": 4
+    },
+    {
+      "seed": 100003,
+      "grain": 8,
+      "layout": "concentrated",
+      "medians": {
+        "off": {
+          "epoch": 0.0087818,
+          "app": 0.031092,
+          "process": 0.03963529999998627
+        },
+        "on": {
+          "epoch": 0.0028711,
+          "app": 0.0249748,
+          "process": 0.03522409999999354
+        }
+      },
+      "epoch_wins": 5
+    },
+    {
+      "seed": 106013,
+      "grain": 8,
+      "layout": "spread",
+      "medians": {
+        "off": {
+          "epoch": 0.0051265,
+          "app": 0.0354242,
+          "process": 0.04587029999999004
+        },
+        "on": {
+          "epoch": 0.0041523,
+          "app": 0.0358641,
+          "process": 0.046836100000007264
+        }
+      },
+      "epoch_wins": 5
+    },
+    {
+      "seed": 106013,
+      "grain": 256,
+      "layout": "concentrated",
+      "medians": {
+        "off": {
+          "epoch": 0.0119452,
+          "app": 0.0388883,
+          "process": 0.049302100000005566
+        },
+        "on": {
+          "epoch": 0.0040792,
+          "app": 0.0307792,
+          "process": 0.040200600000019904
+        }
+      },
+      "epoch_wins": 5
+    },
+    {
+      "seed": 106013,
+      "grain": 16384,
+      "layout": "concentrated",
+      "medians": {
+        "off": {
+          "epoch": 0.0236739,
+          "app": 0.0513779,
+          "process": 0.06100129999998671
+        },
+        "on": {
+          "epoch": 0.024006,
+          "app": 0.0506656,
+          "process": 0.0590028000000018
+        }
+      },
+      "epoch_wins": 2
+    },
+    {
+      "seed": 106013,
+      "grain": 8,
+      "layout": "concentrated",
+      "medians": {
+        "off": {
+          "epoch": 0.01102,
+          "app": 0.0414953,
+          "process": 0.05162749999999505
+        },
+        "on": {
+          "epoch": 0.0042052,
+          "app": 0.0351099,
+          "process": 0.043229100000019116
+        }
+      },
+      "epoch_wins": 5
+    },
+    {
+      "seed": 100003,
+      "grain": 256,
+      "layout": "concentrated",
+      "medians": {
+        "off": {
+          "epoch": 0.0077286,
+          "app": 0.0274943,
+          "process": 0.036427500000002055
+        },
+        "on": {
+          "epoch": 0.0027546,
+          "app": 0.0225163,
+          "process": 0.031557200000008834
+        }
+      },
+      "epoch_wins": 5
+    },
+    {
+      "seed": 106013,
+      "grain": 16384,
+      "layout": "spread",
+      "medians": {
+        "off": {
+          "epoch": 0.0221807,
+          "app": 0.0503533,
+          "process": 0.05940780000000245
+        },
+        "on": {
+          "epoch": 0.0258176,
+          "app": 0.0522324,
+          "process": 0.06176350000001207
+        }
+      },
+      "epoch_wins": 1
+    },
+    {
+      "seed": 100003,
+      "grain": 256,
+      "layout": "spread",
+      "medians": {
+        "off": {
+          "epoch": 0.0034563,
+          "app": 0.0227975,
+          "process": 0.0315070999999989
+        },
+        "on": {
+          "epoch": 0.0027942,
+          "app": 0.0229179,
+          "process": 0.032086199999980636
+        }
+      },
+      "epoch_wins": 5
+    },
+    {
+      "seed": 100003,
+      "grain": 16384,
+      "layout": "concentrated",
+      "medians": {
+        "off": {
+          "epoch": 0.0158331,
+          "app": 0.0352244,
+          "process": 0.04391609999998991
+        },
+        "on": {
+          "epoch": 0.0185602,
+          "app": 0.0382452,
+          "process": 0.0464217999999903
+        }
+      },
+      "epoch_wins": 1
+    },
+    {
+      "seed": 100003,
+      "grain": 8,
+      "layout": "spread",
+      "medians": {
+        "off": {
+          "epoch": 0.0038752,
+          "app": 0.0244242,
+          "process": 0.03362010000000737
+        },
+        "on": {
+          "epoch": 0.0026421,
+          "app": 0.0239731,
+          "process": 0.03291579999998362
+        }
+      },
+      "epoch_wins": 5
+    }
+  ],
+  "figure_sources": {
+    "worksteal-runtime.svg": {
+      "source": "hpc-worksteal/report/student/figures/runtime-flow-designed.svg",
+      "sha256": "c48d206c30cbd88168bb8312a64cddb6a7dc00e99cc74891f03e52573c524472"
+    },
+    "worksteal-boundary.svg": {
+      "source": "hpc-worksteal/report/student/figures/v13-boundary-styled.svg",
+      "sha256": "846c8c841441e00b6c265ef332bad04cc6fd53deb963ad3c37a238f6fa679f89"
+    }
+  }
+}

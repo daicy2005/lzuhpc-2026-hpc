@@ -1,0 +1,15 @@
+mkdir -p build/src/
+mkdir -p build/src/geometry/
+mkdir -p build/src/geometry/
+mkdir -p build/src/material/
+g++ -Isrc -std=c++20 -O2 -Wall -Wextra -Wpedantic -Werror -MMD -MP -c src/main.cpp -o build/src/main.o
+g++ -Isrc -std=c++20 -O2 -Wall -Wextra -Wpedantic -Werror -MMD -MP -c src/geometry/hittable_list.cpp -o build/src/geometry/hittable_list.o
+g++ -Isrc -std=c++20 -O2 -Wall -Wextra -Wpedantic -Werror -MMD -MP -c src/geometry/sphere.cpp -o build/src/geometry/sphere.o
+g++ -Isrc -std=c++20 -O2 -Wall -Wextra -Wpedantic -Werror -MMD -MP -c src/material/material.cpp -o build/src/material/material.o
+mkdir -p build/src/math/
+g++ -Isrc -std=c++20 -O2 -Wall -Wextra -Wpedantic -Werror -MMD -MP -c src/math/color.cpp -o build/src/math/color.o
+mkdir -p build/src/math/
+g++ -Isrc -std=c++20 -O2 -Wall -Wextra -Wpedantic -Werror -MMD -MP -c src/math/interval.cpp -o build/src/math/interval.o
+mkdir -p build/src/render/
+g++ -Isrc -std=c++20 -O2 -Wall -Wextra -Wpedantic -Werror -MMD -MP -c src/render/camera.cpp -o build/src/render/camera.o
+g++  build/src/main.o build/src/geometry/hittable_list.o build/src/geometry/sphere.o build/src/material/material.o build/src/math/color.o build/src/math/interval.o build/src/render/camera.o  -o build/RayTracing

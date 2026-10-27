@@ -1,0 +1,20 @@
+Use case: infographic-diagram
+Asset type: A polished explanatory infographic for a Chinese student's high-performance computing project report. This is a conceptual architecture illustration, not a data plot.
+Primary request: Design a beautiful, technically accurate Mini WorkSteal runtime flow diagram. Restrained academic editorial design, crisp lines, clear hierarchy, subtle hand-crafted character. White paper background, navy #263D55 text, muted teal #168C91, pale blue fills, tiny amber accents. No photos, no 3D, no neon, no glossy UI, no watermark, no invented logos.
+Canvas: 1536x1024 landscape. Keep the actual diagram within the central horizontal band, with substantial clean pure-white padding above and below. Actual diagram content should be approximately 1450x520, leaving white padding. It will be trimmed to content and printed at about 18 cm wide. All text must be sharp, high contrast, large and readable.
+Composition: Four equally sized stage cards in one row, left to right, connected by clear thin arrows. Under the main row, one small separate affinity strip. Small elegant line-art icons for configuration sliders, task cards, thread queues, and checkmark. All arrows are conceptual execution order, not an assertion that the reference verifier is part of the worker pool.
+Exact text to render, and no other text:
+Main title: "Mini WorkSteal：一次执行的流程"
+Card 1 heading: "配置与注册"
+Card 1 detail: "JSON / Registry"
+Card 2 heading: "切分与放置"
+Card 2 detail: "Partition / Placement"
+Card 2 small label: "固定任务集合"
+Card 3 heading: "执行与窃取"
+Card 3 detail, on two lines if needed: "Victim / Timing" and "Migration"
+Card 3 small label: "持久线程 / 带锁队列"
+Card 4 heading: "完成与核验"
+Card 4 detail: "结果发布 / 逐元素参考"
+Affinity strip: "Affinity：工作线程的逻辑 CPU 请求"
+Bottom footnote: "迁移的是任务描述符，不是数据页"
+Technical constraints: Exactly four stage cards and exactly one affinity strip. No DAG, child-task recursion, network, GPU, lock-free queues, moving memory pages, NUMA claims, cache-hit claims, performance scores or numeric benchmarks. Distinguish the final application verifier from the worker's execution. Do not add an arrow implying the verifier recursively creates worker tasks. Chinese text must match exactly.

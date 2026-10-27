@@ -1,0 +1,150 @@
+{
+  "affinity": {
+    "actual_workers": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ]
+    ],
+    "control_wait": "condition_variable",
+    "main_mask_before": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "requested": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "correctness": {
+    "pass": true
+  },
+  "epochs": [
+    {
+      "correctness": {
+        "compared_elements": 262144,
+        "exact_once": null,
+        "mismatches": 0,
+        "output_hash_fnv1a64": "652d7345f5e928a0",
+        "pass": true
+      },
+      "epoch": 0,
+      "epoch_seconds": 0.205476,
+      "identity": {
+        "cost_hash_fnv1a64": "902e3530cba22325",
+        "data_hash_fnv1a64": null,
+        "initial_cost_units": [
+          67108864,
+          67108864,
+          67108864,
+          67108864
+        ],
+        "input_hash_fnv1a64": "287e8b4130795552",
+        "max_task_cost_units": 1024,
+        "per_element_bytes": 8,
+        "pretouch_checksums": null,
+        "queue_hash_fnv1a64": "b4652ad9550b3025",
+        "task_count": 262144,
+        "task_hash_fnv1a64": "b85b833b55f155c1",
+        "total_cost_units": 268435456,
+        "total_data_bytes": 0
+      },
+      "local_only": false,
+      "worker_stats": null
+    }
+  ],
+  "metrics_mode": "timing",
+  "resolved_config": {
+    "executor": "central",
+    "layout": "policy",
+    "layout_seed": 42,
+    "measurement": {
+      "epochs": 1,
+      "mode": "timing"
+    },
+    "policies": {
+      "affinity": {
+        "cpus": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "name": "explicit"
+      },
+      "migration": {
+        "name": "single"
+      },
+      "partition": {
+        "grain": 1,
+        "name": "fixed_grain"
+      },
+      "placement": {
+        "name": "round_robin"
+      },
+      "steal_timing": {
+        "name": "immediate"
+      },
+      "victim": {
+        "name": "round_robin"
+      }
+    },
+    "schema_version": 1,
+    "steal_enabled": true,
+    "workers": 4,
+    "workload": {
+      "elements": 262144,
+      "iterations": 1024,
+      "name": "compute_uniform",
+      "seed": 42
+    }
+  },
+  "schema_version": 1,
+  "status": "completed",
+  "timing": {
+    "dispatch_seconds": 0.009333,
+    "end_to_end_seconds": 1.0393276,
+    "epoch_seconds": 0.205476,
+    "setup_seconds": 0.0466339
+  }
+}

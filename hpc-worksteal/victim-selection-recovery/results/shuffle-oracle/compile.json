@@ -1,0 +1,17 @@
+{
+  "command": [
+    "g++",
+    "-std=c++20",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-Wconversion",
+    "/root/lzuhpc-experiments/ws-20261027-victim-selection-recovery/tools/shuffle_oracle.cpp",
+    "-o",
+    "/root/lzuhpc-experiments/ws-20261027-victim-selection-recovery/results/shuffle-oracle/probe"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": ""
+}

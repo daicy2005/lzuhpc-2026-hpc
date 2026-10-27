@@ -1,0 +1,15 @@
+{
+  "protected_match": true,
+  "changed_files": [
+    "Makefile",
+    "src/geometry/aabb.hpp",
+    "src/geometry/hittable.hpp",
+    "src/geometry/hittable_list.cpp",
+    "src/geometry/hittable_list.hpp",
+    "src/geometry/sphere.cpp",
+    "src/geometry/sphere.hpp",
+    "src/render/camera.cpp",
+    "src/render/diagnostics.hpp",
+    "src/render/settings.hpp"
+  ]
+}

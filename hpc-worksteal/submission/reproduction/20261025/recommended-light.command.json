@@ -1,0 +1,12 @@
+{
+  "label": "recommended-light",
+  "argv": [
+    "/root/lzuhpc-experiments/ws-20261025-submission-native/build-optimized/worksteal",
+    "--config",
+    "/root/lzuhpc-experiments/ws-20261025-submission-native/configs/verified/light.json",
+    "--output",
+    "/root/lzuhpc-experiments/ws-20261025-submission-native/reproduction-evidence/recommended-light.json"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 0.03516340000000184
+}

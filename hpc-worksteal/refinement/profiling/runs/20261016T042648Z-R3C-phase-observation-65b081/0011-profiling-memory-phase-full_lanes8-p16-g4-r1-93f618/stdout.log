@@ -1,0 +1,238 @@
+{
+  "affinity": {
+    "actual_workers": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ],
+      [
+        6
+      ],
+      [
+        7
+      ],
+      [
+        8
+      ],
+      [
+        9
+      ],
+      [
+        10
+      ],
+      [
+        11
+      ],
+      [
+        12
+      ],
+      [
+        13
+      ],
+      [
+        14
+      ],
+      [
+        15
+      ]
+    ],
+    "control_wait": "condition_variable",
+    "main_mask_before": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "requested": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  "correctness": {
+    "pass": true
+  },
+  "epochs": [
+    {
+      "correctness": {
+        "compared_elements": 64,
+        "exact_once": null,
+        "mismatches": 0,
+        "output_hash_fnv1a64": "741c2c82d00c8208",
+        "pass": true
+      },
+      "epoch": 0,
+      "epoch_seconds": 0.0077871,
+      "execution": null,
+      "identity": {
+        "cost_hash_fnv1a64": "4ba8ea86dae40725",
+        "data_hash_fnv1a64": "1dd2ab5e6e8ca1fd",
+        "initial_cost_units": [
+          4194304,
+          4194304,
+          4194304,
+          4194304,
+          4194304,
+          4194304,
+          4194304,
+          4194304,
+          4194304,
+          4194304,
+          4194304,
+          4194304,
+          4194304,
+          4194304,
+          4194304,
+          4194304
+        ],
+        "input_hash_fnv1a64": "3e260456326aac3e",
+        "max_task_cost_units": 4194304,
+        "per_element_bytes": 524288,
+        "queue_hash_fnv1a64": "acddf904a568fa25",
+        "task_count": 16,
+        "task_hash_fnv1a64": "81907b92d1622de5",
+        "total_cost_units": 67108864,
+        "total_data_bytes": 33554432
+      },
+      "local_only": false,
+      "pretouch_hash_fnv1a64": "86e5ebc3c9b699a2",
+      "worker_stats": null
+    }
+  ],
+  "metrics_mode": "timing",
+  "phase_seconds": {
+    "configuration_and_policies": 2.07e-05,
+    "dispatch_and_execution_wall": 0.0079176,
+    "full_reference_verification": 0.0477924,
+    "home_preread": 0.0013444,
+    "identity_hashes": 0.0326063,
+    "output_and_counts_preparation": 8e-07,
+    "partition_and_placement": 1.13e-05,
+    "pool_creation": 0.0010815,
+    "pool_shutdown": 0.0004792,
+    "result_summary": 2e-05,
+    "workload_initialization": 0.0260643
+  },
+  "resolved_config": {
+    "executor": "worksteal",
+    "layout": "policy",
+    "layout_seed": 911,
+    "measurement": {
+      "epochs": 1,
+      "mode": "timing"
+    },
+    "policies": {
+      "affinity": {
+        "cpus": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "name": "explicit"
+      },
+      "migration": {
+        "name": "single"
+      },
+      "partition": {
+        "grain": 4,
+        "name": "fixed_grain"
+      },
+      "placement": {
+        "name": "round_robin"
+      },
+      "steal_timing": {
+        "name": "immediate"
+      },
+      "victim": {
+        "name": "round_robin"
+      }
+    },
+    "schema_version": 1,
+    "steal_enabled": true,
+    "workers": 16,
+    "workload": {
+      "bytes_per_element": 524288,
+      "elements": 64,
+      "iterations": 1,
+      "name": "memory_reuse",
+      "passes": 16,
+      "seed": 911
+    }
+  },
+  "schema_version": 1,
+  "status": "completed",
+  "timing": {
+    "dispatch_seconds": 7.2999999999999996e-06,
+    "end_to_end_seconds": 0.117356,
+    "epoch_seconds": 0.0077871,
+    "setup_seconds": 0.0597916
+  }
+}

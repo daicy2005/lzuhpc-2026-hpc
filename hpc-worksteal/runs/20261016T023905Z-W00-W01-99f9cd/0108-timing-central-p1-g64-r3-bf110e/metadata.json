@@ -1,0 +1,28 @@
+{
+  "run_id": "0108-timing-central-p1-g64-r3-bf110e",
+  "batch_id": "20261016T023905Z-W00-W01-99f9cd",
+  "condition": "central-p1-g64",
+  "purpose": "timing",
+  "repeat": 3,
+  "started": "2026-10-16T02:41:02.887951+00:00",
+  "ended": "2026-10-16T02:41:04.483606+00:00",
+  "elapsed_process_seconds": 1.5956579000000062,
+  "exit_code": 0,
+  "expected_exit": 0,
+  "status": "completed",
+  "failure_reason": null,
+  "source_id": "422f4b9ecfc85fb436bf3ab298e9db00a22ec048c6227e9606029157be9deaf3",
+  "binary_sha256": "81c5dfa27ae5ce13e920a9317869b11982d798df4d7167242e87a5ff5e5fecfb",
+  "collector_sha256": "61f2d80ab3871cab03a939d4b2ec3b6bfc77878df3e979adc42574e1c7eecb31",
+  "environment_ref": "../environment.json",
+  "correctness": {
+    "pass": true
+  },
+  "timing": {
+    "dispatch_seconds": 3.85e-05,
+    "end_to_end_seconds": 1.5884096,
+    "epoch_seconds": 0.783138,
+    "setup_seconds": 0.0115061
+  },
+  "included": true
+}

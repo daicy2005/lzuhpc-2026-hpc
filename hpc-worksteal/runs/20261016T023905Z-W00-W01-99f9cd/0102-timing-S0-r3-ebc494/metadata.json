@@ -1,0 +1,28 @@
+{
+  "run_id": "0102-timing-S0-r3-ebc494",
+  "batch_id": "20261016T023905Z-W00-W01-99f9cd",
+  "condition": "S0",
+  "purpose": "timing",
+  "repeat": 3,
+  "started": "2026-10-16T02:40:54.393235+00:00",
+  "ended": "2026-10-16T02:40:55.988027+00:00",
+  "elapsed_process_seconds": 1.5947941000000014,
+  "exit_code": 0,
+  "expected_exit": 0,
+  "status": "completed",
+  "failure_reason": null,
+  "source_id": "422f4b9ecfc85fb436bf3ab298e9db00a22ec048c6227e9606029157be9deaf3",
+  "binary_sha256": "81c5dfa27ae5ce13e920a9317869b11982d798df4d7167242e87a5ff5e5fecfb",
+  "collector_sha256": "61f2d80ab3871cab03a939d4b2ec3b6bfc77878df3e979adc42574e1c7eecb31",
+  "environment_ref": "../environment.json",
+  "correctness": {
+    "pass": true
+  },
+  "timing": {
+    "dispatch_seconds": 0.0,
+    "end_to_end_seconds": 1.5871313,
+    "epoch_seconds": 0.7890343,
+    "setup_seconds": 0.011572
+  },
+  "included": true
+}

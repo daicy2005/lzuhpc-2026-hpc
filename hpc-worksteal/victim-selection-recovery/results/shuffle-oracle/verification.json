@@ -1,0 +1,10 @@
+{
+  "pass": true,
+  "cases": 50,
+  "source_sha256": "b0b4eea9a4b6fbc8c71efa47baec991d32d6bbedf36b917e7b5255c03f6b0279",
+  "binary_sha256": "ac600bb4ecbca27cfd1edc3e73ce7910cf41c6fa17fbb85d34bc862890cd660a",
+  "headers": {
+    "/usr/include/c++/13/bits/stl_algo.h": "5d171b391df65fc178718d793f121c997942d0bdc4e713110bba08464c81b6bc",
+    "/usr/include/c++/13/bits/uniform_int_dist.h": "990d90ec87bb46d3974a321ea6e0d17bf7381dfebbf5eda14633861cc7a95364"
+  }
+}

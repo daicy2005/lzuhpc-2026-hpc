@@ -1,0 +1,66 @@
+{
+  "status": "ready",
+  "created": "2026-10-27T05:32:52.795076+00:00",
+  "observations": [
+    {
+      "time": "2026-10-27T05:31:59.028136+00:00",
+      "windows_sampled": true,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   18     1 SessionLeader   /init\n   19    18 python3         python3 -B /root/lzuhpc-experiments/ws-20261027-victim-selection-recovery/tools/recover_victim_selection.py run --root /root/lzuhpc-experiments/ws-20261027-victim-selection-recovery\n   20    19 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [
+        {
+          "reason": "windows_load_above_15_percent"
+        }
+      ],
+      "windows_load_percent": [
+        36
+      ],
+      "clear": false
+    },
+    {
+      "time": "2026-10-27T05:32:20.665770+00:00",
+      "windows_sampled": true,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   18     1 SessionLeader   /init\n   19    18 python3         python3 -B /root/lzuhpc-experiments/ws-20261027-victim-selection-recovery/tools/recover_victim_selection.py run --root /root/lzuhpc-experiments/ws-20261027-victim-selection-recovery\n   22    19 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [
+        {
+          "reason": "windows_load_above_15_percent"
+        }
+      ],
+      "windows_load_percent": [
+        40
+      ],
+      "clear": false
+    },
+    {
+      "time": "2026-10-27T05:32:42.216796+00:00",
+      "windows_sampled": true,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   18     1 SessionLeader   /init\n   19    18 python3         python3 -B /root/lzuhpc-experiments/ws-20261027-victim-selection-recovery/tools/recover_victim_selection.py run --root /root/lzuhpc-experiments/ws-20261027-victim-selection-recovery\n   24    19 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "windows_load_percent": [
+        9
+      ],
+      "clear": true
+    },
+    {
+      "time": "2026-10-27T05:32:46.744668+00:00",
+      "windows_sampled": true,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   18     1 SessionLeader   /init\n   19    18 python3         python3 -B /root/lzuhpc-experiments/ws-20261027-victim-selection-recovery/tools/recover_victim_selection.py run --root /root/lzuhpc-experiments/ws-20261027-victim-selection-recovery\n   26    19 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "windows_load_percent": [
+        11
+      ],
+      "clear": true
+    },
+    {
+      "time": "2026-10-27T05:32:51.231332+00:00",
+      "windows_sampled": true,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   18     1 SessionLeader   /init\n   19    18 python3         python3 -B /root/lzuhpc-experiments/ws-20261027-victim-selection-recovery/tools/recover_victim_selection.py run --root /root/lzuhpc-experiments/ws-20261027-victim-selection-recovery\n   28    19 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "windows_load_percent": [
+        14
+      ],
+      "clear": true
+    }
+  ],
+  "wait_budget_seconds": 600,
+  "elapsed_seconds": 53.7669616
+}

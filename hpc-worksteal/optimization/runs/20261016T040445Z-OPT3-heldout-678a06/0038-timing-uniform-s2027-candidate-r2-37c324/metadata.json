@@ -1,0 +1,28 @@
+{
+  "run_id": "0038-timing-uniform-s2027-candidate-r2-37c324",
+  "batch_id": "20261016T040445Z-OPT3-heldout-678a06",
+  "condition": "uniform-s2027-candidate",
+  "purpose": "timing",
+  "repeat": 2,
+  "started": "2026-10-16T04:05:19.327044+00:00",
+  "ended": "2026-10-16T04:05:20.640252+00:00",
+  "elapsed_process_seconds": 1.3132115999999883,
+  "exit_code": 0,
+  "expected_exit": 0,
+  "status": "completed",
+  "failure_reason": null,
+  "source_id": "cac46b112aea185cec56e056a75f15b856aa3e0c257bcdae07a1655d22917cd4",
+  "binary_sha256": "14efc53ec11b8e9e327caaaed8f386be3f4980a845af14b3df205245aad8bfb3",
+  "collector_sha256": "61f2d80ab3871cab03a939d4b2ec3b6bfc77878df3e979adc42574e1c7eecb31",
+  "environment_ref": "../environment.json",
+  "correctness": {
+    "pass": true
+  },
+  "timing": {
+    "dispatch_seconds": 2.23e-05,
+    "end_to_end_seconds": 1.2962851,
+    "epoch_seconds": 0.0216856,
+    "setup_seconds": 0.0184236
+  },
+  "included": true
+}

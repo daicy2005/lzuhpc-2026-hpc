@@ -1,0 +1,28 @@
+Use case: infographic-diagram
+Asset type: Evidence-based experiment journey infographic for a Chinese student's Mini WorkSteal report. This is a conceptual roadmap, not a measured quantitative chart.
+Primary request: Design a refined, readable research journey diagram that shows how observations guided later experiments and where candidates were retained or rejected. Clean academic editorial visual, white paper, navy #263D55 text, muted teal #168C91 for retained directions, light slate blue for diagnosis, amber for not-adopted candidates, quiet gray for pending work. No photos, no 3D, no neon, no glossy UI, no watermark, no invented logos. Professional but modest student report, no awards or ranking.
+Canvas: 1536x1024 landscape. Keep all meaningful content in a central horizontal band approximately 1450x600, with clean pure-white padding above and below. It will be trimmed to the content and printed at 18 cm wide. Use large sharp Chinese text and very short card details.
+Composition: Six cards in a 3-column, 2-row roadmap, numbered 01 to 06. Arrows snake clearly 01 -> 02 -> 03 -> 04 -> 05 -> 06; the down arrow from 03 to 04 wraps around the outside without crossing text. Every card has a short title, one round-range label and a short outcome. Icons: balance, compiler/linked chains, verifier check, memory blocks, queue transfer, question mark. No fake quantitative axes, no charts, no invented percentages.
+Exact text to render, and no other text:
+Title: "实验探索：让结果决定下一步"
+01 heading: "先看调度何时有用"
+01 label: "第一轮"
+01 outcome: "粒度 / 偏斜 / 局部性"
+02 heading: "再改执行与参数"
+02 label: "第二、三轮"
+02 outcome: "联合配置分别确认"
+03 heading: "转向完整核验"
+03 label: "第四、五轮"
+03 outcome: "保留：并行核验"
+04 heading: "继续查内存成本"
+04 label: "第六至十二轮"
+04 outcome: "保留：四路执行交错"
+04 smaller note: "其他候选未通过 / 独立诊断"
+05 heading: "回到调度边界"
+05 label: "第十三至十五轮"
+05 outcome: "批量与退避：未采用"
+06 heading: "下一步仍待验证"
+06 label: "第十六轮"
+06 outcome: "仅准备，无性能计时"
+Bottom line: "固定对照 → 新输入确认 → 按预定标准取舍"
+Accuracy constraints: Show a retrospective sequence, not an invented real-time diary. Node 04 includes both negative-result experiments and a separate cost diagnostic; do not label all sixth-to-twelfth rounds as successful optimization. Node 05 includes a successful boundary investigation but no adoption of batch stealing or backoff. Node 06 must be gray and explicitly pending, never completed. Do not imply gains from different rounds can be multiplied. Chinese text must match exactly. Exactly six numbered cards.

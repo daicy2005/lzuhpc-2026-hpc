@@ -1,0 +1,318 @@
+{
+  "pass": true,
+  "batch": "runs/20261016T042648Z-R3C-phase-observation-65b081",
+  "processes": 20,
+  "profiling_samples": 12,
+  "hash_checks": 245,
+  "groups": {
+    "light": {
+      "samples": [
+        {
+          "path": "runs/20261016T042648Z-R3C-phase-observation-65b081/0008-profiling-light-phase-runtime-p16-g256-r1-243e7b",
+          "repeat": 1,
+          "phase_seconds": {
+            "configuration_and_policies": 2.6e-05,
+            "dispatch_and_execution_wall": 0.0015329,
+            "full_reference_verification": 0.0125748,
+            "home_preread": 2e-06,
+            "identity_hashes": 0.0042958,
+            "output_and_counts_preparation": 0.0004271,
+            "partition_and_placement": 7.96e-05,
+            "pool_creation": 0.0013383,
+            "pool_shutdown": 0.0004718,
+            "result_summary": 1.14e-05,
+            "workload_initialization": 0.0075143
+          },
+          "end_to_end_seconds": 0.0282952,
+          "epoch_seconds": 0.0012971
+        },
+        {
+          "path": "runs/20261016T042648Z-R3C-phase-observation-65b081/0015-profiling-light-phase-runtime-p16-g256-r2-7bf9d3",
+          "repeat": 2,
+          "phase_seconds": {
+            "configuration_and_policies": 2.04e-05,
+            "dispatch_and_execution_wall": 0.0012678,
+            "full_reference_verification": 0.0101398,
+            "home_preread": 1.3e-06,
+            "identity_hashes": 0.0038652,
+            "output_and_counts_preparation": 0.0004808,
+            "partition_and_placement": 7.5e-05,
+            "pool_creation": 0.001086,
+            "pool_shutdown": 0.0004042,
+            "result_summary": 8.4e-06,
+            "workload_initialization": 0.0070567
+          },
+          "end_to_end_seconds": 0.0244211,
+          "epoch_seconds": 0.0012106
+        },
+        {
+          "path": "runs/20261016T042648Z-R3C-phase-observation-65b081/0018-profiling-light-phase-runtime-p16-g256-r3-f8d1cd",
+          "repeat": 3,
+          "phase_seconds": {
+            "configuration_and_policies": 2.52e-05,
+            "dispatch_and_execution_wall": 0.0018021,
+            "full_reference_verification": 0.0120728,
+            "home_preread": 1.5e-06,
+            "identity_hashes": 0.0044609,
+            "output_and_counts_preparation": 0.0002416,
+            "partition_and_placement": 8.89e-05,
+            "pool_creation": 0.0011951,
+            "pool_shutdown": 0.0005043,
+            "result_summary": 1.06e-05,
+            "workload_initialization": 0.0080971
+          },
+          "end_to_end_seconds": 0.028518,
+          "epoch_seconds": 0.0014849
+        }
+      ],
+      "phase_medians": {
+        "configuration_and_policies": 2.52e-05,
+        "dispatch_and_execution_wall": 0.0015329,
+        "full_reference_verification": 0.0120728,
+        "home_preread": 1.5e-06,
+        "identity_hashes": 0.0042958,
+        "output_and_counts_preparation": 0.0004271,
+        "partition_and_placement": 7.96e-05,
+        "pool_creation": 0.0011951,
+        "pool_shutdown": 0.0004718,
+        "result_summary": 1.06e-05,
+        "workload_initialization": 0.0075143
+      },
+      "app_median": 0.0282952,
+      "epoch_median": 0.0012971,
+      "verification_fraction_median": 0.42333964513640504
+    },
+    "uniform": {
+      "samples": [
+        {
+          "path": "runs/20261016T042648Z-R3C-phase-observation-65b081/0009-profiling-uniform-phase-lanes8-p32-g1024-r1-4e4dc7",
+          "repeat": 1,
+          "phase_seconds": {
+            "configuration_and_policies": 2.53e-05,
+            "dispatch_and_execution_wall": 0.0199096,
+            "full_reference_verification": 0.8761388,
+            "home_preread": 2.3e-06,
+            "identity_hashes": 0.0040901,
+            "output_and_counts_preparation": 0.0004457,
+            "partition_and_placement": 2.27e-05,
+            "pool_creation": 0.0023764,
+            "pool_shutdown": 0.0008501,
+            "result_summary": 7.8e-06,
+            "workload_initialization": 0.0077501
+          },
+          "end_to_end_seconds": 0.9116374,
+          "epoch_seconds": 0.0194682
+        },
+        {
+          "path": "runs/20261016T042648Z-R3C-phase-observation-65b081/0012-profiling-uniform-phase-lanes8-p32-g1024-r2-a21078",
+          "repeat": 2,
+          "phase_seconds": {
+            "configuration_and_policies": 2.07e-05,
+            "dispatch_and_execution_wall": 0.0161262,
+            "full_reference_verification": 0.8711535,
+            "home_preread": 1.4e-06,
+            "identity_hashes": 0.003701,
+            "output_and_counts_preparation": 0.0002097,
+            "partition_and_placement": 2.19e-05,
+            "pool_creation": 0.0022968,
+            "pool_shutdown": 0.0012478,
+            "result_summary": 1.08e-05,
+            "workload_initialization": 0.0070568
+          },
+          "end_to_end_seconds": 0.9018646,
+          "epoch_seconds": 0.0153954
+        },
+        {
+          "path": "runs/20261016T042648Z-R3C-phase-observation-65b081/0019-profiling-uniform-phase-lanes8-p32-g1024-r3-0fac25",
+          "repeat": 3,
+          "phase_seconds": {
+            "configuration_and_policies": 2.44e-05,
+            "dispatch_and_execution_wall": 0.0184068,
+            "full_reference_verification": 0.956309,
+            "home_preread": 2e-06,
+            "identity_hashes": 0.004515,
+            "output_and_counts_preparation": 0.0002502,
+            "partition_and_placement": 2.27e-05,
+            "pool_creation": 0.002702,
+            "pool_shutdown": 0.0006354,
+            "result_summary": 8e-06,
+            "workload_initialization": 0.0076922
+          },
+          "end_to_end_seconds": 0.9905858,
+          "epoch_seconds": 0.0177902
+        }
+      ],
+      "phase_medians": {
+        "configuration_and_policies": 2.44e-05,
+        "dispatch_and_execution_wall": 0.0184068,
+        "full_reference_verification": 0.8761388,
+        "home_preread": 2e-06,
+        "identity_hashes": 0.0040901,
+        "output_and_counts_preparation": 0.0002502,
+        "partition_and_placement": 2.27e-05,
+        "pool_creation": 0.0023764,
+        "pool_shutdown": 0.0008501,
+        "result_summary": 8e-06,
+        "workload_initialization": 0.0076922
+      },
+      "app_median": 0.9116374,
+      "epoch_median": 0.0177902,
+      "verification_fraction_median": 0.9653974446231715
+    },
+    "skewed": {
+      "samples": [
+        {
+          "path": "runs/20261016T042648Z-R3C-phase-observation-65b081/0010-profiling-skewed-phase-full_lanes8-p32-g256-r1-bbaacf",
+          "repeat": 1,
+          "phase_seconds": {
+            "configuration_and_policies": 2.17e-05,
+            "dispatch_and_execution_wall": 0.0355028,
+            "full_reference_verification": 1.7371,
+            "home_preread": 1.4e-06,
+            "identity_hashes": 0.0041057,
+            "output_and_counts_preparation": 0.0002112,
+            "partition_and_placement": 0.0006148,
+            "pool_creation": 0.0018554,
+            "pool_shutdown": 0.0014446,
+            "result_summary": 1.63e-05,
+            "workload_initialization": 0.0079472
+          },
+          "end_to_end_seconds": 1.7888393,
+          "epoch_seconds": 0.0345737
+        },
+        {
+          "path": "runs/20261016T042648Z-R3C-phase-observation-65b081/0013-profiling-skewed-phase-full_lanes8-p32-g256-r2-f36948",
+          "repeat": 2,
+          "phase_seconds": {
+            "configuration_and_policies": 2.31e-05,
+            "dispatch_and_execution_wall": 0.0345435,
+            "full_reference_verification": 1.7322632,
+            "home_preread": 2.3e-06,
+            "identity_hashes": 0.0040607,
+            "output_and_counts_preparation": 0.0005775,
+            "partition_and_placement": 0.0004896,
+            "pool_creation": 0.0026008,
+            "pool_shutdown": 0.0006591,
+            "result_summary": 1.84e-05,
+            "workload_initialization": 0.0079898
+          },
+          "end_to_end_seconds": 1.7832528,
+          "epoch_seconds": 0.0329345
+        },
+        {
+          "path": "runs/20261016T042648Z-R3C-phase-observation-65b081/0016-profiling-skewed-phase-full_lanes8-p32-g256-r3-bb1339",
+          "repeat": 3,
+          "phase_seconds": {
+            "configuration_and_policies": 2.15e-05,
+            "dispatch_and_execution_wall": 0.0370805,
+            "full_reference_verification": 1.8010341,
+            "home_preread": 1.8e-06,
+            "identity_hashes": 0.0035912,
+            "output_and_counts_preparation": 0.0002315,
+            "partition_and_placement": 0.0005267,
+            "pool_creation": 0.0022248,
+            "pool_shutdown": 0.0008354,
+            "result_summary": 1.81e-05,
+            "workload_initialization": 0.0071856
+          },
+          "end_to_end_seconds": 1.8527661,
+          "epoch_seconds": 0.0365196
+        }
+      ],
+      "phase_medians": {
+        "configuration_and_policies": 2.17e-05,
+        "dispatch_and_execution_wall": 0.0355028,
+        "full_reference_verification": 1.7371,
+        "home_preread": 1.8e-06,
+        "identity_hashes": 0.0040607,
+        "output_and_counts_preparation": 0.0002315,
+        "partition_and_placement": 0.0005267,
+        "pool_creation": 0.0022248,
+        "pool_shutdown": 0.0008354,
+        "result_summary": 1.81e-05,
+        "workload_initialization": 0.0079472
+      },
+      "app_median": 1.7888393,
+      "epoch_median": 0.0345737,
+      "verification_fraction_median": 0.9714064096801082
+    },
+    "memory": {
+      "samples": [
+        {
+          "path": "runs/20261016T042648Z-R3C-phase-observation-65b081/0011-profiling-memory-phase-full_lanes8-p16-g4-r1-93f618",
+          "repeat": 1,
+          "phase_seconds": {
+            "configuration_and_policies": 2.07e-05,
+            "dispatch_and_execution_wall": 0.0079176,
+            "full_reference_verification": 0.0477924,
+            "home_preread": 0.0013444,
+            "identity_hashes": 0.0326063,
+            "output_and_counts_preparation": 8e-07,
+            "partition_and_placement": 1.13e-05,
+            "pool_creation": 0.0010815,
+            "pool_shutdown": 0.0004792,
+            "result_summary": 2e-05,
+            "workload_initialization": 0.0260643
+          },
+          "end_to_end_seconds": 0.117356,
+          "epoch_seconds": 0.0077871
+        },
+        {
+          "path": "runs/20261016T042648Z-R3C-phase-observation-65b081/0014-profiling-memory-phase-full_lanes8-p16-g4-r2-158032",
+          "repeat": 2,
+          "phase_seconds": {
+            "configuration_and_policies": 2.02e-05,
+            "dispatch_and_execution_wall": 0.0070943,
+            "full_reference_verification": 0.0452916,
+            "home_preread": 0.0012276,
+            "identity_hashes": 0.0320606,
+            "output_and_counts_preparation": 9e-07,
+            "partition_and_placement": 5.3e-06,
+            "pool_creation": 0.0013916,
+            "pool_shutdown": 0.0004722,
+            "result_summary": 1.5e-05,
+            "workload_initialization": 0.024013
+          },
+          "end_to_end_seconds": 0.1116096,
+          "epoch_seconds": 0.0068645
+        },
+        {
+          "path": "runs/20261016T042648Z-R3C-phase-observation-65b081/0017-profiling-memory-phase-full_lanes8-p16-g4-r3-e8833c",
+          "repeat": 3,
+          "phase_seconds": {
+            "configuration_and_policies": 2.43e-05,
+            "dispatch_and_execution_wall": 0.0091426,
+            "full_reference_verification": 0.0477708,
+            "home_preread": 0.0013852,
+            "identity_hashes": 0.0286106,
+            "output_and_counts_preparation": 1e-06,
+            "partition_and_placement": 5.3e-06,
+            "pool_creation": 0.0010949,
+            "pool_shutdown": 0.0005424,
+            "result_summary": 2.16e-05,
+            "workload_initialization": 0.0261352
+          },
+          "end_to_end_seconds": 0.1147573,
+          "epoch_seconds": 0.0088532
+        }
+      ],
+      "phase_medians": {
+        "configuration_and_policies": 2.07e-05,
+        "dispatch_and_execution_wall": 0.0079176,
+        "full_reference_verification": 0.0477708,
+        "home_preread": 0.0013444,
+        "identity_hashes": 0.0320606,
+        "output_and_counts_preparation": 9e-07,
+        "partition_and_placement": 5.3e-06,
+        "pool_creation": 0.0010949,
+        "pool_shutdown": 0.0004792,
+        "result_summary": 2e-05,
+        "workload_initialization": 0.0260643
+      },
+      "app_median": 0.1147573,
+      "epoch_median": 0.0077871,
+      "verification_fraction_median": 0.40724291898156034
+    }
+  },
+  "scope": "observations only; not formal performance samples or causal decomposition"
+}

@@ -1,0 +1,27 @@
+{
+  "source_id": "e85c97b09468b4a3c6a6286bdceac7ffa408d2983cc2a957765e6b3bd9580c86",
+  "binary_sha256": "c52674ba1244813d7d71808298b552042487a8bbeb41b8349a3eb4915027da8c",
+  "records": [
+    {
+      "command": [
+        "/root/lzuhpc-experiments/ws-20261016-verify-full_lanes8/build-none/runtime_checks"
+      ],
+      "returncode": 0,
+      "stdout": "{\"checks\":1765,\"status\":\"pass\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/root/lzuhpc-experiments/ws-20261016-verify-full_lanes8/tests/cli_checks.py",
+        "/root/lzuhpc-experiments/ws-20261016-verify-full_lanes8/build-none/worksteal",
+        "/root/lzuhpc-experiments/ws-20261016-verify-full_lanes8/build-none/worksteal_extension"
+      ],
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"checks\": 161, \"golden_output_hash\": \"3ae93543031ba3af\"}\n",
+      "stderr": ""
+    }
+  ],
+  "pass": true,
+  "created": "2026-10-16T04:34:54.063680+00:00"
+}

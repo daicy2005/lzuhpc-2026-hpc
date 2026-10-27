@@ -1,0 +1,319 @@
+{
+  "affinity": {
+    "actual_workers": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ],
+      [
+        6
+      ],
+      [
+        7
+      ],
+      [
+        8
+      ],
+      [
+        9
+      ],
+      [
+        10
+      ],
+      [
+        11
+      ],
+      [
+        12
+      ],
+      [
+        13
+      ],
+      [
+        14
+      ],
+      [
+        15
+      ],
+      [
+        16
+      ],
+      [
+        17
+      ],
+      [
+        18
+      ],
+      [
+        19
+      ],
+      [
+        20
+      ],
+      [
+        21
+      ],
+      [
+        22
+      ],
+      [
+        23
+      ],
+      [
+        24
+      ],
+      [
+        25
+      ],
+      [
+        26
+      ],
+      [
+        27
+      ],
+      [
+        28
+      ],
+      [
+        29
+      ],
+      [
+        30
+      ],
+      [
+        31
+      ]
+    ],
+    "control_wait": "condition_variable",
+    "main_mask_before": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "requested": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ]
+  },
+  "correctness": {
+    "pass": true
+  },
+  "epochs": [
+    {
+      "correctness": {
+        "compared_elements": 196608,
+        "exact_once": null,
+        "mismatches": 0,
+        "output_hash_fnv1a64": "48d5bd32f53c2ee3",
+        "pass": true
+      },
+      "epoch": 0,
+      "epoch_seconds": 0.0359871,
+      "execution": null,
+      "identity": {
+        "cost_hash_fnv1a64": "a92afd4ed3c62325",
+        "data_hash_fnv1a64": null,
+        "initial_cost_units": [
+          56623104,
+          56623104,
+          56623104,
+          56623104,
+          6291456,
+          6291456,
+          6291456,
+          6291456,
+          6291456,
+          6291456,
+          6291456,
+          6291456,
+          6291456,
+          6291456,
+          6291456,
+          6291456,
+          6291456,
+          6291456,
+          6291456,
+          6291456,
+          6291456,
+          6291456,
+          6291456,
+          6291456,
+          6291456,
+          6291456,
+          6291456,
+          6291456,
+          6291456,
+          6291456,
+          6291456,
+          6291456
+        ],
+        "input_hash_fnv1a64": "d45605f57bc9935f",
+        "max_task_cost_units": 2359296,
+        "per_element_bytes": 8,
+        "queue_hash_fnv1a64": "7ad75385d1241e25",
+        "task_count": 768,
+        "task_hash_fnv1a64": "8d2a1564e033703e",
+        "total_cost_units": 402653184,
+        "total_data_bytes": 0
+      },
+      "local_only": false,
+      "pretouch_hash_fnv1a64": null,
+      "worker_stats": null
+    }
+  ],
+  "metrics_mode": "timing",
+  "resolved_config": {
+    "executor": "worksteal",
+    "layout": "concentrated",
+    "layout_seed": 137,
+    "measurement": {
+      "epochs": 1,
+      "mode": "timing"
+    },
+    "policies": {
+      "affinity": {
+        "cpus": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31
+        ],
+        "name": "explicit"
+      },
+      "migration": {
+        "name": "single"
+      },
+      "partition": {
+        "grain": 256,
+        "name": "fixed_grain"
+      },
+      "placement": {
+        "name": "round_robin"
+      },
+      "steal_timing": {
+        "name": "immediate"
+      },
+      "victim": {
+        "name": "round_robin"
+      }
+    },
+    "schema_version": 1,
+    "steal_enabled": true,
+    "workers": 32,
+    "workload": {
+      "elements": 196608,
+      "iterations": 1024,
+      "name": "compute_skewed",
+      "seed": 137
+    }
+  },
+  "schema_version": 1,
+  "status": "completed",
+  "timing": {
+    "dispatch_seconds": 3.1e-06,
+    "end_to_end_seconds": 1.5126941,
+    "epoch_seconds": 0.0359871,
+    "setup_seconds": 0.0124096
+  }
+}

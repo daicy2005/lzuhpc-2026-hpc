@@ -1,0 +1,12 @@
+/build/
+/out/
+/.cache/
+__pycache__/
+*.pyc
+/runs/*/
+/snapshots/source/
+/snapshots/builds/
+/snapshots/collectors/
+/submission/prompts/
+
+# Ignored raw evidence and transcripts still require verified file backups.

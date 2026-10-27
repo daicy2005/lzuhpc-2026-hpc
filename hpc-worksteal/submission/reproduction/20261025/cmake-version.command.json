@@ -1,0 +1,9 @@
+{
+  "label": "cmake-version",
+  "argv": [
+    "cmake",
+    "--version"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 0.028780199999999978
+}

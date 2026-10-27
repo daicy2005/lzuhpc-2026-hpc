@@ -1,0 +1,4 @@
+Scene initialization time: 0.000813 s
+Camera initialization time: 0.000033 s
+Rendering 1200px wide, 200 spp, max depth 50 -> /root/lzuhpc-experiments/hpc-raytracing/runs/20261015T222753040316+0800_E20_sah-tile_formal_t32_r03_660856/output.ppm
+Render time: 85.197 s

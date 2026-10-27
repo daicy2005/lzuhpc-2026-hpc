@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "executor": "worksteal",
+  "workers": 4,
+  "workload": {
+    "name": "memory_reuse",
+    "elements": 1,
+    "iterations": 1,
+    "seed": 42,
+    "bytes_per_element": 4718592,
+    "passes": 8
+  },
+  "policies": {
+    "partition": {
+      "name": "fixed_grain",
+      "grain": 1
+    },
+    "victim": {
+      "name": "round_robin"
+    },
+    "steal_timing": {
+      "name": "disabled"
+    },
+    "migration": {
+      "name": "single"
+    },
+    "affinity": {
+      "name": "explicit",
+      "cpus": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "placement": {
+      "name": "round_robin"
+    }
+  },
+  "measurement": {
+    "mode": "timing",
+    "epochs": 1,
+    "home_worker": 0,
+    "controlled_worker": 0
+  },
+  "layout": "policy",
+  "layout_seed": 42
+}

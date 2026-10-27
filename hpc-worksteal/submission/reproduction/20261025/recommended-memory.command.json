@@ -1,0 +1,12 @@
+{
+  "label": "recommended-memory",
+  "argv": [
+    "/root/lzuhpc-experiments/ws-20261025-submission-native/build-optimized/worksteal",
+    "--config",
+    "/root/lzuhpc-experiments/ws-20261025-submission-native/configs/verified/memory.json",
+    "--output",
+    "/root/lzuhpc-experiments/ws-20261025-submission-native/reproduction-evidence/recommended-memory.json"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 0.0936930000000018
+}

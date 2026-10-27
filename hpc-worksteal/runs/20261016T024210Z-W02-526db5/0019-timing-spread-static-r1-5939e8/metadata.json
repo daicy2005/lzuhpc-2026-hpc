@@ -1,0 +1,28 @@
+{
+  "run_id": "0019-timing-spread-static-r1-5939e8",
+  "batch_id": "20261016T024210Z-W02-526db5",
+  "condition": "spread-static",
+  "purpose": "timing",
+  "repeat": 1,
+  "started": "2026-10-16T02:42:50.975406+00:00",
+  "ended": "2026-10-16T02:42:53.052740+00:00",
+  "elapsed_process_seconds": 2.0773348000000027,
+  "exit_code": 0,
+  "expected_exit": 0,
+  "status": "completed",
+  "failure_reason": null,
+  "source_id": "b5d80f209fedd87b555a0356403e5bfa4c78c318400662d0b07d21709c16af4f",
+  "binary_sha256": "81c5dfa27ae5ce13e920a9317869b11982d798df4d7167242e87a5ff5e5fecfb",
+  "collector_sha256": "61f2d80ab3871cab03a939d4b2ec3b6bfc77878df3e979adc42574e1c7eecb31",
+  "environment_ref": "../environment.json",
+  "correctness": {
+    "pass": true
+  },
+  "timing": {
+    "dispatch_seconds": 5.2e-06,
+    "end_to_end_seconds": 1.9729026,
+    "epoch_seconds": 0.4126611,
+    "setup_seconds": 0.0118343
+  },
+  "included": true
+}

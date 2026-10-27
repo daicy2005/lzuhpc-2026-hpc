@@ -1,0 +1,5 @@
+cwd=/root/lzuhpc-experiments/upstream-33dad592
+make -B -j 4 'CXXFLAGS=-std=c++20 -O2 -Wall -Wextra -Wpedantic -Werror'
+/root/lzuhpc-experiments/hpc-raytracing/snapshots/builds/c17b024cf27386169b1d94ebd501149c3826cb9545ac3f5bcf75388b632aeda0/RayTracing 1200 200 /root/lzuhpc-experiments/hpc-raytracing/runs/20261015T212139186201+0800_E00_upstream_formal_t01_r02_05dac0/output.ppm
+/usr/bin/python3 /root/lzuhpc-experiments/upstream-33dad592/tools/check_psnr.py /root/lzuhpc-experiments/upstream-33dad592/reference.ppm /root/lzuhpc-experiments/hpc-raytracing/runs/20261015T212139186201+0800_E00_upstream_formal_t01_r02_05dac0/output.ppm
+/usr/bin/python3 /root/lzuhpc-experiments/upstream-33dad592/tools/check_psnr.py /root/lzuhpc-experiments/hpc-raytracing/runs/20261015T122828320137+0800_E00_upstream_formal_t01_r01_07a3df/output.ppm /root/lzuhpc-experiments/hpc-raytracing/runs/20261015T212139186201+0800_E00_upstream_formal_t01_r02_05dac0/output.ppm

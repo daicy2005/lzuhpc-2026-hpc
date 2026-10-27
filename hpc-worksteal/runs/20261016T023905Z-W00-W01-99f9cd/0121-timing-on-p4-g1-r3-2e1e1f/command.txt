@@ -1,0 +1,11 @@
+{
+  "cwd": "/root/lzuhpc-experiments/ws-20261016-release-v1",
+  "argv": [
+    "/root/lzuhpc-experiments/ws-20261016-release-v1/build-none/worksteal",
+    "--config",
+    "/root/lzuhpc-experiments/ws-20261016-release-v1/runs/20261016T023905Z-W00-W01-99f9cd/0121-timing-on-p4-g1-r3-2e1e1f/config.json",
+    "--output",
+    "/root/lzuhpc-experiments/ws-20261016-release-v1/runs/20261016T023905Z-W00-W01-99f9cd/0121-timing-on-p4-g1-r3-2e1e1f/result.json"
+  ],
+  "explicit_environment": {}
+}

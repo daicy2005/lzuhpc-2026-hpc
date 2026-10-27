@@ -1,0 +1,1847 @@
+{
+  "samples": [
+    {
+      "time": "2026-10-25T01:09:52.806602+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n   71    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:52.864503+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n   94    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:52.879907+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n   95    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:52.917077+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  118    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:52.933377+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  119    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:52.974577+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  142    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:52.989182+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  143    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:53.030137+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  166    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:53.046246+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  167    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:53.091847+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  190    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:53.107864+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  191    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:53.152067+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  214    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:53.169197+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  215    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:53.213964+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  238    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:53.231487+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  239    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:53.276842+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  262    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:53.291361+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  263    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:53.311949+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  264    13 worksteal       /root/lzuhpc-experiments/ws-20261022-fill-interleaved-release/build-none/worksteal --config /root/lzuhpc-experiments/ws-20261025-batch-migration-study/runs/20261025T010952Z-V14-batch-migration-c8d3ba/0008-diagnostic-screen-s110017-spread-cap16-r0-53d262/config.json --output /root/lzuhpc-experiments/ws-20261025-batch-migration-study/runs/20261025T010952Z-V14-batch-migration-c8d3ba/0008-diagnostic-screen-s110017-spread-cap16-r0-53d262/result.json\n  265    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:53.709853+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  298    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:53.724418+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  299    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:53.849499+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  333    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:53.929938+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  334    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:53.943448+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  335    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:54.032710+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  369    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:54.048748+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  370    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:54.151966+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  404    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:54.173299+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  405    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:54.280702+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  439    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:54.295970+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  440    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:54.395751+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  474    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:54.413904+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  475    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:54.444007+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  476    13 worksteal       /root/lzuhpc-experiments/ws-20261022-fill-interleaved-release/build-none/worksteal --config /root/lzuhpc-experiments/ws-20261025-batch-migration-study/runs/20261025T010952Z-V14-batch-migration-c8d3ba/0014-diagnostic-screen-s110017-spread-cap4-r0-cb5b20/config.json --output /root/lzuhpc-experiments/ws-20261025-batch-migration-study/runs/20261025T010952Z-V14-batch-migration-c8d3ba/0014-diagnostic-screen-s110017-spread-cap4-r0-cb5b20/result.json\n  477    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:54.512922+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  510    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:54.529348+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  511    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:54.634116+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  545    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:54.648757+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  546    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:54.722382+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  580    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:54.737274+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  581    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:54.816705+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  615    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:54.835768+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  616    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:54.922564+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  650    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:54.941855+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  651    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:54.973168+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  652    13 worksteal       /root/lzuhpc-experiments/ws-20261022-fill-interleaved-release/build-none/worksteal --config /root/lzuhpc-experiments/ws-20261025-batch-migration-study/runs/20261025T010952Z-V14-batch-migration-c8d3ba/0019-warmup-screen-s110017-spread-cap1-r0-ab13be/config.json --output /root/lzuhpc-experiments/ws-20261025-batch-migration-study/runs/20261025T010952Z-V14-batch-migration-c8d3ba/0019-warmup-screen-s110017-spread-cap1-r0-ab13be/result.json\n  653    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:55.027838+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  686    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:55.043751+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  687    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:55.129250+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  721    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:55.146440+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  722    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:55.233695+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  756    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:55.251532+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  757    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:55.334140+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  791    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:55.352158+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  792    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:55.439034+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  826    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:55.454705+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  827    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:55.500594+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  828    13 worksteal       /root/lzuhpc-experiments/ws-20261022-fill-interleaved-release/build-none/worksteal --config /root/lzuhpc-experiments/ws-20261025-batch-migration-study/runs/20261025T010952Z-V14-batch-migration-c8d3ba/0024-timing-screen-s110017-spread-cap16-r1-508a4b/config.json --output /root/lzuhpc-experiments/ws-20261025-batch-migration-study/runs/20261025T010952Z-V14-batch-migration-c8d3ba/0024-timing-screen-s110017-spread-cap16-r1-508a4b/result.json\n  861    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:55.531546+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  862    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:55.546463+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  863    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:55.633839+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  897    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:55.648699+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  898    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:55.732343+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  932    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:55.746124+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  933    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:55.832135+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  967    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:55.856135+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n  968    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:55.936476+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1002    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:55.955087+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1003    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:56.025062+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1037    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:56.044132+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1038    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:56.061976+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1039    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:56.146622+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1073    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:56.161715+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1074    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:56.235154+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1108    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:56.248795+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1109    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:56.325470+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1143    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:56.342034+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1144    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:56.424268+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1178    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:56.438260+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1179    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:56.516497+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1213    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:56.533051+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1214    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:56.548911+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1215    13 ps              ps -eo pid,ppid,comm,args\n 1216    13 worksteal       /root/lzuhpc-experiments/ws-20261022-fill-interleaved-release/build-none/worksteal --config /root/lzuhpc-experiments/ws-20261025-batch-migration-study/runs/20261025T010952Z-V14-batch-migration-c8d3ba/0035-timing-screen-s110017-concentrated-cap64-r2-9f8f2b/config.json --output /root/lzuhpc-experiments/ws-20261025-batch-migration-study/runs/20261025T010952Z-V14-batch-migration-c8d3ba/0035-timing-screen-s110017-concentrated-cap64-r2-9f8f2b/result.json\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:56.608781+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1249    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:56.622571+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1250    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:56.703959+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1284    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:56.719213+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1285    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:56.797010+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1319    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:56.809007+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1320    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:56.887902+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1354    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:56.902236+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1355    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:56.976867+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1389    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:56.993002+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1390    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:57.069766+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1424    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:57.083502+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1425    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:57.099637+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1426    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:57.181630+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1460    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:57.198430+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1461    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:57.280722+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1495    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:57.297252+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1496    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:57.381585+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1530    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:57.396753+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1531    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:57.483909+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1565    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:57.498058+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1566    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:57.576181+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1600    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:57.592442+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1601    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:57.610750+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1602    13 ps              ps -eo pid,ppid,comm,args\n 1603    13 worksteal       /root/lzuhpc-experiments/ws-20261022-fill-interleaved-release/build-none/worksteal --config /root/lzuhpc-experiments/ws-20261025-batch-migration-study/runs/20261025T010952Z-V14-batch-migration-c8d3ba/0046-timing-screen-s110017-spread-cap1-r3-a9412d/config.json --output /root/lzuhpc-experiments/ws-20261025-batch-migration-study/runs/20261025T010952Z-V14-batch-migration-c8d3ba/0046-timing-screen-s110017-spread-cap1-r3-a9412d/result.json\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:57.677976+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1636    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:57.693376+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1637    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:57.769198+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1671    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:57.788788+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1672    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:58.153281+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1706    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:58.197014+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1707    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:58.213935+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1708    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:58.307463+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1742    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:58.323185+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1743    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:58.497416+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1777    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:58.515549+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1778    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:58.605038+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1812    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:58.623662+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1813    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:58.708667+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1847    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:59.175869+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1848    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:59.198750+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1849    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:59.330151+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1883    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:59.350587+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1884    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:59.371548+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1885    13 ps              ps -eo pid,ppid,comm,args\n 1886    13 worksteal       /root/lzuhpc-experiments/ws-20261022-fill-interleaved-release/build-none/worksteal --config /root/lzuhpc-experiments/ws-20261025-batch-migration-study/runs/20261025T010952Z-V14-batch-migration-c8d3ba/0054-diagnostic-confirm-s122011-spread-cap1-r0-a399ed/config.json --output /root/lzuhpc-experiments/ws-20261025-batch-migration-study/runs/20261025T010952Z-V14-batch-migration-c8d3ba/0054-diagnostic-confirm-s122011-spread-cap1-r0-a399ed/result.json\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:59.583322+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1919    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:59.603035+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1920    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:59.733285+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1954    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:59.750019+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1955    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:59.830599+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1989    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:59.846646+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1990    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:59.898038+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 1991    13 worksteal       /root/lzuhpc-experiments/ws-20261022-fill-interleaved-release/build-none/worksteal --config /root/lzuhpc-experiments/ws-20261025-batch-migration-study/runs/20261025T010952Z-V14-batch-migration-c8d3ba/0057-warmup-confirm-s116009-concentrated-cap4-r0-24a7f1/config.json --output /root/lzuhpc-experiments/ws-20261025-batch-migration-study/runs/20261025T010952Z-V14-batch-migration-c8d3ba/0057-warmup-confirm-s116009-concentrated-cap4-r0-24a7f1/result.json\n 2024    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:59.930237+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2025    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:09:59.946018+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2026    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:00.020547+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2060    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:00.037791+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2061    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:00.122506+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2095    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:00.144295+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2096    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:00.244088+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2130    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:00.264881+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2131    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:00.352529+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2165    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:00.369574+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2166    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:00.421632+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2167    13 worksteal       /root/lzuhpc-experiments/ws-20261022-fill-interleaved-release/build-none/worksteal --config /root/lzuhpc-experiments/ws-20261025-batch-migration-study/runs/20261025T010952Z-V14-batch-migration-c8d3ba/0062-warmup-confirm-s122011-spread-cap1-r0-46ced6/config.json --output /root/lzuhpc-experiments/ws-20261025-batch-migration-study/runs/20261025T010952Z-V14-batch-migration-c8d3ba/0062-warmup-confirm-s122011-spread-cap1-r0-46ced6/result.json\n 2197    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:00.464635+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2201    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:00.484559+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2202    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:00.573517+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2236    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:00.588669+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2237    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:00.666022+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2271    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:00.680328+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2272    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:00.749932+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2306    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:00.765887+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2307    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:00.836200+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2341    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:00.849479+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2342    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:00.913899+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2376    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:00.926895+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2377    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:00.957966+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2378    13 worksteal       /root/lzuhpc-experiments/ws-20261022-fill-interleaved-release/build-none/worksteal --config /root/lzuhpc-experiments/ws-20261025-batch-migration-study/runs/20261025T010952Z-V14-batch-migration-c8d3ba/0068-timing-confirm-s122011-concentrated-cap1-r1-8c5b72/config.json --output /root/lzuhpc-experiments/ws-20261025-batch-migration-study/runs/20261025T010952Z-V14-batch-migration-c8d3ba/0068-timing-confirm-s122011-concentrated-cap1-r1-8c5b72/result.json\n 2389    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:00.997880+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2412    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:01.010077+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2413    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:01.089998+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2447    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:01.104254+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2448    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:01.181871+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2482    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:01.195517+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2483    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:01.273970+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2517    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:01.289928+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2518    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:01.352693+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2552    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:01.365588+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2553    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:01.431493+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2587    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:01.445914+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2588    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:01.479017+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2589    13 worksteal       /root/lzuhpc-experiments/ws-20261022-fill-interleaved-release/build-none/worksteal --config /root/lzuhpc-experiments/ws-20261025-batch-migration-study/runs/20261025T010952Z-V14-batch-migration-c8d3ba/0074-timing-confirm-s116009-spread-cap4-r2-3c4243/config.json --output /root/lzuhpc-experiments/ws-20261025-batch-migration-study/runs/20261025T010952Z-V14-batch-migration-c8d3ba/0074-timing-confirm-s116009-spread-cap4-r2-3c4243/result.json\n 2606    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:01.514182+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2623    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:01.527366+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2624    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:01.591908+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2658    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:01.609383+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2659    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:01.702588+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2693    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:01.717639+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2694    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:01.806661+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2728    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:01.822538+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2729    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:01.910501+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2763    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:01.926562+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2764    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:02.000195+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2798    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:02.016359+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2799    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:02.030798+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2800    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:02.102254+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2834    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:02.117181+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2835    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:02.194745+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2869    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:02.207880+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2870    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:02.275931+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2904    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:02.289406+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2905    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:02.356507+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2939    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:02.370539+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2940    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:02.451658+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2974    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:02.465523+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 2975    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:02.523880+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3009    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:02.547276+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3010    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:02.562914+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3011    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:02.641860+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3045    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:02.655481+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3046    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:02.731893+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3080    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:02.744460+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3081    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:02.802554+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3115    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:02.814117+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3116    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:02.873843+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3150    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:02.886592+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3151    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:02.946153+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3185    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:02.958546+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3186    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:03.016884+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3220    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:03.029366+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3221    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:03.049269+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3222    13 worksteal       /root/lzuhpc-experiments/ws-20261022-fill-interleaved-release/build-none/worksteal --config /root/lzuhpc-experiments/ws-20261025-batch-migration-study/runs/20261025T010952Z-V14-batch-migration-c8d3ba/0092-timing-confirm-s122011-concentrated-cap4-r4-3e95aa/config.json --output /root/lzuhpc-experiments/ws-20261025-batch-migration-study/runs/20261025T010952Z-V14-batch-migration-c8d3ba/0092-timing-confirm-s122011-concentrated-cap4-r4-3e95aa/result.json\n 3223    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:03.106150+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3256    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:03.118815+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3257    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:03.188687+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3291    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:03.202917+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3292    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:03.282708+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3326    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:03.296106+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3327    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:03.377025+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3361    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:03.391314+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3362    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:03.461161+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3396    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:03.475191+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3397    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:03.542953+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3431    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:03.556269+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3432    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:03.573665+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3433    13 worksteal       /root/lzuhpc-experiments/ws-20261022-fill-interleaved-release/build-none/worksteal --config /root/lzuhpc-experiments/ws-20261025-batch-migration-study/runs/20261025T010952Z-V14-batch-migration-c8d3ba/0098-timing-confirm-s116009-spread-cap1-r5-e19415/config.json --output /root/lzuhpc-experiments/ws-20261025-batch-migration-study/runs/20261025T010952Z-V14-batch-migration-c8d3ba/0098-timing-confirm-s116009-spread-cap1-r5-e19415/result.json\n 3434    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:03.619769+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3467    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:03.632522+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3468    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:03.699216+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3502    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:03.712693+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3503    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:03.784351+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3537    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:03.799151+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3538    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:03.867412+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3572    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:03.881675+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3573    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:03.954389+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3607    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:03.967330+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3608    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:04.041678+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3642    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:04.055759+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3643    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:04.095766+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3644    13 worksteal       /root/lzuhpc-experiments/ws-20261022-fill-interleaved-release/build-none/worksteal --config /root/lzuhpc-experiments/ws-20261025-batch-migration-study/runs/20261025T010952Z-V14-batch-migration-c8d3ba/0104-timing-confirm-s116009-concentrated-cap4-r6-f642e7/config.json --output /root/lzuhpc-experiments/ws-20261025-batch-migration-study/runs/20261025T010952Z-V14-batch-migration-c8d3ba/0104-timing-confirm-s116009-concentrated-cap4-r6-f642e7/result.json\n 3677    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:04.124919+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3678    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:04.139557+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3679    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:04.205776+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3713    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:04.218989+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3714    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:04.287019+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3748    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:04.300957+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3749    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:04.377580+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3783    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:04.392671+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3784    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:04.474221+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3818    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:04.487430+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3819    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:04.567731+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3853    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:04.584084+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3854    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:04.619149+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3855    13 worksteal       /root/lzuhpc-experiments/ws-20261022-fill-interleaved-release/build-none/worksteal --config /root/lzuhpc-experiments/ws-20261025-batch-migration-study/runs/20261025T010952Z-V14-batch-migration-c8d3ba/0110-timing-confirm-s122011-spread-cap4-r6-867252/config.json --output /root/lzuhpc-experiments/ws-20261025-batch-migration-study/runs/20261025T010952Z-V14-batch-migration-c8d3ba/0110-timing-confirm-s122011-spread-cap4-r6-867252/result.json\n 3871    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:04.662277+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3889    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:04.675459+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3890    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:04.756218+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3924    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:04.768618+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3925    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:04.829963+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3959    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:04.844104+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3960    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:04.909746+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3994    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:04.923422+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 3995    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:04.988236+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 4029    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:05.003366+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 4030    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:05.071880+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 4064    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:05.084453+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 4065    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:05.155705+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 4099    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:05.168643+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 4100    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:05.183842+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 4101    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:05.261190+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 4135    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:05.276566+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 4136    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:05.366633+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 4170    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:05.382627+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 4171    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    },
+    {
+      "time": "2026-10-25T01:10:05.479108+00:00",
+      "windows_sampled": false,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-batch-migration-study/tools/batch_migration_study.py run --root /root/lzuhpc-experiments/ws-20261025-batch-migration-study --wait-seconds 600\n 4205    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [],
+      "clear": true
+    }
+  ],
+  "clean": true,
+  "interval_seconds": 0.5
+}

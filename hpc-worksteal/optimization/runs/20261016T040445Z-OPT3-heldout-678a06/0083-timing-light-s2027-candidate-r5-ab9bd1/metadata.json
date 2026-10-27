@@ -1,0 +1,28 @@
+{
+  "run_id": "0083-timing-light-s2027-candidate-r5-ab9bd1",
+  "batch_id": "20261016T040445Z-OPT3-heldout-678a06",
+  "condition": "light-s2027-candidate",
+  "purpose": "timing",
+  "repeat": 5,
+  "started": "2026-10-16T04:06:02.568124+00:00",
+  "ended": "2026-10-16T04:06:02.622670+00:00",
+  "elapsed_process_seconds": 0.05454530000008617,
+  "exit_code": 0,
+  "expected_exit": 0,
+  "status": "completed",
+  "failure_reason": null,
+  "source_id": "ced55a945530539b6d261ef1c6dac14a3e72ba8edfa0d890b5db546b08171c9e",
+  "binary_sha256": "0f41f09805cf0110bb2d1c860b29994fcbeed19e80897f6d3e90428bc73223ef",
+  "collector_sha256": "61f2d80ab3871cab03a939d4b2ec3b6bfc77878df3e979adc42574e1c7eecb31",
+  "environment_ref": "../environment.json",
+  "correctness": {
+    "pass": true
+  },
+  "timing": {
+    "dispatch_seconds": 6.3e-06,
+    "end_to_end_seconds": 0.0446151,
+    "epoch_seconds": 0.0019552,
+    "setup_seconds": 0.0209251
+  },
+  "included": true
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "document_status": "design_example_not_executed",
+  "executor": "worksteal",
+  "workers": 4,
+  "workload": {
+    "name": "compute_uniform",
+    "elements": 65536,
+    "iterations_per_element": 256,
+    "seed": 42
+  },
+  "policies": {
+    "partition": {"name": "fixed_grain", "elements_per_task": 256},
+    "victim": {"name": "seeded_random", "seed": 17},
+    "steal_timing": {"name": "immediate"},
+    "migration": {"name": "single"},
+    "affinity": {"name": "unbound"},
+    "placement": {"name": "round_robin"}
+  },
+  "measurement": {
+    "mode": "timing",
+    "warmup_epochs": 0,
+    "measured_epochs": 1,
+    "validate_result": true
+  }
+}

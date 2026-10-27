@@ -1,0 +1,28 @@
+{
+  "run_id": "0012-profiling-uniform-phase-lanes8-p32-g1024-r2-a21078",
+  "batch_id": "20261016T042648Z-R3C-phase-observation-65b081",
+  "condition": "uniform-phase-lanes8-p32-g1024",
+  "purpose": "profiling",
+  "repeat": 2,
+  "started": "2026-10-16T04:26:57.173204+00:00",
+  "ended": "2026-10-16T04:26:58.086838+00:00",
+  "elapsed_process_seconds": 0.9136230999999952,
+  "exit_code": 0,
+  "expected_exit": 0,
+  "status": "completed",
+  "failure_reason": null,
+  "source_id": "c2eff24c88c908cf14033dd06f250a739e34bc82765fda65e15eeaa1720175da",
+  "binary_sha256": "e178ae6383dd060cf87dc544eecb9c3cda4f4c12a0293c9db8ecfccd90347769",
+  "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+  "environment_ref": "../environment.json",
+  "correctness": {
+    "pass": true
+  },
+  "timing": {
+    "dispatch_seconds": 1.87e-05,
+    "end_to_end_seconds": 0.9018646,
+    "epoch_seconds": 0.0153954,
+    "setup_seconds": 0.0131026
+  },
+  "included": false
+}

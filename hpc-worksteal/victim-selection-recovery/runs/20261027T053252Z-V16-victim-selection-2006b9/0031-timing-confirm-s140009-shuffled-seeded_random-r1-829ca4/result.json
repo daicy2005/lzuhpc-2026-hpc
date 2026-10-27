@@ -1,0 +1,336 @@
+{
+  "affinity": {
+    "actual_workers": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ],
+      [
+        6
+      ],
+      [
+        7
+      ],
+      [
+        8
+      ],
+      [
+        9
+      ],
+      [
+        10
+      ],
+      [
+        11
+      ],
+      [
+        12
+      ],
+      [
+        13
+      ],
+      [
+        14
+      ],
+      [
+        15
+      ],
+      [
+        16
+      ],
+      [
+        17
+      ],
+      [
+        18
+      ],
+      [
+        19
+      ],
+      [
+        20
+      ],
+      [
+        21
+      ],
+      [
+        22
+      ],
+      [
+        23
+      ],
+      [
+        24
+      ],
+      [
+        25
+      ],
+      [
+        26
+      ],
+      [
+        27
+      ],
+      [
+        28
+      ],
+      [
+        29
+      ],
+      [
+        30
+      ],
+      [
+        31
+      ]
+    ],
+    "control_wait": "condition_variable",
+    "main_mask_before": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "requested": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ]
+  },
+  "correctness": {
+    "pass": true
+  },
+  "epochs": [
+    {
+      "correctness": {
+        "compared_elements": 229376,
+        "exact_once": null,
+        "mismatches": 0,
+        "output_hash_fnv1a64": "6914119a8fa145cf",
+        "pass": true,
+        "reference_tile_elements": 256,
+        "reference_workers_used": 32
+      },
+      "epoch": 0,
+      "epoch_seconds": 0.0273931,
+      "execution": null,
+      "identity": {
+        "cost_hash_fnv1a64": "298817fbe10c2325",
+        "data_hash_fnv1a64": null,
+        "initial_cost_units": [
+          13631488,
+          11534336,
+          19922944,
+          13631488,
+          7340032,
+          13631488,
+          19922944,
+          15728640,
+          11534336,
+          15728640,
+          17825792,
+          13631488,
+          13631488,
+          19922944,
+          15728640,
+          24117248,
+          13631488,
+          19922944,
+          11534336,
+          15728640,
+          15728640,
+          13631488,
+          9437184,
+          11534336,
+          22020096,
+          15728640,
+          17825792,
+          11534336,
+          7340032,
+          15728640,
+          9437184,
+          11534336
+        ],
+        "input_hash_fnv1a64": "b298b81519d33c1f",
+        "max_task_cost_units": 2359296,
+        "per_element_bytes": 8,
+        "queue_hash_fnv1a64": "08d9dc9d00e8c4f9",
+        "task_count": 896,
+        "task_hash_fnv1a64": "d05865fb2f2e28be",
+        "total_cost_units": 469762048,
+        "total_data_bytes": 0
+      },
+      "local_only": false,
+      "pretouch_hash_fnv1a64": null,
+      "worker_stats": null
+    }
+  ],
+  "metrics_mode": "timing",
+  "phase_seconds": {
+    "configuration_and_policies": 2.97e-05,
+    "dispatch_and_execution_wall": 0.0288385,
+    "full_reference_verification": 0.0977943,
+    "home_preread": 2e-06,
+    "identity_hashes": 0.0038647,
+    "output_and_counts_preparation": 0.0004455,
+    "partition_and_placement": 8.89e-05,
+    "pool_creation": 0.002617,
+    "pool_shutdown": 0.001084,
+    "result_summary": 7.8e-06,
+    "workload_initialization": 0.0075703
+  },
+  "resolved_config": {
+    "executor": "worksteal",
+    "layout": "shuffled",
+    "layout_seed": 140009,
+    "measurement": {
+      "epochs": 1,
+      "mode": "timing",
+      "reference_workers": 32
+    },
+    "policies": {
+      "affinity": {
+        "cpus": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31
+        ],
+        "name": "explicit"
+      },
+      "migration": {
+        "name": "single"
+      },
+      "partition": {
+        "grain": 256,
+        "name": "fixed_grain"
+      },
+      "placement": {
+        "name": "round_robin"
+      },
+      "steal_timing": {
+        "name": "immediate"
+      },
+      "victim": {
+        "name": "seeded_random",
+        "seed": 17
+      }
+    },
+    "schema_version": 1,
+    "steal_enabled": true,
+    "workers": 32,
+    "workload": {
+      "elements": 229376,
+      "iterations": 1024,
+      "name": "compute_skewed",
+      "seed": 140009
+    }
+  },
+  "schema_version": 1,
+  "status": "completed",
+  "timing": {
+    "dispatch_seconds": 3.4e-06,
+    "end_to_end_seconds": 0.1423862,
+    "epoch_seconds": 0.0273931,
+    "setup_seconds": 0.0141766
+  }
+}

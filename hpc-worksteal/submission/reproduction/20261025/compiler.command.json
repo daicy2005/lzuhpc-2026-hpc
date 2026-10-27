@@ -1,0 +1,9 @@
+{
+  "label": "compiler",
+  "argv": [
+    "c++",
+    "--version"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 0.006977399999999967
+}

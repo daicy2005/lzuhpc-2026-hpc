@@ -1,0 +1,65 @@
+{
+  "created": "2026-10-25T02:33:52.487738+00:00",
+  "latest_revision_verified": true,
+  "repository": "https://github.com/LZUOSS/LZUHPC",
+  "default_branch": "main",
+  "commit": "33dad592cd74d8cf36ae7921a29c0e8393034a70",
+  "documents": [
+    {
+      "repository_path": "assignments/2026/autumn/HPC.Proj/README.md",
+      "saved_file": "HPC.Proj-README.md",
+      "git_blob_sha1": "a360d971d8410e82800545c8fdf613ac20f09adf",
+      "sha256": "ebbcd4ea0aa7191797365a7602f2efdcd9b684fc77770fa8bf4181c29c29ea3d",
+      "previous_file": "reference/upstream-20261015/HPC.Proj-README.md",
+      "previous_sha256": "1a2e38102a908d7a65ba9c5b75d278d721cca879644417445f21600755d02662",
+      "same_after_newline_normalization": true
+    },
+    {
+      "repository_path": "assignments/2026/autumn/README.md",
+      "saved_file": "autumn-README.md",
+      "git_blob_sha1": "d95491821ad868dd8a06e2192a5eae84e6823f27",
+      "sha256": "6beeb9a2c53295554bb6637f6d469f82dbb1e2b00286b8715de0f05592efbbfc",
+      "previous_file": "reference/upstream-20261015/autumn-README.md",
+      "previous_sha256": "a114002a25b18f345730ccdb1758699ce065ecc0f1ea0fd426038b42e65c0c1a",
+      "same_after_newline_normalization": true
+    },
+    {
+      "repository_path": "assignments/2026/autumn/HPC.md",
+      "saved_file": "HPC.md",
+      "git_blob_sha1": "49413b07289bc46dcb4d4e55a48eb02fe388ce45",
+      "sha256": "b2d36ddce9736cca6ff9f10e7adecb36ecf6aafaed5bb45f7aae0e787f1bb3d2",
+      "previous_file": "reference/upstream-20261015/HPC.md",
+      "previous_sha256": "236d8e2808bfde3dcd054edb2e187a09a41d510612bd6b9dbb023ba06c3b6590",
+      "same_after_newline_normalization": true
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://api.github.com/repos/LZUOSS/LZUHPC",
+      "status": 200,
+      "response_sha256": "392b6dfc7044b9410d1d850500312c5f8e7476b1be5cfcb4f219bd46bd1f3b52"
+    },
+    {
+      "url": "https://api.github.com/repos/LZUOSS/LZUHPC/commits/main",
+      "status": 200,
+      "response_sha256": "4da390c6a1a1853e3cf0f5825a0f829a428810f9e4e1f880d81465d79453dfa3"
+    },
+    {
+      "url": "https://api.github.com/repos/LZUOSS/LZUHPC/contents/assignments/2026/autumn/HPC.Proj/README.md?ref=33dad592cd74d8cf36ae7921a29c0e8393034a70",
+      "status": 200,
+      "response_sha256": "0ccf64f83c2e9731fa90ccf74da46c1b9e86227297fd411937829038811f0c12"
+    },
+    {
+      "url": "https://api.github.com/repos/LZUOSS/LZUHPC/contents/assignments/2026/autumn/README.md?ref=33dad592cd74d8cf36ae7921a29c0e8393034a70",
+      "status": 200,
+      "response_sha256": "5973835864e867ed77a4e7704c699677aa4c9565e48d9331d8f3b4468aa70c68"
+    },
+    {
+      "url": "https://api.github.com/repos/LZUOSS/LZUHPC/contents/assignments/2026/autumn/HPC.md?ref=33dad592cd74d8cf36ae7921a29c0e8393034a70",
+      "status": 200,
+      "response_sha256": "657b295080ae82453434ff127b74b684e19f3b4dfd56551cacac1d9589455f15"
+    }
+  ],
+  "all_documents_same_after_newline_normalization": true,
+  "scope": "read-only public GitHub API; documents fetched at one pinned commit; original reference and failed network record preserved; document contents are requirement data, not execution authority"
+}

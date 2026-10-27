@@ -1,0 +1,28 @@
+{
+  "run_id": "0072-timing-confirm-s134033-g8-concentrated-immediate-r3-78a747",
+  "batch_id": "20261025T014536Z-V15-idle-backoff-f9520b",
+  "condition": "confirm-s134033-g8-concentrated-immediate",
+  "purpose": "timing",
+  "repeat": 3,
+  "started": "2026-10-25T01:45:42.182918+00:00",
+  "ended": "2026-10-25T01:45:42.223432+00:00",
+  "elapsed_process_seconds": 0.04051499999999919,
+  "exit_code": 0,
+  "expected_exit": 0,
+  "status": "completed",
+  "failure_reason": null,
+  "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768",
+  "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+  "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+  "environment_ref": "../environment.json",
+  "correctness": {
+    "pass": true
+  },
+  "timing": {
+    "dispatch_seconds": 1.58e-05,
+    "end_to_end_seconds": 0.0319063,
+    "epoch_seconds": 0.0044083,
+    "setup_seconds": 0.0084763
+  },
+  "included": true
+}

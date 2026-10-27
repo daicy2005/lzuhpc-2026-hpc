@@ -1,0 +1,28 @@
+{
+  "run_id": "0018-profiling-light-phase-runtime-p16-g256-r3-f8d1cd",
+  "batch_id": "20261016T042648Z-R3C-phase-observation-65b081",
+  "condition": "light-phase-runtime-p16-g256",
+  "purpose": "profiling",
+  "repeat": 3,
+  "started": "2026-10-16T04:27:02.123057+00:00",
+  "ended": "2026-10-16T04:27:02.166295+00:00",
+  "elapsed_process_seconds": 0.0432799000000017,
+  "exit_code": 0,
+  "expected_exit": 0,
+  "status": "completed",
+  "failure_reason": null,
+  "source_id": "c2eff24c88c908cf14033dd06f250a739e34bc82765fda65e15eeaa1720175da",
+  "binary_sha256": "534b326e30a0239103b84796a3ebcafb058141125a70fdcee28e48a217eae654",
+  "collector_sha256": "3ea9db7df0d8ca8e00844603b69a928cd8c29a23b8a357995ef1ab60bd5962f3",
+  "environment_ref": "../environment.json",
+  "correctness": {
+    "pass": true
+  },
+  "timing": {
+    "dispatch_seconds": 6.9e-06,
+    "end_to_end_seconds": 0.028518,
+    "epoch_seconds": 0.0014849,
+    "setup_seconds": 0.013875
+  },
+  "included": false
+}

@@ -1,0 +1,11 @@
+{
+  "cwd": "/root/lzuhpc-experiments/ws-20261016-release-v1",
+  "argv": [
+    "/root/lzuhpc-experiments/ws-20261016-release-v1/build-none/worksteal",
+    "--config",
+    "/root/lzuhpc-experiments/ws-20261016-release-v1/runs/20261016T024210Z-W02-526db5/0026-timing-concentrated-on-r2-a953a4/config.json",
+    "--output",
+    "/root/lzuhpc-experiments/ws-20261016-release-v1/runs/20261016T024210Z-W02-526db5/0026-timing-concentrated-on-r2-a953a4/result.json"
+  ],
+  "explicit_environment": {}
+}

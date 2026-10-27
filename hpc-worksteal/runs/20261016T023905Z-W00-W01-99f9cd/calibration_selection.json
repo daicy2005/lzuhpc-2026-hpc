@@ -1,0 +1,5 @@
+{
+  "selected_k": 1024,
+  "rule": "first correct S0 epoch in [0.2,1.0]",
+  "frozen": "2026-10-16T02:39:08.060261+00:00"
+}

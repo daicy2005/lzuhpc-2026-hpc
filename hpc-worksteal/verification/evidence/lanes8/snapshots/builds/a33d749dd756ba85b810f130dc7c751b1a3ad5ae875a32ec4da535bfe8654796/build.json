@@ -1,0 +1,26 @@
+[
+  {
+    "argv": [
+      "cmake",
+      "-S",
+      "/root/lzuhpc-experiments/ws-20261016-verify-lanes8",
+      "-B",
+      "/root/lzuhpc-experiments/ws-20261016-verify-lanes8/build-none",
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DWS_COMPLETION_BATCH=1",
+      "-DWS_STEAL_SCRATCH=OFF",
+      "-DWS_ENABLE_IPO=ON",
+      "-DWS_COMPUTE_LANES=8"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "cmake",
+      "--build",
+      "/root/lzuhpc-experiments/ws-20261016-verify-lanes8/build-none",
+      "-j2"
+    ],
+    "returncode": 0
+  }
+]

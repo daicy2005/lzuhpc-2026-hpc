@@ -1,0 +1,3920 @@
+{
+  "batch_id": "20261025T010952Z-V14-batch-migration-c8d3ba",
+  "created": "2026-10-25T01:09:52.568417+00:00",
+  "source_id": "6664ef27ac4c0d6948cb39ceaefc412696b6d85d873f3a3c444e0a1fee961dcd",
+  "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+  "budget_seconds": 600,
+  "stage": "V14-batch-migration",
+  "conditions": [
+    {
+      "id": "control-s108007-concentrated-cap1",
+      "stage": "control",
+      "cap": 1,
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 1031,
+          "iterations": 7,
+          "seed": 108007
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "diagnostic",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 108007
+      }
+    },
+    {
+      "id": "control-s108007-concentrated-cap4",
+      "stage": "control",
+      "cap": 4,
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 1031,
+          "iterations": 7,
+          "seed": 108007
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "capped_half",
+            "cap": 4
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "diagnostic",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 108007
+      }
+    },
+    {
+      "id": "control-s108007-concentrated-cap16",
+      "stage": "control",
+      "cap": 16,
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 1031,
+          "iterations": 7,
+          "seed": 108007
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "capped_half",
+            "cap": 16
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "diagnostic",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 108007
+      }
+    },
+    {
+      "id": "control-s108007-concentrated-cap64",
+      "stage": "control",
+      "cap": 64,
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 1031,
+          "iterations": 7,
+          "seed": 108007
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "capped_half",
+            "cap": 64
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "diagnostic",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 108007
+      }
+    },
+    {
+      "id": "control-s108007-spread-cap1",
+      "stage": "control",
+      "cap": 1,
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 1031,
+          "iterations": 7,
+          "seed": 108007
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "diagnostic",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 108007
+      }
+    },
+    {
+      "id": "control-s108007-spread-cap4",
+      "stage": "control",
+      "cap": 4,
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 1031,
+          "iterations": 7,
+          "seed": 108007
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "capped_half",
+            "cap": 4
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "diagnostic",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 108007
+      }
+    },
+    {
+      "id": "control-s108007-spread-cap16",
+      "stage": "control",
+      "cap": 16,
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 1031,
+          "iterations": 7,
+          "seed": 108007
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "capped_half",
+            "cap": 16
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "diagnostic",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 108007
+      }
+    },
+    {
+      "id": "control-s108007-spread-cap64",
+      "stage": "control",
+      "cap": 64,
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 1031,
+          "iterations": 7,
+          "seed": 108007
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "capped_half",
+            "cap": 64
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "diagnostic",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 108007
+      }
+    },
+    {
+      "id": "screen-s110017-concentrated-cap1",
+      "stage": "screen",
+      "cap": 1,
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 81920,
+          "iterations": 256,
+          "seed": 110017
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 110017
+      }
+    },
+    {
+      "id": "screen-s110017-concentrated-cap4",
+      "stage": "screen",
+      "cap": 4,
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 81920,
+          "iterations": 256,
+          "seed": 110017
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "capped_half",
+            "cap": 4
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 110017
+      }
+    },
+    {
+      "id": "screen-s110017-concentrated-cap16",
+      "stage": "screen",
+      "cap": 16,
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 81920,
+          "iterations": 256,
+          "seed": 110017
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "capped_half",
+            "cap": 16
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 110017
+      }
+    },
+    {
+      "id": "screen-s110017-concentrated-cap64",
+      "stage": "screen",
+      "cap": 64,
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 81920,
+          "iterations": 256,
+          "seed": 110017
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "capped_half",
+            "cap": 64
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "concentrated",
+        "layout_seed": 110017
+      }
+    },
+    {
+      "id": "screen-s110017-spread-cap1",
+      "stage": "screen",
+      "cap": 1,
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 81920,
+          "iterations": 256,
+          "seed": 110017
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "single"
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 110017
+      }
+    },
+    {
+      "id": "screen-s110017-spread-cap4",
+      "stage": "screen",
+      "cap": 4,
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 81920,
+          "iterations": 256,
+          "seed": 110017
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "capped_half",
+            "cap": 4
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 110017
+      }
+    },
+    {
+      "id": "screen-s110017-spread-cap16",
+      "stage": "screen",
+      "cap": 16,
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 81920,
+          "iterations": 256,
+          "seed": 110017
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "capped_half",
+            "cap": 16
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 110017
+      }
+    },
+    {
+      "id": "screen-s110017-spread-cap64",
+      "stage": "screen",
+      "cap": 64,
+      "config": {
+        "schema_version": 1,
+        "executor": "worksteal",
+        "workers": 16,
+        "workload": {
+          "name": "compute_skewed",
+          "elements": 81920,
+          "iterations": 256,
+          "seed": 110017
+        },
+        "policies": {
+          "partition": {
+            "name": "fixed_grain",
+            "grain": 8
+          },
+          "victim": {
+            "name": "round_robin"
+          },
+          "steal_timing": {
+            "name": "immediate"
+          },
+          "migration": {
+            "name": "capped_half",
+            "cap": 64
+          },
+          "affinity": {
+            "name": "explicit",
+            "cpus": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "placement": {
+            "name": "round_robin"
+          }
+        },
+        "measurement": {
+          "mode": "timing",
+          "epochs": 1,
+          "reference_workers": 16
+        },
+        "layout": "spread",
+        "layout_seed": 110017
+      }
+    }
+  ],
+  "order": [
+    [
+      "control",
+      0,
+      "control-s108007-concentrated-cap1"
+    ],
+    [
+      "control",
+      0,
+      "control-s108007-concentrated-cap4"
+    ],
+    [
+      "control",
+      0,
+      "control-s108007-concentrated-cap16"
+    ],
+    [
+      "control",
+      0,
+      "control-s108007-concentrated-cap64"
+    ],
+    [
+      "control",
+      0,
+      "control-s108007-spread-cap1"
+    ],
+    [
+      "control",
+      0,
+      "control-s108007-spread-cap4"
+    ],
+    [
+      "control",
+      0,
+      "control-s108007-spread-cap16"
+    ],
+    [
+      "control",
+      0,
+      "control-s108007-spread-cap64"
+    ],
+    [
+      "diagnostic",
+      0,
+      "screen-s110017-spread-cap16"
+    ],
+    [
+      "diagnostic",
+      0,
+      "screen-s110017-concentrated-cap1"
+    ],
+    [
+      "diagnostic",
+      0,
+      "screen-s110017-spread-cap64"
+    ],
+    [
+      "diagnostic",
+      0,
+      "screen-s110017-spread-cap1"
+    ],
+    [
+      "diagnostic",
+      0,
+      "screen-s110017-concentrated-cap16"
+    ],
+    [
+      "diagnostic",
+      0,
+      "screen-s110017-concentrated-cap64"
+    ],
+    [
+      "diagnostic",
+      0,
+      "screen-s110017-spread-cap4"
+    ],
+    [
+      "diagnostic",
+      0,
+      "screen-s110017-concentrated-cap4"
+    ],
+    [
+      "warmup",
+      0,
+      "screen-s110017-spread-cap16"
+    ],
+    [
+      "warmup",
+      0,
+      "screen-s110017-concentrated-cap1"
+    ],
+    [
+      "warmup",
+      0,
+      "screen-s110017-spread-cap64"
+    ],
+    [
+      "warmup",
+      0,
+      "screen-s110017-spread-cap1"
+    ],
+    [
+      "warmup",
+      0,
+      "screen-s110017-concentrated-cap16"
+    ],
+    [
+      "warmup",
+      0,
+      "screen-s110017-concentrated-cap64"
+    ],
+    [
+      "warmup",
+      0,
+      "screen-s110017-spread-cap4"
+    ],
+    [
+      "warmup",
+      0,
+      "screen-s110017-concentrated-cap4"
+    ],
+    [
+      "timing",
+      1,
+      "screen-s110017-spread-cap16"
+    ],
+    [
+      "timing",
+      1,
+      "screen-s110017-concentrated-cap1"
+    ],
+    [
+      "timing",
+      1,
+      "screen-s110017-spread-cap64"
+    ],
+    [
+      "timing",
+      1,
+      "screen-s110017-spread-cap1"
+    ],
+    [
+      "timing",
+      1,
+      "screen-s110017-concentrated-cap16"
+    ],
+    [
+      "timing",
+      1,
+      "screen-s110017-concentrated-cap64"
+    ],
+    [
+      "timing",
+      1,
+      "screen-s110017-spread-cap4"
+    ],
+    [
+      "timing",
+      1,
+      "screen-s110017-concentrated-cap4"
+    ],
+    [
+      "timing",
+      2,
+      "screen-s110017-spread-cap64"
+    ],
+    [
+      "timing",
+      2,
+      "screen-s110017-spread-cap1"
+    ],
+    [
+      "timing",
+      2,
+      "screen-s110017-concentrated-cap16"
+    ],
+    [
+      "timing",
+      2,
+      "screen-s110017-concentrated-cap64"
+    ],
+    [
+      "timing",
+      2,
+      "screen-s110017-spread-cap4"
+    ],
+    [
+      "timing",
+      2,
+      "screen-s110017-concentrated-cap4"
+    ],
+    [
+      "timing",
+      2,
+      "screen-s110017-spread-cap16"
+    ],
+    [
+      "timing",
+      2,
+      "screen-s110017-concentrated-cap1"
+    ],
+    [
+      "timing",
+      3,
+      "screen-s110017-concentrated-cap64"
+    ],
+    [
+      "timing",
+      3,
+      "screen-s110017-spread-cap4"
+    ],
+    [
+      "timing",
+      3,
+      "screen-s110017-concentrated-cap4"
+    ],
+    [
+      "timing",
+      3,
+      "screen-s110017-spread-cap16"
+    ],
+    [
+      "timing",
+      3,
+      "screen-s110017-concentrated-cap1"
+    ],
+    [
+      "timing",
+      3,
+      "screen-s110017-spread-cap64"
+    ],
+    [
+      "timing",
+      3,
+      "screen-s110017-spread-cap1"
+    ],
+    [
+      "timing",
+      3,
+      "screen-s110017-concentrated-cap16"
+    ]
+  ],
+  "confirmation_branches": {
+    "4": {
+      "conditions": [
+        {
+          "id": "confirm-s116009-concentrated-cap1",
+          "stage": "confirm",
+          "cap": 1,
+          "config": {
+            "schema_version": 1,
+            "executor": "worksteal",
+            "workers": 16,
+            "workload": {
+              "name": "compute_skewed",
+              "elements": 73728,
+              "iterations": 256,
+              "seed": 116009
+            },
+            "policies": {
+              "partition": {
+                "name": "fixed_grain",
+                "grain": 8
+              },
+              "victim": {
+                "name": "round_robin"
+              },
+              "steal_timing": {
+                "name": "immediate"
+              },
+              "migration": {
+                "name": "single"
+              },
+              "affinity": {
+                "name": "explicit",
+                "cpus": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15
+                ]
+              },
+              "placement": {
+                "name": "round_robin"
+              }
+            },
+            "measurement": {
+              "mode": "timing",
+              "epochs": 1,
+              "reference_workers": 16
+            },
+            "layout": "concentrated",
+            "layout_seed": 116009
+          }
+        },
+        {
+          "id": "confirm-s116009-concentrated-cap4",
+          "stage": "confirm",
+          "cap": 4,
+          "config": {
+            "schema_version": 1,
+            "executor": "worksteal",
+            "workers": 16,
+            "workload": {
+              "name": "compute_skewed",
+              "elements": 73728,
+              "iterations": 256,
+              "seed": 116009
+            },
+            "policies": {
+              "partition": {
+                "name": "fixed_grain",
+                "grain": 8
+              },
+              "victim": {
+                "name": "round_robin"
+              },
+              "steal_timing": {
+                "name": "immediate"
+              },
+              "migration": {
+                "name": "capped_half",
+                "cap": 4
+              },
+              "affinity": {
+                "name": "explicit",
+                "cpus": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15
+                ]
+              },
+              "placement": {
+                "name": "round_robin"
+              }
+            },
+            "measurement": {
+              "mode": "timing",
+              "epochs": 1,
+              "reference_workers": 16
+            },
+            "layout": "concentrated",
+            "layout_seed": 116009
+          }
+        },
+        {
+          "id": "confirm-s116009-spread-cap1",
+          "stage": "confirm",
+          "cap": 1,
+          "config": {
+            "schema_version": 1,
+            "executor": "worksteal",
+            "workers": 16,
+            "workload": {
+              "name": "compute_skewed",
+              "elements": 73728,
+              "iterations": 256,
+              "seed": 116009
+            },
+            "policies": {
+              "partition": {
+                "name": "fixed_grain",
+                "grain": 8
+              },
+              "victim": {
+                "name": "round_robin"
+              },
+              "steal_timing": {
+                "name": "immediate"
+              },
+              "migration": {
+                "name": "single"
+              },
+              "affinity": {
+                "name": "explicit",
+                "cpus": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15
+                ]
+              },
+              "placement": {
+                "name": "round_robin"
+              }
+            },
+            "measurement": {
+              "mode": "timing",
+              "epochs": 1,
+              "reference_workers": 16
+            },
+            "layout": "spread",
+            "layout_seed": 116009
+          }
+        },
+        {
+          "id": "confirm-s116009-spread-cap4",
+          "stage": "confirm",
+          "cap": 4,
+          "config": {
+            "schema_version": 1,
+            "executor": "worksteal",
+            "workers": 16,
+            "workload": {
+              "name": "compute_skewed",
+              "elements": 73728,
+              "iterations": 256,
+              "seed": 116009
+            },
+            "policies": {
+              "partition": {
+                "name": "fixed_grain",
+                "grain": 8
+              },
+              "victim": {
+                "name": "round_robin"
+              },
+              "steal_timing": {
+                "name": "immediate"
+              },
+              "migration": {
+                "name": "capped_half",
+                "cap": 4
+              },
+              "affinity": {
+                "name": "explicit",
+                "cpus": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15
+                ]
+              },
+              "placement": {
+                "name": "round_robin"
+              }
+            },
+            "measurement": {
+              "mode": "timing",
+              "epochs": 1,
+              "reference_workers": 16
+            },
+            "layout": "spread",
+            "layout_seed": 116009
+          }
+        },
+        {
+          "id": "confirm-s122011-concentrated-cap1",
+          "stage": "confirm",
+          "cap": 1,
+          "config": {
+            "schema_version": 1,
+            "executor": "worksteal",
+            "workers": 16,
+            "workload": {
+              "name": "compute_skewed",
+              "elements": 106496,
+              "iterations": 256,
+              "seed": 122011
+            },
+            "policies": {
+              "partition": {
+                "name": "fixed_grain",
+                "grain": 8
+              },
+              "victim": {
+                "name": "round_robin"
+              },
+              "steal_timing": {
+                "name": "immediate"
+              },
+              "migration": {
+                "name": "single"
+              },
+              "affinity": {
+                "name": "explicit",
+                "cpus": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15
+                ]
+              },
+              "placement": {
+                "name": "round_robin"
+              }
+            },
+            "measurement": {
+              "mode": "timing",
+              "epochs": 1,
+              "reference_workers": 16
+            },
+            "layout": "concentrated",
+            "layout_seed": 122011
+          }
+        },
+        {
+          "id": "confirm-s122011-concentrated-cap4",
+          "stage": "confirm",
+          "cap": 4,
+          "config": {
+            "schema_version": 1,
+            "executor": "worksteal",
+            "workers": 16,
+            "workload": {
+              "name": "compute_skewed",
+              "elements": 106496,
+              "iterations": 256,
+              "seed": 122011
+            },
+            "policies": {
+              "partition": {
+                "name": "fixed_grain",
+                "grain": 8
+              },
+              "victim": {
+                "name": "round_robin"
+              },
+              "steal_timing": {
+                "name": "immediate"
+              },
+              "migration": {
+                "name": "capped_half",
+                "cap": 4
+              },
+              "affinity": {
+                "name": "explicit",
+                "cpus": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15
+                ]
+              },
+              "placement": {
+                "name": "round_robin"
+              }
+            },
+            "measurement": {
+              "mode": "timing",
+              "epochs": 1,
+              "reference_workers": 16
+            },
+            "layout": "concentrated",
+            "layout_seed": 122011
+          }
+        },
+        {
+          "id": "confirm-s122011-spread-cap1",
+          "stage": "confirm",
+          "cap": 1,
+          "config": {
+            "schema_version": 1,
+            "executor": "worksteal",
+            "workers": 16,
+            "workload": {
+              "name": "compute_skewed",
+              "elements": 106496,
+              "iterations": 256,
+              "seed": 122011
+            },
+            "policies": {
+              "partition": {
+                "name": "fixed_grain",
+                "grain": 8
+              },
+              "victim": {
+                "name": "round_robin"
+              },
+              "steal_timing": {
+                "name": "immediate"
+              },
+              "migration": {
+                "name": "single"
+              },
+              "affinity": {
+                "name": "explicit",
+                "cpus": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15
+                ]
+              },
+              "placement": {
+                "name": "round_robin"
+              }
+            },
+            "measurement": {
+              "mode": "timing",
+              "epochs": 1,
+              "reference_workers": 16
+            },
+            "layout": "spread",
+            "layout_seed": 122011
+          }
+        },
+        {
+          "id": "confirm-s122011-spread-cap4",
+          "stage": "confirm",
+          "cap": 4,
+          "config": {
+            "schema_version": 1,
+            "executor": "worksteal",
+            "workers": 16,
+            "workload": {
+              "name": "compute_skewed",
+              "elements": 106496,
+              "iterations": 256,
+              "seed": 122011
+            },
+            "policies": {
+              "partition": {
+                "name": "fixed_grain",
+                "grain": 8
+              },
+              "victim": {
+                "name": "round_robin"
+              },
+              "steal_timing": {
+                "name": "immediate"
+              },
+              "migration": {
+                "name": "capped_half",
+                "cap": 4
+              },
+              "affinity": {
+                "name": "explicit",
+                "cpus": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15
+                ]
+              },
+              "placement": {
+                "name": "round_robin"
+              }
+            },
+            "measurement": {
+              "mode": "timing",
+              "epochs": 1,
+              "reference_workers": 16
+            },
+            "layout": "spread",
+            "layout_seed": 122011
+          }
+        }
+      ],
+      "pairs": [
+        [
+          "confirm-s116009-concentrated-cap1",
+          "confirm-s116009-concentrated-cap4"
+        ],
+        [
+          "confirm-s116009-spread-cap1",
+          "confirm-s116009-spread-cap4"
+        ],
+        [
+          "confirm-s122011-concentrated-cap1",
+          "confirm-s122011-concentrated-cap4"
+        ],
+        [
+          "confirm-s122011-spread-cap1",
+          "confirm-s122011-spread-cap4"
+        ]
+      ],
+      "order": [
+        [
+          "diagnostic",
+          0,
+          "confirm-s116009-concentrated-cap1"
+        ],
+        [
+          "diagnostic",
+          0,
+          "confirm-s116009-concentrated-cap4"
+        ],
+        [
+          "diagnostic",
+          0,
+          "confirm-s116009-spread-cap1"
+        ],
+        [
+          "diagnostic",
+          0,
+          "confirm-s116009-spread-cap4"
+        ],
+        [
+          "diagnostic",
+          0,
+          "confirm-s122011-concentrated-cap1"
+        ],
+        [
+          "diagnostic",
+          0,
+          "confirm-s122011-concentrated-cap4"
+        ],
+        [
+          "diagnostic",
+          0,
+          "confirm-s122011-spread-cap1"
+        ],
+        [
+          "diagnostic",
+          0,
+          "confirm-s122011-spread-cap4"
+        ],
+        [
+          "warmup",
+          0,
+          "confirm-s116009-concentrated-cap1"
+        ],
+        [
+          "warmup",
+          0,
+          "confirm-s116009-concentrated-cap4"
+        ],
+        [
+          "warmup",
+          0,
+          "confirm-s116009-spread-cap1"
+        ],
+        [
+          "warmup",
+          0,
+          "confirm-s116009-spread-cap4"
+        ],
+        [
+          "warmup",
+          0,
+          "confirm-s122011-concentrated-cap1"
+        ],
+        [
+          "warmup",
+          0,
+          "confirm-s122011-concentrated-cap4"
+        ],
+        [
+          "warmup",
+          0,
+          "confirm-s122011-spread-cap1"
+        ],
+        [
+          "warmup",
+          0,
+          "confirm-s122011-spread-cap4"
+        ],
+        [
+          "timing",
+          1,
+          "confirm-s116009-concentrated-cap1"
+        ],
+        [
+          "timing",
+          1,
+          "confirm-s116009-concentrated-cap4"
+        ],
+        [
+          "timing",
+          1,
+          "confirm-s116009-spread-cap1"
+        ],
+        [
+          "timing",
+          1,
+          "confirm-s116009-spread-cap4"
+        ],
+        [
+          "timing",
+          1,
+          "confirm-s122011-concentrated-cap1"
+        ],
+        [
+          "timing",
+          1,
+          "confirm-s122011-concentrated-cap4"
+        ],
+        [
+          "timing",
+          1,
+          "confirm-s122011-spread-cap1"
+        ],
+        [
+          "timing",
+          1,
+          "confirm-s122011-spread-cap4"
+        ],
+        [
+          "timing",
+          2,
+          "confirm-s116009-concentrated-cap4"
+        ],
+        [
+          "timing",
+          2,
+          "confirm-s116009-concentrated-cap1"
+        ],
+        [
+          "timing",
+          2,
+          "confirm-s116009-spread-cap4"
+        ],
+        [
+          "timing",
+          2,
+          "confirm-s116009-spread-cap1"
+        ],
+        [
+          "timing",
+          2,
+          "confirm-s122011-concentrated-cap4"
+        ],
+        [
+          "timing",
+          2,
+          "confirm-s122011-concentrated-cap1"
+        ],
+        [
+          "timing",
+          2,
+          "confirm-s122011-spread-cap4"
+        ],
+        [
+          "timing",
+          2,
+          "confirm-s122011-spread-cap1"
+        ],
+        [
+          "timing",
+          3,
+          "confirm-s116009-concentrated-cap1"
+        ],
+        [
+          "timing",
+          3,
+          "confirm-s116009-concentrated-cap4"
+        ],
+        [
+          "timing",
+          3,
+          "confirm-s116009-spread-cap1"
+        ],
+        [
+          "timing",
+          3,
+          "confirm-s116009-spread-cap4"
+        ],
+        [
+          "timing",
+          3,
+          "confirm-s122011-concentrated-cap1"
+        ],
+        [
+          "timing",
+          3,
+          "confirm-s122011-concentrated-cap4"
+        ],
+        [
+          "timing",
+          3,
+          "confirm-s122011-spread-cap1"
+        ],
+        [
+          "timing",
+          3,
+          "confirm-s122011-spread-cap4"
+        ],
+        [
+          "timing",
+          4,
+          "confirm-s116009-concentrated-cap4"
+        ],
+        [
+          "timing",
+          4,
+          "confirm-s116009-concentrated-cap1"
+        ],
+        [
+          "timing",
+          4,
+          "confirm-s116009-spread-cap4"
+        ],
+        [
+          "timing",
+          4,
+          "confirm-s116009-spread-cap1"
+        ],
+        [
+          "timing",
+          4,
+          "confirm-s122011-concentrated-cap4"
+        ],
+        [
+          "timing",
+          4,
+          "confirm-s122011-concentrated-cap1"
+        ],
+        [
+          "timing",
+          4,
+          "confirm-s122011-spread-cap4"
+        ],
+        [
+          "timing",
+          4,
+          "confirm-s122011-spread-cap1"
+        ],
+        [
+          "timing",
+          5,
+          "confirm-s116009-concentrated-cap1"
+        ],
+        [
+          "timing",
+          5,
+          "confirm-s116009-concentrated-cap4"
+        ],
+        [
+          "timing",
+          5,
+          "confirm-s116009-spread-cap1"
+        ],
+        [
+          "timing",
+          5,
+          "confirm-s116009-spread-cap4"
+        ],
+        [
+          "timing",
+          5,
+          "confirm-s122011-concentrated-cap1"
+        ],
+        [
+          "timing",
+          5,
+          "confirm-s122011-concentrated-cap4"
+        ],
+        [
+          "timing",
+          5,
+          "confirm-s122011-spread-cap1"
+        ],
+        [
+          "timing",
+          5,
+          "confirm-s122011-spread-cap4"
+        ],
+        [
+          "timing",
+          6,
+          "confirm-s116009-concentrated-cap4"
+        ],
+        [
+          "timing",
+          6,
+          "confirm-s116009-concentrated-cap1"
+        ],
+        [
+          "timing",
+          6,
+          "confirm-s116009-spread-cap4"
+        ],
+        [
+          "timing",
+          6,
+          "confirm-s116009-spread-cap1"
+        ],
+        [
+          "timing",
+          6,
+          "confirm-s122011-concentrated-cap4"
+        ],
+        [
+          "timing",
+          6,
+          "confirm-s122011-concentrated-cap1"
+        ],
+        [
+          "timing",
+          6,
+          "confirm-s122011-spread-cap4"
+        ],
+        [
+          "timing",
+          6,
+          "confirm-s122011-spread-cap1"
+        ],
+        [
+          "timing",
+          7,
+          "confirm-s116009-concentrated-cap1"
+        ],
+        [
+          "timing",
+          7,
+          "confirm-s116009-concentrated-cap4"
+        ],
+        [
+          "timing",
+          7,
+          "confirm-s116009-spread-cap1"
+        ],
+        [
+          "timing",
+          7,
+          "confirm-s116009-spread-cap4"
+        ],
+        [
+          "timing",
+          7,
+          "confirm-s122011-concentrated-cap1"
+        ],
+        [
+          "timing",
+          7,
+          "confirm-s122011-concentrated-cap4"
+        ],
+        [
+          "timing",
+          7,
+          "confirm-s122011-spread-cap1"
+        ],
+        [
+          "timing",
+          7,
+          "confirm-s122011-spread-cap4"
+        ]
+      ]
+    },
+    "16": {
+      "conditions": [
+        {
+          "id": "confirm-s116009-concentrated-cap1",
+          "stage": "confirm",
+          "cap": 1,
+          "config": {
+            "schema_version": 1,
+            "executor": "worksteal",
+            "workers": 16,
+            "workload": {
+              "name": "compute_skewed",
+              "elements": 73728,
+              "iterations": 256,
+              "seed": 116009
+            },
+            "policies": {
+              "partition": {
+                "name": "fixed_grain",
+                "grain": 8
+              },
+              "victim": {
+                "name": "round_robin"
+              },
+              "steal_timing": {
+                "name": "immediate"
+              },
+              "migration": {
+                "name": "single"
+              },
+              "affinity": {
+                "name": "explicit",
+                "cpus": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15
+                ]
+              },
+              "placement": {
+                "name": "round_robin"
+              }
+            },
+            "measurement": {
+              "mode": "timing",
+              "epochs": 1,
+              "reference_workers": 16
+            },
+            "layout": "concentrated",
+            "layout_seed": 116009
+          }
+        },
+        {
+          "id": "confirm-s116009-concentrated-cap16",
+          "stage": "confirm",
+          "cap": 16,
+          "config": {
+            "schema_version": 1,
+            "executor": "worksteal",
+            "workers": 16,
+            "workload": {
+              "name": "compute_skewed",
+              "elements": 73728,
+              "iterations": 256,
+              "seed": 116009
+            },
+            "policies": {
+              "partition": {
+                "name": "fixed_grain",
+                "grain": 8
+              },
+              "victim": {
+                "name": "round_robin"
+              },
+              "steal_timing": {
+                "name": "immediate"
+              },
+              "migration": {
+                "name": "capped_half",
+                "cap": 16
+              },
+              "affinity": {
+                "name": "explicit",
+                "cpus": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15
+                ]
+              },
+              "placement": {
+                "name": "round_robin"
+              }
+            },
+            "measurement": {
+              "mode": "timing",
+              "epochs": 1,
+              "reference_workers": 16
+            },
+            "layout": "concentrated",
+            "layout_seed": 116009
+          }
+        },
+        {
+          "id": "confirm-s116009-spread-cap1",
+          "stage": "confirm",
+          "cap": 1,
+          "config": {
+            "schema_version": 1,
+            "executor": "worksteal",
+            "workers": 16,
+            "workload": {
+              "name": "compute_skewed",
+              "elements": 73728,
+              "iterations": 256,
+              "seed": 116009
+            },
+            "policies": {
+              "partition": {
+                "name": "fixed_grain",
+                "grain": 8
+              },
+              "victim": {
+                "name": "round_robin"
+              },
+              "steal_timing": {
+                "name": "immediate"
+              },
+              "migration": {
+                "name": "single"
+              },
+              "affinity": {
+                "name": "explicit",
+                "cpus": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15
+                ]
+              },
+              "placement": {
+                "name": "round_robin"
+              }
+            },
+            "measurement": {
+              "mode": "timing",
+              "epochs": 1,
+              "reference_workers": 16
+            },
+            "layout": "spread",
+            "layout_seed": 116009
+          }
+        },
+        {
+          "id": "confirm-s116009-spread-cap16",
+          "stage": "confirm",
+          "cap": 16,
+          "config": {
+            "schema_version": 1,
+            "executor": "worksteal",
+            "workers": 16,
+            "workload": {
+              "name": "compute_skewed",
+              "elements": 73728,
+              "iterations": 256,
+              "seed": 116009
+            },
+            "policies": {
+              "partition": {
+                "name": "fixed_grain",
+                "grain": 8
+              },
+              "victim": {
+                "name": "round_robin"
+              },
+              "steal_timing": {
+                "name": "immediate"
+              },
+              "migration": {
+                "name": "capped_half",
+                "cap": 16
+              },
+              "affinity": {
+                "name": "explicit",
+                "cpus": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15
+                ]
+              },
+              "placement": {
+                "name": "round_robin"
+              }
+            },
+            "measurement": {
+              "mode": "timing",
+              "epochs": 1,
+              "reference_workers": 16
+            },
+            "layout": "spread",
+            "layout_seed": 116009
+          }
+        },
+        {
+          "id": "confirm-s122011-concentrated-cap1",
+          "stage": "confirm",
+          "cap": 1,
+          "config": {
+            "schema_version": 1,
+            "executor": "worksteal",
+            "workers": 16,
+            "workload": {
+              "name": "compute_skewed",
+              "elements": 106496,
+              "iterations": 256,
+              "seed": 122011
+            },
+            "policies": {
+              "partition": {
+                "name": "fixed_grain",
+                "grain": 8
+              },
+              "victim": {
+                "name": "round_robin"
+              },
+              "steal_timing": {
+                "name": "immediate"
+              },
+              "migration": {
+                "name": "single"
+              },
+              "affinity": {
+                "name": "explicit",
+                "cpus": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15
+                ]
+              },
+              "placement": {
+                "name": "round_robin"
+              }
+            },
+            "measurement": {
+              "mode": "timing",
+              "epochs": 1,
+              "reference_workers": 16
+            },
+            "layout": "concentrated",
+            "layout_seed": 122011
+          }
+        },
+        {
+          "id": "confirm-s122011-concentrated-cap16",
+          "stage": "confirm",
+          "cap": 16,
+          "config": {
+            "schema_version": 1,
+            "executor": "worksteal",
+            "workers": 16,
+            "workload": {
+              "name": "compute_skewed",
+              "elements": 106496,
+              "iterations": 256,
+              "seed": 122011
+            },
+            "policies": {
+              "partition": {
+                "name": "fixed_grain",
+                "grain": 8
+              },
+              "victim": {
+                "name": "round_robin"
+              },
+              "steal_timing": {
+                "name": "immediate"
+              },
+              "migration": {
+                "name": "capped_half",
+                "cap": 16
+              },
+              "affinity": {
+                "name": "explicit",
+                "cpus": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15
+                ]
+              },
+              "placement": {
+                "name": "round_robin"
+              }
+            },
+            "measurement": {
+              "mode": "timing",
+              "epochs": 1,
+              "reference_workers": 16
+            },
+            "layout": "concentrated",
+            "layout_seed": 122011
+          }
+        },
+        {
+          "id": "confirm-s122011-spread-cap1",
+          "stage": "confirm",
+          "cap": 1,
+          "config": {
+            "schema_version": 1,
+            "executor": "worksteal",
+            "workers": 16,
+            "workload": {
+              "name": "compute_skewed",
+              "elements": 106496,
+              "iterations": 256,
+              "seed": 122011
+            },
+            "policies": {
+              "partition": {
+                "name": "fixed_grain",
+                "grain": 8
+              },
+              "victim": {
+                "name": "round_robin"
+              },
+              "steal_timing": {
+                "name": "immediate"
+              },
+              "migration": {
+                "name": "single"
+              },
+              "affinity": {
+                "name": "explicit",
+                "cpus": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15
+                ]
+              },
+              "placement": {
+                "name": "round_robin"
+              }
+            },
+            "measurement": {
+              "mode": "timing",
+              "epochs": 1,
+              "reference_workers": 16
+            },
+            "layout": "spread",
+            "layout_seed": 122011
+          }
+        },
+        {
+          "id": "confirm-s122011-spread-cap16",
+          "stage": "confirm",
+          "cap": 16,
+          "config": {
+            "schema_version": 1,
+            "executor": "worksteal",
+            "workers": 16,
+            "workload": {
+              "name": "compute_skewed",
+              "elements": 106496,
+              "iterations": 256,
+              "seed": 122011
+            },
+            "policies": {
+              "partition": {
+                "name": "fixed_grain",
+                "grain": 8
+              },
+              "victim": {
+                "name": "round_robin"
+              },
+              "steal_timing": {
+                "name": "immediate"
+              },
+              "migration": {
+                "name": "capped_half",
+                "cap": 16
+              },
+              "affinity": {
+                "name": "explicit",
+                "cpus": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15
+                ]
+              },
+              "placement": {
+                "name": "round_robin"
+              }
+            },
+            "measurement": {
+              "mode": "timing",
+              "epochs": 1,
+              "reference_workers": 16
+            },
+            "layout": "spread",
+            "layout_seed": 122011
+          }
+        }
+      ],
+      "pairs": [
+        [
+          "confirm-s116009-concentrated-cap1",
+          "confirm-s116009-concentrated-cap16"
+        ],
+        [
+          "confirm-s116009-spread-cap1",
+          "confirm-s116009-spread-cap16"
+        ],
+        [
+          "confirm-s122011-concentrated-cap1",
+          "confirm-s122011-concentrated-cap16"
+        ],
+        [
+          "confirm-s122011-spread-cap1",
+          "confirm-s122011-spread-cap16"
+        ]
+      ],
+      "order": [
+        [
+          "diagnostic",
+          0,
+          "confirm-s116009-concentrated-cap1"
+        ],
+        [
+          "diagnostic",
+          0,
+          "confirm-s116009-concentrated-cap16"
+        ],
+        [
+          "diagnostic",
+          0,
+          "confirm-s116009-spread-cap1"
+        ],
+        [
+          "diagnostic",
+          0,
+          "confirm-s116009-spread-cap16"
+        ],
+        [
+          "diagnostic",
+          0,
+          "confirm-s122011-concentrated-cap1"
+        ],
+        [
+          "diagnostic",
+          0,
+          "confirm-s122011-concentrated-cap16"
+        ],
+        [
+          "diagnostic",
+          0,
+          "confirm-s122011-spread-cap1"
+        ],
+        [
+          "diagnostic",
+          0,
+          "confirm-s122011-spread-cap16"
+        ],
+        [
+          "warmup",
+          0,
+          "confirm-s116009-concentrated-cap1"
+        ],
+        [
+          "warmup",
+          0,
+          "confirm-s116009-concentrated-cap16"
+        ],
+        [
+          "warmup",
+          0,
+          "confirm-s116009-spread-cap1"
+        ],
+        [
+          "warmup",
+          0,
+          "confirm-s116009-spread-cap16"
+        ],
+        [
+          "warmup",
+          0,
+          "confirm-s122011-concentrated-cap1"
+        ],
+        [
+          "warmup",
+          0,
+          "confirm-s122011-concentrated-cap16"
+        ],
+        [
+          "warmup",
+          0,
+          "confirm-s122011-spread-cap1"
+        ],
+        [
+          "warmup",
+          0,
+          "confirm-s122011-spread-cap16"
+        ],
+        [
+          "timing",
+          1,
+          "confirm-s116009-concentrated-cap1"
+        ],
+        [
+          "timing",
+          1,
+          "confirm-s116009-concentrated-cap16"
+        ],
+        [
+          "timing",
+          1,
+          "confirm-s116009-spread-cap1"
+        ],
+        [
+          "timing",
+          1,
+          "confirm-s116009-spread-cap16"
+        ],
+        [
+          "timing",
+          1,
+          "confirm-s122011-concentrated-cap1"
+        ],
+        [
+          "timing",
+          1,
+          "confirm-s122011-concentrated-cap16"
+        ],
+        [
+          "timing",
+          1,
+          "confirm-s122011-spread-cap1"
+        ],
+        [
+          "timing",
+          1,
+          "confirm-s122011-spread-cap16"
+        ],
+        [
+          "timing",
+          2,
+          "confirm-s116009-concentrated-cap16"
+        ],
+        [
+          "timing",
+          2,
+          "confirm-s116009-concentrated-cap1"
+        ],
+        [
+          "timing",
+          2,
+          "confirm-s116009-spread-cap16"
+        ],
+        [
+          "timing",
+          2,
+          "confirm-s116009-spread-cap1"
+        ],
+        [
+          "timing",
+          2,
+          "confirm-s122011-concentrated-cap16"
+        ],
+        [
+          "timing",
+          2,
+          "confirm-s122011-concentrated-cap1"
+        ],
+        [
+          "timing",
+          2,
+          "confirm-s122011-spread-cap16"
+        ],
+        [
+          "timing",
+          2,
+          "confirm-s122011-spread-cap1"
+        ],
+        [
+          "timing",
+          3,
+          "confirm-s116009-concentrated-cap1"
+        ],
+        [
+          "timing",
+          3,
+          "confirm-s116009-concentrated-cap16"
+        ],
+        [
+          "timing",
+          3,
+          "confirm-s116009-spread-cap1"
+        ],
+        [
+          "timing",
+          3,
+          "confirm-s116009-spread-cap16"
+        ],
+        [
+          "timing",
+          3,
+          "confirm-s122011-concentrated-cap1"
+        ],
+        [
+          "timing",
+          3,
+          "confirm-s122011-concentrated-cap16"
+        ],
+        [
+          "timing",
+          3,
+          "confirm-s122011-spread-cap1"
+        ],
+        [
+          "timing",
+          3,
+          "confirm-s122011-spread-cap16"
+        ],
+        [
+          "timing",
+          4,
+          "confirm-s116009-concentrated-cap16"
+        ],
+        [
+          "timing",
+          4,
+          "confirm-s116009-concentrated-cap1"
+        ],
+        [
+          "timing",
+          4,
+          "confirm-s116009-spread-cap16"
+        ],
+        [
+          "timing",
+          4,
+          "confirm-s116009-spread-cap1"
+        ],
+        [
+          "timing",
+          4,
+          "confirm-s122011-concentrated-cap16"
+        ],
+        [
+          "timing",
+          4,
+          "confirm-s122011-concentrated-cap1"
+        ],
+        [
+          "timing",
+          4,
+          "confirm-s122011-spread-cap16"
+        ],
+        [
+          "timing",
+          4,
+          "confirm-s122011-spread-cap1"
+        ],
+        [
+          "timing",
+          5,
+          "confirm-s116009-concentrated-cap1"
+        ],
+        [
+          "timing",
+          5,
+          "confirm-s116009-concentrated-cap16"
+        ],
+        [
+          "timing",
+          5,
+          "confirm-s116009-spread-cap1"
+        ],
+        [
+          "timing",
+          5,
+          "confirm-s116009-spread-cap16"
+        ],
+        [
+          "timing",
+          5,
+          "confirm-s122011-concentrated-cap1"
+        ],
+        [
+          "timing",
+          5,
+          "confirm-s122011-concentrated-cap16"
+        ],
+        [
+          "timing",
+          5,
+          "confirm-s122011-spread-cap1"
+        ],
+        [
+          "timing",
+          5,
+          "confirm-s122011-spread-cap16"
+        ],
+        [
+          "timing",
+          6,
+          "confirm-s116009-concentrated-cap16"
+        ],
+        [
+          "timing",
+          6,
+          "confirm-s116009-concentrated-cap1"
+        ],
+        [
+          "timing",
+          6,
+          "confirm-s116009-spread-cap16"
+        ],
+        [
+          "timing",
+          6,
+          "confirm-s116009-spread-cap1"
+        ],
+        [
+          "timing",
+          6,
+          "confirm-s122011-concentrated-cap16"
+        ],
+        [
+          "timing",
+          6,
+          "confirm-s122011-concentrated-cap1"
+        ],
+        [
+          "timing",
+          6,
+          "confirm-s122011-spread-cap16"
+        ],
+        [
+          "timing",
+          6,
+          "confirm-s122011-spread-cap1"
+        ],
+        [
+          "timing",
+          7,
+          "confirm-s116009-concentrated-cap1"
+        ],
+        [
+          "timing",
+          7,
+          "confirm-s116009-concentrated-cap16"
+        ],
+        [
+          "timing",
+          7,
+          "confirm-s116009-spread-cap1"
+        ],
+        [
+          "timing",
+          7,
+          "confirm-s116009-spread-cap16"
+        ],
+        [
+          "timing",
+          7,
+          "confirm-s122011-concentrated-cap1"
+        ],
+        [
+          "timing",
+          7,
+          "confirm-s122011-concentrated-cap16"
+        ],
+        [
+          "timing",
+          7,
+          "confirm-s122011-spread-cap1"
+        ],
+        [
+          "timing",
+          7,
+          "confirm-s122011-spread-cap16"
+        ]
+      ]
+    },
+    "64": {
+      "conditions": [
+        {
+          "id": "confirm-s116009-concentrated-cap1",
+          "stage": "confirm",
+          "cap": 1,
+          "config": {
+            "schema_version": 1,
+            "executor": "worksteal",
+            "workers": 16,
+            "workload": {
+              "name": "compute_skewed",
+              "elements": 73728,
+              "iterations": 256,
+              "seed": 116009
+            },
+            "policies": {
+              "partition": {
+                "name": "fixed_grain",
+                "grain": 8
+              },
+              "victim": {
+                "name": "round_robin"
+              },
+              "steal_timing": {
+                "name": "immediate"
+              },
+              "migration": {
+                "name": "single"
+              },
+              "affinity": {
+                "name": "explicit",
+                "cpus": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15
+                ]
+              },
+              "placement": {
+                "name": "round_robin"
+              }
+            },
+            "measurement": {
+              "mode": "timing",
+              "epochs": 1,
+              "reference_workers": 16
+            },
+            "layout": "concentrated",
+            "layout_seed": 116009
+          }
+        },
+        {
+          "id": "confirm-s116009-concentrated-cap64",
+          "stage": "confirm",
+          "cap": 64,
+          "config": {
+            "schema_version": 1,
+            "executor": "worksteal",
+            "workers": 16,
+            "workload": {
+              "name": "compute_skewed",
+              "elements": 73728,
+              "iterations": 256,
+              "seed": 116009
+            },
+            "policies": {
+              "partition": {
+                "name": "fixed_grain",
+                "grain": 8
+              },
+              "victim": {
+                "name": "round_robin"
+              },
+              "steal_timing": {
+                "name": "immediate"
+              },
+              "migration": {
+                "name": "capped_half",
+                "cap": 64
+              },
+              "affinity": {
+                "name": "explicit",
+                "cpus": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15
+                ]
+              },
+              "placement": {
+                "name": "round_robin"
+              }
+            },
+            "measurement": {
+              "mode": "timing",
+              "epochs": 1,
+              "reference_workers": 16
+            },
+            "layout": "concentrated",
+            "layout_seed": 116009
+          }
+        },
+        {
+          "id": "confirm-s116009-spread-cap1",
+          "stage": "confirm",
+          "cap": 1,
+          "config": {
+            "schema_version": 1,
+            "executor": "worksteal",
+            "workers": 16,
+            "workload": {
+              "name": "compute_skewed",
+              "elements": 73728,
+              "iterations": 256,
+              "seed": 116009
+            },
+            "policies": {
+              "partition": {
+                "name": "fixed_grain",
+                "grain": 8
+              },
+              "victim": {
+                "name": "round_robin"
+              },
+              "steal_timing": {
+                "name": "immediate"
+              },
+              "migration": {
+                "name": "single"
+              },
+              "affinity": {
+                "name": "explicit",
+                "cpus": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15
+                ]
+              },
+              "placement": {
+                "name": "round_robin"
+              }
+            },
+            "measurement": {
+              "mode": "timing",
+              "epochs": 1,
+              "reference_workers": 16
+            },
+            "layout": "spread",
+            "layout_seed": 116009
+          }
+        },
+        {
+          "id": "confirm-s116009-spread-cap64",
+          "stage": "confirm",
+          "cap": 64,
+          "config": {
+            "schema_version": 1,
+            "executor": "worksteal",
+            "workers": 16,
+            "workload": {
+              "name": "compute_skewed",
+              "elements": 73728,
+              "iterations": 256,
+              "seed": 116009
+            },
+            "policies": {
+              "partition": {
+                "name": "fixed_grain",
+                "grain": 8
+              },
+              "victim": {
+                "name": "round_robin"
+              },
+              "steal_timing": {
+                "name": "immediate"
+              },
+              "migration": {
+                "name": "capped_half",
+                "cap": 64
+              },
+              "affinity": {
+                "name": "explicit",
+                "cpus": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15
+                ]
+              },
+              "placement": {
+                "name": "round_robin"
+              }
+            },
+            "measurement": {
+              "mode": "timing",
+              "epochs": 1,
+              "reference_workers": 16
+            },
+            "layout": "spread",
+            "layout_seed": 116009
+          }
+        },
+        {
+          "id": "confirm-s122011-concentrated-cap1",
+          "stage": "confirm",
+          "cap": 1,
+          "config": {
+            "schema_version": 1,
+            "executor": "worksteal",
+            "workers": 16,
+            "workload": {
+              "name": "compute_skewed",
+              "elements": 106496,
+              "iterations": 256,
+              "seed": 122011
+            },
+            "policies": {
+              "partition": {
+                "name": "fixed_grain",
+                "grain": 8
+              },
+              "victim": {
+                "name": "round_robin"
+              },
+              "steal_timing": {
+                "name": "immediate"
+              },
+              "migration": {
+                "name": "single"
+              },
+              "affinity": {
+                "name": "explicit",
+                "cpus": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15
+                ]
+              },
+              "placement": {
+                "name": "round_robin"
+              }
+            },
+            "measurement": {
+              "mode": "timing",
+              "epochs": 1,
+              "reference_workers": 16
+            },
+            "layout": "concentrated",
+            "layout_seed": 122011
+          }
+        },
+        {
+          "id": "confirm-s122011-concentrated-cap64",
+          "stage": "confirm",
+          "cap": 64,
+          "config": {
+            "schema_version": 1,
+            "executor": "worksteal",
+            "workers": 16,
+            "workload": {
+              "name": "compute_skewed",
+              "elements": 106496,
+              "iterations": 256,
+              "seed": 122011
+            },
+            "policies": {
+              "partition": {
+                "name": "fixed_grain",
+                "grain": 8
+              },
+              "victim": {
+                "name": "round_robin"
+              },
+              "steal_timing": {
+                "name": "immediate"
+              },
+              "migration": {
+                "name": "capped_half",
+                "cap": 64
+              },
+              "affinity": {
+                "name": "explicit",
+                "cpus": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15
+                ]
+              },
+              "placement": {
+                "name": "round_robin"
+              }
+            },
+            "measurement": {
+              "mode": "timing",
+              "epochs": 1,
+              "reference_workers": 16
+            },
+            "layout": "concentrated",
+            "layout_seed": 122011
+          }
+        },
+        {
+          "id": "confirm-s122011-spread-cap1",
+          "stage": "confirm",
+          "cap": 1,
+          "config": {
+            "schema_version": 1,
+            "executor": "worksteal",
+            "workers": 16,
+            "workload": {
+              "name": "compute_skewed",
+              "elements": 106496,
+              "iterations": 256,
+              "seed": 122011
+            },
+            "policies": {
+              "partition": {
+                "name": "fixed_grain",
+                "grain": 8
+              },
+              "victim": {
+                "name": "round_robin"
+              },
+              "steal_timing": {
+                "name": "immediate"
+              },
+              "migration": {
+                "name": "single"
+              },
+              "affinity": {
+                "name": "explicit",
+                "cpus": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15
+                ]
+              },
+              "placement": {
+                "name": "round_robin"
+              }
+            },
+            "measurement": {
+              "mode": "timing",
+              "epochs": 1,
+              "reference_workers": 16
+            },
+            "layout": "spread",
+            "layout_seed": 122011
+          }
+        },
+        {
+          "id": "confirm-s122011-spread-cap64",
+          "stage": "confirm",
+          "cap": 64,
+          "config": {
+            "schema_version": 1,
+            "executor": "worksteal",
+            "workers": 16,
+            "workload": {
+              "name": "compute_skewed",
+              "elements": 106496,
+              "iterations": 256,
+              "seed": 122011
+            },
+            "policies": {
+              "partition": {
+                "name": "fixed_grain",
+                "grain": 8
+              },
+              "victim": {
+                "name": "round_robin"
+              },
+              "steal_timing": {
+                "name": "immediate"
+              },
+              "migration": {
+                "name": "capped_half",
+                "cap": 64
+              },
+              "affinity": {
+                "name": "explicit",
+                "cpus": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15
+                ]
+              },
+              "placement": {
+                "name": "round_robin"
+              }
+            },
+            "measurement": {
+              "mode": "timing",
+              "epochs": 1,
+              "reference_workers": 16
+            },
+            "layout": "spread",
+            "layout_seed": 122011
+          }
+        }
+      ],
+      "pairs": [
+        [
+          "confirm-s116009-concentrated-cap1",
+          "confirm-s116009-concentrated-cap64"
+        ],
+        [
+          "confirm-s116009-spread-cap1",
+          "confirm-s116009-spread-cap64"
+        ],
+        [
+          "confirm-s122011-concentrated-cap1",
+          "confirm-s122011-concentrated-cap64"
+        ],
+        [
+          "confirm-s122011-spread-cap1",
+          "confirm-s122011-spread-cap64"
+        ]
+      ],
+      "order": [
+        [
+          "diagnostic",
+          0,
+          "confirm-s116009-concentrated-cap1"
+        ],
+        [
+          "diagnostic",
+          0,
+          "confirm-s116009-concentrated-cap64"
+        ],
+        [
+          "diagnostic",
+          0,
+          "confirm-s116009-spread-cap1"
+        ],
+        [
+          "diagnostic",
+          0,
+          "confirm-s116009-spread-cap64"
+        ],
+        [
+          "diagnostic",
+          0,
+          "confirm-s122011-concentrated-cap1"
+        ],
+        [
+          "diagnostic",
+          0,
+          "confirm-s122011-concentrated-cap64"
+        ],
+        [
+          "diagnostic",
+          0,
+          "confirm-s122011-spread-cap1"
+        ],
+        [
+          "diagnostic",
+          0,
+          "confirm-s122011-spread-cap64"
+        ],
+        [
+          "warmup",
+          0,
+          "confirm-s116009-concentrated-cap1"
+        ],
+        [
+          "warmup",
+          0,
+          "confirm-s116009-concentrated-cap64"
+        ],
+        [
+          "warmup",
+          0,
+          "confirm-s116009-spread-cap1"
+        ],
+        [
+          "warmup",
+          0,
+          "confirm-s116009-spread-cap64"
+        ],
+        [
+          "warmup",
+          0,
+          "confirm-s122011-concentrated-cap1"
+        ],
+        [
+          "warmup",
+          0,
+          "confirm-s122011-concentrated-cap64"
+        ],
+        [
+          "warmup",
+          0,
+          "confirm-s122011-spread-cap1"
+        ],
+        [
+          "warmup",
+          0,
+          "confirm-s122011-spread-cap64"
+        ],
+        [
+          "timing",
+          1,
+          "confirm-s116009-concentrated-cap1"
+        ],
+        [
+          "timing",
+          1,
+          "confirm-s116009-concentrated-cap64"
+        ],
+        [
+          "timing",
+          1,
+          "confirm-s116009-spread-cap1"
+        ],
+        [
+          "timing",
+          1,
+          "confirm-s116009-spread-cap64"
+        ],
+        [
+          "timing",
+          1,
+          "confirm-s122011-concentrated-cap1"
+        ],
+        [
+          "timing",
+          1,
+          "confirm-s122011-concentrated-cap64"
+        ],
+        [
+          "timing",
+          1,
+          "confirm-s122011-spread-cap1"
+        ],
+        [
+          "timing",
+          1,
+          "confirm-s122011-spread-cap64"
+        ],
+        [
+          "timing",
+          2,
+          "confirm-s116009-concentrated-cap64"
+        ],
+        [
+          "timing",
+          2,
+          "confirm-s116009-concentrated-cap1"
+        ],
+        [
+          "timing",
+          2,
+          "confirm-s116009-spread-cap64"
+        ],
+        [
+          "timing",
+          2,
+          "confirm-s116009-spread-cap1"
+        ],
+        [
+          "timing",
+          2,
+          "confirm-s122011-concentrated-cap64"
+        ],
+        [
+          "timing",
+          2,
+          "confirm-s122011-concentrated-cap1"
+        ],
+        [
+          "timing",
+          2,
+          "confirm-s122011-spread-cap64"
+        ],
+        [
+          "timing",
+          2,
+          "confirm-s122011-spread-cap1"
+        ],
+        [
+          "timing",
+          3,
+          "confirm-s116009-concentrated-cap1"
+        ],
+        [
+          "timing",
+          3,
+          "confirm-s116009-concentrated-cap64"
+        ],
+        [
+          "timing",
+          3,
+          "confirm-s116009-spread-cap1"
+        ],
+        [
+          "timing",
+          3,
+          "confirm-s116009-spread-cap64"
+        ],
+        [
+          "timing",
+          3,
+          "confirm-s122011-concentrated-cap1"
+        ],
+        [
+          "timing",
+          3,
+          "confirm-s122011-concentrated-cap64"
+        ],
+        [
+          "timing",
+          3,
+          "confirm-s122011-spread-cap1"
+        ],
+        [
+          "timing",
+          3,
+          "confirm-s122011-spread-cap64"
+        ],
+        [
+          "timing",
+          4,
+          "confirm-s116009-concentrated-cap64"
+        ],
+        [
+          "timing",
+          4,
+          "confirm-s116009-concentrated-cap1"
+        ],
+        [
+          "timing",
+          4,
+          "confirm-s116009-spread-cap64"
+        ],
+        [
+          "timing",
+          4,
+          "confirm-s116009-spread-cap1"
+        ],
+        [
+          "timing",
+          4,
+          "confirm-s122011-concentrated-cap64"
+        ],
+        [
+          "timing",
+          4,
+          "confirm-s122011-concentrated-cap1"
+        ],
+        [
+          "timing",
+          4,
+          "confirm-s122011-spread-cap64"
+        ],
+        [
+          "timing",
+          4,
+          "confirm-s122011-spread-cap1"
+        ],
+        [
+          "timing",
+          5,
+          "confirm-s116009-concentrated-cap1"
+        ],
+        [
+          "timing",
+          5,
+          "confirm-s116009-concentrated-cap64"
+        ],
+        [
+          "timing",
+          5,
+          "confirm-s116009-spread-cap1"
+        ],
+        [
+          "timing",
+          5,
+          "confirm-s116009-spread-cap64"
+        ],
+        [
+          "timing",
+          5,
+          "confirm-s122011-concentrated-cap1"
+        ],
+        [
+          "timing",
+          5,
+          "confirm-s122011-concentrated-cap64"
+        ],
+        [
+          "timing",
+          5,
+          "confirm-s122011-spread-cap1"
+        ],
+        [
+          "timing",
+          5,
+          "confirm-s122011-spread-cap64"
+        ],
+        [
+          "timing",
+          6,
+          "confirm-s116009-concentrated-cap64"
+        ],
+        [
+          "timing",
+          6,
+          "confirm-s116009-concentrated-cap1"
+        ],
+        [
+          "timing",
+          6,
+          "confirm-s116009-spread-cap64"
+        ],
+        [
+          "timing",
+          6,
+          "confirm-s116009-spread-cap1"
+        ],
+        [
+          "timing",
+          6,
+          "confirm-s122011-concentrated-cap64"
+        ],
+        [
+          "timing",
+          6,
+          "confirm-s122011-concentrated-cap1"
+        ],
+        [
+          "timing",
+          6,
+          "confirm-s122011-spread-cap64"
+        ],
+        [
+          "timing",
+          6,
+          "confirm-s122011-spread-cap1"
+        ],
+        [
+          "timing",
+          7,
+          "confirm-s116009-concentrated-cap1"
+        ],
+        [
+          "timing",
+          7,
+          "confirm-s116009-concentrated-cap64"
+        ],
+        [
+          "timing",
+          7,
+          "confirm-s116009-spread-cap1"
+        ],
+        [
+          "timing",
+          7,
+          "confirm-s116009-spread-cap64"
+        ],
+        [
+          "timing",
+          7,
+          "confirm-s122011-concentrated-cap1"
+        ],
+        [
+          "timing",
+          7,
+          "confirm-s122011-concentrated-cap64"
+        ],
+        [
+          "timing",
+          7,
+          "confirm-s122011-spread-cap1"
+        ],
+        [
+          "timing",
+          7,
+          "confirm-s122011-spread-cap64"
+        ]
+      ]
+    }
+  },
+  "screen_processes": 48,
+  "max_processes": 120,
+  "max_timing_samples": 80,
+  "build": {
+    "exe": "/root/lzuhpc-experiments/ws-20261022-fill-interleaved-release/build-none/worksteal",
+    "binary_sha256": "3992f3db54f07de09e3fd8510463e6fb6458473340a9428e14e33723b6a97caf",
+    "source_id": "62b3914c0eebd112c37f95ccb99088ef685d6e382ab3976acded8117a6c03768"
+  },
+  "availability_receipt": "results/availability-ac20e42fe19044d7bea9f3062b1bc87f.json",
+  "frozen_plan_sha256": "95d65615d4fa7ad065173d7661e0a15c1ff0894da8b16fab350f4c61629e0852"
+}

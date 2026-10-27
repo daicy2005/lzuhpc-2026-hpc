@@ -1,0 +1,400 @@
+{
+  "status": "deferred_busy",
+  "created": "2026-10-25T02:26:51.846212+00:00",
+  "observations": [
+    {
+      "time": "2026-10-25T02:17:02.432570+00:00",
+      "windows_sampled": true,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-victim-selection/tools/victim_selection_study.py run --root /root/lzuhpc-experiments/ws-20261025-victim-selection --wait-seconds 600\n   14    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [
+        {
+          "reason": "windows_load_above_15_percent"
+        }
+      ],
+      "windows_load_percent": [
+        29
+      ],
+      "clear": false
+    },
+    {
+      "time": "2026-10-25T02:17:24.128141+00:00",
+      "windows_sampled": true,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-victim-selection/tools/victim_selection_study.py run --root /root/lzuhpc-experiments/ws-20261025-victim-selection --wait-seconds 600\n   16    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [
+        {
+          "reason": "windows_load_above_15_percent"
+        }
+      ],
+      "windows_load_percent": [
+        48
+      ],
+      "clear": false
+    },
+    {
+      "time": "2026-10-25T02:17:45.911232+00:00",
+      "windows_sampled": true,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-victim-selection/tools/victim_selection_study.py run --root /root/lzuhpc-experiments/ws-20261025-victim-selection --wait-seconds 600\n   18    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [
+        {
+          "reason": "windows_load_above_15_percent"
+        }
+      ],
+      "windows_load_percent": [
+        54
+      ],
+      "clear": false
+    },
+    {
+      "time": "2026-10-25T02:18:07.675611+00:00",
+      "windows_sampled": true,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-victim-selection/tools/victim_selection_study.py run --root /root/lzuhpc-experiments/ws-20261025-victim-selection --wait-seconds 600\n   20    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [
+        {
+          "reason": "windows_load_above_15_percent"
+        }
+      ],
+      "windows_load_percent": [
+        57
+      ],
+      "clear": false
+    },
+    {
+      "time": "2026-10-25T02:18:29.435344+00:00",
+      "windows_sampled": true,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-victim-selection/tools/victim_selection_study.py run --root /root/lzuhpc-experiments/ws-20261025-victim-selection --wait-seconds 600\n   22    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [
+        {
+          "reason": "windows_load_above_15_percent"
+        }
+      ],
+      "windows_load_percent": [
+        63
+      ],
+      "clear": false
+    },
+    {
+      "time": "2026-10-25T02:18:51.216627+00:00",
+      "windows_sampled": true,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-victim-selection/tools/victim_selection_study.py run --root /root/lzuhpc-experiments/ws-20261025-victim-selection --wait-seconds 600\n   24    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [
+        {
+          "reason": "windows_load_above_15_percent"
+        }
+      ],
+      "windows_load_percent": [
+        65
+      ],
+      "clear": false
+    },
+    {
+      "time": "2026-10-25T02:19:13.014515+00:00",
+      "windows_sampled": true,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-victim-selection/tools/victim_selection_study.py run --root /root/lzuhpc-experiments/ws-20261025-victim-selection --wait-seconds 600\n   26    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [
+        {
+          "reason": "windows_load_above_15_percent"
+        }
+      ],
+      "windows_load_percent": [
+        41
+      ],
+      "clear": false
+    },
+    {
+      "time": "2026-10-25T02:19:34.743023+00:00",
+      "windows_sampled": true,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-victim-selection/tools/victim_selection_study.py run --root /root/lzuhpc-experiments/ws-20261025-victim-selection --wait-seconds 600\n   28    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [
+        {
+          "reason": "windows_load_above_15_percent"
+        }
+      ],
+      "windows_load_percent": [
+        40
+      ],
+      "clear": false
+    },
+    {
+      "time": "2026-10-25T02:19:56.403009+00:00",
+      "windows_sampled": true,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-victim-selection/tools/victim_selection_study.py run --root /root/lzuhpc-experiments/ws-20261025-victim-selection --wait-seconds 600\n   30    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [
+        {
+          "reason": "windows_load_above_15_percent"
+        }
+      ],
+      "windows_load_percent": [
+        49
+      ],
+      "clear": false
+    },
+    {
+      "time": "2026-10-25T02:20:18.179361+00:00",
+      "windows_sampled": true,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-victim-selection/tools/victim_selection_study.py run --root /root/lzuhpc-experiments/ws-20261025-victim-selection --wait-seconds 600\n   32    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [
+        {
+          "reason": "windows_load_above_15_percent"
+        }
+      ],
+      "windows_load_percent": [
+        45
+      ],
+      "clear": false
+    },
+    {
+      "time": "2026-10-25T02:20:39.995061+00:00",
+      "windows_sampled": true,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-victim-selection/tools/victim_selection_study.py run --root /root/lzuhpc-experiments/ws-20261025-victim-selection --wait-seconds 600\n   34    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [
+        {
+          "reason": "windows_load_above_15_percent"
+        }
+      ],
+      "windows_load_percent": [
+        28
+      ],
+      "clear": false
+    },
+    {
+      "time": "2026-10-25T02:21:01.711364+00:00",
+      "windows_sampled": true,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-victim-selection/tools/victim_selection_study.py run --root /root/lzuhpc-experiments/ws-20261025-victim-selection --wait-seconds 600\n   36    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [
+        {
+          "reason": "windows_load_above_15_percent"
+        }
+      ],
+      "windows_load_percent": [
+        36
+      ],
+      "clear": false
+    },
+    {
+      "time": "2026-10-25T02:21:23.393497+00:00",
+      "windows_sampled": true,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-victim-selection/tools/victim_selection_study.py run --root /root/lzuhpc-experiments/ws-20261025-victim-selection --wait-seconds 600\n   38    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [
+        {
+          "reason": "windows_load_above_15_percent"
+        }
+      ],
+      "windows_load_percent": [
+        26
+      ],
+      "clear": false
+    },
+    {
+      "time": "2026-10-25T02:21:45.077817+00:00",
+      "windows_sampled": true,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-victim-selection/tools/victim_selection_study.py run --root /root/lzuhpc-experiments/ws-20261025-victim-selection --wait-seconds 600\n   40    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [
+        {
+          "reason": "windows_load_above_15_percent"
+        }
+      ],
+      "windows_load_percent": [
+        17
+      ],
+      "clear": false
+    },
+    {
+      "time": "2026-10-25T02:22:06.658848+00:00",
+      "windows_sampled": true,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-victim-selection/tools/victim_selection_study.py run --root /root/lzuhpc-experiments/ws-20261025-victim-selection --wait-seconds 600\n   42    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [
+        {
+          "reason": "windows_load_above_15_percent"
+        }
+      ],
+      "windows_load_percent": [
+        60
+      ],
+      "clear": false
+    },
+    {
+      "time": "2026-10-25T02:22:28.427559+00:00",
+      "windows_sampled": true,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-victim-selection/tools/victim_selection_study.py run --root /root/lzuhpc-experiments/ws-20261025-victim-selection --wait-seconds 600\n   44    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [
+        {
+          "reason": "windows_load_above_15_percent"
+        }
+      ],
+      "windows_load_percent": [
+        66
+      ],
+      "clear": false
+    },
+    {
+      "time": "2026-10-25T02:22:50.201258+00:00",
+      "windows_sampled": true,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-victim-selection/tools/victim_selection_study.py run --root /root/lzuhpc-experiments/ws-20261025-victim-selection --wait-seconds 600\n   46    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [
+        {
+          "reason": "windows_load_above_15_percent"
+        }
+      ],
+      "windows_load_percent": [
+        51
+      ],
+      "clear": false
+    },
+    {
+      "time": "2026-10-25T02:23:11.959906+00:00",
+      "windows_sampled": true,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-victim-selection/tools/victim_selection_study.py run --root /root/lzuhpc-experiments/ws-20261025-victim-selection --wait-seconds 600\n   48    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [
+        {
+          "reason": "windows_load_above_15_percent"
+        }
+      ],
+      "windows_load_percent": [
+        60
+      ],
+      "clear": false
+    },
+    {
+      "time": "2026-10-25T02:23:33.709542+00:00",
+      "windows_sampled": true,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-victim-selection/tools/victim_selection_study.py run --root /root/lzuhpc-experiments/ws-20261025-victim-selection --wait-seconds 600\n   50    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [
+        {
+          "reason": "windows_load_above_15_percent"
+        }
+      ],
+      "windows_load_percent": [
+        66
+      ],
+      "clear": false
+    },
+    {
+      "time": "2026-10-25T02:23:55.500774+00:00",
+      "windows_sampled": true,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-victim-selection/tools/victim_selection_study.py run --root /root/lzuhpc-experiments/ws-20261025-victim-selection --wait-seconds 600\n   52    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [
+        {
+          "reason": "windows_load_above_15_percent"
+        }
+      ],
+      "windows_load_percent": [
+        46
+      ],
+      "clear": false
+    },
+    {
+      "time": "2026-10-25T02:24:17.241795+00:00",
+      "windows_sampled": true,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-victim-selection/tools/victim_selection_study.py run --root /root/lzuhpc-experiments/ws-20261025-victim-selection --wait-seconds 600\n   54    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [
+        {
+          "reason": "windows_load_above_15_percent"
+        }
+      ],
+      "windows_load_percent": [
+        56
+      ],
+      "clear": false
+    },
+    {
+      "time": "2026-10-25T02:24:39.130714+00:00",
+      "windows_sampled": true,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-victim-selection/tools/victim_selection_study.py run --root /root/lzuhpc-experiments/ws-20261025-victim-selection --wait-seconds 600\n   56    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [
+        {
+          "reason": "windows_load_above_15_percent"
+        }
+      ],
+      "windows_load_percent": [
+        77
+      ],
+      "clear": false
+    },
+    {
+      "time": "2026-10-25T02:25:00.962869+00:00",
+      "windows_sampled": true,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-victim-selection/tools/victim_selection_study.py run --root /root/lzuhpc-experiments/ws-20261025-victim-selection --wait-seconds 600\n   58    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [
+        {
+          "reason": "windows_load_above_15_percent"
+        }
+      ],
+      "windows_load_percent": [
+        66
+      ],
+      "clear": false
+    },
+    {
+      "time": "2026-10-25T02:25:22.796637+00:00",
+      "windows_sampled": true,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-victim-selection/tools/victim_selection_study.py run --root /root/lzuhpc-experiments/ws-20261025-victim-selection --wait-seconds 600\n   60    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [
+        {
+          "reason": "windows_load_above_15_percent"
+        }
+      ],
+      "windows_load_percent": [
+        43
+      ],
+      "clear": false
+    },
+    {
+      "time": "2026-10-25T02:25:44.535817+00:00",
+      "windows_sampled": true,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-victim-selection/tools/victim_selection_study.py run --root /root/lzuhpc-experiments/ws-20261025-victim-selection --wait-seconds 600\n   62    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [
+        {
+          "reason": "windows_load_above_15_percent"
+        }
+      ],
+      "windows_load_percent": [
+        40
+      ],
+      "clear": false
+    },
+    {
+      "time": "2026-10-25T02:26:06.347211+00:00",
+      "windows_sampled": true,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-victim-selection/tools/victim_selection_study.py run --root /root/lzuhpc-experiments/ws-20261025-victim-selection --wait-seconds 600\n   64    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [
+        {
+          "reason": "windows_load_above_15_percent"
+        }
+      ],
+      "windows_load_percent": [
+        57
+      ],
+      "clear": false
+    },
+    {
+      "time": "2026-10-25T02:26:28.301217+00:00",
+      "windows_sampled": true,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-victim-selection/tools/victim_selection_study.py run --root /root/lzuhpc-experiments/ws-20261025-victim-selection --wait-seconds 600\n   66    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [
+        {
+          "reason": "windows_load_above_15_percent"
+        }
+      ],
+      "windows_load_percent": [
+        55
+      ],
+      "clear": false
+    },
+    {
+      "time": "2026-10-25T02:26:50.097861+00:00",
+      "windows_sampled": true,
+      "processes": "  PID  PPID COMMAND         COMMAND\n    1     0 init(HPC-Ubuntu /init\n    7     1 init            plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/d/WSL/HPC-Ubuntu-24.04/fsserver --log-truncate\n   12     1 SessionLeader   /init\n   13    12 python3         python3 -B /root/lzuhpc-experiments/ws-20261025-victim-selection/tools/victim_selection_study.py run --root /root/lzuhpc-experiments/ws-20261025-victim-selection --wait-seconds 600\n   68    13 ps              ps -eo pid,ppid,comm,args\n",
+      "blockers": [
+        {
+          "reason": "windows_load_above_15_percent"
+        }
+      ],
+      "windows_load_percent": [
+        39
+      ],
+      "clear": false
+    }
+  ],
+  "wait_budget_seconds": 600,
+  "elapsed_seconds": 589.4136722000001
+}

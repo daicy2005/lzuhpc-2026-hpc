@@ -1,0 +1,12 @@
+{
+  "label": "default-ctest",
+  "argv": [
+    "ctest",
+    "--test-dir",
+    "/root/lzuhpc-experiments/ws-20261025-submission-native/build-default",
+    "--verbose",
+    "--output-on-failure"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 4.7456168000000005
+}

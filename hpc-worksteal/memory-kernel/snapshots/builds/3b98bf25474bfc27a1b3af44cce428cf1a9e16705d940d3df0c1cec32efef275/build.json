@@ -1,0 +1,26 @@
+[
+  {
+    "argv": [
+      "cmake",
+      "-S",
+      "/root/lzuhpc-experiments/ws-20261021-memory-kernel-release",
+      "-B",
+      "/root/lzuhpc-experiments/ws-20261021-memory-kernel-release/build-none",
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DWS_COMPLETION_BATCH=32",
+      "-DWS_STEAL_SCRATCH=ON",
+      "-DWS_ENABLE_IPO=ON",
+      "-DWS_COMPUTE_LANES=8"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "cmake",
+      "--build",
+      "/root/lzuhpc-experiments/ws-20261021-memory-kernel-release/build-none",
+      "-j2"
+    ],
+    "returncode": 0
+  }
+]

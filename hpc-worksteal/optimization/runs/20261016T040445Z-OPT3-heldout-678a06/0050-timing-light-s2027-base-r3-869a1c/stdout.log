@@ -1,0 +1,151 @@
+{
+  "affinity": {
+    "actual_workers": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ]
+    ],
+    "control_wait": "condition_variable",
+    "main_mask_before": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "requested": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "correctness": {
+    "pass": true
+  },
+  "epochs": [
+    {
+      "correctness": {
+        "compared_elements": 327680,
+        "exact_once": null,
+        "mismatches": 0,
+        "output_hash_fnv1a64": "93ccd56137d66643",
+        "pass": true
+      },
+      "epoch": 0,
+      "epoch_seconds": 0.0225068,
+      "execution": null,
+      "identity": {
+        "cost_hash_fnv1a64": "d54ab38f58422325",
+        "data_hash_fnv1a64": null,
+        "initial_cost_units": [
+          1310720,
+          1310720,
+          1310720,
+          1310720
+        ],
+        "input_hash_fnv1a64": "053f8610bb78b13b",
+        "max_task_cost_units": 16,
+        "per_element_bytes": 8,
+        "queue_hash_fnv1a64": "1d56bbff588459a5",
+        "task_count": 327680,
+        "task_hash_fnv1a64": "a656bf4c0b3418d8",
+        "total_cost_units": 5242880,
+        "total_data_bytes": 0
+      },
+      "local_only": false,
+      "pretouch_hash_fnv1a64": null,
+      "worker_stats": null
+    }
+  ],
+  "metrics_mode": "timing",
+  "resolved_config": {
+    "executor": "worksteal",
+    "layout": "policy",
+    "layout_seed": 2027,
+    "measurement": {
+      "epochs": 1,
+      "mode": "timing"
+    },
+    "policies": {
+      "affinity": {
+        "cpus": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "name": "explicit"
+      },
+      "migration": {
+        "name": "single"
+      },
+      "partition": {
+        "grain": 1,
+        "name": "fixed_grain"
+      },
+      "placement": {
+        "name": "round_robin"
+      },
+      "steal_timing": {
+        "name": "immediate"
+      },
+      "victim": {
+        "name": "round_robin"
+      }
+    },
+    "schema_version": 1,
+    "steal_enabled": true,
+    "workers": 4,
+    "workload": {
+      "elements": 327680,
+      "iterations": 16,
+      "name": "compute_uniform",
+      "seed": 2027
+    }
+  },
+  "schema_version": 1,
+  "status": "completed",
+  "timing": {
+    "dispatch_seconds": 0.0002836,
+    "end_to_end_seconds": 0.1189245,
+    "epoch_seconds": 0.0225068,
+    "setup_seconds": 0.0816991
+  }
+}

@@ -1,0 +1,767 @@
+{
+  "affinity": {
+    "actual_workers": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ],
+      [
+        6
+      ],
+      [
+        7
+      ],
+      [
+        8
+      ],
+      [
+        9
+      ],
+      [
+        10
+      ],
+      [
+        11
+      ],
+      [
+        12
+      ],
+      [
+        13
+      ],
+      [
+        14
+      ],
+      [
+        15
+      ],
+      [
+        16
+      ],
+      [
+        17
+      ],
+      [
+        18
+      ],
+      [
+        19
+      ],
+      [
+        20
+      ],
+      [
+        21
+      ],
+      [
+        22
+      ],
+      [
+        23
+      ],
+      [
+        24
+      ],
+      [
+        25
+      ],
+      [
+        26
+      ],
+      [
+        27
+      ],
+      [
+        28
+      ],
+      [
+        29
+      ],
+      [
+        30
+      ],
+      [
+        31
+      ]
+    ],
+    "control_wait": "condition_variable",
+    "main_mask_before": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "requested": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ]
+  },
+  "correctness": {
+    "pass": true
+  },
+  "epochs": [
+    {
+      "correctness": {
+        "compared_elements": 1031,
+        "exact_once": true,
+        "mismatches": 0,
+        "output_hash_fnv1a64": "bf130fdd8ae01d02",
+        "pass": true,
+        "reference_tile_elements": 256,
+        "reference_workers_used": 5
+      },
+      "epoch": 0,
+      "epoch_seconds": 0.0001764,
+      "execution": {
+        "cost_unit": "mix_iterations",
+        "element_home_mismatches": 256,
+        "task_executor": [
+          13,
+          1,
+          2,
+          3,
+          4
+        ],
+        "worker_cost_units": [
+          0,
+          1792,
+          1792,
+          1792,
+          49,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          8960,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "worker_elements": [
+          0,
+          256,
+          256,
+          256,
+          7,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          256,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "identity": {
+        "cost_hash_fnv1a64": "44c227caf9ac5c02",
+        "data_hash_fnv1a64": null,
+        "initial_cost_units": [
+          8960,
+          1792,
+          1792,
+          1792,
+          49,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "input_hash_fnv1a64": "68e0aa82decdda35",
+        "max_task_cost_units": 8960,
+        "per_element_bytes": 8,
+        "queue_hash_fnv1a64": "bfae24ef938da380",
+        "task_count": 5,
+        "task_hash_fnv1a64": "327d68664e8a3bde",
+        "total_cost_units": 14385,
+        "total_data_bytes": 0
+      },
+      "local_only": false,
+      "pretouch_hash_fnv1a64": null,
+      "worker_stats": [
+        {
+          "attempts": 0,
+          "busy": 0,
+          "compute_seconds": 0.0,
+          "empty": 0,
+          "first_start_seconds": -1.0,
+          "last_finish_seconds": -1.0,
+          "moved": 0,
+          "steals": 0,
+          "tasks": 0
+        },
+        {
+          "attempts": 1,
+          "busy": 0,
+          "compute_seconds": 2.1e-06,
+          "empty": 1,
+          "first_start_seconds": 8.66e-05,
+          "last_finish_seconds": 8.87e-05,
+          "moved": 0,
+          "steals": 0,
+          "tasks": 1
+        },
+        {
+          "attempts": 13,
+          "busy": 0,
+          "compute_seconds": 2.2e-06,
+          "empty": 13,
+          "first_start_seconds": 6.72e-05,
+          "last_finish_seconds": 6.94e-05,
+          "moved": 0,
+          "steals": 0,
+          "tasks": 1
+        },
+        {
+          "attempts": 18,
+          "busy": 0,
+          "compute_seconds": 2.3e-06,
+          "empty": 18,
+          "first_start_seconds": 7.23e-05,
+          "last_finish_seconds": 7.46e-05,
+          "moved": 0,
+          "steals": 0,
+          "tasks": 1
+        },
+        {
+          "attempts": 14,
+          "busy": 1,
+          "compute_seconds": 1.1e-06,
+          "empty": 14,
+          "first_start_seconds": 7.96e-05,
+          "last_finish_seconds": 8.07e-05,
+          "moved": 0,
+          "steals": 0,
+          "tasks": 1
+        },
+        {
+          "attempts": 0,
+          "busy": 0,
+          "compute_seconds": 0.0,
+          "empty": 0,
+          "first_start_seconds": -1.0,
+          "last_finish_seconds": -1.0,
+          "moved": 0,
+          "steals": 0,
+          "tasks": 0
+        },
+        {
+          "attempts": 0,
+          "busy": 0,
+          "compute_seconds": 0.0,
+          "empty": 0,
+          "first_start_seconds": -1.0,
+          "last_finish_seconds": -1.0,
+          "moved": 0,
+          "steals": 0,
+          "tasks": 0
+        },
+        {
+          "attempts": 0,
+          "busy": 0,
+          "compute_seconds": 0.0,
+          "empty": 0,
+          "first_start_seconds": -1.0,
+          "last_finish_seconds": -1.0,
+          "moved": 0,
+          "steals": 0,
+          "tasks": 0
+        },
+        {
+          "attempts": 0,
+          "busy": 0,
+          "compute_seconds": 0.0,
+          "empty": 0,
+          "first_start_seconds": -1.0,
+          "last_finish_seconds": -1.0,
+          "moved": 0,
+          "steals": 0,
+          "tasks": 0
+        },
+        {
+          "attempts": 0,
+          "busy": 0,
+          "compute_seconds": 0.0,
+          "empty": 0,
+          "first_start_seconds": -1.0,
+          "last_finish_seconds": -1.0,
+          "moved": 0,
+          "steals": 0,
+          "tasks": 0
+        },
+        {
+          "attempts": 0,
+          "busy": 0,
+          "compute_seconds": 0.0,
+          "empty": 0,
+          "first_start_seconds": -1.0,
+          "last_finish_seconds": -1.0,
+          "moved": 0,
+          "steals": 0,
+          "tasks": 0
+        },
+        {
+          "attempts": 0,
+          "busy": 0,
+          "compute_seconds": 0.0,
+          "empty": 0,
+          "first_start_seconds": -1.0,
+          "last_finish_seconds": -1.0,
+          "moved": 0,
+          "steals": 0,
+          "tasks": 0
+        },
+        {
+          "attempts": 0,
+          "busy": 0,
+          "compute_seconds": 0.0,
+          "empty": 0,
+          "first_start_seconds": -1.0,
+          "last_finish_seconds": -1.0,
+          "moved": 0,
+          "steals": 0,
+          "tasks": 0
+        },
+        {
+          "attempts": 10,
+          "busy": 0,
+          "compute_seconds": 6.9e-06,
+          "empty": 9,
+          "first_start_seconds": 6.57e-05,
+          "last_finish_seconds": 7.26e-05,
+          "moved": 1,
+          "steals": 1,
+          "tasks": 1
+        },
+        {
+          "attempts": 2,
+          "busy": 0,
+          "compute_seconds": 0.0,
+          "empty": 2,
+          "first_start_seconds": -1.0,
+          "last_finish_seconds": -1.0,
+          "moved": 0,
+          "steals": 0,
+          "tasks": 0
+        },
+        {
+          "attempts": 0,
+          "busy": 0,
+          "compute_seconds": 0.0,
+          "empty": 0,
+          "first_start_seconds": -1.0,
+          "last_finish_seconds": -1.0,
+          "moved": 0,
+          "steals": 0,
+          "tasks": 0
+        },
+        {
+          "attempts": 0,
+          "busy": 0,
+          "compute_seconds": 0.0,
+          "empty": 0,
+          "first_start_seconds": -1.0,
+          "last_finish_seconds": -1.0,
+          "moved": 0,
+          "steals": 0,
+          "tasks": 0
+        },
+        {
+          "attempts": 0,
+          "busy": 0,
+          "compute_seconds": 0.0,
+          "empty": 0,
+          "first_start_seconds": -1.0,
+          "last_finish_seconds": -1.0,
+          "moved": 0,
+          "steals": 0,
+          "tasks": 0
+        },
+        {
+          "attempts": 1,
+          "busy": 0,
+          "compute_seconds": 0.0,
+          "empty": 1,
+          "first_start_seconds": -1.0,
+          "last_finish_seconds": -1.0,
+          "moved": 0,
+          "steals": 0,
+          "tasks": 0
+        },
+        {
+          "attempts": 0,
+          "busy": 0,
+          "compute_seconds": 0.0,
+          "empty": 0,
+          "first_start_seconds": -1.0,
+          "last_finish_seconds": -1.0,
+          "moved": 0,
+          "steals": 0,
+          "tasks": 0
+        },
+        {
+          "attempts": 0,
+          "busy": 0,
+          "compute_seconds": 0.0,
+          "empty": 0,
+          "first_start_seconds": -1.0,
+          "last_finish_seconds": -1.0,
+          "moved": 0,
+          "steals": 0,
+          "tasks": 0
+        },
+        {
+          "attempts": 0,
+          "busy": 0,
+          "compute_seconds": 0.0,
+          "empty": 0,
+          "first_start_seconds": -1.0,
+          "last_finish_seconds": -1.0,
+          "moved": 0,
+          "steals": 0,
+          "tasks": 0
+        },
+        {
+          "attempts": 0,
+          "busy": 0,
+          "compute_seconds": 0.0,
+          "empty": 0,
+          "first_start_seconds": -1.0,
+          "last_finish_seconds": -1.0,
+          "moved": 0,
+          "steals": 0,
+          "tasks": 0
+        },
+        {
+          "attempts": 0,
+          "busy": 0,
+          "compute_seconds": 0.0,
+          "empty": 0,
+          "first_start_seconds": -1.0,
+          "last_finish_seconds": -1.0,
+          "moved": 0,
+          "steals": 0,
+          "tasks": 0
+        },
+        {
+          "attempts": 0,
+          "busy": 0,
+          "compute_seconds": 0.0,
+          "empty": 0,
+          "first_start_seconds": -1.0,
+          "last_finish_seconds": -1.0,
+          "moved": 0,
+          "steals": 0,
+          "tasks": 0
+        },
+        {
+          "attempts": 0,
+          "busy": 0,
+          "compute_seconds": 0.0,
+          "empty": 0,
+          "first_start_seconds": -1.0,
+          "last_finish_seconds": -1.0,
+          "moved": 0,
+          "steals": 0,
+          "tasks": 0
+        },
+        {
+          "attempts": 14,
+          "busy": 0,
+          "compute_seconds": 0.0,
+          "empty": 14,
+          "first_start_seconds": -1.0,
+          "last_finish_seconds": -1.0,
+          "moved": 0,
+          "steals": 0,
+          "tasks": 0
+        },
+        {
+          "attempts": 0,
+          "busy": 0,
+          "compute_seconds": 0.0,
+          "empty": 0,
+          "first_start_seconds": -1.0,
+          "last_finish_seconds": -1.0,
+          "moved": 0,
+          "steals": 0,
+          "tasks": 0
+        },
+        {
+          "attempts": 0,
+          "busy": 0,
+          "compute_seconds": 0.0,
+          "empty": 0,
+          "first_start_seconds": -1.0,
+          "last_finish_seconds": -1.0,
+          "moved": 0,
+          "steals": 0,
+          "tasks": 0
+        },
+        {
+          "attempts": 0,
+          "busy": 0,
+          "compute_seconds": 0.0,
+          "empty": 0,
+          "first_start_seconds": -1.0,
+          "last_finish_seconds": -1.0,
+          "moved": 0,
+          "steals": 0,
+          "tasks": 0
+        },
+        {
+          "attempts": 2,
+          "busy": 0,
+          "compute_seconds": 0.0,
+          "empty": 2,
+          "first_start_seconds": -1.0,
+          "last_finish_seconds": -1.0,
+          "moved": 0,
+          "steals": 0,
+          "tasks": 0
+        },
+        {
+          "attempts": 0,
+          "busy": 0,
+          "compute_seconds": 0.0,
+          "empty": 0,
+          "first_start_seconds": -1.0,
+          "last_finish_seconds": -1.0,
+          "moved": 0,
+          "steals": 0,
+          "tasks": 0
+        }
+      ]
+    }
+  ],
+  "metrics_mode": "diagnostic",
+  "phase_seconds": {
+    "configuration_and_policies": 2.04e-05,
+    "dispatch_and_execution_wall": 0.0012409,
+    "full_reference_verification": 0.0004024,
+    "home_preread": 1.1e-06,
+    "identity_hashes": 5.86e-05,
+    "output_and_counts_preparation": 8.2e-06,
+    "partition_and_placement": 6.3e-06,
+    "pool_creation": 0.0021265,
+    "pool_shutdown": 0.0008845,
+    "result_summary": 0.0001004,
+    "workload_initialization": 2.89e-05
+  },
+  "resolved_config": {
+    "executor": "worksteal",
+    "layout": "spread",
+    "layout_seed": 138007,
+    "measurement": {
+      "epochs": 1,
+      "mode": "diagnostic",
+      "reference_workers": 32
+    },
+    "policies": {
+      "affinity": {
+        "cpus": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31
+        ],
+        "name": "explicit"
+      },
+      "migration": {
+        "name": "single"
+      },
+      "partition": {
+        "grain": 256,
+        "name": "fixed_grain"
+      },
+      "placement": {
+        "name": "round_robin"
+      },
+      "steal_timing": {
+        "name": "immediate"
+      },
+      "victim": {
+        "name": "seeded_random",
+        "seed": 17
+      }
+    },
+    "schema_version": 1,
+    "steal_enabled": true,
+    "workers": 32,
+    "workload": {
+      "elements": 1031,
+      "iterations": 7,
+      "name": "compute_skewed",
+      "seed": 138007
+    }
+  },
+  "schema_version": 1,
+  "status": "completed",
+  "timing": {
+    "dispatch_seconds": 5.2e-06,
+    "end_to_end_seconds": 0.0048879,
+    "epoch_seconds": 0.0001764,
+    "setup_seconds": 0.0022426
+  }
+}

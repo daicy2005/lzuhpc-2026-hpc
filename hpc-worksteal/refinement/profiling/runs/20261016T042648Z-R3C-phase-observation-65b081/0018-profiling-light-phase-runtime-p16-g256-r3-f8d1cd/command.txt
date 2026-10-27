@@ -1,0 +1,11 @@
+{
+  "cwd": "/root/lzuhpc-experiments/ws-20261016-phase-runtime",
+  "argv": [
+    "/root/lzuhpc-experiments/ws-20261016-phase-runtime/build-none/worksteal",
+    "--config",
+    "/root/lzuhpc-experiments/ws-20261016-phase-runtime/runs/20261016T042648Z-R3C-phase-observation-65b081/0018-profiling-light-phase-runtime-p16-g256-r3-f8d1cd/config.json",
+    "--output",
+    "/root/lzuhpc-experiments/ws-20261016-phase-runtime/runs/20261016T042648Z-R3C-phase-observation-65b081/0018-profiling-light-phase-runtime-p16-g256-r3-f8d1cd/result.json"
+  ],
+  "explicit_environment": {}
+}

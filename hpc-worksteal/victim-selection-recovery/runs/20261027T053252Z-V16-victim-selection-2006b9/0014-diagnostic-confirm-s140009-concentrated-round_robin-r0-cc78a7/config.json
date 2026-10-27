@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "executor": "worksteal",
+  "workers": 32,
+  "workload": {
+    "name": "compute_skewed",
+    "elements": 229376,
+    "iterations": 1024,
+    "seed": 140009
+  },
+  "policies": {
+    "partition": {
+      "name": "fixed_grain",
+      "grain": 256
+    },
+    "victim": {
+      "name": "round_robin"
+    },
+    "steal_timing": {
+      "name": "immediate"
+    },
+    "migration": {
+      "name": "single"
+    },
+    "affinity": {
+      "name": "explicit",
+      "cpus": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ]
+    },
+    "placement": {
+      "name": "round_robin"
+    }
+  },
+  "measurement": {
+    "mode": "diagnostic",
+    "epochs": 1,
+    "reference_workers": 32
+  },
+  "layout": "concentrated",
+  "layout_seed": 140009
+}

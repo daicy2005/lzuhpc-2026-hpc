@@ -1,0 +1,70 @@
+{
+  "selected_cap": 4,
+  "table": [
+    {
+      "cap": 1,
+      "medians": {
+        "concentrated": {
+          "epoch": 0.0053793,
+          "app": 0.0400806,
+          "process": 0.05651689999999121
+        },
+        "spread": {
+          "epoch": 0.0048316,
+          "app": 0.0399593,
+          "process": 0.05613379999999779
+        }
+      },
+      "eligible": false
+    },
+    {
+      "cap": 4,
+      "medians": {
+        "concentrated": {
+          "epoch": 0.0041595,
+          "app": 0.035039,
+          "process": 0.0496076999999957
+        },
+        "spread": {
+          "epoch": 0.0047262,
+          "app": 0.0392614,
+          "process": 0.05481499999999073
+        }
+      },
+      "eligible": true
+    },
+    {
+      "cap": 16,
+      "medians": {
+        "concentrated": {
+          "epoch": 0.0043872,
+          "app": 0.0376571,
+          "process": 0.051500400000008995
+        },
+        "spread": {
+          "epoch": 0.0047304,
+          "app": 0.0405948,
+          "process": 0.05269859999998516
+        }
+      },
+      "eligible": true
+    },
+    {
+      "cap": 64,
+      "medians": {
+        "concentrated": {
+          "epoch": 0.0051181,
+          "app": 0.0389326,
+          "process": 0.05432789999997567
+        },
+        "spread": {
+          "epoch": 0.0045568,
+          "app": 0.0371887,
+          "process": 0.05020970000001057
+        }
+      },
+      "eligible": false
+    }
+  ],
+  "rule": "target concentrated epoch<=95%; spread epoch<=110%; app both<=105%; sort target epoch,app,cap"
+}

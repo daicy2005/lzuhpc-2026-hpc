@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "config_id": "formal",
+  "purpose": "timing",
+  "width": 1200,
+  "samples_per_pixel": 200,
+  "max_depth_contract": 50,
+  "seed_contract": 42,
+  "quality_threshold_db": 45,
+  "comparison": {
+    "kind": "official_reference_and_same_parameters_upstream_run",
+    "reference_path_relative_to_source": "reference.ppm",
+    "baseline_run_id": "20261015T122828320137+0800_E00_upstream_formal_t01_r01_07a3df"
+  },
+  "eligible_for_formal_score": true
+}

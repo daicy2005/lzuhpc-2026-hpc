@@ -1,0 +1,12 @@
+{
+  "label": "optimized-ctest",
+  "argv": [
+    "ctest",
+    "--test-dir",
+    "/root/lzuhpc-experiments/ws-20261025-submission-native/build-optimized",
+    "--verbose",
+    "--output-on-failure"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 4.589065900000001
+}
