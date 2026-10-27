@@ -12,7 +12,7 @@ make -B -j4
 python3 "$OFFICIAL/tools/check_psnr.py" "$OFFICIAL/reference.ppm" out.ppm
 ```
 
-依赖 C++20、G++ 和 OpenMP。上述为功能检查；历史计时还使用记录中的 32 线程、close 和显式 OMP_PLACES，CPU 编号依赖机器，不能直接保证换机耗时。
+依赖 C++20、G++ 和 OpenMP。上述命令用于构建和检查输出图像。报告中的性能测试还设置了 32 线程、close 和显式 OMP_PLACES；换机器时需要调整 CPU 编号，运行时间也可能不同。
 
 ## Mini WorkSteal
 
@@ -26,6 +26,6 @@ ctest --test-dir build --output-on-failure
 ./build/worksteal --config configs/runtime/diagnostic.json
 ```
 
-默认 Release 是功能检查构建。历史优化构建须采用 `configs/verified/builds.json` 或 `configs/memory-interleaved/builds.json` 中的选项和源码来源；相关历史源码快照及构建身份亦保留。当前构建和旧测量二进制不能混称。原生 Linux 新目录功能复现记录位于 `submission/reproduction/20261025/`；这次材料整理没有新增构建或计时。
+默认 Release 可用于检查功能。复现实验中的优化版本，还需使用 `configs/verified/builds.json` 或 `configs/memory-interleaved/builds.json` 中列出的源码和编译选项。仓库保留了对应源码快照。Linux 下的重新构建和测试结果在 `submission/reproduction/20261025/`。
 
-`.devcontainer` 是未实际构建验证的配置，不将原生 Linux 检查写成容器通过。完整命令与已知限制见[报告附录](appendices.md)。
+`.devcontainer` 配置尚未实际构建。更多构建选项和配置说明见[报告附录](appendices.md)。
