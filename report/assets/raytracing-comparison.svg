@@ -1,50 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="245" viewBox="0 0 900 245">
-<title>光线追踪：三次渲染耗时与中位数</title>
-<metadata>{&quot;chart&quot;: &quot;raytracing&quot;, &quot;x_scale&quot;: &quot;log&quot;, &quot;x_domain&quot;: [50, 2500], &quot;upstream_seconds&quot;: [1897.516, 1968.697, 1993.332], &quot;final_seconds&quot;: [84.857, 85.006, 85.197], &quot;median_ratio&quot;: 23.15950638778439, &quot;range_definition&quot;: &quot;observed min and max, not a confidence interval&quot;}</metadata>
-<rect width="900" height="245" fill="white"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340">
+<title>光线追踪：渲染耗时与逐次耗时比</title>
+<metadata>{&quot;chart&quot;: &quot;raytracing&quot;, &quot;panels&quot;: [&quot;median runtime&quot;, &quot;paired runtime ratio&quot;], &quot;y_scales&quot;: [&quot;linear&quot;, &quot;linear&quot;], &quot;y_domains&quot;: [[0, 2200], [0, 25]], &quot;upstream_seconds&quot;: [1897.516, 1968.697, 1993.332], &quot;final_seconds&quot;: [84.857, 85.006, 85.197], &quot;median_ratio&quot;: 23.15950638778439, &quot;paired_ratios&quot;: [22.361337308648668, 23.15950638778439, 23.396739321807107]}</metadata>
+<rect width="900" height="340" fill="white"/>
 <g font-family="Microsoft YaHei" fill="#253744">
-<text x="125.000" y="21.000" font-size="17" text-anchor="start" fill="#253744">中位数耗时比 23.16×</text>
-<circle cx="604.000" cy="15.000" r="3.5" fill="white" stroke="#31566E" stroke-width="1.5"/>
-<text x="617.000" y="21.000" font-size="14" text-anchor="start" fill="#253744">单次运行</text>
-<polygon points="724.000,10.000 729.000,15.000 724.000,20.000 719.000,15.000" fill="#31566E"/>
-<text x="737.000" y="21.000" font-size="14" text-anchor="start" fill="#253744">中位数</text>
-<line x1="125.000" y1="42.000" x2="125.000" y2="184.000" stroke="#E1E6E9" stroke-width="0.8"/>
-<line x1="125.000" y1="184.000" x2="125.000" y2="189.000" stroke="#63717B" stroke-width="1"/>
-<text x="125.000" y="208.000" font-size="14" text-anchor="middle" fill="#63717B">50</text>
-<line x1="233.082" y1="42.000" x2="233.082" y2="184.000" stroke="#E1E6E9" stroke-width="0.8"/>
-<line x1="233.082" y1="184.000" x2="233.082" y2="189.000" stroke="#63717B" stroke-width="1"/>
-<text x="233.082" y="208.000" font-size="14" text-anchor="middle" fill="#63717B">100</text>
-<line x1="341.164" y1="42.000" x2="341.164" y2="184.000" stroke="#E1E6E9" stroke-width="0.8"/>
-<line x1="341.164" y1="184.000" x2="341.164" y2="189.000" stroke="#63717B" stroke-width="1"/>
-<text x="341.164" y="208.000" font-size="14" text-anchor="middle" fill="#63717B">200</text>
-<line x1="484.041" y1="42.000" x2="484.041" y2="184.000" stroke="#E1E6E9" stroke-width="0.8"/>
-<line x1="484.041" y1="184.000" x2="484.041" y2="189.000" stroke="#63717B" stroke-width="1"/>
-<text x="484.041" y="208.000" font-size="14" text-anchor="middle" fill="#63717B">500</text>
-<line x1="592.123" y1="42.000" x2="592.123" y2="184.000" stroke="#E1E6E9" stroke-width="0.8"/>
-<line x1="592.123" y1="184.000" x2="592.123" y2="189.000" stroke="#63717B" stroke-width="1"/>
-<text x="592.123" y="208.000" font-size="14" text-anchor="middle" fill="#63717B">1000</text>
-<line x1="700.205" y1="42.000" x2="700.205" y2="184.000" stroke="#E1E6E9" stroke-width="0.8"/>
-<line x1="700.205" y1="184.000" x2="700.205" y2="189.000" stroke="#63717B" stroke-width="1"/>
-<text x="700.205" y="208.000" font-size="14" text-anchor="middle" fill="#63717B">2000</text>
-<line x1="125.000" y1="184.000" x2="735.000" y2="184.000" stroke="#63717B" stroke-width="1.1"/>
-<text x="108.000" y="81.000" font-size="17" text-anchor="end" fill="#253744">原版 O2</text>
-<line x1="692.003" y1="81.000" x2="699.685" y2="81.000" stroke="#31566E" stroke-width="1.5"/>
-<line x1="692.003" y1="76.000" x2="692.003" y2="86.000" stroke="#31566E" stroke-width="1.2"/>
-<line x1="699.685" y1="76.000" x2="699.685" y2="86.000" stroke="#31566E" stroke-width="1.2"/>
-<circle cx="692.003" cy="60.000" r="4" fill="white" stroke="#31566E" stroke-width="1.5"/>
-<circle cx="697.745" cy="71.000" r="4" fill="white" stroke="#31566E" stroke-width="1.5"/>
-<circle cx="699.685" cy="91.000" r="4" fill="white" stroke="#31566E" stroke-width="1.5"/>
-<polygon points="697.745,75.200 703.545,81.000 697.745,86.800 691.945,81.000" fill="#31566E"/>
-<text x="891.000" y="86.000" font-size="17" text-anchor="end" fill="#31566E">1968.697 s</text>
-<text x="108.000" y="142.000" font-size="17" text-anchor="end" fill="#253744">最终版</text>
-<line x1="207.478" y1="142.000" x2="208.102" y2="142.000" stroke="#27858A" stroke-width="1.5"/>
-<line x1="207.478" y1="137.000" x2="207.478" y2="147.000" stroke="#27858A" stroke-width="1.2"/>
-<line x1="208.102" y1="137.000" x2="208.102" y2="147.000" stroke="#27858A" stroke-width="1.2"/>
-<circle cx="207.478" cy="121.000" r="4" fill="white" stroke="#27858A" stroke-width="1.5"/>
-<circle cx="207.752" cy="132.000" r="4" fill="white" stroke="#27858A" stroke-width="1.5"/>
-<circle cx="208.102" cy="152.000" r="4" fill="white" stroke="#27858A" stroke-width="1.5"/>
-<polygon points="207.752,136.200 213.552,142.000 207.752,147.800 201.952,142.000" fill="#27858A"/>
-<text x="891.000" y="147.000" font-size="17" text-anchor="end" fill="#27858A">85.006 s</text>
-<text x="430.000" y="235.000" font-size="15" text-anchor="middle" fill="#253744">Render time / s（对数刻度）</text>
+<text x="450.000" y="22.000" font-size="18" text-anchor="middle" fill="#253744">两组中位数耗时比 23.16×</text>
+<text x="245.000" y="54.000" font-size="17" text-anchor="middle" fill="#253744">(a) 渲染耗时</text>
+<text x="18.000" y="180.000" font-size="14" text-anchor="middle" fill="#253744" transform="rotate(-90 18.000 180.000)">Render time / s</text>
+<line x1="76.000" y1="276.000" x2="414.000" y2="276.000" stroke="#E1E6E9" stroke-width="0.8"/>
+<line x1="72.000" y1="276.000" x2="76.000" y2="276.000" stroke="#63717B" stroke-width="1"/>
+<text x="66.000" y="281.000" font-size="14" text-anchor="end" fill="#63717B">0</text>
+<line x1="76.000" y1="232.364" x2="414.000" y2="232.364" stroke="#E1E6E9" stroke-width="0.8"/>
+<line x1="72.000" y1="232.364" x2="76.000" y2="232.364" stroke="#63717B" stroke-width="1"/>
+<text x="66.000" y="237.364" font-size="14" text-anchor="end" fill="#63717B">500</text>
+<line x1="76.000" y1="188.727" x2="414.000" y2="188.727" stroke="#E1E6E9" stroke-width="0.8"/>
+<line x1="72.000" y1="188.727" x2="76.000" y2="188.727" stroke="#63717B" stroke-width="1"/>
+<text x="66.000" y="193.727" font-size="14" text-anchor="end" fill="#63717B">1000</text>
+<line x1="76.000" y1="145.091" x2="414.000" y2="145.091" stroke="#E1E6E9" stroke-width="0.8"/>
+<line x1="72.000" y1="145.091" x2="76.000" y2="145.091" stroke="#63717B" stroke-width="1"/>
+<text x="66.000" y="150.091" font-size="14" text-anchor="end" fill="#63717B">1500</text>
+<line x1="76.000" y1="101.455" x2="414.000" y2="101.455" stroke="#E1E6E9" stroke-width="0.8"/>
+<line x1="72.000" y1="101.455" x2="76.000" y2="101.455" stroke="#63717B" stroke-width="1"/>
+<text x="66.000" y="106.455" font-size="14" text-anchor="end" fill="#63717B">2000</text>
+<line x1="72.000" y1="84.000" x2="76.000" y2="84.000" stroke="#63717B" stroke-width="1"/>
+<text x="66.000" y="89.000" font-size="14" text-anchor="end" fill="#63717B">2200</text>
+<line x1="76.000" y1="84.000" x2="76.000" y2="276.000" stroke="#63717B" stroke-width="1.1"/>
+<line x1="76.000" y1="276.000" x2="414.000" y2="276.000" stroke="#63717B" stroke-width="1.1"/>
+<rect x="137.000" y="104.186" width="74.000" height="171.814" fill="#31566E" stroke="none" stroke-width="1"/>
+<text x="174.000" y="96.186" font-size="16" text-anchor="middle" fill="#31566E">1968.697</text>
+<text x="174.000" y="302.000" font-size="16" text-anchor="middle" fill="#253744">原版 O2</text>
+<rect x="290.000" y="268.581" width="74.000" height="7.419" fill="#27858A" stroke="none" stroke-width="1"/>
+<text x="327.000" y="260.581" font-size="16" text-anchor="middle" fill="#27858A">85.006</text>
+<text x="327.000" y="302.000" font-size="16" text-anchor="middle" fill="#253744">最终版</text>
+<text x="245.000" y="329.000" font-size="13" text-anchor="middle" fill="#63717B">三次运行的中位数</text>
+<text x="699.000" y="54.000" font-size="17" text-anchor="middle" fill="#253744">(b) 逐次耗时比</text>
+<text x="462.000" y="180.000" font-size="14" text-anchor="middle" fill="#253744" transform="rotate(-90 462.000 180.000)">原版 / 最终版</text>
+<line x1="520.000" y1="276.000" x2="878.000" y2="276.000" stroke="#E1E6E9" stroke-width="0.8"/>
+<line x1="516.000" y1="276.000" x2="520.000" y2="276.000" stroke="#63717B" stroke-width="1"/>
+<text x="510.000" y="281.000" font-size="14" text-anchor="end" fill="#63717B">0</text>
+<line x1="520.000" y1="237.600" x2="878.000" y2="237.600" stroke="#E1E6E9" stroke-width="0.8"/>
+<line x1="516.000" y1="237.600" x2="520.000" y2="237.600" stroke="#63717B" stroke-width="1"/>
+<text x="510.000" y="242.600" font-size="14" text-anchor="end" fill="#63717B">5</text>
+<line x1="520.000" y1="199.200" x2="878.000" y2="199.200" stroke="#E1E6E9" stroke-width="0.8"/>
+<line x1="516.000" y1="199.200" x2="520.000" y2="199.200" stroke="#63717B" stroke-width="1"/>
+<text x="510.000" y="204.200" font-size="14" text-anchor="end" fill="#63717B">10</text>
+<line x1="520.000" y1="160.800" x2="878.000" y2="160.800" stroke="#E1E6E9" stroke-width="0.8"/>
+<line x1="516.000" y1="160.800" x2="520.000" y2="160.800" stroke="#63717B" stroke-width="1"/>
+<text x="510.000" y="165.800" font-size="14" text-anchor="end" fill="#63717B">15</text>
+<line x1="520.000" y1="122.400" x2="878.000" y2="122.400" stroke="#E1E6E9" stroke-width="0.8"/>
+<line x1="516.000" y1="122.400" x2="520.000" y2="122.400" stroke="#63717B" stroke-width="1"/>
+<text x="510.000" y="127.400" font-size="14" text-anchor="end" fill="#63717B">20</text>
+<line x1="516.000" y1="84.000" x2="520.000" y2="84.000" stroke="#63717B" stroke-width="1"/>
+<text x="510.000" y="89.000" font-size="14" text-anchor="end" fill="#63717B">25</text>
+<line x1="520.000" y1="84.000" x2="520.000" y2="276.000" stroke="#63717B" stroke-width="1.1"/>
+<line x1="520.000" y1="276.000" x2="878.000" y2="276.000" stroke="#63717B" stroke-width="1.1"/>
+<rect x="555.000" y="104.265" width="64.000" height="171.735" fill="#27858A" stroke="none" stroke-width="1"/>
+<text x="587.000" y="96.265" font-size="16" text-anchor="middle" fill="#27858A">22.36×</text>
+<text x="587.000" y="302.000" font-size="16" text-anchor="middle" fill="#253744">第1对</text>
+<rect x="666.000" y="98.135" width="64.000" height="177.865" fill="#27858A" stroke="none" stroke-width="1"/>
+<text x="698.000" y="90.135" font-size="16" text-anchor="middle" fill="#27858A">23.16×</text>
+<text x="698.000" y="302.000" font-size="16" text-anchor="middle" fill="#253744">第2对</text>
+<rect x="777.000" y="96.313" width="64.000" height="179.687" fill="#27858A" stroke="none" stroke-width="1"/>
+<text x="809.000" y="88.313" font-size="16" text-anchor="middle" fill="#27858A">23.40×</text>
+<text x="809.000" y="302.000" font-size="16" text-anchor="middle" fill="#253744">第3对</text>
+<line x1="520.000" y1="268.320" x2="878.000" y2="268.320" stroke="#63717B" stroke-width="1" stroke-dasharray="5 4"/>
+<text x="875.000" y="263.320" font-size="12" text-anchor="end" fill="#63717B">1×</text>
+<text x="699.000" y="329.000" font-size="13" text-anchor="middle" fill="#63717B">配对运行</text>
 </g>
 </svg>

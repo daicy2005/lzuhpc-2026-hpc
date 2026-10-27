@@ -24,8 +24,9 @@ class SVG:
             '<g font-family="Microsoft YaHei" fill="' + INK + '">',
         ]
 
-    def text(self, x, y, value, size=16, anchor='start', fill=INK):
-        self.parts.append(f'<text x="{x:.3f}" y="{y:.3f}" font-size="{size}" text-anchor="{anchor}" fill="{fill}">{html.escape(str(value))}</text>')
+    def text(self, x, y, value, size=16, anchor='start', fill=INK, rotation=None):
+        transform = f' transform="rotate({rotation} {x:.3f} {y:.3f})"' if rotation is not None else ''
+        self.parts.append(f'<text x="{x:.3f}" y="{y:.3f}" font-size="{size}" text-anchor="{anchor}" fill="{fill}"{transform}>{html.escape(str(value))}</text>')
 
     def line(self, x1, y1, x2, y2, stroke=GRID, width=1, dash=None):
         extra = f' stroke-dasharray="{dash}"' if dash else ''
@@ -56,37 +57,55 @@ class SVG:
 def draw_raytracing(upstream, final, output):
     assert len(upstream) == len(final) == 3
     median_ratio = statistics.median(upstream) / statistics.median(final)
-    metadata = {'chart': 'raytracing', 'x_scale': 'log', 'x_domain': [50, 2500],
+    paired_ratios = [a/b for a, b in zip(upstream, final)]
+    metadata = {'chart': 'raytracing', 'panels': ['median runtime', 'paired runtime ratio'],
+                'y_scales': ['linear', 'linear'], 'y_domains': [[0, 2200], [0, 25]],
                 'upstream_seconds': upstream, 'final_seconds': final,
-                'median_ratio': median_ratio, 'range_definition': 'observed min and max, not a confidence interval'}
-    svg = SVG(900, 245, '光线追踪：三次渲染耗时与中位数', metadata)
-    left, right, top, bottom = 125, 735, 42, 184
-    def x(value):
-        assert 50 <= value <= 2500
-        return left + (right-left) * math.log(value/50) / math.log(2500/50)
-    svg.text(left, 21, f'中位数耗时比 {median_ratio:.2f}×', 17)
-    svg.circle(604, 15, 3.5)
-    svg.text(617, 21, '单次运行', 14)
-    svg.diamond(724, 15, 5)
-    svg.text(737, 21, '中位数', 14)
-    for tick in (50, 100, 200, 500, 1000, 2000):
-        xx = x(tick)
-        svg.line(xx, top, xx, bottom, GRID, .8)
-        svg.line(xx, bottom, xx, bottom+5, MUTED, 1)
-        svg.text(xx, bottom+24, tick, 14, 'middle', MUTED)
+                'median_ratio': median_ratio, 'paired_ratios': paired_ratios}
+    svg = SVG(900, 340, '光线追踪：渲染耗时与逐次耗时比', metadata)
+    svg.text(450, 22, f'两组中位数耗时比 {median_ratio:.2f}×', 18, 'middle')
+    top, bottom = 84, 276
+    left, right = 76, 414
+    svg.text((left+right)/2, 54, '(a) 渲染耗时', 17, 'middle')
+    svg.text(18, 180, 'Render time / s', 14, 'middle', rotation=-90)
+    for tick in (0, 500, 1000, 1500, 2000, 2200):
+        yy = bottom-tick*(bottom-top)/2200
+        if tick < 2200:
+            svg.line(left, yy, right, yy, GRID, .8)
+        svg.line(left-4, yy, left, yy, MUTED, 1)
+        svg.text(left-10, yy+5, tick, 14, 'end', MUTED)
+    svg.line(left, top, left, bottom, MUTED, 1.1)
     svg.line(left, bottom, right, bottom, MUTED, 1.1)
-    for row, label, values, color in ((76, '原版 O2', upstream, BLUE), (137, '最终版', final, TEAL)):
-        svg.text(left-17, row+5, label, 17, 'end')
-        lo, hi, med = min(values), max(values), statistics.median(values)
-        svg.line(x(lo), row+5, x(hi), row+5, color, 1.5)
-        for edge in (lo, hi):
-            svg.line(x(edge), row, x(edge), row+10, color, 1.2)
-        # Vertical offsets distinguish nearly identical samples; only x encodes time.
-        for offset, value in zip((-16, -5, 15), values):
-            svg.circle(x(value), row+offset, 4, color)
-        svg.diamond(x(med), row+5, 5.8, color)
-        svg.text(891, row+10, f'{med:.3f} s', 17, 'end', color)
-    svg.text((left+right)/2, 235, 'Render time / s（对数刻度）', 15, 'middle')
+    for center, label, values, color in ((174, '原版 O2', upstream, BLUE), (327, '最终版', final, TEAL)):
+        median = statistics.median(values)
+        assert 0 <= median <= 2200
+        yy = bottom-median*(bottom-top)/2200
+        svg.rect(center-37, yy, 74, bottom-yy, color)
+        svg.text(center, yy-8, f'{median:.3f}', 16, 'middle', color)
+        svg.text(center, 302, label, 16, 'middle')
+    svg.text((left+right)/2, 329, '三次运行的中位数', 13, 'middle', MUTED)
+    left, right = 520, 878
+    svg.text((left+right)/2, 54, '(b) 逐次耗时比', 17, 'middle')
+    svg.text(462, 180, '原版 / 最终版', 14, 'middle', rotation=-90)
+    for tick in (0, 5, 10, 15, 20, 25):
+        yy = bottom-tick*(bottom-top)/25
+        if tick < 25:
+            svg.line(left, yy, right, yy, GRID, .8)
+        svg.line(left-4, yy, left, yy, MUTED, 1)
+        svg.text(left-10, yy+5, tick, 14, 'end', MUTED)
+    svg.line(left, top, left, bottom, MUTED, 1.1)
+    svg.line(left, bottom, right, bottom, MUTED, 1.1)
+    for index, ratio in enumerate(paired_ratios):
+        assert 0 <= ratio <= 25
+        center = 587+111*index
+        yy = bottom-ratio*(bottom-top)/25
+        svg.rect(center-32, yy, 64, bottom-yy, TEAL)
+        svg.text(center, yy-8, f'{ratio:.2f}×', 16, 'middle', TEAL)
+        svg.text(center, 302, f'第{index+1}对', 16, 'middle')
+    reference = bottom-(bottom-top)/25
+    svg.line(left, reference, right, reference, MUTED, 1, '5 4')
+    svg.text(right-3, reference-5, '1×', 12, 'end', MUTED)
+    svg.text((left+right)/2, 329, '配对运行', 13, 'middle', MUTED)
     svg.save(output)
 
 
