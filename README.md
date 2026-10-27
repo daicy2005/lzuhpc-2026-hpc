@@ -1,6 +1,6 @@
 # HPC 方向：光线追踪与 Mini WorkSteal
 
-这是我参加兰州大学超算队 2026 年秋季纳新时做的两个项目：光线追踪优化和 Mini WorkSteal。两部分整理在同一份 PDF 中，源码、补充实验和复现步骤放在这个仓库。
+这个仓库放的是我参加兰州大学超算队 2026 年秋季纳新时做的光线追踪优化和 Mini WorkSteal。报告合成了一份 PDF，主要讲实现思路、几组有代表性的实验，以及最后为什么选择这些方案。源码、其他尝试和复现步骤也在这里。
 
 - [报告 PDF：6 页](report/HPC方向技术报告.pdf)
 - [报告正文](report/main.md)
@@ -13,7 +13,7 @@
 - [单任务大于 LLC 的补测](supplements/large-task-controls/README.md)
 - [官方实验要求对照](docs/official-requirements.md)
 
-报告链接到一个[固定材料版本](https://github.com/daicy2005/lzuhpc-2026-hpc/tree/36e6a13f386f9aa3465c2515a5c32bf2bb34a783)，方便找到与文中内容对应的代码、附录和数据。
+报告末尾可以找到[对应的代码、附录和数据](https://github.com/daicy2005/lzuhpc-2026-hpc/tree/36e6a13f386f9aa3465c2515a5c32bf2bb34a783)。
 
 在仓库根目录执行 `python3 tools/verify_materials.py`，可以检查实验文件是否完整，并核对报告引用的计时记录。
 
@@ -25,8 +25,8 @@
 
 WorkSteal 源码在 `hpc-worksteal/`，使用固定任务集、持久线程池和带锁双端队列，各类策略单独注册。最终保留 round_robin、immediate、single，线程数和粒度按负载选择。随机 victim 在两个新输入上收益不稳定，因此没有替换 round_robin。
 
-## 运行环境与尚未解决的问题
+## 测试环境和不足
 
-实验环境为 i9-13900HX、Ubuntu 24.04 / WSL1。源码已在 Linux 下重新构建和测试，DevContainer 配置还没有实际构建。光追在不同批次测试中的耗时差异较大，原因尚未查明。WorkSteal 补测统一了窃取开关的空闲处理，比较了增加任务数的成本，也确认了三种内存规模下的动态窃取；固定执行线程的预读对照仍没有得到稳定的局部性损失估计。
+实验在日常使用的 i9-13900HX 电脑上完成，环境是 Ubuntu 24.04 / WSL1。Linux 下的重新构建和测试已通过，DevContainer 配置还没有实际构建。光追有一次明显的耗时波动，原因还没查明。WorkSteal 补做了相同空闲策略下的窃取开关、任务数和预读对照，也检查了实际窃取。预读对照没有测出稳定的变慢趋势，目前还不能据此分离缓存带来的影响。
 
-题目和光追原始代码来自 [LZUOSS/LZUHPC](https://github.com/LZUOSS/LZUHPC/tree/33dad592cd74d8cf36ae7921a29c0e8393034a70/assignments/2026/autumn)，所用版本为 `33dad592cd74d8cf36ae7921a29c0e8393034a70`。OpenMP、BVH、SAH 和工作窃取都是已有方法，这里主要记录它们在题目中的实现、调整和实验比较。
+题目和光追原始代码来自 [LZUOSS/LZUHPC](https://github.com/LZUOSS/LZUHPC/tree/33dad592cd74d8cf36ae7921a29c0e8393034a70/assignments/2026/autumn)。OpenMP、BVH、SAH 和工作窃取都是已有方法，这里记录的是我在题目约束下的实现、调整和实验比较。

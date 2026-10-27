@@ -32,8 +32,8 @@ ctest --test-dir build --output-on-failure
 
 ## WorkSteal 机制补测
 
-补测使用单独的实验程序，源码和原始记录在 [机制补测目录](../supplements/mechanism-controls/README.md)。解压 experiment.zip 后，按 summary.json 中的 source_id 找到源码快照，再按该目录的说明构建、运行和检查。它新增了 disabled_yield 对照，原有生产程序和默认策略保持原样。
+补测使用单独的实验程序，源码和原始记录在 [机制补测目录](../supplements/mechanism-controls/README.md)。解压 experiment.zip 后，按 summary.json 中的 source_id 找到源码快照，再按该目录的说明构建、运行和检查。它新增了 disabled_yield 对照，原有程序和默认策略保持原样。
 
 在仓库根目录执行 `python3 tools/verify_mechanism_supplement.py`，可以核对压缩包中的 175 次计时、诊断和中止记录；检查过程不会启动性能实验。
 
-每任务 288 MiB 的另一组对照在 [单任务大于 LLC 的补测](../supplements/large-task-controls/README.md)。运行 `python3 tools/verify_large_task_supplement.py` 可检查该组30次计时与12次诊断、预热。
+每任务 288 MiB 的另一组对照在 [单任务大于 LLC 的补测](../supplements/large-task-controls/README.md)。运行 `python3 tools/verify_large_task_supplement.py` 可检查该组 30 次计时与 12 次诊断、预热。
