@@ -46,6 +46,23 @@ LTO 最初有七次运行没有正确传入编译和链接参数，因此表中�
 
 完整补测记录和源码见 supplements/mechanism-controls/experiment.zip，逐次耗时、条件和 run_id 见同目录 summary.json。准备阶段曾因采集器误要求 serial 提供线程池计数而停止；修正后从新目录重跑，那四次诊断不进入正式统计。
 
+## A.4 单任务远大于 LLC
+
+[逐次结果、完整记录与源码](../supplements/large-task-controls/README.md)
+
+这一组每任务 288 MiB，约为报告 LLC 的 8 倍，四个任务总数据为 1152 MiB。使用同一个通过检查的二进制，另换输入 seed=194033，每个条件测五次，预热和诊断另存。same / other 表示由执行线程自身或另一线程预读；动态 off / on 两者空闲时均 yield。
+
+|对照|配置|epoch / ms|
+|---|---|---|
+|preread-target0|same|446.4460|
+|preread-target0|other|450.6728|
+|preread-target1|same|452.3544|
+|preread-target1|other|446.7660|
+|dynamic|off|458.6950|
+|dynamic|on|127.4055|
+
+动态开关的中位数时间比为 3.60，诊断显示 3/4 个任务由非 home 执行。它反映了分担计算、调度和内存访问的总效果，不能把差值当作缓存损失。固定执行线程的对照分别为 1.009、0.988，没有显示一致的正损失。官方允许局部性窗口不成立时效应接近零，这里保留观测结果，不强行解释为所有任务都不存在局部性代价。完整记录及源码见 supplements/large-task-controls/。
+
 # 附录B 代码与环境复现
 
 ## B.1 光线追踪
@@ -99,7 +116,7 @@ ctest --test-dir build --output-on-failure
 |内存内核与退避|memory-kernel/results/；idle-backoff/results/|
 |构建与测试记录|submission/reproduction/20261025/receipt.json|
 
-WorkSteal 共整理了 838 次性能计时：原有 663 次，加上机制补测的 175 次；另有 12 次分阶段测试。补测的预热、诊断和未完成的采集单独保存，未计入性能中位数。补测汇总及完整记录见仓库 supplements/mechanism-controls/。
+WorkSteal 共整理了 868 次性能计时：原有 663 次，加上机制补测的 175 次和单任务大于 LLC 的 30 次；另有 12 次分阶段测试。补测的预热、诊断和未完成的采集单独保存，未计入性能中位数。补测汇总及完整记录分别见仓库 supplements/mechanism-controls/ 和 supplements/large-task-controls/。
 
 ## C.2 方法与资料来源
 

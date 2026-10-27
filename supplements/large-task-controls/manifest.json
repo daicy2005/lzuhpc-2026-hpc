@@ -1,0 +1,32 @@
+{
+  "files": {
+    "collector.py": {
+      "sha256": "f27cd375de74c6bed66bb34fbddb361f04094fffc4da520a6ab08a5ac1fd720f",
+      "bytes": 10862
+    },
+    "experiment.zip": {
+      "sha256": "5e2a21d51008487e094d3fa536af73187153e863cf39967d9ed3fc314ba2d9e7",
+      "bytes": 876393
+    },
+    "protocol.md": {
+      "sha256": "a238f3422be4744ee5992b9f518305b75e9747c313e0df4fa652079cad36d451",
+      "bytes": 2093
+    },
+    "README.md": {
+      "sha256": "787754a2cab6f01d529709627e6c1c54e18fbb1caf0ca563de6510d2bde58d9a",
+      "bytes": 1518
+    },
+    "results.md": {
+      "sha256": "1797900205267262e728ece9ee9f70c7f20c145cba787a00e5626f26b384e13f",
+      "bytes": 551
+    },
+    "summary.json": {
+      "sha256": "0cc3684fdfb117e78ac1f7933457521f8bf99f7246bd578847d6f0b9b42f2f30",
+      "bytes": 15662
+    }
+  },
+  "archive_members": 495,
+  "processes": 42,
+  "timing_samples": 30,
+  "batch": "20261027T123122Z-large-task-controls-9a9eef"
+}

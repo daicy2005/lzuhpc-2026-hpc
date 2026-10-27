@@ -10,12 +10,14 @@
 - [图表原始输入](report/figure-data-v2.json)
 - [报告使用的数据索引](report/evidence-index-v2.json)
 - [WorkSteal 机制补测](supplements/mechanism-controls/README.md)
+- [单任务大于 LLC 的补测](supplements/large-task-controls/README.md)
+- [官方实验要求对照](docs/official-requirements.md)
 
 报告链接到一个[固定材料版本](https://github.com/daicy2005/lzuhpc-2026-hpc/tree/d994f19172f30dbf5951547269d385ed87c14bf6)，方便找到与文中内容对应的代码、附录和数据。
 
 在仓库根目录执行 `python3 tools/verify_materials.py`，可以检查实验文件是否完整，并核对报告引用的计时记录。
 
-机制补测另存了 175 次计时及预热、诊断。运行 `python3 tools/verify_mechanism_supplement.py` 可以检查完整压缩包，并从逐次记录重算中位数。
+两组补测另存了 205 次计时及预热、诊断。运行 `python3 tools/verify_mechanism_supplement.py` 和 `python3 tools/verify_large_task_supplement.py` 可以检查完整压缩包，并从逐次记录重算中位数。
 
 ## 两个项目
 

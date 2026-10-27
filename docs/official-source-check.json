@@ -1,0 +1,27 @@
+{
+  "upstream_commit": "33dad592cd74d8cf36ae7921a29c0e8393034a70",
+  "final_source": "hpc-raytracing/implementation/16fafcdc65f1ac9c25a14519ead75b345c88b82cd500f1da05e9f07ca99b6bc2",
+  "protected_files": {
+    "src/main.cpp": {
+      "official_git_blob": "fef00f2a3182bfa53a5275bfd2b3107a94250b35",
+      "final_git_blob": "fef00f2a3182bfa53a5275bfd2b3107a94250b35",
+      "identical": true
+    },
+    "src/common.hpp": {
+      "official_git_blob": "b8778f6881477b5a5995389b25c58f10b453ed19",
+      "final_git_blob": "b8778f6881477b5a5995389b25c58f10b453ed19",
+      "identical": true
+    },
+    "src/math/color.cpp": {
+      "official_git_blob": "7013dc483fe1e60eac30c62978f1d346c7bda0d9",
+      "final_git_blob": "7013dc483fe1e60eac30c62978f1d346c7bda0d9",
+      "identical": true
+    },
+    "src/math/color.hpp": {
+      "official_git_blob": "e5f7f0c0d9d47dfffbcc8ba9c94ab905efd11428",
+      "final_git_blob": "e5f7f0c0d9d47dfffbcc8ba9c94ab905efd11428",
+      "identical": true
+    }
+  },
+  "all_identical": true
+}

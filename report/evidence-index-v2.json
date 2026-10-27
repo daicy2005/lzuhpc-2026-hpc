@@ -132800,5 +132800,685 @@
       }
     },
     "archive": "supplements/mechanism-controls/experiment.zip"
+  },
+  "large_task_controls": {
+    "batch": "20261027T123122Z-large-task-controls-9a9eef",
+    "formal_runs": [
+      {
+        "path": "large-task-controls/runs/20261027T123122Z-large-task-controls-9a9eef/0012-timing-large-preread-target0-same-r1-4d0829/result.json",
+        "archive_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0012-timing-large-preread-target0-same-r1-4d0829/result.json",
+        "epoch": 0.4379625,
+        "app": 2.4835587,
+        "sha256": "9e3363b3e97a4031e66fac67d1d94c7450081906230853948abcc5864873cdeb"
+      },
+      {
+        "path": "large-task-controls/runs/20261027T123122Z-large-task-controls-9a9eef/0013-timing-large-preread-target0-other-r1-484797/result.json",
+        "archive_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0013-timing-large-preread-target0-other-r1-484797/result.json",
+        "epoch": 0.4442706,
+        "app": 2.4911943,
+        "sha256": "ddbca5a2f9abb01e328f925d2eb6e7a36af3e729ba78e1d233f61f7825139389"
+      },
+      {
+        "path": "large-task-controls/runs/20261027T123122Z-large-task-controls-9a9eef/0014-timing-large-preread-target1-same-r1-6c20d4/result.json",
+        "archive_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0014-timing-large-preread-target1-same-r1-6c20d4/result.json",
+        "epoch": 0.4419485,
+        "app": 2.4914573,
+        "sha256": "9461db6f5a03dad72519015246b6562f164db470b0147146396b528b22164e16"
+      },
+      {
+        "path": "large-task-controls/runs/20261027T123122Z-large-task-controls-9a9eef/0015-timing-large-preread-target1-other-r1-c25a63/result.json",
+        "archive_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0015-timing-large-preread-target1-other-r1-c25a63/result.json",
+        "epoch": 0.4552787,
+        "app": 2.5156413,
+        "sha256": "5b9c63a66e69d948f09f598a625d160423f9139a64098e4aa955b8b328df4cd5"
+      },
+      {
+        "path": "large-task-controls/runs/20261027T123122Z-large-task-controls-9a9eef/0016-timing-large-dynamic-off-r1-4a42d4/result.json",
+        "archive_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0016-timing-large-dynamic-off-r1-4a42d4/result.json",
+        "epoch": 0.4572635,
+        "app": 2.4921875,
+        "sha256": "37ccf83a89bc8d1ce999f09b30e0651c514c9d0f10bb6000703f14f571568959"
+      },
+      {
+        "path": "large-task-controls/runs/20261027T123122Z-large-task-controls-9a9eef/0017-timing-large-dynamic-on-r1-1639ca/result.json",
+        "archive_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0017-timing-large-dynamic-on-r1-1639ca/result.json",
+        "epoch": 0.1248729,
+        "app": 2.1632965,
+        "sha256": "28667e3c39821760afe37e4181e9200386c627630f63082f61901b014408f6c5"
+      },
+      {
+        "path": "large-task-controls/runs/20261027T123122Z-large-task-controls-9a9eef/0018-timing-large-preread-target1-other-r2-57b35d/result.json",
+        "archive_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0018-timing-large-preread-target1-other-r2-57b35d/result.json",
+        "epoch": 0.4426243,
+        "app": 2.4926382,
+        "sha256": "6dcb988f0b70a9d679e2f30a47273bc0874af6c4abb521bb7142255b92094458"
+      },
+      {
+        "path": "large-task-controls/runs/20261027T123122Z-large-task-controls-9a9eef/0019-timing-large-preread-target1-same-r2-625de7/result.json",
+        "archive_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0019-timing-large-preread-target1-same-r2-625de7/result.json",
+        "epoch": 0.4523544,
+        "app": 2.5042221,
+        "sha256": "5da8d5f19ce7bec00bbbed70ed3e0ebba914aef1ba757fb3e90bba23c69f000d"
+      },
+      {
+        "path": "large-task-controls/runs/20261027T123122Z-large-task-controls-9a9eef/0020-timing-large-dynamic-on-r2-a21105/result.json",
+        "archive_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0020-timing-large-dynamic-on-r2-a21105/result.json",
+        "epoch": 0.1274055,
+        "app": 2.1842889,
+        "sha256": "cfea82f1e57a5fa5f4e7559a222953a2d75fce8398bfbe895020e3983dfca443"
+      },
+      {
+        "path": "large-task-controls/runs/20261027T123122Z-large-task-controls-9a9eef/0021-timing-large-dynamic-off-r2-2c20b7/result.json",
+        "archive_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0021-timing-large-dynamic-off-r2-2c20b7/result.json",
+        "epoch": 0.4820393,
+        "app": 2.5286384,
+        "sha256": "7d2115ca41c7f23dd042d18026d5295f71c04e69ec5161f6452ee2b14cf7db71"
+      },
+      {
+        "path": "large-task-controls/runs/20261027T123122Z-large-task-controls-9a9eef/0022-timing-large-preread-target0-other-r2-502352/result.json",
+        "archive_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0022-timing-large-preread-target0-other-r2-502352/result.json",
+        "epoch": 0.4506728,
+        "app": 2.4963261,
+        "sha256": "22314059dd94b41e90bc443b5696ba41e67653eb7c46f8494312a4fb375390de"
+      },
+      {
+        "path": "large-task-controls/runs/20261027T123122Z-large-task-controls-9a9eef/0023-timing-large-preread-target0-same-r2-b4ed49/result.json",
+        "archive_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0023-timing-large-preread-target0-same-r2-b4ed49/result.json",
+        "epoch": 0.4405608,
+        "app": 2.5110298,
+        "sha256": "cec1264489a1d3f07830db8e2b48900fc03c627825cff9297a217985660876a2"
+      },
+      {
+        "path": "large-task-controls/runs/20261027T123122Z-large-task-controls-9a9eef/0024-timing-large-dynamic-off-r3-a6c057/result.json",
+        "archive_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0024-timing-large-dynamic-off-r3-a6c057/result.json",
+        "epoch": 0.458695,
+        "app": 2.5059261,
+        "sha256": "c6c03e692ed93eec184218dde3976f1a80515993ffe249ef65c29f02c42d0791"
+      },
+      {
+        "path": "large-task-controls/runs/20261027T123122Z-large-task-controls-9a9eef/0025-timing-large-dynamic-on-r3-bf3089/result.json",
+        "archive_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0025-timing-large-dynamic-on-r3-bf3089/result.json",
+        "epoch": 0.1326527,
+        "app": 2.1947931,
+        "sha256": "fd5ad8c534c55968bd36e2124c7363a86cc5cce44c27299e7bb397478519ee92"
+      },
+      {
+        "path": "large-task-controls/runs/20261027T123122Z-large-task-controls-9a9eef/0026-timing-large-preread-target0-same-r3-df6fdd/result.json",
+        "archive_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0026-timing-large-preread-target0-same-r3-df6fdd/result.json",
+        "epoch": 0.4491386,
+        "app": 2.4908946,
+        "sha256": "8e1410447d042a3c3ac700057ea3475a008900f4fc080356299ec8e0258733fd"
+      },
+      {
+        "path": "large-task-controls/runs/20261027T123122Z-large-task-controls-9a9eef/0027-timing-large-preread-target0-other-r3-2db956/result.json",
+        "archive_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0027-timing-large-preread-target0-other-r3-2db956/result.json",
+        "epoch": 0.4545437,
+        "app": 2.4875751,
+        "sha256": "0a9308782714a368221be3a4d1b4e9ef5326a2058c3eab65679c7ac035add4ee"
+      },
+      {
+        "path": "large-task-controls/runs/20261027T123122Z-large-task-controls-9a9eef/0028-timing-large-preread-target1-same-r3-cf4978/result.json",
+        "archive_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0028-timing-large-preread-target1-same-r3-cf4978/result.json",
+        "epoch": 0.4855273,
+        "app": 2.5385727,
+        "sha256": "93d4a1007a848246a79f3475236fa41de85c28cee1bb65d119661893b3e9ee5f"
+      },
+      {
+        "path": "large-task-controls/runs/20261027T123122Z-large-task-controls-9a9eef/0029-timing-large-preread-target1-other-r3-1ae2a8/result.json",
+        "archive_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0029-timing-large-preread-target1-other-r3-1ae2a8/result.json",
+        "epoch": 0.4609557,
+        "app": 2.5078735,
+        "sha256": "9c972c150a068b88432e886b2fcd15135da8d5d51cc52b361dca98986c16b71b"
+      },
+      {
+        "path": "large-task-controls/runs/20261027T123122Z-large-task-controls-9a9eef/0030-timing-large-preread-target0-other-r4-bcbb20/result.json",
+        "archive_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0030-timing-large-preread-target0-other-r4-bcbb20/result.json",
+        "epoch": 0.4570342,
+        "app": 2.5214429,
+        "sha256": "753e4414492458c9db3c7ca42596f86082622999e5f100cf7deda267204357a7"
+      },
+      {
+        "path": "large-task-controls/runs/20261027T123122Z-large-task-controls-9a9eef/0031-timing-large-preread-target0-same-r4-0a0c23/result.json",
+        "archive_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0031-timing-large-preread-target0-same-r4-0a0c23/result.json",
+        "epoch": 0.4559325,
+        "app": 2.5545668,
+        "sha256": "d4af2d5601494b0f2a77957b7ef2e247e53c6a4749ee8fe95e9d0fd04ae811c8"
+      },
+      {
+        "path": "large-task-controls/runs/20261027T123122Z-large-task-controls-9a9eef/0032-timing-large-preread-target1-other-r4-07d1bc/result.json",
+        "archive_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0032-timing-large-preread-target1-other-r4-07d1bc/result.json",
+        "epoch": 0.4378763,
+        "app": 2.5383926,
+        "sha256": "9fa969046f4934c9c41d94a309575d67aea6c8d2d4587ac14b915987bbd2085b"
+      },
+      {
+        "path": "large-task-controls/runs/20261027T123122Z-large-task-controls-9a9eef/0033-timing-large-preread-target1-same-r4-20a634/result.json",
+        "archive_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0033-timing-large-preread-target1-same-r4-20a634/result.json",
+        "epoch": 0.4754283,
+        "app": 2.52262,
+        "sha256": "73c052468b15bcc3535b161999420f92a6e1349e320992513333cdf5059a1f5a"
+      },
+      {
+        "path": "large-task-controls/runs/20261027T123122Z-large-task-controls-9a9eef/0034-timing-large-dynamic-on-r4-711268/result.json",
+        "archive_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0034-timing-large-dynamic-on-r4-711268/result.json",
+        "epoch": 0.1151013,
+        "app": 2.1516402,
+        "sha256": "ca0241357d1e8043336ed2062f82fde7248690de6a8b3ede3261c3d99bd40ca2"
+      },
+      {
+        "path": "large-task-controls/runs/20261027T123122Z-large-task-controls-9a9eef/0035-timing-large-dynamic-off-r4-189769/result.json",
+        "archive_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0035-timing-large-dynamic-off-r4-189769/result.json",
+        "epoch": 0.4688638,
+        "app": 2.5020405,
+        "sha256": "63a502592a90a0a62fb3dd84231b5ec29b522a9939fbe17f358abc30e58db837"
+      },
+      {
+        "path": "large-task-controls/runs/20261027T123122Z-large-task-controls-9a9eef/0036-timing-large-preread-target1-same-r5-8e123f/result.json",
+        "archive_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0036-timing-large-preread-target1-same-r5-8e123f/result.json",
+        "epoch": 0.4351042,
+        "app": 2.4651592,
+        "sha256": "b80e4514b244f69b63f8e5d26eb3ecdc34c20d8a905edef7d3b4ed47f579d578"
+      },
+      {
+        "path": "large-task-controls/runs/20261027T123122Z-large-task-controls-9a9eef/0037-timing-large-preread-target1-other-r5-8f0ff0/result.json",
+        "archive_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0037-timing-large-preread-target1-other-r5-8f0ff0/result.json",
+        "epoch": 0.446766,
+        "app": 2.5130171,
+        "sha256": "a78f31eed7964608f47ad1528808dd1651d6f33781e5633e5ca171c698d74b3b"
+      },
+      {
+        "path": "large-task-controls/runs/20261027T123122Z-large-task-controls-9a9eef/0038-timing-large-dynamic-off-r5-2183d7/result.json",
+        "archive_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0038-timing-large-dynamic-off-r5-2183d7/result.json",
+        "epoch": 0.4490287,
+        "app": 2.5135734,
+        "sha256": "8d6a91dd97ab2fe5c0b0e17cd750d21b2538b722eb6db426f8eb253dd986ac6f"
+      },
+      {
+        "path": "large-task-controls/runs/20261027T123122Z-large-task-controls-9a9eef/0039-timing-large-dynamic-on-r5-3f1ec1/result.json",
+        "archive_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0039-timing-large-dynamic-on-r5-3f1ec1/result.json",
+        "epoch": 0.1283649,
+        "app": 2.1513119,
+        "sha256": "b473b1265d164247d7858e941f3daaa8208dba4f5082d64004d1267c2ecb0175"
+      },
+      {
+        "path": "large-task-controls/runs/20261027T123122Z-large-task-controls-9a9eef/0040-timing-large-preread-target0-same-r5-f10fdf/result.json",
+        "archive_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0040-timing-large-preread-target0-same-r5-f10fdf/result.json",
+        "epoch": 0.446446,
+        "app": 2.4977231,
+        "sha256": "e530c8abb703c08dfeee4e34f8e63c04d272e83941bc695c6f70716be2900099"
+      },
+      {
+        "path": "large-task-controls/runs/20261027T123122Z-large-task-controls-9a9eef/0041-timing-large-preread-target0-other-r5-c992ab/result.json",
+        "archive_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0041-timing-large-preread-target0-other-r5-c992ab/result.json",
+        "epoch": 0.4260458,
+        "app": 2.4712719,
+        "sha256": "6ab4352ad90e0d2843cc6cdaade15d89a1a1e825ad087bf983a0c1f2b41a87d3"
+      }
+    ],
+    "formal_count": 30,
+    "groups": [
+      {
+        "group": "preread-target0",
+        "conditions": [
+          {
+            "condition": "large-preread-target0-same",
+            "label": "same",
+            "samples": [
+              {
+                "epoch": 0.4379625,
+                "app": 2.4835587,
+                "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0012-timing-large-preread-target0-same-r1-4d0829/result.json"
+              },
+              {
+                "epoch": 0.4405608,
+                "app": 2.5110298,
+                "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0023-timing-large-preread-target0-same-r2-b4ed49/result.json"
+              },
+              {
+                "epoch": 0.4491386,
+                "app": 2.4908946,
+                "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0026-timing-large-preread-target0-same-r3-df6fdd/result.json"
+              },
+              {
+                "epoch": 0.4559325,
+                "app": 2.5545668,
+                "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0031-timing-large-preread-target0-same-r4-0a0c23/result.json"
+              },
+              {
+                "epoch": 0.446446,
+                "app": 2.4977231,
+                "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0040-timing-large-preread-target0-same-r5-f10fdf/result.json"
+              }
+            ],
+            "epoch_median": 0.446446,
+            "app_median": 2.4977231
+          },
+          {
+            "condition": "large-preread-target0-other",
+            "label": "other",
+            "samples": [
+              {
+                "epoch": 0.4442706,
+                "app": 2.4911943,
+                "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0013-timing-large-preread-target0-other-r1-484797/result.json"
+              },
+              {
+                "epoch": 0.4506728,
+                "app": 2.4963261,
+                "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0022-timing-large-preread-target0-other-r2-502352/result.json"
+              },
+              {
+                "epoch": 0.4545437,
+                "app": 2.4875751,
+                "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0027-timing-large-preread-target0-other-r3-2db956/result.json"
+              },
+              {
+                "epoch": 0.4570342,
+                "app": 2.5214429,
+                "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0030-timing-large-preread-target0-other-r4-bcbb20/result.json"
+              },
+              {
+                "epoch": 0.4260458,
+                "app": 2.4712719,
+                "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0041-timing-large-preread-target0-other-r5-c992ab/result.json"
+              }
+            ],
+            "epoch_median": 0.4506728,
+            "app_median": 2.4911943
+          }
+        ],
+        "ratio": 0.9906211335585374,
+        "second_faster_pairs": 1
+      },
+      {
+        "group": "preread-target1",
+        "conditions": [
+          {
+            "condition": "large-preread-target1-same",
+            "label": "same",
+            "samples": [
+              {
+                "epoch": 0.4419485,
+                "app": 2.4914573,
+                "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0014-timing-large-preread-target1-same-r1-6c20d4/result.json"
+              },
+              {
+                "epoch": 0.4523544,
+                "app": 2.5042221,
+                "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0019-timing-large-preread-target1-same-r2-625de7/result.json"
+              },
+              {
+                "epoch": 0.4855273,
+                "app": 2.5385727,
+                "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0028-timing-large-preread-target1-same-r3-cf4978/result.json"
+              },
+              {
+                "epoch": 0.4754283,
+                "app": 2.52262,
+                "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0033-timing-large-preread-target1-same-r4-20a634/result.json"
+              },
+              {
+                "epoch": 0.4351042,
+                "app": 2.4651592,
+                "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0036-timing-large-preread-target1-same-r5-8e123f/result.json"
+              }
+            ],
+            "epoch_median": 0.4523544,
+            "app_median": 2.5042221
+          },
+          {
+            "condition": "large-preread-target1-other",
+            "label": "other",
+            "samples": [
+              {
+                "epoch": 0.4552787,
+                "app": 2.5156413,
+                "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0015-timing-large-preread-target1-other-r1-c25a63/result.json"
+              },
+              {
+                "epoch": 0.4426243,
+                "app": 2.4926382,
+                "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0018-timing-large-preread-target1-other-r2-57b35d/result.json"
+              },
+              {
+                "epoch": 0.4609557,
+                "app": 2.5078735,
+                "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0029-timing-large-preread-target1-other-r3-1ae2a8/result.json"
+              },
+              {
+                "epoch": 0.4378763,
+                "app": 2.5383926,
+                "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0032-timing-large-preread-target1-other-r4-07d1bc/result.json"
+              },
+              {
+                "epoch": 0.446766,
+                "app": 2.5130171,
+                "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0037-timing-large-preread-target1-other-r5-8f0ff0/result.json"
+              }
+            ],
+            "epoch_median": 0.446766,
+            "app_median": 2.5130171
+          }
+        ],
+        "ratio": 1.012508561528854,
+        "second_faster_pairs": 3
+      },
+      {
+        "group": "dynamic",
+        "conditions": [
+          {
+            "condition": "large-dynamic-off",
+            "label": "off",
+            "samples": [
+              {
+                "epoch": 0.4572635,
+                "app": 2.4921875,
+                "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0016-timing-large-dynamic-off-r1-4a42d4/result.json"
+              },
+              {
+                "epoch": 0.4820393,
+                "app": 2.5286384,
+                "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0021-timing-large-dynamic-off-r2-2c20b7/result.json"
+              },
+              {
+                "epoch": 0.458695,
+                "app": 2.5059261,
+                "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0024-timing-large-dynamic-off-r3-a6c057/result.json"
+              },
+              {
+                "epoch": 0.4688638,
+                "app": 2.5020405,
+                "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0035-timing-large-dynamic-off-r4-189769/result.json"
+              },
+              {
+                "epoch": 0.4490287,
+                "app": 2.5135734,
+                "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0038-timing-large-dynamic-off-r5-2183d7/result.json"
+              }
+            ],
+            "epoch_median": 0.458695,
+            "app_median": 2.5059261
+          },
+          {
+            "condition": "large-dynamic-on",
+            "label": "on",
+            "samples": [
+              {
+                "epoch": 0.1248729,
+                "app": 2.1632965,
+                "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0017-timing-large-dynamic-on-r1-1639ca/result.json"
+              },
+              {
+                "epoch": 0.1274055,
+                "app": 2.1842889,
+                "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0020-timing-large-dynamic-on-r2-a21105/result.json"
+              },
+              {
+                "epoch": 0.1326527,
+                "app": 2.1947931,
+                "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0025-timing-large-dynamic-on-r3-bf3089/result.json"
+              },
+              {
+                "epoch": 0.1151013,
+                "app": 2.1516402,
+                "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0034-timing-large-dynamic-on-r4-711268/result.json"
+              },
+              {
+                "epoch": 0.1283649,
+                "app": 2.1513119,
+                "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0039-timing-large-dynamic-on-r5-3f1ec1/result.json"
+              }
+            ],
+            "epoch_median": 0.1274055,
+            "app_median": 2.1632965
+          }
+        ],
+        "ratio": 3.600276283205984,
+        "second_faster_pairs": 5
+      }
+    ],
+    "diagnostics": {
+      "large-preread-target0-same": {
+        "steals": 0,
+        "execution": {
+          "cost_unit": "uint64_read_visits",
+          "element_home_mismatches": 0,
+          "task_executor": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "worker_cost_units": [
+            603979776,
+            0
+          ],
+          "worker_elements": [
+            4,
+            0
+          ]
+        },
+        "identity": {
+          "cost_hash_fnv1a64": "fdcdb80e5fd8d165",
+          "data_hash_fnv1a64": "ed7c3c64cb7800f7",
+          "initial_cost_units": [
+            603979776,
+            0
+          ],
+          "input_hash_fnv1a64": "d097c750a6e5a374",
+          "max_task_cost_units": 150994944,
+          "per_element_bytes": 301989888,
+          "queue_hash_fnv1a64": "4600c66b28e28060",
+          "task_count": 4,
+          "task_hash_fnv1a64": "67825ff0e9404c21",
+          "total_cost_units": 603979776,
+          "total_data_bytes": 1207959552
+        },
+        "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0000-diagnostic-large-preread-target0-same-r0-c6bdce/result.json"
+      },
+      "large-preread-target0-other": {
+        "steals": 0,
+        "execution": {
+          "cost_unit": "uint64_read_visits",
+          "element_home_mismatches": 4,
+          "task_executor": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "worker_cost_units": [
+            603979776,
+            0
+          ],
+          "worker_elements": [
+            4,
+            0
+          ]
+        },
+        "identity": {
+          "cost_hash_fnv1a64": "fdcdb80e5fd8d165",
+          "data_hash_fnv1a64": "ed7c3c64cb7800f7",
+          "initial_cost_units": [
+            603979776,
+            0
+          ],
+          "input_hash_fnv1a64": "d097c750a6e5a374",
+          "max_task_cost_units": 150994944,
+          "per_element_bytes": 301989888,
+          "queue_hash_fnv1a64": "4600c66b28e28060",
+          "task_count": 4,
+          "task_hash_fnv1a64": "30d5cc7cea148c21",
+          "total_cost_units": 603979776,
+          "total_data_bytes": 1207959552
+        },
+        "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0001-diagnostic-large-preread-target0-other-r0-dbfcaf/result.json"
+      },
+      "large-preread-target1-same": {
+        "steals": 0,
+        "execution": {
+          "cost_unit": "uint64_read_visits",
+          "element_home_mismatches": 0,
+          "task_executor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "worker_cost_units": [
+            0,
+            603979776
+          ],
+          "worker_elements": [
+            0,
+            4
+          ]
+        },
+        "identity": {
+          "cost_hash_fnv1a64": "fdcdb80e5fd8d165",
+          "data_hash_fnv1a64": "ed7c3c64cb7800f7",
+          "initial_cost_units": [
+            0,
+            603979776
+          ],
+          "input_hash_fnv1a64": "d097c750a6e5a374",
+          "max_task_cost_units": 150994944,
+          "per_element_bytes": 301989888,
+          "queue_hash_fnv1a64": "5dfbf125ea516160",
+          "task_count": 4,
+          "task_hash_fnv1a64": "30d5cc7cea148c21",
+          "total_cost_units": 603979776,
+          "total_data_bytes": 1207959552
+        },
+        "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0002-diagnostic-large-preread-target1-same-r0-a525e3/result.json"
+      },
+      "large-preread-target1-other": {
+        "steals": 0,
+        "execution": {
+          "cost_unit": "uint64_read_visits",
+          "element_home_mismatches": 4,
+          "task_executor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "worker_cost_units": [
+            0,
+            603979776
+          ],
+          "worker_elements": [
+            0,
+            4
+          ]
+        },
+        "identity": {
+          "cost_hash_fnv1a64": "fdcdb80e5fd8d165",
+          "data_hash_fnv1a64": "ed7c3c64cb7800f7",
+          "initial_cost_units": [
+            0,
+            603979776
+          ],
+          "input_hash_fnv1a64": "d097c750a6e5a374",
+          "max_task_cost_units": 150994944,
+          "per_element_bytes": 301989888,
+          "queue_hash_fnv1a64": "5dfbf125ea516160",
+          "task_count": 4,
+          "task_hash_fnv1a64": "67825ff0e9404c21",
+          "total_cost_units": 603979776,
+          "total_data_bytes": 1207959552
+        },
+        "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0003-diagnostic-large-preread-target1-other-r0-9f889c/result.json"
+      },
+      "large-dynamic-off": {
+        "steals": 0,
+        "execution": {
+          "cost_unit": "uint64_read_visits",
+          "element_home_mismatches": 0,
+          "task_executor": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "worker_cost_units": [
+            603979776,
+            0,
+            0,
+            0
+          ],
+          "worker_elements": [
+            4,
+            0,
+            0,
+            0
+          ]
+        },
+        "identity": {
+          "cost_hash_fnv1a64": "fdcdb80e5fd8d165",
+          "data_hash_fnv1a64": "ed7c3c64cb7800f7",
+          "initial_cost_units": [
+            603979776,
+            0,
+            0,
+            0
+          ],
+          "input_hash_fnv1a64": "d097c750a6e5a374",
+          "max_task_cost_units": 150994944,
+          "per_element_bytes": 301989888,
+          "queue_hash_fnv1a64": "e84ccb6189521921",
+          "task_count": 4,
+          "task_hash_fnv1a64": "67825ff0e9404c21",
+          "total_cost_units": 603979776,
+          "total_data_bytes": 1207959552
+        },
+        "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0004-diagnostic-large-dynamic-off-r0-08413f/result.json"
+      },
+      "large-dynamic-on": {
+        "steals": 3,
+        "execution": {
+          "cost_unit": "uint64_read_visits",
+          "element_home_mismatches": 3,
+          "task_executor": [
+            2,
+            1,
+            3,
+            0
+          ],
+          "worker_cost_units": [
+            150994944,
+            150994944,
+            150994944,
+            150994944
+          ],
+          "worker_elements": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        "identity": {
+          "cost_hash_fnv1a64": "fdcdb80e5fd8d165",
+          "data_hash_fnv1a64": "ed7c3c64cb7800f7",
+          "initial_cost_units": [
+            603979776,
+            0,
+            0,
+            0
+          ],
+          "input_hash_fnv1a64": "d097c750a6e5a374",
+          "max_task_cost_units": 150994944,
+          "per_element_bytes": 301989888,
+          "queue_hash_fnv1a64": "e84ccb6189521921",
+          "task_count": 4,
+          "task_hash_fnv1a64": "67825ff0e9404c21",
+          "total_cost_units": 603979776,
+          "total_data_bytes": 1207959552
+        },
+        "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0005-diagnostic-large-dynamic-on-r0-afb96b/result.json"
+      }
+    },
+    "archive": "supplements/large-task-controls/experiment.zip"
   }
 }
