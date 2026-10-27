@@ -1,38 +1,50 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE svg
-  PUBLIC '-//W3C//DTD SVG 1.0//EN'
-  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
-<svg width="495.27559055118115" height="119" preserveAspectRatio="xMinYMin meet" viewBox="0 0 495 119" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
-	<title>...</title>
-	<desc>...</desc>
-	<clipPath id="clip">
-		<rect x="0" y="0" width="495.27559055118115" height="119"/>
-	</clipPath>
-	<g id="group" transform="scale(1,-1) translate(0,-119)" style="clip-path: url(#clip)">
-		<g transform="">
-			<path d="M 78,27 L 78,102 Z" style="stroke: rgb(79%,83%,87%); stroke-linecap: butt; stroke-width: 0.4;"/>
-			<text x="75.6141357421875" y="14" style="font-family: DejaVu Sans; font-size: 7.5px;fill: rgb(34%,40%,45%); stroke:none;" transform="translate(0,28) scale(1,-1)">0</text>
-			<path d="M 156.637045,27 L 156.637045,102 Z" style="stroke: rgb(79%,83%,87%); stroke-linecap: butt; stroke-width: 0.4;"/>
-			<text x="149.47945259589136" y="14" style="font-family: DejaVu Sans; font-size: 7.5px;fill: rgb(34%,40%,45%); stroke:none;" transform="translate(0,28) scale(1,-1)">500</text>
-			<path d="M 235.274091,27 L 235.274091,102 Z" style="stroke: rgb(79%,83%,87%); stroke-linecap: butt; stroke-width: 0.4;"/>
-			<text x="225.7306337074077" y="14" style="font-family: DejaVu Sans; font-size: 7.5px;fill: rgb(34%,40%,45%); stroke:none;" transform="translate(0,28) scale(1,-1)">1000</text>
-			<path d="M 313.911136,27 L 313.911136,102 Z" style="stroke: rgb(79%,83%,87%); stroke-linecap: butt; stroke-width: 0.4;"/>
-			<text x="304.3676790767365" y="14" style="font-family: DejaVu Sans; font-size: 7.5px;fill: rgb(34%,40%,45%); stroke:none;" transform="translate(0,28) scale(1,-1)">1500</text>
-			<path d="M 392.548181,27 L 392.548181,102 Z" style="stroke: rgb(79%,83%,87%); stroke-linecap: butt; stroke-width: 0.4;"/>
-			<text x="383.0047244460654" y="14" style="font-family: DejaVu Sans; font-size: 7.5px;fill: rgb(34%,40%,45%); stroke:none;" transform="translate(0,28) scale(1,-1)">2000</text>
-			<text x="36.72460937499999" y="88" style="font-family: Microsoft YaHei; font-size: 9px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,176) scale(1,-1)">原版 O2</text>
-			<rect x="78" y="84" width="309.62503061492316" height="14" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,24%,36%); fill-rule: evenodd;"/>
-			<circle cx="376.4301035620548" cy="89" r="2.5" style="stroke: rgb(12%,14%,16%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<circle cx="387.62503061492316" cy="91" r="2.5" style="stroke: rgb(12%,14%,16%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<circle cx="391.49947784027" cy="93" r="2.5" style="stroke: rgb(12%,14%,16%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<text x="441.50117648868115" y="88" style="font-family: Microsoft YaHei; font-size: 9px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,176) scale(1,-1)">1968.697 秒</text>
-			<text x="43.0" y="51" style="font-family: Microsoft YaHei; font-size: 9px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,102) scale(1,-1)">最终版</text>
-			<rect x="78" y="47" width="13.369241357330338" height="14" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(6%,54%,56%); fill-rule: evenodd;"/>
-			<circle cx="91.34580751781027" cy="52" r="2.5" style="stroke: rgb(12%,14%,16%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<circle cx="91.36924135733034" cy="54" r="2.5" style="stroke: rgb(12%,14%,16%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<circle cx="91.39928070866142" cy="56" r="2.5" style="stroke: rgb(12%,14%,16%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
-			<text x="452.05684055118115" y="51" style="font-family: Microsoft YaHei; font-size: 9px;fill: rgb(12%,14%,16%); stroke:none;" transform="translate(0,102) scale(1,-1)">85.006 秒</text>
-			<text x="216.10459215059058" y="0" style="font-family: Microsoft YaHei; font-size: 8px;fill: rgb(34%,40%,45%); stroke:none;" transform="translate(0,0) scale(1,-1)">Render time / 秒</text>
-		</g>
-	</g>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="245" viewBox="0 0 900 245">
+<title>光线追踪：三次渲染耗时与中位数</title>
+<metadata>{&quot;chart&quot;: &quot;raytracing&quot;, &quot;x_scale&quot;: &quot;log&quot;, &quot;x_domain&quot;: [50, 2500], &quot;upstream_seconds&quot;: [1897.516, 1968.697, 1993.332], &quot;final_seconds&quot;: [84.857, 85.006, 85.197], &quot;median_ratio&quot;: 23.15950638778439, &quot;range_definition&quot;: &quot;observed min and max, not a confidence interval&quot;}</metadata>
+<rect width="900" height="245" fill="white"/>
+<g font-family="Microsoft YaHei" fill="#253744">
+<text x="125.000" y="21.000" font-size="17" text-anchor="start" fill="#253744">中位数耗时比 23.16×</text>
+<circle cx="604.000" cy="15.000" r="3.5" fill="white" stroke="#31566E" stroke-width="1.5"/>
+<text x="617.000" y="21.000" font-size="14" text-anchor="start" fill="#253744">单次运行</text>
+<polygon points="724.000,10.000 729.000,15.000 724.000,20.000 719.000,15.000" fill="#31566E"/>
+<text x="737.000" y="21.000" font-size="14" text-anchor="start" fill="#253744">中位数</text>
+<line x1="125.000" y1="42.000" x2="125.000" y2="184.000" stroke="#E1E6E9" stroke-width="0.8"/>
+<line x1="125.000" y1="184.000" x2="125.000" y2="189.000" stroke="#63717B" stroke-width="1"/>
+<text x="125.000" y="208.000" font-size="14" text-anchor="middle" fill="#63717B">50</text>
+<line x1="233.082" y1="42.000" x2="233.082" y2="184.000" stroke="#E1E6E9" stroke-width="0.8"/>
+<line x1="233.082" y1="184.000" x2="233.082" y2="189.000" stroke="#63717B" stroke-width="1"/>
+<text x="233.082" y="208.000" font-size="14" text-anchor="middle" fill="#63717B">100</text>
+<line x1="341.164" y1="42.000" x2="341.164" y2="184.000" stroke="#E1E6E9" stroke-width="0.8"/>
+<line x1="341.164" y1="184.000" x2="341.164" y2="189.000" stroke="#63717B" stroke-width="1"/>
+<text x="341.164" y="208.000" font-size="14" text-anchor="middle" fill="#63717B">200</text>
+<line x1="484.041" y1="42.000" x2="484.041" y2="184.000" stroke="#E1E6E9" stroke-width="0.8"/>
+<line x1="484.041" y1="184.000" x2="484.041" y2="189.000" stroke="#63717B" stroke-width="1"/>
+<text x="484.041" y="208.000" font-size="14" text-anchor="middle" fill="#63717B">500</text>
+<line x1="592.123" y1="42.000" x2="592.123" y2="184.000" stroke="#E1E6E9" stroke-width="0.8"/>
+<line x1="592.123" y1="184.000" x2="592.123" y2="189.000" stroke="#63717B" stroke-width="1"/>
+<text x="592.123" y="208.000" font-size="14" text-anchor="middle" fill="#63717B">1000</text>
+<line x1="700.205" y1="42.000" x2="700.205" y2="184.000" stroke="#E1E6E9" stroke-width="0.8"/>
+<line x1="700.205" y1="184.000" x2="700.205" y2="189.000" stroke="#63717B" stroke-width="1"/>
+<text x="700.205" y="208.000" font-size="14" text-anchor="middle" fill="#63717B">2000</text>
+<line x1="125.000" y1="184.000" x2="735.000" y2="184.000" stroke="#63717B" stroke-width="1.1"/>
+<text x="108.000" y="81.000" font-size="17" text-anchor="end" fill="#253744">原版 O2</text>
+<line x1="692.003" y1="81.000" x2="699.685" y2="81.000" stroke="#31566E" stroke-width="1.5"/>
+<line x1="692.003" y1="76.000" x2="692.003" y2="86.000" stroke="#31566E" stroke-width="1.2"/>
+<line x1="699.685" y1="76.000" x2="699.685" y2="86.000" stroke="#31566E" stroke-width="1.2"/>
+<circle cx="692.003" cy="60.000" r="4" fill="white" stroke="#31566E" stroke-width="1.5"/>
+<circle cx="697.745" cy="71.000" r="4" fill="white" stroke="#31566E" stroke-width="1.5"/>
+<circle cx="699.685" cy="91.000" r="4" fill="white" stroke="#31566E" stroke-width="1.5"/>
+<polygon points="697.745,75.200 703.545,81.000 697.745,86.800 691.945,81.000" fill="#31566E"/>
+<text x="891.000" y="86.000" font-size="17" text-anchor="end" fill="#31566E">1968.697 s</text>
+<text x="108.000" y="142.000" font-size="17" text-anchor="end" fill="#253744">最终版</text>
+<line x1="207.478" y1="142.000" x2="208.102" y2="142.000" stroke="#27858A" stroke-width="1.5"/>
+<line x1="207.478" y1="137.000" x2="207.478" y2="147.000" stroke="#27858A" stroke-width="1.2"/>
+<line x1="208.102" y1="137.000" x2="208.102" y2="147.000" stroke="#27858A" stroke-width="1.2"/>
+<circle cx="207.478" cy="121.000" r="4" fill="white" stroke="#27858A" stroke-width="1.5"/>
+<circle cx="207.752" cy="132.000" r="4" fill="white" stroke="#27858A" stroke-width="1.5"/>
+<circle cx="208.102" cy="152.000" r="4" fill="white" stroke="#27858A" stroke-width="1.5"/>
+<polygon points="207.752,136.200 213.552,142.000 207.752,147.800 201.952,142.000" fill="#27858A"/>
+<text x="891.000" y="147.000" font-size="17" text-anchor="end" fill="#27858A">85.006 s</text>
+<text x="430.000" y="235.000" font-size="15" text-anchor="middle" fill="#253744">Render time / s（对数刻度）</text>
+</g>
 </svg>

@@ -242,7 +242,7 @@
     },
     "worksteal-matched.svg": {
       "source": "hpc-worksteal/mechanism-controls/results/summary.json",
-      "sha256": "27eaa1898c0cfc9d2576b1a3d3f1ae8dc0c77affafaea9342e2239ecfecea457"
+      "sha256": "57ffea1f449dda11274c8c0e8319cfda3e62637608193b5f7e5d69c85c6bac74"
     }
   },
   "mechanism_controls": {

@@ -8,6 +8,7 @@
 - [复现说明](docs/reproduction.md)
 - [实验记录说明](docs/data-scope.md)
 - [图表原始输入](report/figure-data-v2.json)
+- [图表说明与重绘](docs/figure-design.md)
 - [报告使用的数据索引](report/evidence-index-v2.json)
 - [WorkSteal 机制补测](supplements/mechanism-controls/README.md)
 - [单任务大于 LLC 的补测](supplements/large-task-controls/README.md)
