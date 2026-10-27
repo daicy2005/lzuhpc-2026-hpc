@@ -13,7 +13,7 @@
 
 AI 对话和 Session 文件暂未上传；官方要求的 Prompt File 另行保留，目前还没有通过仓库提供。
 
-报告链接到一个[固定材料版本](https://github.com/daicy2005/lzuhpc-2026-hpc/tree/af6a1615f9975d3e191324c3a8cb6e9bc89a399a)，方便找到与文中内容对应的代码、附录和数据。
+报告链接到一个[固定材料版本](https://github.com/daicy2005/lzuhpc-2026-hpc/tree/b199a56b07cbe869b407d00c33e15f9ad6b835fd)，方便找到与文中内容对应的代码、附录和数据。
 
 在仓库根目录执行 `python3 tools/verify_materials.py`，可以核对文件散列和报告使用的正式记录。这个脚本不会重新跑性能实验。
 
@@ -21,7 +21,7 @@ AI 对话和 Session 文件暂未上传；官方要求的 Prompt File 另行保�
 
 光追最终源码在 `hpc-raytracing/implementation/16fafcdc65f1ac9c25a14519ead75b345c88b82cd500f1da05e9f07ca99b6bc2/`。最终使用 O3、OpenMP 像素块并行、16 桶 SAH BVH，并延后构造命中记录。同批测量的 Render time 中位数从 1968.697 秒降到 85.006 秒，耗时比为 23.16。这是整套修改的效果，包含编译选项、算法和线程配置等因素。
 
-WorkSteal 源码在 `hpc-worksteal/`，使用固定任务集、持久线程池和带锁双端队列，各类策略单独注册。最终保留 round_robin、immediate、single，线程数和粒度按负载选择。10 月 27 日补跑的随机 victim 对照，在两个新输入上收益不稳定，因此没有替换 round_robin。
+WorkSteal 源码在 `hpc-worksteal/`，使用固定任务集、持久线程池和带锁双端队列，各类策略单独注册。最终保留 round_robin、immediate、single，线程数和粒度按负载选择。随机 victim 在两个新输入上收益不稳定，因此没有替换 round_robin。
 
 ## 运行环境与尚未解决的问题
 
