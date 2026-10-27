@@ -1,0 +1,46 @@
+{
+  "files": {
+    "balance.svg": {
+      "sha256": "27eaa1898c0cfc9d2576b1a3d3f1ae8dc0c77affafaea9342e2239ecfecea457",
+      "bytes": 3758
+    },
+    "collector.py": {
+      "sha256": "cdc037a0251fd5a03badc862a71cea2f333cb1a78bd5a4a92b1ab90143b55d01",
+      "bytes": 14203
+    },
+    "experiment.zip": {
+      "sha256": "a6c2e43eebca8427dbc737197d860d0b52894d1e7a0c3cdca62c3b851fe12676",
+      "bytes": 2318433
+    },
+    "figure.py": {
+      "sha256": "8ce7ff3362fe98232dc3fc9dbe8608955e065b973a7dfcfda2325806faac3e4d",
+      "bytes": 2228
+    },
+    "preflight.zip": {
+      "sha256": "16b4d250072056ac15e7833fc9a7ba8395927f102596e9c5271fea59e5ad5755",
+      "bytes": 622593
+    },
+    "protocol.md": {
+      "sha256": "c3065c182baf723c807ad115762c5ee33d3e57362cef4158217c10c2ab82afd7",
+      "bytes": 4031
+    },
+    "README.md": {
+      "sha256": "243516f132d4fe71cafe6c22bfa375e14d2c0fc0f97faf0fb6cc33b3781673e4",
+      "bytes": 1696
+    },
+    "results.md": {
+      "sha256": "91ea049c1f191d645982fdf6f85085693fbdad96892aec02d6a970b99f09d237",
+      "bytes": 1985
+    },
+    "summary.json": {
+      "sha256": "9a5808efd4459c406b45bce42b2b404acb43086e2a23fbc88b8099e37ea57dee",
+      "bytes": 1723678
+    }
+  },
+  "archive_members": 1917,
+  "processes": 245,
+  "timing_samples": 175,
+  "batch": "20261027T121408Z-mechanism-controls-687718",
+  "source_id": "5fd7dcf0ab189eba4bf9e48522f04703d8e48ff36ceff1f6f9ceba915067c937",
+  "preflight_archive_members": 229
+}

@@ -29,3 +29,9 @@ ctest --test-dir build --output-on-failure
 默认 Release 可用于检查功能。复现实验中的优化版本，还需使用 `configs/verified/builds.json` 或 `configs/memory-interleaved/builds.json` 中列出的源码和编译选项。仓库保留了对应源码快照。Linux 下的重新构建和测试结果在 `submission/reproduction/20261025/`。
 
 `.devcontainer` 配置尚未实际构建。更多构建选项和配置说明见[报告附录](appendices.md)。
+
+## WorkSteal 机制补测
+
+补测使用单独的实验程序，源码和原始记录在 [机制补测目录](../supplements/mechanism-controls/README.md)。解压 experiment.zip 后，按 summary.json 中的 source_id 找到源码快照，再按该目录的说明构建、运行和检查。它新增了 disabled_yield 对照，原有生产程序和默认策略保持原样。
+
+在仓库根目录执行 `python3 tools/verify_mechanism_supplement.py`，可以核对压缩包中的 175 次计时、诊断和中止记录；检查过程不会启动性能实验。

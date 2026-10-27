@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="294" viewBox="0 0 750 294">
+<rect width="750" height="294" fill="white"/>
+<g font-family="Microsoft YaHei, sans-serif" fill="#233f58">
+<text x="64" y="23" font-size="17" text-anchor="start" fill="#233f58">epoch 时间比 off / on</text>
+<rect x="470" y="10" width="17" height="13" rx="2" fill="#285f86"/>
+<text x="493" y="22" font-size="14" text-anchor="start" fill="#233f58">集中布局</text>
+<rect x="595" y="10" width="17" height="13" rx="2" fill="#c98140"/>
+<text x="618" y="22" font-size="14" text-anchor="start" fill="#233f58">分散布局</text>
+<line x1="64" y1="239.0" x2="714" y2="239.0" stroke="#dde5ec" stroke-width="1"/>
+<text x="52" y="244.0" font-size="14" text-anchor="end" fill="#233f58">0</text>
+<line x1="64" y1="209.0" x2="714" y2="209.0" stroke="#dde5ec" stroke-width="1"/>
+<text x="52" y="214.0" font-size="14" text-anchor="end" fill="#233f58">1</text>
+<line x1="64" y1="179.0" x2="714" y2="179.0" stroke="#dde5ec" stroke-width="1"/>
+<text x="52" y="184.0" font-size="14" text-anchor="end" fill="#233f58">2</text>
+<line x1="64" y1="149.0" x2="714" y2="149.0" stroke="#dde5ec" stroke-width="1"/>
+<text x="52" y="154.0" font-size="14" text-anchor="end" fill="#233f58">3</text>
+<line x1="64" y1="119.0" x2="714" y2="119.0" stroke="#dde5ec" stroke-width="1"/>
+<text x="52" y="124.0" font-size="14" text-anchor="end" fill="#233f58">4</text>
+<line x1="64" y1="89.0" x2="714" y2="89.0" stroke="#dde5ec" stroke-width="1"/>
+<text x="52" y="94.0" font-size="14" text-anchor="end" fill="#233f58">5</text>
+<line x1="64" y1="59.0" x2="714" y2="59.0" stroke="#dde5ec" stroke-width="1"/>
+<text x="52" y="64.0" font-size="14" text-anchor="end" fill="#233f58">6</text>
+<line x1="64" y1="209.0" x2="714" y2="209.0" stroke="#7993a4" stroke-dasharray="5 4"/>
+<rect x="103" y="80.735" width="38" height="158.265" rx="2" fill="#285f86"/>
+<text x="122" y="73.73528280107735" font-size="14" text-anchor="middle" fill="#233f58">5.28</text>
+<rect x="149" y="192.445" width="38" height="46.555" rx="2" fill="#c98140"/>
+<text x="168" y="185.4448809798937" font-size="14" text-anchor="middle" fill="#233f58">1.55</text>
+<text x="146" y="262" font-size="14" text-anchor="middle" fill="#233f58">170021 / 8</text>
+<rect x="266" y="162.424" width="38" height="76.576" rx="2" fill="#285f86"/>
+<text x="285" y="155.424079309143" font-size="14" text-anchor="middle" fill="#233f58">2.55</text>
+<rect x="312" y="184.170" width="38" height="54.830" rx="2" fill="#c98140"/>
+<text x="331" y="177.1696673027462" font-size="14" text-anchor="middle" fill="#233f58">1.83</text>
+<text x="309" y="262" font-size="14" text-anchor="middle" fill="#233f58">170021 / 256</text>
+<rect x="429" y="159.307" width="38" height="79.693" rx="2" fill="#285f86"/>
+<text x="448" y="152.30715225976306" font-size="14" text-anchor="middle" fill="#233f58">2.66</text>
+<rect x="475" y="196.304" width="38" height="42.696" rx="2" fill="#c98140"/>
+<text x="494" y="189.3036995092488" font-size="14" text-anchor="middle" fill="#233f58">1.42</text>
+<text x="472" y="262" font-size="14" text-anchor="middle" fill="#233f58">176023 / 8</text>
+<rect x="592" y="86.767" width="38" height="152.233" rx="2" fill="#285f86"/>
+<text x="611" y="79.76713338246131" font-size="14" text-anchor="middle" fill="#233f58">5.07</text>
+<rect x="638" y="201.278" width="38" height="37.722" rx="2" fill="#c98140"/>
+<text x="657" y="194.27834497581944" font-size="14" text-anchor="middle" fill="#233f58">1.26</text>
+<text x="635" y="262" font-size="14" text-anchor="middle" fill="#233f58">176023 / 256</text>
+<text x="389" y="286" font-size="14" text-anchor="middle" fill="#596774">输入 seed / grain</text>
+</g>
+</svg>
