@@ -2,6 +2,7 @@
 
 兰州大学超算队 2026 年秋季纳新配套材料。唯一提交文件为技术报告 PDF；这里提供报告引用的源码、复现环境、详细附录和实验依据。
 
+- [报告 PDF：6 页](report/HPC方向技术报告.pdf)
 - [报告正文](report/main.md)
 - [补充探索、复现命令与资料](docs/appendices.md)
 - [复现说明](docs/reproduction.md)
@@ -11,6 +12,8 @@
 - [报告证据索引](report/evidence-index.json)
 
 本次不上传 AI 对话和 Session 文件；官方要求的 Prompt File 另行保留，当前尚未提供。
+
+报告采用的[配套材料固定版本](https://github.com/daicy2005/lzuhpc-2026-hpc/tree/338e37ed4f74fc1d4f189af98379e725fcc16645)保存本次对应的代码、附录和数据，后续报告更新不改变该版本。
 
 可以在仓库根目录执行 `python3 tools/verify_materials.py`，只读核对复制文件散列及所列正式记录，不重新运行性能实验。
 
