@@ -2,12 +2,12 @@
   "revision": "combined-v3-mechanism-controls",
   "report_date": "2026-10-27",
   "pdf": "output/pdf/HPC方向技术报告-光线追踪与WorkSteal.pdf",
-  "pdf_sha256": "6c82df529ded0318c67eb3d93e3011de0857b6180243e7039535847cc4f8b693",
+  "pdf_sha256": "90ea76fed01b60b8c241f6f6df866131eef81da6f0c693f381473e8cc58233f5",
   "markdown": "HPC方向技术报告.md",
-  "markdown_sha256": "32fee8fd20152b49fc62aa5e6fc0fc5943cb8b66c1435664f39e68ea4f3287a6",
+  "markdown_sha256": "1368569e994f7c54bd9b941f9430520d76ce9939a1a6da54703d406f8ad0cb2c",
   "main_markdown": "HPC方向技术报告-正文.md",
-  "main_markdown_sha256": "d1087f23fc02aa26bfc5fdac409596c34bcd16c6d4ae5e8addf8132e0cc1afcc",
-  "source_sha256": "2e8439b3de8466af581a53d50095f86405cd86dcf2accd334b1910b69565f76b",
+  "main_markdown_sha256": "88a416154bbb0a124e66831aa8d43aae882a396ce1fb93adf22bed6cc168ae7b",
+  "source_sha256": "f1de4d240f66642f02ca281c82e34cf5570f00d21c150ac95a4177df6d93dea5",
   "generator_sha256": "30618bb8930ce9fe9df2107c44d63d162c575424f37c0c492ddfcf892d3410ef",
   "pages": 6,
   "main_pages": 6,
@@ -16,48 +16,48 @@
     {
       "page": 1,
       "title": "HPC 方向技术报告",
-      "characters": 564,
+      "characters": 587,
       "image_xobjects": 1
     },
     {
       "page": 2,
       "title": "1 光线追踪的分析与实现",
-      "characters": 952,
+      "characters": 964,
       "image_xobjects": 0
     },
     {
       "page": 3,
       "title": "2 光线追踪的实验结果",
-      "characters": 1051,
+      "characters": 1049,
       "image_xobjects": 0
     },
     {
       "page": 4,
       "title": "3 Mini WorkSteal 的实现与测试负载",
-      "characters": 1202,
+      "characters": 1232,
       "image_xobjects": 0
     },
     {
       "page": 5,
       "title": "4 任务粒度与窃取收益",
-      "characters": 983,
+      "characters": 1057,
       "image_xobjects": 0
     },
     {
       "page": 6,
       "title": "5 局部性与最终策略选择",
-      "characters": 1330,
+      "characters": 1381,
       "image_xobjects": 0
     }
   ],
   "publication": {
     "repository_url": "https://github.com/daicy2005/lzuhpc-2026-hpc",
-    "materials_commit": "36e6a13f386f9aa3465c2515a5c32bf2bb34a783",
+    "materials_commit": "a4927bc20d55eafdf0bab003bcccdc786465cb5e",
     "verified_repository_access": true,
     "anonymous_readback": true,
     "visibility": "public",
     "dialogue_files_published": 0,
-    "readback_receipt": "github-materials-readback-experiments.json",
+    "readback_receipt": "github-materials-readback-student-wording.json",
     "date": "2026-10-27"
   },
   "source_inputs_sha256": {
@@ -1473,7 +1473,7 @@
     "hpc-worksteal/report/student/figures/v13-boundary-styled.svg": "846c8c841441e00b6c265ef332bad04cc6fd53deb963ad3c37a238f6fa679f89",
     "hpc-report/tools/mechanism_figure.py": "8ce7ff3362fe98232dc3fc9dbe8608955e065b973a7dfcfda2325806faac3e4d",
     "hpc-raytracing/runs/20261015T211842519606+0800_E20_sah-tile_formal_t32_r01_bee280/output.ppm": "e13662e02f2b123912cbfd83116efd0de91e3fcc8580ef0342c82dee3cb90c95",
-    "hpc-report/publication.json": "93661f28bef78abdc3116ba9a1280c27e40158710d2455dadbb74bf1dd254a3a"
+    "hpc-report/publication.json": "47ca688f7d23a7987e5ceaf56b850e4db94ba14d0cce26892560e5f798d2ed64"
   },
   "asset_sha256": {
     "assets/raytracing-comparison.svg": "dffca2b6b764733f18878153549ea05fd805504020b4cd55c3df3f6fbcbd2f59",
@@ -1503,6 +1503,6 @@
   "visual_review": {
     "status": "pass",
     "receipt": "visual-review.json",
-    "sha256": "5703622037baa9eeca87af2f9642220437716c5213cfb488bdcd920073c79d83"
+    "sha256": "83ed541a88da49f155f13b93a0371cc1b41ff60659750b29f93dbf84948b5001"
   }
 }
