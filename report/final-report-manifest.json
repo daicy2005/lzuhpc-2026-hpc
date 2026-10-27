@@ -2,13 +2,13 @@
   "revision": "combined-v3-mechanism-controls",
   "report_date": "2026-10-27",
   "pdf": "output/pdf/HPC方向技术报告-光线追踪与WorkSteal.pdf",
-  "pdf_sha256": "d0b6201f9ff16c65ed91b9c4fe1e52c1d1b46f39a3ec9d89076aea8ebc3fc36c",
+  "pdf_sha256": "a5b9a0580d79788b50e853782ea5cc484986f8393d757e12c84719660ef6e2df",
   "markdown": "HPC方向技术报告.md",
-  "markdown_sha256": "46abff30134a146ee50bba3399edaf6886798e4458e6a90d3381fd4011611009",
+  "markdown_sha256": "a57daf4e3aa04cfaa0f7b886563dc7cfce71c02ca5099396803186406fb40b2e",
   "main_markdown": "HPC方向技术报告-正文.md",
-  "main_markdown_sha256": "e52d12d005eef2741730b8f66115bd8f354da8dd8cfc3c56a5c175be0021f443",
-  "source_sha256": "8669d19e835166d8b2e02358689f6d55c990a0b3164219b4d9f684c1236b9a24",
-  "generator_sha256": "10365c509be8b553b33916f083ec4e901cd1c38ba8b4114f06de6fc38ea1acba",
+  "main_markdown_sha256": "56520331336811212c066473a533d60ee16aec0cce2130469c0b092f4019179c",
+  "source_sha256": "c8362198a3516a4f82cc298e4962ceb9bd33172702045f4cea68aa77edd7af85",
+  "generator_sha256": "6b24e25b55340d106cc998ec01641f8e8e20534f36b22b444b3a1437f7027bd6",
   "pages": 6,
   "main_pages": 6,
   "appendix_pages": 0,
@@ -16,7 +16,7 @@
     {
       "page": 1,
       "title": "HPC 方向技术报告",
-      "characters": 587,
+      "characters": 636,
       "image_xobjects": 1
     },
     {
@@ -1514,6 +1514,6 @@
   "visual_review": {
     "status": "pass",
     "receipt": "visual-review.json",
-    "sha256": "3196ec3aaa9374b0b95edbdb0796a15f6c5b5153d83ef27d1ceb377a9020a653"
+    "sha256": "156906e8ecb86c27c748421d6ad43386f6d369735963b68137c28cfcbe87c6e5"
   }
 }
