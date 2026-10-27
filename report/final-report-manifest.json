@@ -2,13 +2,13 @@
   "revision": "combined-v3-mechanism-controls",
   "report_date": "2026-10-27",
   "pdf": "output/pdf/HPC方向技术报告-光线追踪与WorkSteal.pdf",
-  "pdf_sha256": "90ea76fed01b60b8c241f6f6df866131eef81da6f0c693f381473e8cc58233f5",
+  "pdf_sha256": "d0b6201f9ff16c65ed91b9c4fe1e52c1d1b46f39a3ec9d89076aea8ebc3fc36c",
   "markdown": "HPC方向技术报告.md",
-  "markdown_sha256": "1368569e994f7c54bd9b941f9430520d76ce9939a1a6da54703d406f8ad0cb2c",
+  "markdown_sha256": "46abff30134a146ee50bba3399edaf6886798e4458e6a90d3381fd4011611009",
   "main_markdown": "HPC方向技术报告-正文.md",
-  "main_markdown_sha256": "88a416154bbb0a124e66831aa8d43aae882a396ce1fb93adf22bed6cc168ae7b",
-  "source_sha256": "f1de4d240f66642f02ca281c82e34cf5570f00d21c150ac95a4177df6d93dea5",
-  "generator_sha256": "30618bb8930ce9fe9df2107c44d63d162c575424f37c0c492ddfcf892d3410ef",
+  "main_markdown_sha256": "e52d12d005eef2741730b8f66115bd8f354da8dd8cfc3c56a5c175be0021f443",
+  "source_sha256": "8669d19e835166d8b2e02358689f6d55c990a0b3164219b4d9f684c1236b9a24",
+  "generator_sha256": "10365c509be8b553b33916f083ec4e901cd1c38ba8b4114f06de6fc38ea1acba",
   "pages": 6,
   "main_pages": 6,
   "appendix_pages": 0,
@@ -28,7 +28,7 @@
     {
       "page": 3,
       "title": "2 光线追踪的实验结果",
-      "characters": 1049,
+      "characters": 1175,
       "image_xobjects": 0
     },
     {
@@ -40,7 +40,7 @@
     {
       "page": 5,
       "title": "4 任务粒度与窃取收益",
-      "characters": 1057,
+      "characters": 1090,
       "image_xobjects": 0
     },
     {
@@ -52,12 +52,12 @@
   ],
   "publication": {
     "repository_url": "https://github.com/daicy2005/lzuhpc-2026-hpc",
-    "materials_commit": "a4927bc20d55eafdf0bab003bcccdc786465cb5e",
+    "materials_commit": "bdaa9e860be82354b8a90fd9cf299b30319f5060",
     "verified_repository_access": true,
     "anonymous_readback": true,
     "visibility": "public",
     "dialogue_files_published": 0,
-    "readback_receipt": "github-materials-readback-student-wording.json",
+    "readback_receipt": "github-materials-readback-linear-panels.json",
     "date": "2026-10-27"
   },
   "source_inputs_sha256": {
@@ -1471,19 +1471,20 @@
     "hpc-worksteal/configs/memory-interleaved/memory.json": "8fa7274cf76314bb59777ab57df6ba1dfdc279d81d8b8a448776fab7b567fec0",
     "hpc-worksteal/report/student/figures/runtime-flow-designed.svg": "c48d206c30cbd88168bb8312a64cddb6a7dc00e99cc74891f03e52573c524472",
     "hpc-worksteal/report/student/figures/v13-boundary-styled.svg": "846c8c841441e00b6c265ef332bad04cc6fd53deb963ad3c37a238f6fa679f89",
-    "hpc-report/tools/mechanism_figure.py": "8ce7ff3362fe98232dc3fc9dbe8608955e065b973a7dfcfda2325806faac3e4d",
+    "hpc-report/tools/mechanism_figure.py": "9539de205389a4ef728c470b7f836d18c3677f970d66d006510a111e8b90d87b",
+    "hpc-report/tools/paper_figure_style.py": "51eb119fd2e5342472ae9571d0792657d0cc264f44d4f47566e3caa0b6157300",
     "hpc-raytracing/runs/20261015T211842519606+0800_E20_sah-tile_formal_t32_r01_bee280/output.ppm": "e13662e02f2b123912cbfd83116efd0de91e3fcc8580ef0342c82dee3cb90c95",
-    "hpc-report/publication.json": "47ca688f7d23a7987e5ceaf56b850e4db94ba14d0cce26892560e5f798d2ed64"
+    "hpc-report/publication.json": "44501384fdcc3e4b41ae9015edac5a2f9a1a7c4eba978d14d56919ce87401744"
   },
   "asset_sha256": {
-    "assets/raytracing-comparison.svg": "dffca2b6b764733f18878153549ea05fd805504020b4cd55c3df3f6fbcbd2f59",
+    "assets/raytracing-comparison.svg": "5b4986a5565678b1b29ea398e1fb1a0e4c6f07fd8240830036ff89913dda233e",
     "assets/raytracing-output.png": "91689161e05e75ebbaf192b6c870b5c8490b884b583990d86dc06714e6a80f4e",
     "assets/worksteal-boundary.svg": "846c8c841441e00b6c265ef332bad04cc6fd53deb963ad3c37a238f6fa679f89",
-    "assets/worksteal-matched.svg": "27eaa1898c0cfc9d2576b1a3d3f1ae8dc0c77affafaea9342e2239ecfecea457",
+    "assets/worksteal-matched.svg": "57ffea1f449dda11274c8c0e8319cfda3e62637608193b5f7e5d69c85c6bac74",
     "assets/worksteal-runtime.svg": "c48d206c30cbd88168bb8312a64cddb6a7dc00e99cc74891f03e52573c524472"
   },
   "figure_data": "figure-data-v2.json",
-  "figure_data_sha256": "40b8ce0b06f69fab009899c72977e8a20ccb9ad853fa9c4c6451c8a0486c3ed6",
+  "figure_data_sha256": "9762670b7783082b8f4708aa0ae46d556c3aa0c83fdfa1beda211e1dce2060a2",
   "evidence_index": "evidence-index-v2.json",
   "evidence_index_sha256": "d1c2563405142ad5fa1f31b303984d92487d6cb37c67641883e5ac0ea5ba6dd9",
   "rechecked_raytracing_formal_runs": 24,
@@ -1495,7 +1496,17 @@
   "large_task_all_runs": 42,
   "total_worksteal_formal_runs": 868,
   "performance_runs_launched_by_generator": 0,
-  "new_image_generation_requests": 0,
+  "image_generation_requests_launched_by_generator": 0,
+  "figure_design": {
+    "method": "image-generated visual proposal, rebuilt as data-driven SVG",
+    "proposals": [
+      "output/imagegen/paper-figures-design.png",
+      "output/imagegen/raytracing-v2-design.png"
+    ],
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "high",
+    "source": "tools/paper_figure_style.py"
+  },
   "source_reports_modified": false,
   "raw_evidence_modified": false,
   "existing_packages_updated": false,
@@ -1503,6 +1514,6 @@
   "visual_review": {
     "status": "pass",
     "receipt": "visual-review.json",
-    "sha256": "83ed541a88da49f155f13b93a0371cc1b41ff60659750b29f93dbf84948b5001"
+    "sha256": "3196ec3aaa9374b0b95edbdb0796a15f6c5b5153d83ef27d1ceb377a9020a653"
   }
 }

@@ -14,7 +14,7 @@
 - [单任务大于 LLC 的补测](supplements/large-task-controls/README.md)
 - [官方实验要求对照](docs/official-requirements.md)
 
-报告末尾可以找到[对应的代码、附录和数据](https://github.com/daicy2005/lzuhpc-2026-hpc/tree/a4927bc20d55eafdf0bab003bcccdc786465cb5e)。
+报告末尾可以找到[对应的代码、附录和数据](https://github.com/daicy2005/lzuhpc-2026-hpc/tree/bdaa9e860be82354b8a90fd9cf299b30319f5060)。
 
 在仓库根目录执行 `python3 tools/verify_materials.py`，可以检查实验文件是否完整，并核对报告引用的计时记录。
 
