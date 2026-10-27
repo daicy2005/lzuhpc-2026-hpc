@@ -10,7 +10,7 @@
 - [图表原始输入](report/figure-data.json)
 - [报告使用的数据索引](report/evidence-index.json)
 
-报告链接到一个[固定材料版本](https://github.com/daicy2005/lzuhpc-2026-hpc/tree/b38d0c1c54dff898cb3db740ac1e720bf67c1285)，方便找到与文中内容对应的代码、附录和数据。
+报告链接到一个[固定材料版本](https://github.com/daicy2005/lzuhpc-2026-hpc/tree/d994f19172f30dbf5951547269d385ed87c14bf6)，方便找到与文中内容对应的代码、附录和数据。
 
 在仓库根目录执行 `python3 tools/verify_materials.py`，可以检查实验文件是否完整，并核对报告引用的计时记录。
 

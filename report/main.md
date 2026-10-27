@@ -162,8 +162,6 @@ cap4 在筛选时让 epoch 下降约 22.7%，但换输入后只有 3/7、4/7 对
 
 源码、构建步骤、补充实验和运行日志见：
 
-https://github.com/daicy2005/lzuhpc-2026-hpc/tree/b38d0c1c54dff898cb3db740ac1e720bf67c1285
-
-连续对话记录（Prompt File）暂未上传。
+https://github.com/daicy2005/lzuhpc-2026-hpc/tree/d994f19172f30dbf5951547269d385ed87c14bf6
 
 AI 辅助包括资料搜集、备选方案梳理、部分代码编写和数据整理。
