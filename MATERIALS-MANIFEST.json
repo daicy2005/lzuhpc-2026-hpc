@@ -30492,8 +30492,8 @@
       "source": "hpc-report/figure-data.json"
     },
     "report/assets/raytracing-comparison.svg": {
-      "sha256": "dffca2b6b764733f18878153549ea05fd805504020b4cd55c3df3f6fbcbd2f59",
-      "bytes": 4470,
+      "sha256": "5b4986a5565678b1b29ea398e1fb1a0e4c6f07fd8240830036ff89913dda233e",
+      "bytes": 6877,
       "source": "hpc-report/assets/raytracing-comparison.svg"
     },
     "report/assets/raytracing-output.png": {
