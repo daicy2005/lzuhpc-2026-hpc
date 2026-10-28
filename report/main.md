@@ -171,6 +171,6 @@ cap4 初测让 epoch 下降约 22.7%，换输入后却只有 3/7、4/7 对更快
 
 源码、构建步骤、补充实验和运行日志见：
 
-https://github.com/daicy2005/lzuhpc-2026-hpc/tree/bdaa9e860be82354b8a90fd9cf299b30319f5060
+https://github.com/daicy2005/lzuhpc-2026-hpc/tree/ee95afe1666ccb3e6e13e65f937be7c8ed7e0e96
 
 AI 辅助包括资料搜集、备选方案梳理、部分代码编写和数据整理。

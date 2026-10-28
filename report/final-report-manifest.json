@@ -2,11 +2,11 @@
   "revision": "combined-v3-mechanism-controls",
   "report_date": "2026-10-27",
   "pdf": "output/pdf/HPC方向技术报告-光线追踪与WorkSteal.pdf",
-  "pdf_sha256": "a5b9a0580d79788b50e853782ea5cc484986f8393d757e12c84719660ef6e2df",
+  "pdf_sha256": "646b8b5972d7343fcadd11fb38f41520d1a9da7977ac24573e0edfa83c88c093",
   "markdown": "HPC方向技术报告.md",
   "markdown_sha256": "a57daf4e3aa04cfaa0f7b886563dc7cfce71c02ca5099396803186406fb40b2e",
   "main_markdown": "HPC方向技术报告-正文.md",
-  "main_markdown_sha256": "56520331336811212c066473a533d60ee16aec0cce2130469c0b092f4019179c",
+  "main_markdown_sha256": "61605e1325f63e69ed39a21a58ec63d762e1c0ddca158da0a0b44a5d18439012",
   "source_sha256": "c8362198a3516a4f82cc298e4962ceb9bd33172702045f4cea68aa77edd7af85",
   "generator_sha256": "6b24e25b55340d106cc998ec01641f8e8e20534f36b22b444b3a1437f7027bd6",
   "pages": 6,
@@ -52,13 +52,13 @@
   ],
   "publication": {
     "repository_url": "https://github.com/daicy2005/lzuhpc-2026-hpc",
-    "materials_commit": "bdaa9e860be82354b8a90fd9cf299b30319f5060",
+    "materials_commit": "ee95afe1666ccb3e6e13e65f937be7c8ed7e0e96",
     "verified_repository_access": true,
     "anonymous_readback": true,
     "visibility": "public",
     "dialogue_files_published": 0,
-    "readback_receipt": "github-materials-readback-linear-panels.json",
-    "date": "2026-10-27"
+    "readback_receipt": "github-materials-readback-official-check-20261028.json",
+    "date": "2026-10-28"
   },
   "source_inputs_sha256": {
     "hpc-raytracing/output/pdf/student-report-manifest.json": "3def92ca9768f8fe5849ee4493b1c4ff58c58251557c54c89e7d93755f48dab2",
@@ -1474,7 +1474,7 @@
     "hpc-report/tools/mechanism_figure.py": "9539de205389a4ef728c470b7f836d18c3677f970d66d006510a111e8b90d87b",
     "hpc-report/tools/paper_figure_style.py": "51eb119fd2e5342472ae9571d0792657d0cc264f44d4f47566e3caa0b6157300",
     "hpc-raytracing/runs/20261015T211842519606+0800_E20_sah-tile_formal_t32_r01_bee280/output.ppm": "e13662e02f2b123912cbfd83116efd0de91e3fcc8580ef0342c82dee3cb90c95",
-    "hpc-report/publication.json": "44501384fdcc3e4b41ae9015edac5a2f9a1a7c4eba978d14d56919ce87401744"
+    "hpc-report/publication.json": "e12ce4a8cea13e2ea6fab6cd0d566224b2c665a313e40890bc96463ea8825f89"
   },
   "asset_sha256": {
     "assets/raytracing-comparison.svg": "5b4986a5565678b1b29ea398e1fb1a0e4c6f07fd8240830036ff89913dda233e",
@@ -1514,6 +1514,6 @@
   "visual_review": {
     "status": "pass",
     "receipt": "visual-review.json",
-    "sha256": "156906e8ecb86c27c748421d6ad43386f6d369735963b68137c28cfcbe87c6e5"
+    "sha256": "ca099a1d9dfe8f081d19126e8871ff71a1a51247e2d325a7df3addcf2c3c6d8f"
   }
 }
