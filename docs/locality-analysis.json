@@ -1,0 +1,868 @@
+{
+  "scope": "Descriptive reanalysis of 80 existing timing runs; no new benchmark runs.",
+  "formal_runs_analyzed": 80,
+  "paired_blocks": 40,
+  "groups": [
+    {
+      "area": "mechanism-controls",
+      "group": "preread-512KiB-target0",
+      "executor": 0,
+      "per_task_bytes": 8192,
+      "total_data_bytes": 524288,
+      "task_count": 64,
+      "passes": 4,
+      "same_median_ms": 0.1957,
+      "other_median_ms": 0.1998,
+      "ratio_of_medians": 1.020950434338273,
+      "paired_ratio_range": [
+        0.8015405527865881,
+        1.2830863566683697
+      ],
+      "other_slower_pairs": 4,
+      "paired_difference_median_ms": 0.018200000000000008,
+      "pairs": [
+        {
+          "repeat": 1,
+          "same": {
+            "repeat": 1,
+            "seconds": 0.0002474,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0091-timing-preread-512KiB-target0-same-r1-e56cf9/result.json",
+            "result_sha256": "27663ef3f74e4e952226ee31771fab1d15ec9578c8f6be522995481729f249b1"
+          },
+          "other": {
+            "repeat": 1,
+            "seconds": 0.0002476,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0092-timing-preread-512KiB-target0-other-r1-63339b/result.json",
+            "result_sha256": "e585aba25ccf9260545b71c6d0ac4896dd995f69c937287b1495a0e30eacce58"
+          },
+          "other_over_same": 1.0008084074373484,
+          "difference_ms": 0.00020000000000000486
+        },
+        {
+          "repeat": 2,
+          "same": {
+            "repeat": 2,
+            "seconds": 0.0002207,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0119-timing-preread-512KiB-target0-same-r2-d56577/result.json",
+            "result_sha256": "b929db6bca74e0498c29291c84d0f10631d28306adbf1f8665a05ea1f9cd1e40"
+          },
+          "other": {
+            "repeat": 2,
+            "seconds": 0.0001769,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0118-timing-preread-512KiB-target0-other-r2-178814/result.json",
+            "result_sha256": "9ce63702955d6f1b59772e0c536b05a4d508272aac81e1885a372573af7b6f2a"
+          },
+          "other_over_same": 0.8015405527865881,
+          "difference_ms": -0.043800000000000006
+        },
+        {
+          "repeat": 3,
+          "same": {
+            "repeat": 3,
+            "seconds": 0.000175,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0146-timing-preread-512KiB-target0-same-r3-64f962/result.json",
+            "result_sha256": "61c7f3f5f0cb4728330477a7726b0e2ee9b816975f6fb3cb583e8dea054a6a1e"
+          },
+          "other": {
+            "repeat": 3,
+            "seconds": 0.0001998,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0147-timing-preread-512KiB-target0-other-r3-f54276/result.json",
+            "result_sha256": "753a2240766e91a17e4c2ccd9d8821ca26230aa8b7d983149399796b3955fa8b"
+          },
+          "other_over_same": 1.1417142857142857,
+          "difference_ms": 0.024800000000000006
+        },
+        {
+          "repeat": 4,
+          "same": {
+            "repeat": 4,
+            "seconds": 0.0001794,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0176-timing-preread-512KiB-target0-same-r4-b4a757/result.json",
+            "result_sha256": "50ceff2a832d1f995963776b4344016cf058bd58c6bf9bed7740b2ff24b02129"
+          },
+          "other": {
+            "repeat": 4,
+            "seconds": 0.0001976,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0175-timing-preread-512KiB-target0-other-r4-e2f8d9/result.json",
+            "result_sha256": "d2e2e64e18de6b03a07ab4421ca9b6438a1c08cf131d1e0c9e8fba8754014a5c"
+          },
+          "other_over_same": 1.1014492753623188,
+          "difference_ms": 0.018200000000000008
+        },
+        {
+          "repeat": 5,
+          "same": {
+            "repeat": 5,
+            "seconds": 0.0001957,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0238-timing-preread-512KiB-target0-same-r5-4bf7fa/result.json",
+            "result_sha256": "938cca5e5a24b41e1ac24f4d9f046251ae25cd7165e37252bef6c5f492a6cea8"
+          },
+          "other": {
+            "repeat": 5,
+            "seconds": 0.0002511,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0239-timing-preread-512KiB-target0-other-r5-f948e8/result.json",
+            "result_sha256": "8cfa97262153236951de2e8d85abcd130b4ef0b293870dd6c0d941d5428bc9b0"
+          },
+          "other_over_same": 1.2830863566683697,
+          "difference_ms": 0.05539999999999996
+        }
+      ]
+    },
+    {
+      "area": "mechanism-controls",
+      "group": "preread-512KiB-target1",
+      "executor": 1,
+      "per_task_bytes": 8192,
+      "total_data_bytes": 524288,
+      "task_count": 64,
+      "passes": 4,
+      "same_median_ms": 0.2079,
+      "other_median_ms": 0.19870000000000002,
+      "ratio_of_medians": 0.9557479557479557,
+      "paired_ratio_range": [
+        0.8070101351351352,
+        1.0757985923118571
+      ],
+      "other_slower_pairs": 2,
+      "paired_difference_median_ms": -0.0025000000000000066,
+      "pairs": [
+        {
+          "repeat": 1,
+          "same": {
+            "repeat": 1,
+            "seconds": 0.0002185,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0078-timing-preread-512KiB-target1-same-r1-05f2d0/result.json",
+            "result_sha256": "b0c13a6916bc562361905756436f4bfda4da08f3ebc4b78432dc0360c256a85a"
+          },
+          "other": {
+            "repeat": 1,
+            "seconds": 0.000201,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0079-timing-preread-512KiB-target1-other-r1-35d26c/result.json",
+            "result_sha256": "de53ae5bdde7301f02fa1a8eb6442a89f7b0e752914e5201fd256ac9b0ef86c9"
+          },
+          "other_over_same": 0.919908466819222,
+          "difference_ms": -0.01749999999999999
+        },
+        {
+          "repeat": 2,
+          "same": {
+            "repeat": 2,
+            "seconds": 0.0002079,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0106-timing-preread-512KiB-target1-same-r2-3c9f8a/result.json",
+            "result_sha256": "fbf4975c5b667c168b7d9fc6abbcbe37b37148fc3ad3578b2d29ed1def7d44ed"
+          },
+          "other": {
+            "repeat": 2,
+            "seconds": 0.0002159,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0105-timing-preread-512KiB-target1-other-r2-6451e2/result.json",
+            "result_sha256": "78b8315e277533bace0edc04a950ce3e955aeed7d74858721e9d108d06e7f294"
+          },
+          "other_over_same": 1.0384800384800383,
+          "difference_ms": 0.007999999999999978
+        },
+        {
+          "repeat": 3,
+          "same": {
+            "repeat": 3,
+            "seconds": 0.0001847,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0168-timing-preread-512KiB-target1-same-r3-96f504/result.json",
+            "result_sha256": "5fd0b094bab73f100751ada10383a17fba4e65b8d5775a5e65f83e9ed7f5bdbf"
+          },
+          "other": {
+            "repeat": 3,
+            "seconds": 0.0001987,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0169-timing-preread-512KiB-target1-other-r3-d02178/result.json",
+            "result_sha256": "3a91f80ee977c8486dba91aee10c1599f2433746854d229b13f63b4a83bd2389"
+          },
+          "other_over_same": 1.0757985923118571,
+          "difference_ms": 0.014000000000000016
+        },
+        {
+          "repeat": 4,
+          "same": {
+            "repeat": 4,
+            "seconds": 0.0001795,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0198-timing-preread-512KiB-target1-same-r4-d165a0/result.json",
+            "result_sha256": "d22526028bed52c351167327ea981be881c20fc83dc13eb7388dae187e900b60"
+          },
+          "other": {
+            "repeat": 4,
+            "seconds": 0.000177,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0197-timing-preread-512KiB-target1-other-r4-280599/result.json",
+            "result_sha256": "590130411809131180d2e49eda3c6ae1c58e956e71c65af70595eb7e410f1f30"
+          },
+          "other_over_same": 0.9860724233983287,
+          "difference_ms": -0.0025000000000000066
+        },
+        {
+          "repeat": 5,
+          "same": {
+            "repeat": 5,
+            "seconds": 0.0002368,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0225-timing-preread-512KiB-target1-same-r5-798e27/result.json",
+            "result_sha256": "3cbc6f7f59c0f842dc78869d6877e92126857b75be476d23f63db2e8a8582436"
+          },
+          "other": {
+            "repeat": 5,
+            "seconds": 0.0001911,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0226-timing-preread-512KiB-target1-other-r5-b11701/result.json",
+            "result_sha256": "30d018459945a545a2406b8b9355b555de80dc284191f010f86987753e19f9bc"
+          },
+          "other_over_same": 0.8070101351351352,
+          "difference_ms": -0.0457
+        }
+      ]
+    },
+    {
+      "area": "mechanism-controls",
+      "group": "preread-4.5MiB-target0",
+      "executor": 0,
+      "per_task_bytes": 73728,
+      "total_data_bytes": 4718592,
+      "task_count": 64,
+      "passes": 4,
+      "same_median_ms": 1.5208000000000002,
+      "other_median_ms": 1.5308,
+      "ratio_of_medians": 1.0065754865860073,
+      "paired_ratio_range": [
+        0.9902346310132389,
+        1.073777834655746
+      ],
+      "other_slower_pairs": 4,
+      "paired_difference_median_ms": 0.0394000000000002,
+      "pairs": [
+        {
+          "repeat": 1,
+          "same": {
+            "repeat": 1,
+            "seconds": 0.0015258,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0074-timing-preread-4.5MiB-target0-same-r1-062681/result.json",
+            "result_sha256": "4058fec6949e2776fbde1ee79e733a5bba66f2d6c29ca5dc7562256c513baa66"
+          },
+          "other": {
+            "repeat": 1,
+            "seconds": 0.0015109,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0075-timing-preread-4.5MiB-target0-other-r1-7bb665/result.json",
+            "result_sha256": "300633a6fcb3fed4b6998823ed46c85c8575724677030d78f8346d6b2d2b270f"
+          },
+          "other_over_same": 0.9902346310132389,
+          "difference_ms": -0.014899999999999983
+        },
+        {
+          "repeat": 2,
+          "same": {
+            "repeat": 2,
+            "seconds": 0.0015208,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0137-timing-preread-4.5MiB-target0-same-r2-0e02fc/result.json",
+            "result_sha256": "0cf4cd951c31f19d3dae30eea24d4192a3f7afe5b4edffaa3278606cf6b60b62"
+          },
+          "other": {
+            "repeat": 2,
+            "seconds": 0.0015428,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0136-timing-preread-4.5MiB-target0-other-r2-864183/result.json",
+            "result_sha256": "8498ecf8472c1650c37bf721aef39a12d378ccd0f3e4816ad9a111fdd5468d6d"
+          },
+          "other_over_same": 1.014466070489216,
+          "difference_ms": 0.021999999999999884
+        },
+        {
+          "repeat": 3,
+          "same": {
+            "repeat": 3,
+            "seconds": 0.0015628,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0164-timing-preread-4.5MiB-target0-same-r3-4e46c6/result.json",
+            "result_sha256": "e7cd9baf09f7e63cd212a2175411578b5e13d81e91041ed8a93ab8fccc15e837"
+          },
+          "other": {
+            "repeat": 3,
+            "seconds": 0.0016781,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0165-timing-preread-4.5MiB-target0-other-r3-1d6901/result.json",
+            "result_sha256": "07fc348c82847eef2aeb1b813e4fd789b525b75521cf55bfd4305fa171e5f58b"
+          },
+          "other_over_same": 1.073777834655746,
+          "difference_ms": 0.11530000000000004
+        },
+        {
+          "repeat": 4,
+          "same": {
+            "repeat": 4,
+            "seconds": 0.0014522,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0194-timing-preread-4.5MiB-target0-same-r4-cc3fab/result.json",
+            "result_sha256": "6e32f84c3c8a76771062bfb6b5c86c5b3384099d8ba685424553f655feb9df9a"
+          },
+          "other": {
+            "repeat": 4,
+            "seconds": 0.0015308,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0193-timing-preread-4.5MiB-target0-other-r4-68eb62/result.json",
+            "result_sha256": "8d4b80effd85acfe5631a86ce4340d0b1c0a9a5547ef03aa9e338b9eeb3ecdc9"
+          },
+          "other_over_same": 1.054124776201625,
+          "difference_ms": 0.07859999999999985
+        },
+        {
+          "repeat": 5,
+          "same": {
+            "repeat": 5,
+            "seconds": 0.0014634,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0221-timing-preread-4.5MiB-target0-same-r5-a43506/result.json",
+            "result_sha256": "c39de2f8cf39a30041b3053c98e1b35a9a948504585c24d2f9ded877f8d54ed4"
+          },
+          "other": {
+            "repeat": 5,
+            "seconds": 0.0015028,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0222-timing-preread-4.5MiB-target0-other-r5-0bc7a9/result.json",
+            "result_sha256": "83e8051252d72cd7bd1abf169314b7650707ee021af099756e4b3400990db75a"
+          },
+          "other_over_same": 1.026923602569359,
+          "difference_ms": 0.0394000000000002
+        }
+      ]
+    },
+    {
+      "area": "mechanism-controls",
+      "group": "preread-4.5MiB-target1",
+      "executor": 1,
+      "per_task_bytes": 73728,
+      "total_data_bytes": 4718592,
+      "task_count": 64,
+      "passes": 4,
+      "same_median_ms": 1.6321,
+      "other_median_ms": 1.635,
+      "ratio_of_medians": 1.001776851908584,
+      "paired_ratio_range": [
+        0.8827322814926121,
+        1.1008551841119514
+      ],
+      "other_slower_pairs": 2,
+      "paired_difference_median_ms": -0.026199999999999876,
+      "pairs": [
+        {
+          "repeat": 1,
+          "same": {
+            "repeat": 1,
+            "seconds": 0.0017915,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0098-timing-preread-4.5MiB-target1-same-r1-c7bc2d/result.json",
+            "result_sha256": "1ab9391c76b5e11b92512e64a1b5f440e10f08d3a4f9456c6d665c9e6c41584e"
+          },
+          "other": {
+            "repeat": 1,
+            "seconds": 0.0017016,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0099-timing-preread-4.5MiB-target1-other-r1-ea01e2/result.json",
+            "result_sha256": "25fb848e38d8fd4eedde8a444d30fc0b4c29b3d23c853fcf36e2c8785d1906e1"
+          },
+          "other_over_same": 0.949818587775607,
+          "difference_ms": -0.08989999999999997
+        },
+        {
+          "repeat": 2,
+          "same": {
+            "repeat": 2,
+            "seconds": 0.0015972,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0126-timing-preread-4.5MiB-target1-same-r2-0500d5/result.json",
+            "result_sha256": "c5c0d61c08911eda922b9ce05fa2daed62550660f0bff75a7c73c076b8846aac"
+          },
+          "other": {
+            "repeat": 2,
+            "seconds": 0.0014099,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0125-timing-preread-4.5MiB-target1-other-r2-3fcff5/result.json",
+            "result_sha256": "f577c0f3e985fa1a2468741a50d6f65947421fb4d86a1c23b4dc96474e1ac231"
+          },
+          "other_over_same": 0.8827322814926121,
+          "difference_ms": -0.18730000000000005
+        },
+        {
+          "repeat": 3,
+          "same": {
+            "repeat": 3,
+            "seconds": 0.0016321,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0153-timing-preread-4.5MiB-target1-same-r3-10372b/result.json",
+            "result_sha256": "2a226c1fdd02ea00128ebe787186c0c7378cab0d78ad5cfc56718feafd7b7c43"
+          },
+          "other": {
+            "repeat": 3,
+            "seconds": 0.001635,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0154-timing-preread-4.5MiB-target1-other-r3-3aa07a/result.json",
+            "result_sha256": "ab55b4035bf700a866d4ed5febf0ea3e717adee210a287524a608f10f0089910"
+          },
+          "other_over_same": 1.001776851908584,
+          "difference_ms": 0.002899999999999908
+        },
+        {
+          "repeat": 4,
+          "same": {
+            "repeat": 4,
+            "seconds": 0.0014149,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0183-timing-preread-4.5MiB-target1-same-r4-f48b2c/result.json",
+            "result_sha256": "21738107f2eaa21d8228f967b0cef395b46b44cd4d7a247f73e7b55c4b0518f2"
+          },
+          "other": {
+            "repeat": 4,
+            "seconds": 0.0015576,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0182-timing-preread-4.5MiB-target1-other-r4-eacd6b/result.json",
+            "result_sha256": "6cc81b7d3d7237e63328d6d9fa44d0ccd6f28161ad99d5fc82390b63729a9a82"
+          },
+          "other_over_same": 1.1008551841119514,
+          "difference_ms": 0.14269999999999994
+        },
+        {
+          "repeat": 5,
+          "same": {
+            "repeat": 5,
+            "seconds": 0.0016875,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0210-timing-preread-4.5MiB-target1-same-r5-3c095b/result.json",
+            "result_sha256": "1b60c1bd0dfc9b9f112671788187c827e2f6d39dda63a34b35cde3188cecfbf9"
+          },
+          "other": {
+            "repeat": 5,
+            "seconds": 0.0016613,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0211-timing-preread-4.5MiB-target1-other-r5-e5f7d0/result.json",
+            "result_sha256": "1b96627108035843ad6506631f6f109b8e98269e52da49323f22ba9a3f41f4cf"
+          },
+          "other_over_same": 0.9844740740740742,
+          "difference_ms": -0.026199999999999876
+        }
+      ]
+    },
+    {
+      "area": "mechanism-controls",
+      "group": "preread-288MiB-target0",
+      "executor": 0,
+      "per_task_bytes": 4718592,
+      "total_data_bytes": 301989888,
+      "task_count": 64,
+      "passes": 4,
+      "same_median_ms": 99.90100000000001,
+      "other_median_ms": 101.7545,
+      "ratio_of_medians": 1.0185533678341558,
+      "paired_ratio_range": [
+        0.9671920119057124,
+        1.0241255807290068
+      ],
+      "other_slower_pairs": 3,
+      "paired_difference_median_ms": 0.06349999999999412,
+      "pairs": [
+        {
+          "repeat": 1,
+          "same": {
+            "repeat": 1,
+            "seconds": 0.1123387,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0085-timing-preread-288MiB-target0-same-r1-70ef51/result.json",
+            "result_sha256": "8f6c350485aeeba96f5b664ffa5a5bdd67c724ad2fee690724b1965a8e5ab3a2"
+          },
+          "other": {
+            "repeat": 1,
+            "seconds": 0.1102469,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0086-timing-preread-288MiB-target0-other-r1-4db2ee/result.json",
+            "result_sha256": "ff9f2a94f9d09446f2f5079617486ba541782f002b8f271193677161ba14d1cf"
+          },
+          "other_over_same": 0.9813795245983796,
+          "difference_ms": -2.0918000000000045
+        },
+        {
+          "repeat": 2,
+          "same": {
+            "repeat": 2,
+            "seconds": 0.1114759,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0113-timing-preread-288MiB-target0-same-r2-a64c3f/result.json",
+            "result_sha256": "6855bd4c48cfa695e21fb67544301ed58680e6c651e76721e02bbb83d0402b0e"
+          },
+          "other": {
+            "repeat": 2,
+            "seconds": 0.1078186,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0112-timing-preread-288MiB-target0-other-r2-d3eae1/result.json",
+            "result_sha256": "272e4c30302f18c35ca98ea9c55a3a43a0c6d99a769c14f38be090105b326ccc"
+          },
+          "other_over_same": 0.9671920119057124,
+          "difference_ms": -3.657300000000002
+        },
+        {
+          "repeat": 3,
+          "same": {
+            "repeat": 3,
+            "seconds": 0.099901,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0140-timing-preread-288MiB-target0-same-r3-46fc2c/result.json",
+            "result_sha256": "34f01bdf82e6e6865d1ad203f47e38f9a9921d1595862d5d0bb51da9a516904f"
+          },
+          "other": {
+            "repeat": 3,
+            "seconds": 0.1017545,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0141-timing-preread-288MiB-target0-other-r3-6a3931/result.json",
+            "result_sha256": "c344650c8fc4a1b60ec8db984f05d5db54bea687150295f4e1a54ad580a86174"
+          },
+          "other_over_same": 1.0185533678341558,
+          "difference_ms": 1.8534999999999942
+        },
+        {
+          "repeat": 4,
+          "same": {
+            "repeat": 4,
+            "seconds": 0.097722,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0205-timing-preread-288MiB-target0-same-r4-722b0d/result.json",
+            "result_sha256": "7b20fb8e370f7454f937b1dda3ca5fc0ff0aa93339fac4ae9eb1889f48b20ae7"
+          },
+          "other": {
+            "repeat": 4,
+            "seconds": 0.1000796,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0204-timing-preread-288MiB-target0-other-r4-fdd957/result.json",
+            "result_sha256": "dd18b90d4d58d6eb51c225252c05e09e8e789e3993ca1a14f321e7fceeee57d7"
+          },
+          "other_over_same": 1.0241255807290068,
+          "difference_ms": 2.3576000000000015
+        },
+        {
+          "repeat": 5,
+          "same": {
+            "repeat": 5,
+            "seconds": 0.0981366,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0232-timing-preread-288MiB-target0-same-r5-5eec3e/result.json",
+            "result_sha256": "2677a49af101dedbb55513c41aa8842b3fbe8816ef333ecfdab0112fb551dcd8"
+          },
+          "other": {
+            "repeat": 5,
+            "seconds": 0.0982001,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0233-timing-preread-288MiB-target0-other-r5-b2c940/result.json",
+            "result_sha256": "5088d0faf24cfc2863acf009fdd316645875645e8ff46db6e88f1b93c635cb5e"
+          },
+          "other_over_same": 1.0006470572650774,
+          "difference_ms": 0.06349999999999412
+        }
+      ]
+    },
+    {
+      "area": "mechanism-controls",
+      "group": "preread-288MiB-target1",
+      "executor": 1,
+      "per_task_bytes": 4718592,
+      "total_data_bytes": 301989888,
+      "task_count": 64,
+      "passes": 4,
+      "same_median_ms": 102.9606,
+      "other_median_ms": 100.3162,
+      "ratio_of_medians": 0.9743163889876321,
+      "paired_ratio_range": [
+        0.9060842691978698,
+        1.0516341145039099
+      ],
+      "other_slower_pairs": 2,
+      "paired_difference_median_ms": -2.179299999999995,
+      "pairs": [
+        {
+          "repeat": 1,
+          "same": {
+            "repeat": 1,
+            "seconds": 0.1029606,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0076-timing-preread-288MiB-target1-same-r1-9cce22/result.json",
+            "result_sha256": "ce3b871bc5f75d6a5d47d8690dccf39666269d07529088b6f434cfa32f8d1235"
+          },
+          "other": {
+            "repeat": 1,
+            "seconds": 0.1007813,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0077-timing-preread-288MiB-target1-other-r1-2d3d19/result.json",
+            "result_sha256": "b281e84a82cbea56b401fffa1c4278340c8eeef4754af56f44d409601260005e"
+          },
+          "other_over_same": 0.9788336509305502,
+          "difference_ms": -2.179299999999995
+        },
+        {
+          "repeat": 2,
+          "same": {
+            "repeat": 2,
+            "seconds": 0.0965623,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0139-timing-preread-288MiB-target1-same-r2-b54dab/result.json",
+            "result_sha256": "182e4ce8ceb529a25ab60508975d0b0bd33f112277198807d665d56476dda479"
+          },
+          "other": {
+            "repeat": 2,
+            "seconds": 0.1003162,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0138-timing-preread-288MiB-target1-other-r2-c4bf22/result.json",
+            "result_sha256": "e61efe1fb9ff957eddb164516ac222561d5d61af7f55ce57c717d584b228bc6b"
+          },
+          "other_over_same": 1.038875420324495,
+          "difference_ms": 3.7538999999999905
+        },
+        {
+          "repeat": 3,
+          "same": {
+            "repeat": 3,
+            "seconds": 0.108723,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0166-timing-preread-288MiB-target1-same-r3-2c5e7c/result.json",
+            "result_sha256": "21d31d37a4a7fbda175ccbfd7451c92f2d717a81f8e8f64f35722a8e09e6b5c7"
+          },
+          "other": {
+            "repeat": 3,
+            "seconds": 0.0985122,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0167-timing-preread-288MiB-target1-other-r3-cbd7a1/result.json",
+            "result_sha256": "c07dccb31810790e451f4b11dcab6f9e96c462da5a6500d4199db66d600bcecf"
+          },
+          "other_over_same": 0.9060842691978698,
+          "difference_ms": -10.210800000000006
+        },
+        {
+          "repeat": 4,
+          "same": {
+            "repeat": 4,
+            "seconds": 0.0983652,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0196-timing-preread-288MiB-target1-same-r4-23f80d/result.json",
+            "result_sha256": "40f8057d40a206d37cc30b79500aa9b78c23b748ab292f6e122960f8c593dc8c"
+          },
+          "other": {
+            "repeat": 4,
+            "seconds": 0.1034442,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0195-timing-preread-288MiB-target1-other-r4-949d22/result.json",
+            "result_sha256": "604d3d61778ea5e65af9433604b8a41c09a6a706be4cf067139a5db84c17dc65"
+          },
+          "other_over_same": 1.0516341145039099,
+          "difference_ms": 5.079000000000001
+        },
+        {
+          "repeat": 5,
+          "same": {
+            "repeat": 5,
+            "seconds": 0.1058463,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0223-timing-preread-288MiB-target1-same-r5-049c78/result.json",
+            "result_sha256": "579d8e2b4b531ec43030c69eef034a5ea737f6cbd89fb3ea776915fbb3f40e42"
+          },
+          "other": {
+            "repeat": 5,
+            "seconds": 0.0973142,
+            "run_path": "runs/20261027T121408Z-mechanism-controls-687718/0224-timing-preread-288MiB-target1-other-r5-4cf353/result.json",
+            "result_sha256": "48a004bdfd5f216a327c1d379a9f6ead0cf3f47bffd4a5198ed59b977dc4cf7b"
+          },
+          "other_over_same": 0.9193916083982151,
+          "difference_ms": -8.532100000000002
+        }
+      ]
+    },
+    {
+      "area": "large-task-controls",
+      "group": "preread-target0",
+      "executor": 0,
+      "per_task_bytes": 301989888,
+      "total_data_bytes": 1207959552,
+      "task_count": 4,
+      "passes": 4,
+      "same_median_ms": 446.446,
+      "other_median_ms": 450.6728,
+      "ratio_of_medians": 1.0094676623824606,
+      "paired_ratio_range": [
+        0.9543053359196856,
+        1.02295256409558
+      ],
+      "other_slower_pairs": 4,
+      "paired_difference_median_ms": 5.405099999999996,
+      "pairs": [
+        {
+          "repeat": 1,
+          "same": {
+            "repeat": 1,
+            "seconds": 0.4379625,
+            "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0012-timing-large-preread-target0-same-r1-4d0829/result.json",
+            "result_sha256": "9e3363b3e97a4031e66fac67d1d94c7450081906230853948abcc5864873cdeb"
+          },
+          "other": {
+            "repeat": 1,
+            "seconds": 0.4442706,
+            "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0013-timing-large-preread-target0-other-r1-484797/result.json",
+            "result_sha256": "ddbca5a2f9abb01e328f925d2eb6e7a36af3e729ba78e1d233f61f7825139389"
+          },
+          "other_over_same": 1.0144032879527358,
+          "difference_ms": 6.308100000000039
+        },
+        {
+          "repeat": 2,
+          "same": {
+            "repeat": 2,
+            "seconds": 0.4405608,
+            "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0023-timing-large-preread-target0-same-r2-b4ed49/result.json",
+            "result_sha256": "cec1264489a1d3f07830db8e2b48900fc03c627825cff9297a217985660876a2"
+          },
+          "other": {
+            "repeat": 2,
+            "seconds": 0.4506728,
+            "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0022-timing-large-preread-target0-other-r2-502352/result.json",
+            "result_sha256": "22314059dd94b41e90bc443b5696ba41e67653eb7c46f8494312a4fb375390de"
+          },
+          "other_over_same": 1.02295256409558,
+          "difference_ms": 10.112000000000009
+        },
+        {
+          "repeat": 3,
+          "same": {
+            "repeat": 3,
+            "seconds": 0.4491386,
+            "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0026-timing-large-preread-target0-same-r3-df6fdd/result.json",
+            "result_sha256": "8e1410447d042a3c3ac700057ea3475a008900f4fc080356299ec8e0258733fd"
+          },
+          "other": {
+            "repeat": 3,
+            "seconds": 0.4545437,
+            "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0027-timing-large-preread-target0-other-r3-2db956/result.json",
+            "result_sha256": "0a9308782714a368221be3a4d1b4e9ef5326a2058c3eab65679c7ac035add4ee"
+          },
+          "other_over_same": 1.0120343697914185,
+          "difference_ms": 5.405099999999996
+        },
+        {
+          "repeat": 4,
+          "same": {
+            "repeat": 4,
+            "seconds": 0.4559325,
+            "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0031-timing-large-preread-target0-same-r4-0a0c23/result.json",
+            "result_sha256": "d4af2d5601494b0f2a77957b7ef2e247e53c6a4749ee8fe95e9d0fd04ae811c8"
+          },
+          "other": {
+            "repeat": 4,
+            "seconds": 0.4570342,
+            "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0030-timing-large-preread-target0-other-r4-bcbb20/result.json",
+            "result_sha256": "753e4414492458c9db3c7ca42596f86082622999e5f100cf7deda267204357a7"
+          },
+          "other_over_same": 1.0024163664577541,
+          "difference_ms": 1.1016999999999832
+        },
+        {
+          "repeat": 5,
+          "same": {
+            "repeat": 5,
+            "seconds": 0.446446,
+            "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0040-timing-large-preread-target0-same-r5-f10fdf/result.json",
+            "result_sha256": "e530c8abb703c08dfeee4e34f8e63c04d272e83941bc695c6f70716be2900099"
+          },
+          "other": {
+            "repeat": 5,
+            "seconds": 0.4260458,
+            "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0041-timing-large-preread-target0-other-r5-c992ab/result.json",
+            "result_sha256": "6ab4352ad90e0d2843cc6cdaade15d89a1a1e825ad087bf983a0c1f2b41a87d3"
+          },
+          "other_over_same": 0.9543053359196856,
+          "difference_ms": -20.400200000000034
+        }
+      ]
+    },
+    {
+      "area": "large-task-controls",
+      "group": "preread-target1",
+      "executor": 1,
+      "per_task_bytes": 301989888,
+      "total_data_bytes": 1207959552,
+      "task_count": 4,
+      "passes": 4,
+      "same_median_ms": 452.3544,
+      "other_median_ms": 446.766,
+      "ratio_of_medians": 0.9876459696202801,
+      "paired_ratio_range": [
+        0.9210143779829681,
+        1.0301623379194633
+      ],
+      "other_slower_pairs": 2,
+      "paired_difference_median_ms": -9.730099999999965,
+      "pairs": [
+        {
+          "repeat": 1,
+          "same": {
+            "repeat": 1,
+            "seconds": 0.4419485,
+            "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0014-timing-large-preread-target1-same-r1-6c20d4/result.json",
+            "result_sha256": "9461db6f5a03dad72519015246b6562f164db470b0147146396b528b22164e16"
+          },
+          "other": {
+            "repeat": 1,
+            "seconds": 0.4552787,
+            "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0015-timing-large-preread-target1-other-r1-c25a63/result.json",
+            "result_sha256": "5b9c63a66e69d948f09f598a625d160423f9139a64098e4aa955b8b328df4cd5"
+          },
+          "other_over_same": 1.0301623379194633,
+          "difference_ms": 13.330199999999959
+        },
+        {
+          "repeat": 2,
+          "same": {
+            "repeat": 2,
+            "seconds": 0.4523544,
+            "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0019-timing-large-preread-target1-same-r2-625de7/result.json",
+            "result_sha256": "5da8d5f19ce7bec00bbbed70ed3e0ebba914aef1ba757fb3e90bba23c69f000d"
+          },
+          "other": {
+            "repeat": 2,
+            "seconds": 0.4426243,
+            "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0018-timing-large-preread-target1-other-r2-57b35d/result.json",
+            "result_sha256": "6dcb988f0b70a9d679e2f30a47273bc0874af6c4abb521bb7142255b92094458"
+          },
+          "other_over_same": 0.9784900953765455,
+          "difference_ms": -9.730099999999965
+        },
+        {
+          "repeat": 3,
+          "same": {
+            "repeat": 3,
+            "seconds": 0.4855273,
+            "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0028-timing-large-preread-target1-same-r3-cf4978/result.json",
+            "result_sha256": "93d4a1007a848246a79f3475236fa41de85c28cee1bb65d119661893b3e9ee5f"
+          },
+          "other": {
+            "repeat": 3,
+            "seconds": 0.4609557,
+            "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0029-timing-large-preread-target1-other-r3-1ae2a8/result.json",
+            "result_sha256": "9c972c150a068b88432e886b2fcd15135da8d5d51cc52b361dca98986c16b71b"
+          },
+          "other_over_same": 0.9493919291458998,
+          "difference_ms": -24.57159999999997
+        },
+        {
+          "repeat": 4,
+          "same": {
+            "repeat": 4,
+            "seconds": 0.4754283,
+            "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0033-timing-large-preread-target1-same-r4-20a634/result.json",
+            "result_sha256": "73c052468b15bcc3535b161999420f92a6e1349e320992513333cdf5059a1f5a"
+          },
+          "other": {
+            "repeat": 4,
+            "seconds": 0.4378763,
+            "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0032-timing-large-preread-target1-other-r4-07d1bc/result.json",
+            "result_sha256": "9fa969046f4934c9c41d94a309575d67aea6c8d2d4587ac14b915987bbd2085b"
+          },
+          "other_over_same": 0.9210143779829681,
+          "difference_ms": -37.55200000000003
+        },
+        {
+          "repeat": 5,
+          "same": {
+            "repeat": 5,
+            "seconds": 0.4351042,
+            "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0036-timing-large-preread-target1-same-r5-8e123f/result.json",
+            "result_sha256": "b80e4514b244f69b63f8e5d26eb3ecdc34c20d8a905edef7d3b4ed47f579d578"
+          },
+          "other": {
+            "repeat": 5,
+            "seconds": 0.446766,
+            "run_path": "runs/20261027T123122Z-large-task-controls-9a9eef/0037-timing-large-preread-target1-other-r5-8f0ff0/result.json",
+            "result_sha256": "a78f31eed7964608f47ad1528808dd1651d6f33781e5633e5ca171c698d74b3b"
+          },
+          "other_over_same": 1.0268023153993917,
+          "difference_ms": 11.6618
+        }
+      ]
+    }
+  ],
+  "input_sha256": {
+    "mechanism-controls": {
+      "summary_sha256": "9a5808efd4459c406b45bce42b2b404acb43086e2a23fbc88b8099e37ea57dee",
+      "archive_sha256": "a6c2e43eebca8427dbc737197d860d0b52894d1e7a0c3cdca62c3b851fe12676",
+      "source_files": {
+        "src/app/main.cpp": "f335b98e91a68d8eb970ff8a68d9f2ac96f8b7e65183b381dc8a5cc0efff7dff",
+        "src/workloads/workload.cpp": "9c649ec7274af4ba055b6cac40c7d79e3666d493f8f364f8d6298c465ead75c5"
+      }
+    },
+    "large-task-controls": {
+      "summary_sha256": "0cc3684fdfb117e78ac1f7933457521f8bf99f7246bd578847d6f0b9b42f2f30",
+      "archive_sha256": "5e2a21d51008487e094d3fa536af73187153e863cf39967d9ed3fc314ba2d9e7",
+      "source_files": {
+        "src/app/main.cpp": "f335b98e91a68d8eb970ff8a68d9f2ac96f8b7e65183b381dc8a5cc0efff7dff",
+        "src/workloads/workload.cpp": "9c649ec7274af4ba055b6cac40c7d79e3666d493f8f364f8d6298c465ead75c5"
+      }
+    }
+  },
+  "binary_sha256": "633d74e35dfb73b68f7e91ed9dd15b36688e46062a20a1ae7a06a8f612be4015",
+  "range_definition": "Observed minimum and maximum within-block other/same ratios, not a confidence interval.",
+  "causal_scope": "Preread-thread contrast; neither isolated cache loss nor a population equivalence test."
+}

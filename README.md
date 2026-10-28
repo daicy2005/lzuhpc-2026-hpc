@@ -17,6 +17,7 @@
 - [WorkSteal 机制补测](supplements/mechanism-controls/README.md)
 - [单任务大于 LLC 的补测](supplements/large-task-controls/README.md)
 - [官方实验要求对照](docs/official-requirements.md)
+- [局部性对照的进一步分析](docs/locality-analysis.md)
 
 报告末尾可以找到[对应的代码、附录和数据](https://github.com/daicy2005/lzuhpc-2026-hpc/tree/ee95afe1666ccb3e6e13e65f937be7c8ed7e0e96)。
 
