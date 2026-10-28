@@ -2,13 +2,13 @@
   "revision": "combined-v3-mechanism-controls",
   "report_date": "2026-10-27",
   "pdf": "output/pdf/HPC方向技术报告-光线追踪与WorkSteal.pdf",
-  "pdf_sha256": "646b8b5972d7343fcadd11fb38f41520d1a9da7977ac24573e0edfa83c88c093",
+  "pdf_sha256": "557c73d8364d7c51d511a3495b9eab812b4200d8060b764b8f64c0197552ca56",
   "markdown": "HPC方向技术报告.md",
-  "markdown_sha256": "a57daf4e3aa04cfaa0f7b886563dc7cfce71c02ca5099396803186406fb40b2e",
+  "markdown_sha256": "01c43807812f9f002edcdd25e60b271b1911888e2c6fa2764b3e37a7bfebeb40",
   "main_markdown": "HPC方向技术报告-正文.md",
-  "main_markdown_sha256": "61605e1325f63e69ed39a21a58ec63d762e1c0ddca158da0a0b44a5d18439012",
-  "source_sha256": "c8362198a3516a4f82cc298e4962ceb9bd33172702045f4cea68aa77edd7af85",
-  "generator_sha256": "6b24e25b55340d106cc998ec01641f8e8e20534f36b22b444b3a1437f7027bd6",
+  "main_markdown_sha256": "1f7b65cdb1ec9b83b09eceee62131dc5126236b816f92d674245548d9447e6a0",
+  "source_sha256": "4e45c89c57034e9c32e0ab93714d5e93fade7fb576fc6a23fc9f82ed1072dd84",
+  "generator_sha256": "fd14d6405815e875f0a67ea65f4f8ea4eeb410a50c61fc7fe6afa0e275a3312d",
   "pages": 6,
   "main_pages": 6,
   "appendix_pages": 0,
@@ -46,18 +46,18 @@
     {
       "page": 6,
       "title": "5 局部性与最终策略选择",
-      "characters": 1381,
+      "characters": 1420,
       "image_xobjects": 0
     }
   ],
   "publication": {
     "repository_url": "https://github.com/daicy2005/lzuhpc-2026-hpc",
-    "materials_commit": "ee95afe1666ccb3e6e13e65f937be7c8ed7e0e96",
+    "materials_commit": "c85f7aa3588ef393e6654e8c183db7c9d9317b75",
     "verified_repository_access": true,
     "anonymous_readback": true,
     "visibility": "public",
     "dialogue_files_published": 0,
-    "readback_receipt": "github-materials-readback-official-check-20261028.json",
+    "readback_receipt": "github-materials-readback-locality-20261028.json",
     "date": "2026-10-28"
   },
   "source_inputs_sha256": {
@@ -1465,6 +1465,8 @@
     "hpc-worksteal/large-task-controls/runs/20261027T123122Z-large-task-controls-9a9eef/0039-timing-large-dynamic-on-r5-3f1ec1/result.json": "b473b1265d164247d7858e941f3daaa8208dba4f5082d64004d1267c2ecb0175",
     "hpc-worksteal/large-task-controls/runs/20261027T123122Z-large-task-controls-9a9eef/0040-timing-large-preread-target0-same-r5-f10fdf/result.json": "e530c8abb703c08dfeee4e34f8e63c04d272e83941bc695c6f70716be2900099",
     "hpc-worksteal/large-task-controls/runs/20261027T123122Z-large-task-controls-9a9eef/0041-timing-large-preread-target0-other-r5-c992ab/result.json": "6ab4352ad90e0d2843cc6cdaade15d89a1a1e825ad087bf983a0c1f2b41a87d3",
+    "hpc-report/tools/analyze_locality.py": "98972d553b96806a58098c5b15f444604498e9e8adfa1bca9aef72e108f4e5e0",
+    "hpc-report/github-materials/docs/locality-analysis.json": "3cde0c4a7d658d824aca2df204a5770ee0f266898b995fbdea8481b888cede3e",
     "hpc-worksteal/configs/verified/light.json": "279143290e1f663e2f617fe830847856768d3f60462938b65bbf7e225b79680f",
     "hpc-worksteal/configs/verified/uniform.json": "7da7662d7cc724cf5fb3b5815fa4898ff987b74a16cf8a25e1e8f46187462ad6",
     "hpc-worksteal/configs/verified/skewed.json": "004b6f5b75c5c25fdd898aae0269276b41d87e0c310f8f5e0a01f95f9910dae9",
@@ -1474,7 +1476,7 @@
     "hpc-report/tools/mechanism_figure.py": "9539de205389a4ef728c470b7f836d18c3677f970d66d006510a111e8b90d87b",
     "hpc-report/tools/paper_figure_style.py": "51eb119fd2e5342472ae9571d0792657d0cc264f44d4f47566e3caa0b6157300",
     "hpc-raytracing/runs/20261015T211842519606+0800_E20_sah-tile_formal_t32_r01_bee280/output.ppm": "e13662e02f2b123912cbfd83116efd0de91e3fcc8580ef0342c82dee3cb90c95",
-    "hpc-report/publication.json": "e12ce4a8cea13e2ea6fab6cd0d566224b2c665a313e40890bc96463ea8825f89"
+    "hpc-report/publication.json": "1a3296a0b1528ef07bd57541e0f36a700c67c4c8a212499db4062bee84d44c18"
   },
   "asset_sha256": {
     "assets/raytracing-comparison.svg": "5b4986a5565678b1b29ea398e1fb1a0e4c6f07fd8240830036ff89913dda233e",
@@ -1514,6 +1516,6 @@
   "visual_review": {
     "status": "pass",
     "receipt": "visual-review.json",
-    "sha256": "ca099a1d9dfe8f081d19126e8871ff71a1a51247e2d325a7df3addcf2c3c6d8f"
+    "sha256": "7273d1840e263cb436f349aa05686c8a654b6dd79c6973926a21e994e3650e31"
   }
 }
